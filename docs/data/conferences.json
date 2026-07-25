@@ -1,57 +1,7 @@
 {
-  "updated": "2026-07-24",
+  "updated": "2026-07-25",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "hpca",
-      "name": "HPCA 2027",
-      "fullName": "International Symposium on High-Performance Computer Architecture",
-      "field": "sys",
-      "rating": "최우수",
-      "location": "Salt Lake City, Utah",
-      "confText": "Jan 30-Feb 3, 2027",
-      "url": "https://conf.researchr.org/home/hpca-2027",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-24",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-07-31",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "infocom",
-      "name": "INFOCOM 2027",
-      "fullName": "IEEE Conference on Computer Communications",
-      "field": "net",
-      "rating": "최우수",
-      "location": "Honolulu, HI, USA",
-      "confText": "May 24 - 27, 2027",
-      "url": "https://infocom2027.ieee-infocom.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-24",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-07-31",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "vldb-pvldb",
       "name": "VLDB/PVLDB 2027",
@@ -255,6 +205,56 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-07-28",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "hpca",
+      "name": "HPCA 2027",
+      "fullName": "International Symposium on High-Performance Computer Architecture",
+      "field": "sys",
+      "rating": "최우수",
+      "location": "Salt Lake City, Utah",
+      "confText": "Jan 30-Feb 3, 2027",
+      "url": "https://conf.researchr.org/home/hpca-2027",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-07-24",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-07-31",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "infocom",
+      "name": "INFOCOM 2027",
+      "fullName": "IEEE Conference on Computer Communications",
+      "field": "net",
+      "rating": "최우수",
+      "location": "Honolulu, HI, USA",
+      "confText": "May 24 - 27, 2027",
+      "url": "https://infocom2027.ieee-infocom.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-07-24",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-07-31",
           "status": "confirmed"
         }
       ]
