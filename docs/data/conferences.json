@@ -1,7 +1,107 @@
 {
-  "updated": "2026-07-25",
+  "updated": "2026-07-26",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
+    {
+      "id": "sigkdd",
+      "name": "SIGKDD 2027",
+      "fullName": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "field": "data",
+      "rating": "최우수",
+      "location": "San Jose, California, USA",
+      "confText": "August 2027 (exact dates TBD)",
+      "url": "https://kdd2027.kdd.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-07-19",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (1st round of 2 total rounds)",
+          "date": "2026-07-26",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "aaai",
+      "name": "AAAI 2027",
+      "fullName": "National Conference on Artificial Intelligence",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "Montréal, Québec, Canada",
+      "confText": "February 16-23, 2027",
+      "url": "https://aaai.org/conference/aaai/aaai-27/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-07-21",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-07-28",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "hpca",
+      "name": "HPCA 2027",
+      "fullName": "International Symposium on High-Performance Computer Architecture",
+      "field": "sys",
+      "rating": "최우수",
+      "location": "Salt Lake City, Utah",
+      "confText": "Jan 30-Feb 3, 2027",
+      "url": "https://conf.researchr.org/home/hpca-2027",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-07-24",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-07-31",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "infocom",
+      "name": "INFOCOM 2027",
+      "fullName": "IEEE Conference on Computer Communications",
+      "field": "net",
+      "rating": "최우수",
+      "location": "Honolulu, HI, USA",
+      "confText": "May 24 - 27, 2027",
+      "url": "https://infocom2027.ieee-infocom.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-07-24",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-07-31",
+          "status": "confirmed"
+        }
+      ]
+    },
     {
       "id": "vldb-pvldb",
       "name": "VLDB/PVLDB 2027",
@@ -155,106 +255,6 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2027-03-01",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "sigkdd",
-      "name": "SIGKDD 2027",
-      "fullName": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
-      "field": "data",
-      "rating": "최우수",
-      "location": "San Jose, California, USA",
-      "confText": "August 2027 (exact dates TBD)",
-      "url": "https://kdd2027.kdd.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-19",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (1st round of 2 total rounds)",
-          "date": "2026-07-26",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "aaai",
-      "name": "AAAI 2027",
-      "fullName": "National Conference on Artificial Intelligence",
-      "field": "ai",
-      "rating": "최우수",
-      "location": "Montréal, Québec, Canada",
-      "confText": "February 16-23, 2027",
-      "url": "https://aaai.org/conference/aaai/aaai-27/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-21",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-07-28",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "hpca",
-      "name": "HPCA 2027",
-      "fullName": "International Symposium on High-Performance Computer Architecture",
-      "field": "sys",
-      "rating": "최우수",
-      "location": "Salt Lake City, Utah",
-      "confText": "Jan 30-Feb 3, 2027",
-      "url": "https://conf.researchr.org/home/hpca-2027",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-24",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-07-31",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "infocom",
-      "name": "INFOCOM 2027",
-      "fullName": "IEEE Conference on Computer Communications",
-      "field": "net",
-      "rating": "최우수",
-      "location": "Honolulu, HI, USA",
-      "confText": "May 24 - 27, 2027",
-      "url": "https://infocom2027.ieee-infocom.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-24",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-07-31",
           "status": "confirmed"
         }
       ]
@@ -1022,6 +1022,31 @@
       ]
     },
     {
+      "id": "ipdps",
+      "name": "IPDPS 2027",
+      "fullName": "IEEE International Parallel and Distributed Processing Symposium",
+      "field": "sys",
+      "rating": "우수",
+      "location": "Seattle, USA",
+      "confText": "June 1-5, 2027",
+      "url": "https://www.ipdps.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-08",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "fpga",
       "name": "FPGA 2027",
       "fullName": "International Symposium on Field Programmable Gate Arrays",
@@ -1168,25 +1193,6 @@
           "label": "논문 마감",
           "date": "2026-10-02",
           "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "ipdps",
-      "name": "IPDPS 2027",
-      "fullName": "IEEE International Parallel and Distributed Processing Symposium",
-      "field": "sys",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://www.ipdps.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2026-10-09",
-          "status": "estimated"
         }
       ]
     },
@@ -2718,6 +2724,25 @@
       ]
     },
     {
+      "id": "pact",
+      "name": "PACT 2027",
+      "fullName": "Parallel Architectures and Compilation Techniques",
+      "field": "hw",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2027년 (예정)",
+      "url": "https://pact2026.github.io/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-04-30",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
       "id": "sec",
       "name": "SEC 2027",
       "fullName": "ACM/IEEE Symposium on Edge Computing",
@@ -3577,31 +3602,6 @@
           "type": "paper",
           "label": "논문 마감 (Submission R2)",
           "date": "2022-03-15",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "pact",
-      "name": "PACT 2025",
-      "fullName": "Parallel Architectures and Compilation Techniques",
-      "field": "hw",
-      "rating": "우수",
-      "location": "Irvine, California, USA",
-      "confText": "November 3-6, 2025",
-      "url": "https://pact2025.github.io/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "Abstract submission deadline",
-          "date": "2025-04-11",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Paper submission deadline)",
-          "date": "2025-04-18",
           "status": "confirmed"
         }
       ]
