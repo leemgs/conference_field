@@ -1,32 +1,7 @@
 {
-  "updated": "2026-07-26",
+  "updated": "2026-07-27",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "sigkdd",
-      "name": "SIGKDD 2027",
-      "fullName": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
-      "field": "data",
-      "rating": "최우수",
-      "location": "San Jose, California, USA",
-      "confText": "August 2027 (exact dates TBD)",
-      "url": "https://kdd2027.kdd.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-19",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (1st round of 2 total rounds)",
-          "date": "2026-07-26",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "aaai",
       "name": "AAAI 2027",
@@ -3213,6 +3188,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-07-14",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "sigkdd",
+      "name": "SIGKDD 2028",
+      "fullName": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "field": "data",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://kdd2027.kdd.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-07-26",
           "status": "estimated"
         }
       ]
