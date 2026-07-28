@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27",
+  "updated": "2026-07-28",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -839,16 +839,16 @@
       "fullName": "IEEE International Conference on Robotics and Automation",
       "field": "hw",
       "rating": "최우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://2026.ieee-icra.org/",
-      "tz": "UTC-8",
+      "location": "Seoul, Republic of Korea",
+      "confText": "May 24-28, 2027",
+      "url": "https://2027.ieee-icra.org/",
+      "tz": "UTC-7",
       "deadlines": [
         {
           "type": "paper",
-          "label": "논문 마감 (예상)",
+          "label": "논문 마감",
           "date": "2026-09-15",
-          "status": "estimated"
+          "status": "confirmed"
         }
       ]
     },
