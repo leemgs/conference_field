@@ -1,32 +1,7 @@
 {
-  "updated": "2026-07-28",
+  "updated": "2026-07-29",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "aaai",
-      "name": "AAAI 2027",
-      "fullName": "National Conference on Artificial Intelligence",
-      "field": "ai",
-      "rating": "최우수",
-      "location": "Montréal, Québec, Canada",
-      "confText": "February 16-23, 2027",
-      "url": "https://aaai.org/conference/aaai/aaai-27/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-21",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-07-28",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "hpca",
       "name": "HPCA 2027",
@@ -765,6 +740,31 @@
       ]
     },
     {
+      "id": "iclr",
+      "name": "ICLR 2027",
+      "fullName": "International Conference on Learning Representation",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "San Francisco, CA, USA",
+      "confText": "April 27-30, 2027",
+      "url": "https://iclr.cc/Conferences/2027",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-09-11",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-09-16",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "date",
       "name": "DATE 2027",
       "fullName": "Design Automation and Test in Europe Conference",
@@ -942,31 +942,6 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-09-17",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "iclr",
-      "name": "ICLR 2027",
-      "fullName": "International Conference on Learning Representation",
-      "field": "ai",
-      "rating": "최우수",
-      "location": "브라질",
-      "confText": "April 24-28, 2027",
-      "url": "https://iclr.cc",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-19",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-24",
           "status": "confirmed"
         }
       ]
@@ -3207,6 +3182,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-07-26",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "aaai",
+      "name": "AAAI 2028",
+      "fullName": "National Conference on Artificial Intelligence",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://aaai.org/conference/aaai/aaai-27/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-07-28",
           "status": "estimated"
         }
       ]
