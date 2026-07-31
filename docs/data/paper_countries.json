@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30",
+  "updated": "2026-07-31",
   "source": "openalex",
   "topN": 8,
   "note": "OpenAlex 기준 제1저자(first author) 소속 국가 추정치입니다. 일부 논문은 소속 정보가 없어 집계에서 제외됩니다. 학회마다 OpenAlex 색인 완성도가 달라, 매핑이 확인된 학회/연도만 표시됩니다.",
@@ -9,12 +9,12 @@
       "years": {
         "2022": {
           "total": 2082,
-          "unknown": 166,
+          "unknown": 169,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 668
+              "count": 673
             },
             {
               "code": "US",
@@ -54,7 +54,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 341
+              "count": 333
             }
           ]
         }
@@ -65,12 +65,12 @@
       "years": {
         "2021": {
           "total": 1617,
-          "unknown": 100,
+          "unknown": 101,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 469
+              "count": 470
             },
             {
               "code": "US",
@@ -110,7 +110,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 305
+              "count": 303
             }
           ]
         }
@@ -121,17 +121,17 @@
       "years": {
         "2020": {
           "total": 1863,
-          "unknown": 104,
+          "unknown": 106,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 616
+              "count": 617
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 474
+              "count": 473
             },
             {
               "code": "GB",
@@ -166,7 +166,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 366
+              "count": 364
             }
           ]
         },
@@ -212,18 +212,18 @@
             {
               "code": "IN",
               "country": "India",
-              "count": 59
+              "count": 60
             },
             {
               "code": "other",
               "country": null,
-              "count": 459
+              "count": 458
             }
           ]
         },
         "2022": {
           "total": 1618,
-          "unknown": 89,
+          "unknown": 90,
           "countries": [
             {
               "code": "CN",
@@ -268,7 +268,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 320
+              "count": 319
             }
           ]
         },
@@ -376,22 +376,22 @@
         },
         "2025": {
           "total": 3485,
-          "unknown": 391,
+          "unknown": 397,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 1652
+              "count": 1649
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 494
+              "count": 493
             },
             {
               "code": "KR",
               "country": "South Korea",
-              "count": 114
+              "count": 113
             },
             {
               "code": "HK",
@@ -421,18 +421,18 @@
             {
               "code": "other",
               "country": null,
-              "count": 458
+              "count": 457
             }
           ]
         },
         "2026": {
           "total": 4978,
-          "unknown": 1007,
+          "unknown": 1023,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 2187
+              "count": 2175
             },
             {
               "code": "US",
@@ -447,7 +447,7 @@
             {
               "code": "HK",
               "country": "Hong Kong",
-              "count": 117
+              "count": 116
             },
             {
               "code": "GB",
@@ -472,7 +472,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 623
+              "count": 620
             }
           ]
         }
@@ -488,7 +488,7 @@
             {
               "code": "CN",
               "country": "China",
-              "count": 608
+              "count": 609
             },
             {
               "code": "US",
@@ -528,7 +528,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 389
+              "count": 388
             }
           ]
         }

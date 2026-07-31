@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30",
+  "updated": "2026-07-31",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -353,8 +353,14 @@
         },
         {
           "type": "paper",
-          "label": "논문 마감",
+          "label": "논문 마감 (Full Paper)",
           "date": "2026-08-24",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Short Paper)",
+          "date": "2026-11-17",
           "status": "confirmed"
         }
       ]
