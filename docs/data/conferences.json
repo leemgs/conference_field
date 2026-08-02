@@ -1,201 +1,7 @@
 {
-  "updated": "2026-08-01",
+  "updated": "2026-08-02",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "vldb-pvldb",
-      "name": "VLDB/PVLDB 2027",
-      "fullName": "International Conference on Very Large DataBases",
-      "field": "data",
-      "rating": "최우수",
-      "location": "Athens, Greece",
-      "confText": "August 23 - August 27, 2027",
-      "url": "https://www.vldb.org/2027/",
-      "tz": "PT",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-03-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-04-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-04-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-05-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-05-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-06-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-06-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-07-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-08-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-11-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-12-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-12-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2027-01-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-01-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2027-02-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-02-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2027-03-01",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "ubicomp",
-      "name": "UbiComp 2026",
-      "fullName": "ACM International Conference on Ubiquitous Computing (※ UbiComp의 Accept 여부는 \"Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies\" 저널 탑재 기준으로 판단)",
-      "field": "hci",
-      "rating": "최우수",
-      "location": "Shanghai, China",
-      "confText": "October 11-15, 2026",
-      "url": "https://www.ubicomp.org/ubicomp-iswc-2026",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (first round)",
-          "date": "2026-02-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (second round)",
-          "date": "2026-05-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (third round (only for resubmissions after major revisions))",
-          "date": "2026-08-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (fourth round)",
-          "date": "2026-11-01",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "emnlp",
       "name": "EMNLP 2026",
@@ -498,6 +304,163 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-08-31",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "vldb-pvldb",
+      "name": "VLDB/PVLDB 2027",
+      "fullName": "International Conference on Very Large DataBases",
+      "field": "data",
+      "rating": "최우수",
+      "location": "Athens, Greece",
+      "confText": "August 23 - August 27, 2027",
+      "url": "https://www.vldb.org/2027/",
+      "tz": "PT",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-03-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-04-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-04-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-05-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-05-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-06-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-06-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-07-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-07-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-08-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-08-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-09-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-09-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-11-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-12-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-12-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-01-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-02-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-02-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-03-01",
           "status": "confirmed"
         }
       ]
@@ -903,7 +866,7 @@
       "field": "ai",
       "rating": "최우수",
       "location": "San Francisco, CA, USA",
-      "confText": "TBD",
+      "confText": "April 26-30, 2027",
       "url": "https://iclr.cc/Conferences/2027",
       "tz": "AoE",
       "deadlines": [
@@ -1355,6 +1318,43 @@
           "label": "논문 마감 (예상)",
           "date": "2026-10-30",
           "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "ubicomp",
+      "name": "UbiComp 2026",
+      "fullName": "ACM International Conference on Ubiquitous Computing (※ UbiComp의 Accept 여부는 \"Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies\" 저널 탑재 기준으로 판단)",
+      "field": "hci",
+      "rating": "최우수",
+      "location": "Shanghai, China",
+      "confText": "October 11-15, 2026",
+      "url": "https://www.ubicomp.org/ubicomp-iswc-2026",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (first round)",
+          "date": "2026-02-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (second round)",
+          "date": "2026-05-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (third round (only for resubmissions after major revisions))",
+          "date": "2026-08-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (fourth round)",
+          "date": "2026-11-01",
+          "status": "confirmed"
         }
       ]
     },
