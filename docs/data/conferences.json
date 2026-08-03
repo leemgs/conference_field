@@ -1,32 +1,7 @@
 {
-  "updated": "2026-08-02",
+  "updated": "2026-08-03",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "emnlp",
-      "name": "EMNLP 2026",
-      "fullName": "Conference on Empirical Methods in Natural Language Processing",
-      "field": "ai",
-      "rating": "최우수",
-      "location": "헝가리",
-      "confText": "November 2026",
-      "url": "https://2026.emnlp.org",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "ARR 논문 마감",
-          "date": "2026-05-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "etc",
-          "label": "커밋먼트 마감",
-          "date": "2026-08-02",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "ppopp",
       "name": "PPoPP 2027",
@@ -940,16 +915,22 @@
       "fullName": "International Symposium on Field Programmable Gate Arrays",
       "field": "hw",
       "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
+      "location": "Monterey, California, USA",
+      "confText": "March 14 - March 16, 2027",
       "url": "https://www.isfpga.org/",
       "tz": "UTC-12",
       "deadlines": [
         {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
+          "type": "abstract",
+          "label": "Abstracts Due",
           "date": "2026-10-01",
-          "status": "estimated"
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Submissions Due)",
+          "date": "2026-10-08",
+          "status": "confirmed"
         }
       ]
     },
@@ -3406,6 +3387,31 @@
       "url": "",
       "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
       "deadlines": []
+    },
+    {
+      "id": "emnlp",
+      "name": "EMNLP 2026",
+      "fullName": "Conference on Empirical Methods in Natural Language Processing",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "헝가리",
+      "confText": "November 2026",
+      "url": "https://2026.emnlp.org",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "ARR 논문 마감",
+          "date": "2026-05-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "etc",
+          "label": "커밋먼트 마감",
+          "date": "2026-08-02",
+          "status": "confirmed"
+        }
+      ]
     },
     {
       "id": "esa",
