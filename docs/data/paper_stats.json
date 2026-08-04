@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03",
+  "updated": "2026-08-04",
   "source": "dblp",
   "note": "DBLP 프로시딩 등재 레코드 수 기준입니다(front matter 등 소량 포함 가능). scripts/build_paper_stats.py 로 갱신합니다.",
   "venues": [

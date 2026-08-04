@@ -1,45 +1,7 @@
 {
-  "updated": "2026-08-03",
+  "updated": "2026-08-04",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "ppopp",
-      "name": "PPoPP 2027",
-      "fullName": "Principles and Practice of Parallel Programming",
-      "field": "sys",
-      "rating": "우수",
-      "location": "Salt Lake City, Utah, USA",
-      "confText": "Mar 20-24, 2027",
-      "url": "https://ppopp27.sigplan.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-08-03",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "eacl",
-      "name": "EACL 2027",
-      "fullName": "European Association for Computational Linguistics",
-      "field": "ai",
-      "rating": "우수",
-      "location": "Athens, Greece",
-      "confText": "March 9-14, 2027",
-      "url": "https://2027.eacl.org/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (ARR Submission; commitment deadline: 2026-10-11)",
-          "date": "2026-08-03",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "iui",
       "name": "IUI 2027",
@@ -1160,6 +1122,25 @@
       "location": "San Francisco, California, USA",
       "confText": "June 1-5, 2027",
       "url": "https://2027.naacl.org/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (ARR Submission)",
+          "date": "2026-10-12",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "coling-easy",
+      "name": "COLING (easy) 2027",
+      "fullName": "International Conference on Computational Linguistics",
+      "field": "ai",
+      "rating": "우수",
+      "location": "Macau SAR, China",
+      "confText": "May 9-14, 2027",
+      "url": "https://2027.coling-iccl.org/",
       "tz": "UTC-12",
       "deadlines": [
         {
@@ -3181,6 +3162,44 @@
       ]
     },
     {
+      "id": "ppopp",
+      "name": "PPoPP 2028",
+      "fullName": "Principles and Practice of Parallel Programming",
+      "field": "sys",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://ppopp27.sigplan.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-08-03",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "eacl",
+      "name": "EACL 2028",
+      "fullName": "European Association for Computational Linguistics",
+      "field": "ai",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://2027.eacl.org/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-08-03",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
       "id": "rtas",
       "name": "RTAS 2028",
       "fullName": "IEEE Real-Time and Embedded Technology and Applications Symposium",
@@ -3307,18 +3326,6 @@
       "confText": "일정 미확인",
       "url": "",
       "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
-      "deadlines": []
-    },
-    {
-      "id": "coling-easy",
-      "name": "COLING (easy) 2027",
-      "fullName": "International Conference on Computational Linguistics",
-      "field": "ai",
-      "rating": "우수",
-      "location": "Macau SAR, China",
-      "confText": "May 9-14, 2027",
-      "url": "https://2027.coling-iccl.org/",
-      "tz": "UTC-12",
       "deadlines": []
     },
     {
