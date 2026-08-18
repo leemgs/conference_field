@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17",
+  "updated": "2026-08-18",
   "source": "openalex",
   "topN": 8,
   "note": "OpenAlex 기준 제1저자(first author) 소속 국가 추정치입니다. 일부 논문은 소속 정보가 없어 집계에서 제외됩니다. 학회마다 OpenAlex 색인 완성도가 달라, 매핑이 확인된 학회/연도만 표시됩니다.",
@@ -9,7 +9,7 @@
       "years": {
         "2022": {
           "total": 2082,
-          "unknown": 167,
+          "unknown": 170,
           "countries": [
             {
               "code": "CN",
@@ -19,7 +19,7 @@
             {
               "code": "US",
               "country": "United States",
-              "count": 450
+              "count": 451
             },
             {
               "code": "KR",
@@ -54,7 +54,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 332
+              "count": 328
             }
           ]
         }
@@ -223,7 +223,7 @@
         },
         "2022": {
           "total": 1618,
-          "unknown": 90,
+          "unknown": 95,
           "countries": [
             {
               "code": "CN",
@@ -268,13 +268,13 @@
             {
               "code": "other",
               "country": null,
-              "count": 318
+              "count": 313
             }
           ]
         },
         "2023": {
           "total": 2021,
-          "unknown": 121,
+          "unknown": 125,
           "countries": [
             {
               "code": "CN",
@@ -319,7 +319,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 344
+              "count": 340
             }
           ]
         },
@@ -376,12 +376,12 @@
         },
         "2025": {
           "total": 3485,
-          "unknown": 402,
+          "unknown": 406,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 1648
+              "count": 1646
             },
             {
               "code": "US",
@@ -421,18 +421,18 @@
             {
               "code": "other",
               "country": null,
-              "count": 453
+              "count": 451
             }
           ]
         },
         "2026": {
           "total": 4980,
-          "unknown": 1025,
+          "unknown": 1032,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 2175
+              "count": 2174
             },
             {
               "code": "US",
@@ -472,7 +472,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 618
+              "count": 612
             }
           ]
         }
@@ -539,17 +539,17 @@
       "years": {
         "2022": {
           "total": 1102,
-          "unknown": 650,
+          "unknown": 644,
           "countries": [
             {
               "code": "US",
               "country": "United States",
-              "count": 105
+              "count": 106
             },
             {
               "code": "CN",
               "country": "China",
-              "count": 87
+              "count": 91
             },
             {
               "code": "JP",
@@ -584,7 +584,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 100
+              "count": 101
             }
           ]
         }
