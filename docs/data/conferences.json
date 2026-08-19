@@ -1,44 +1,7 @@
 {
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "usenix-security",
-      "name": "USENIX Security 2027",
-      "fullName": "USENIX Security Symposium",
-      "field": "sec",
-      "rating": "최우수",
-      "location": "Denver, CO, USA",
-      "confText": "August 11-13, 2027",
-      "url": "https://www.usenix.org/conference/usenixsecurity27",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-18",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Cycle 1 Deadline)",
-          "date": "2026-08-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-01-19",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Cycle 2 Deadline)",
-          "date": "2027-01-26",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "ndss",
       "name": "NDSS 2027",
@@ -379,6 +342,43 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2027-03-01",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "usenix-security",
+      "name": "USENIX Security 2027",
+      "fullName": "USENIX Security Symposium",
+      "field": "sec",
+      "rating": "최우수",
+      "location": "Denver, CO, USA",
+      "confText": "August 11-13, 2027",
+      "url": "https://www.usenix.org/conference/usenixsecurity27",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-08-18",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Cycle 1 Deadline)",
+          "date": "2026-08-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-19",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Cycle 2 Deadline)",
+          "date": "2027-01-26",
           "status": "confirmed"
         }
       ]
