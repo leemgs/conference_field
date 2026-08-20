@@ -1,32 +1,7 @@
 {
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "ndss",
-      "name": "NDSS 2027",
-      "fullName": "Network and Distributed System Security Symposium",
-      "field": "sec",
-      "rating": "최우수",
-      "location": "Seoul, Republic of Korea",
-      "confText": "March 22 - March 26, 2027",
-      "url": "https://www.ndss-symposium.org/ndss2027/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (Summer)",
-          "date": "2026-05-06",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Fall)",
-          "date": "2026-08-19",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "iui",
       "name": "IUI 2027",
@@ -3239,6 +3214,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-08-16",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "ndss",
+      "name": "NDSS 2028",
+      "fullName": "Network and Distributed System Security Symposium",
+      "field": "sec",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://www.ndss-symposium.org/ndss2027/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-08-19",
           "status": "estimated"
         }
       ]
