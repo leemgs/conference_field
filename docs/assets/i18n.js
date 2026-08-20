@@ -3,16 +3,16 @@
   "use strict";
 
   window.I18N = {
-    "app.title": { ko: "탑티어 학회 마감일 캘린더", en: "Top-Tier Conference Deadline Calendar" },
+    "app.title": { ko: "탑티어 학회 마감일·저널 탐색기", en: "Top-Tier Conference Deadlines & Journal Explorer" },
     "app.description": {
-      ko: "ICML, AAAI, CVPR 등 12개 분야 185개 탑티어 학회의 논문 제출 마감일을 한눈에 보는 캘린더",
-      en: "A calendar of paper submission deadlines for 185 top-tier conferences across 12 fields, including ICML, AAAI, and CVPR",
+      ko: "12개 분야 탑티어 학회 마감일과 Samsung Research 선정 304개 최우수·우수 저널을 한곳에서 탐색하세요",
+      en: "Explore top-tier conference deadlines across 12 fields and 304 Samsung Research top-tier and excellent journals in one place",
     },
-    "brand.h1": { ko: "탑티어 학회 마감일 캘린더", en: "Top-Tier Conference Deadline Calendar" },
+    "brand.h1": { ko: "탑티어 학회 마감일·저널 탐색기", en: "Top-Tier Conference Deadlines & Journal Explorer" },
     "brand.home": { ko: "홈으로 이동", en: "Go to home" },
     "brand.tagline": {
-      ko: "ICML · AAAI · CVPR 등 12개 분야, 185개 탑티어 학회 논문 제출 일정 모음",
-      en: "Paper submission schedules for 185 top-tier conferences across 12 fields, including ICML, AAAI, and CVPR",
+      ko: "12개 분야 탑티어 학회 일정과 8개 분야 304개 최우수·우수 저널을 한곳에서",
+      en: "Top-tier conference schedules across 12 fields and 304 selected journals across 8 fields, all in one place",
     },
 
     "header.ics": { ko: "📅 캘린더 구독 (ICS)", en: "📅 Subscribe (ICS)" },
@@ -24,8 +24,15 @@
 
     "view.tablist": { ko: "보기 전환", en: "Switch view" },
     "view.calendar": { ko: "🗓️ 달력", en: "🗓️ Calendar" },
-    "view.list": { ko: "📋 목록", en: "📋 List" },
+    "view.list": { ko: "📋 컨퍼런스", en: "📋 Conferences" },
+    "view.journals": { ko: "📚 저널", en: "📚 Journals" },
     "view.dashboard": { ko: "📊 대시보드", en: "📊 Dashboard" },
+    "dash.kind.conference": { ko: "Conference", en: "Conference" },
+    "dash.kind.journal": { ko: "Journal", en: "Journal" },
+    "dash.journal.fieldTitle": { ko: "분야별 저널 등급 현황", en: "Journal Ratings by Field" },
+    "dash.journal.fieldSub": { ko: "분야별 최우수·우수 저널 수", en: "Top-tier and excellent journals by field" },
+    "dash.journal.sjrTitle": { ko: "SJR 상위 저널", en: "Top Journals by SJR" },
+    "dash.journal.sjrSub": { ko: "2025년 목록의 SJR 기준 상위 15개 저널", en: "Top 15 journals by SJR in the 2025 list" },
 
     "search.label": { ko: "검색", en: "Search" },
     "search.placeholder": { ko: "학회명 검색 (예: CVPR, Machine Learning)", en: "Search conferences (e.g. CVPR, Machine Learning)" },
@@ -101,6 +108,8 @@
     "board.heading": { ko: "학회 목록", en: "Conference List" },
     "board.heading.count": { ko: "학회 목록 ({n}개)", en: "Conference List ({n})" },
     "board.perPage": { ko: "페이지당 표시", en: "Per page" },
+    "board.year": { ko: "기준 연도", en: "List year" },
+    "board.sourceNote": { ko: "{note} · Samsung Research 문서 기준", en: "{note} · Based on the Samsung Research document" },
     "board.no": { ko: "번호", en: "No." },
     "board.cat": { ko: "대분야", en: "Category" },
     "board.subcat": { ko: "소분야", en: "Subfield" },

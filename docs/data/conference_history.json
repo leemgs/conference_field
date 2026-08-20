@@ -1,0 +1,3346 @@
+{
+  "source": "field-conference-list-v37-20260820_200532.docx",
+  "exported": "2026-08-20 20:05:31",
+  "versions": [
+    {
+      "key": "2026-h2",
+      "label": "2026년 하반기",
+      "note": "2026-08-01부터 적용",
+      "conferences": [
+        {
+          "id": "2026-h2-001",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "cvpr",
+          "title": "Computer Vision and Pattern Recognition",
+          "rating": "최우수",
+          "h5Index": 440
+        },
+        {
+          "id": "2026-h2-002",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "nips",
+          "title": "Neural Information Processing Systems",
+          "rating": "최우수",
+          "h5Index": 337
+        },
+        {
+          "id": "2026-h2-003",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "iclr",
+          "title": "International Conference on Learning Representation",
+          "rating": "최우수",
+          "h5Index": 304
+        },
+        {
+          "id": "2026-h2-004",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "iccv/eccv",
+          "title": "International Conference on Computer Vision/ European Conference on Computer Vision",
+          "rating": "최우수",
+          "h5Index": 291
+        },
+        {
+          "id": "2026-h2-005",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icml",
+          "title": "International Conference on Machine Learning",
+          "rating": "최우수",
+          "h5Index": 268
+        },
+        {
+          "id": "2026-h2-006",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "aaai",
+          "title": "AAAI Conference on Artificial Intelligence",
+          "rating": "최우수",
+          "h5Index": 220
+        },
+        {
+          "id": "2026-h2-007",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "acl",
+          "title": "Association for Computational Linguistics",
+          "rating": "최우수",
+          "h5Index": 215
+        },
+        {
+          "id": "2026-h2-008",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "emnlp",
+          "title": "Conference on Empirical Methods in Natural Language Processing",
+          "rating": "최우수",
+          "h5Index": 193
+        },
+        {
+          "id": "2026-h2-009",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ijcai",
+          "title": "International Joint Conference on Artificial Intelligence",
+          "rating": "우수",
+          "h5Index": 136
+        },
+        {
+          "id": "2026-h2-010",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "naacl",
+          "title": "North American Chapter of the Association for Computational Linguistics",
+          "rating": "우수",
+          "h5Index": 132
+        },
+        {
+          "id": "2026-h2-011",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "chi",
+          "title": "International Conference on Human Factors in Computing Systems",
+          "rating": "최우수",
+          "h5Index": 129
+        },
+        {
+          "id": "2026-h2-012",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "kdd",
+          "title": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+          "rating": "최우수",
+          "h5Index": 124
+        },
+        {
+          "id": "2026-h2-013",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sp",
+          "title": "IEEE Symposium on Security and Privacy",
+          "rating": "최우수",
+          "h5Index": 112
+        },
+        {
+          "id": "2026-h2-014",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "www",
+          "title": "World Wide Web Conference Series",
+          "rating": "최우수",
+          "h5Index": 112
+        },
+        {
+          "id": "2026-h2-015",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "wacv",
+          "title": "IEEE Winter Conference on Applications of Computer Vision",
+          "rating": "우수",
+          "h5Index": 109
+        },
+        {
+          "id": "2026-h2-016",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "uss",
+          "title": "USENIX Security Symposium",
+          "rating": "최우수",
+          "h5Index": 106
+        },
+        {
+          "id": "2026-h2-017",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "siggraph",
+          "title": "ACM SIGGRAPH Conference",
+          "rating": "최우수",
+          "h5Index": 103
+        },
+        {
+          "id": "2026-h2-018",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sigir",
+          "title": "Research and Development in Information Retrieval",
+          "rating": "최우수",
+          "h5Index": 103
+        },
+        {
+          "id": "2026-h2-019",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mm",
+          "title": "ACM International Conference on Multimedia",
+          "rating": "최우수",
+          "h5Index": 101
+        },
+        {
+          "id": "2026-h2-020",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "miccai",
+          "title": "Medical Image Computing and Computer Assisted Intervention",
+          "rating": "최우수",
+          "h5Index": 96
+        },
+        {
+          "id": "2026-h2-021",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ccs",
+          "title": "ACM Symposium on Computer and Communications Security",
+          "rating": "최우수",
+          "h5Index": 92
+        },
+        {
+          "id": "2026-h2-022",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "cikm",
+          "title": "International Conference on Information and Knowledge Management",
+          "rating": "최우수",
+          "h5Index": 91
+        },
+        {
+          "id": "2026-h2-023",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "corl",
+          "title": "Conference on Robot Learning",
+          "rating": "최우수",
+          "h5Index": 88
+        },
+        {
+          "id": "2026-h2-024",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icse",
+          "title": "International Conference on Software Engineering",
+          "rating": "최우수",
+          "h5Index": 84
+        },
+        {
+          "id": "2026-h2-025",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "infocom",
+          "title": "IEEE Conference on Computer Communications",
+          "rating": "최우수",
+          "h5Index": 80
+        },
+        {
+          "id": "2026-h2-026",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "wsdm",
+          "title": "ACM International Conference on Web Search and Data Mining",
+          "rating": "우수",
+          "h5Index": 77
+        },
+        {
+          "id": "2026-h2-027",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icc",
+          "title": "IEEE International Conference on Communications,",
+          "rating": "최우수",
+          "h5Index": 76
+        },
+        {
+          "id": "2026-h2-028",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "vldb",
+          "title": "Very Large Data Bases Conference",
+          "rating": "우수",
+          "h5Index": 75
+        },
+        {
+          "id": "2026-h2-029",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ndss",
+          "title": "Network and Distributed System Security Symposium",
+          "rating": "우수",
+          "h5Index": 73
+        },
+        {
+          "id": "2026-h2-030",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sigmod",
+          "title": "International Conference on Management of Data",
+          "rating": "우수",
+          "h5Index": 73
+        },
+        {
+          "id": "2026-h2-031",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "asplos",
+          "title": "Architectural Support for Programming Languages and Operating Systems",
+          "rating": "최우수",
+          "h5Index": 71
+        },
+        {
+          "id": "2026-h2-032",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icde",
+          "title": "International Conference on Data Engineering",
+          "rating": "우수",
+          "h5Index": 69
+        },
+        {
+          "id": "2026-h2-033",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "isscc",
+          "title": "IEEE International Solid-State Circuits Conference",
+          "rating": "최우수",
+          "h5Index": 66
+        },
+        {
+          "id": "2026-h2-034",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "rss",
+          "title": "Robotics: Science and Systems Conference",
+          "rating": "우수",
+          "h5Index": 66
+        },
+        {
+          "id": "2026-h2-035",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sigcomm",
+          "title": "ACM Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+          "rating": "최우수",
+          "h5Index": 65
+        },
+        {
+          "id": "2026-h2-036",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "globecom",
+          "title": "IEEE Global Communications Conference,",
+          "rating": "최우수",
+          "h5Index": 63
+        },
+        {
+          "id": "2026-h2-037",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "eurocrypt",
+          "title": "Theory and Application of Cryptographic Techniques",
+          "rating": "우수",
+          "h5Index": 63
+        },
+        {
+          "id": "2026-h2-038",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "isca",
+          "title": "International Symposium on Computer Architecture",
+          "rating": "최우수",
+          "h5Index": 62
+        },
+        {
+          "id": "2026-h2-039",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "nsdi",
+          "title": "USENIX Networked Systems Design and Implementation",
+          "rating": "최우수",
+          "h5Index": 62
+        },
+        {
+          "id": "2026-h2-040",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "fse",
+          "title": "ACM SIGSOFT Conference on the Foundations of Software Engineering",
+          "rating": "우수",
+          "h5Index": 62
+        },
+        {
+          "id": "2026-h2-041",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "crypto",
+          "title": "International Cryptology Conference",
+          "rating": "우수",
+          "h5Index": 61
+        },
+        {
+          "id": "2026-h2-042",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "micro",
+          "title": "International Symposium on Microarchitecture",
+          "rating": "최우수",
+          "h5Index": 61
+        },
+        {
+          "id": "2026-h2-043",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mlsys",
+          "title": "Conference on Machine Learning and Systems",
+          "rating": "최우수",
+          "h5Index": 60
+        },
+        {
+          "id": "2026-h2-044",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "isit",
+          "title": "IEEE International Symposium on Information Theory",
+          "rating": "우수",
+          "h5Index": 57
+        },
+        {
+          "id": "2026-h2-045",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ase",
+          "title": "International Conference on Automated Software Engineering, Knowledge-Based Software Engineering Conference",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2026-h2-046",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "hri",
+          "title": "ACM/IEEE International Conference on Human Robot Interaction",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2026-h2-047",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "osdi",
+          "title": "USENIX Symposium on Operating Systems Design and Implementation (OSDI)",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2026-h2-048",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "bigdataconf",
+          "title": "IEEE International Conference on Big Data",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2026-h2-049",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "UbiComp",
+          "title": "ACM International Conference on Ubiquitous Computing",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2026-h2-050",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "recsys",
+          "title": "ACM Conference on Recommender Systems",
+          "rating": "우수",
+          "h5Index": 53
+        },
+        {
+          "id": "2026-h2-051",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "iui",
+          "title": "Intelligent User Interfaces",
+          "rating": "우수",
+          "h5Index": 52
+        },
+        {
+          "id": "2026-h2-052",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "dac",
+          "title": "Design Automation Conference",
+          "rating": "우수",
+          "h5Index": 52
+        },
+        {
+          "id": "2026-h2-053",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "pldi",
+          "title": "SIGPLAN Conference on Programming Language Design and Implementation",
+          "rating": "우수",
+          "h5Index": 51
+        },
+        {
+          "id": "2026-h2-054",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "uist",
+          "title": "User Interface Software and Technology",
+          "rating": "우수",
+          "h5Index": 51
+        },
+        {
+          "id": "2026-h2-055",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "hpca",
+          "title": "International Symposium on High-Performance Computer Architecture",
+          "rating": "우수",
+          "h5Index": 50
+        },
+        {
+          "id": "2026-h2-056",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sc",
+          "title": "ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis",
+          "rating": "우수",
+          "h5Index": 50
+        },
+        {
+          "id": "2026-h2-057",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icdcs",
+          "title": "International Conference on Distributed Computing Systems",
+          "rating": "우수",
+          "h5Index": 48
+        },
+        {
+          "id": "2026-h2-058",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "embc",
+          "title": "Engineering in Medicine and Biology Conference",
+          "rating": "우수",
+          "h5Index": 48
+        },
+        {
+          "id": "2026-h2-059",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "eurosys",
+          "title": "European Conference on Computer Systems",
+          "rating": "우수",
+          "h5Index": 48
+        },
+        {
+          "id": "2026-h2-060",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ICME",
+          "title": "IEEE International Conference on Multimedia and Expo",
+          "rating": "우수",
+          "h5Index": 46
+        },
+        {
+          "id": "2026-h2-061",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "issta",
+          "title": "ACM International Symposium on Software Testing and Analysis",
+          "rating": "우수",
+          "h5Index": 45
+        },
+        {
+          "id": "2026-h2-062",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "vr",
+          "title": "IEEE Virtual Reality Conference",
+          "rating": "우수",
+          "h5Index": 44
+        },
+        {
+          "id": "2026-h2-063",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "vlsi",
+          "title": "IEEE Symposium on VLSI Circuits and Technology",
+          "rating": "우수",
+          "h5Index": 44
+        },
+        {
+          "id": "2026-h2-064",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "fpga",
+          "title": "International Symposium on Field Programmable Gate Arrays",
+          "rating": "우수",
+          "h5Index": 40
+        },
+        {
+          "id": "2026-h2-065",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sigmetrics",
+          "title": "ACM SIGMETRICS Measurement and Modeling of Computer Systems",
+          "rating": "우수",
+          "h5Index": 40
+        },
+        {
+          "id": "2026-h2-066",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sosp",
+          "title": "ACM Symposium on Operating Systems Principles",
+          "rating": "우수",
+          "h5Index": 39
+        },
+        {
+          "id": "2026-h2-067",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sensys",
+          "title": "ACM Conference On Embedded Networked Sensor Systems",
+          "rating": "우수",
+          "h5Index": 39
+        },
+        {
+          "id": "2026-h2-068",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mobisys",
+          "title": "International Conference on Mobile Systems, Applications, and Services",
+          "rating": "우수",
+          "h5Index": 39
+        },
+        {
+          "id": "2026-h2-069",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "cav",
+          "title": "International Conference on Computer-Aided Verification",
+          "rating": "우수",
+          "h5Index": 38
+        },
+        {
+          "id": "2026-h2-070",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "APEC",
+          "title": "Applied Power Electronics Conference and Exposition",
+          "rating": "우수",
+          "h5Index": 34
+        },
+        {
+          "id": "2026-h2-071",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "conext",
+          "title": "Conference on Emerging Network Experiment and Technology",
+          "rating": "우수",
+          "h5Index": 33
+        },
+        {
+          "id": "2026-h2-072",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "bibm",
+          "title": "IEEE International Conference on Bioinformatics and Biomedicine",
+          "rating": "우수",
+          "h5Index": 32
+        },
+        {
+          "id": "2026-h2-073",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ismar",
+          "title": "IEEE International Symposium on Mixed and Augmented Reality",
+          "rating": "우수",
+          "h5Index": 30
+        },
+        {
+          "id": "2026-h2-074",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mmsys",
+          "title": "ACM Multimedia Systems Conference",
+          "rating": "우수",
+          "h5Index": 28
+        },
+        {
+          "id": "2026-h2-075",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ccnc",
+          "title": "IEEE Consumer Communications and Networking Conference",
+          "rating": "우수",
+          "h5Index": 27
+        },
+        {
+          "id": "2026-h2-076",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mobicom",
+          "title": "ACM International Conference on Mobile Computing and Networking",
+          "rating": "우수",
+          "h5Index": 25
+        },
+        {
+          "id": "2026-h2-077",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "siggrapha",
+          "title": "ACM SIGGRAPH Conference in Asia",
+          "rating": "우수",
+          "h5Index": 25
+        }
+      ]
+    },
+    {
+      "key": "2026",
+      "label": "2026년",
+      "note": "2025-11-01부터 적용",
+      "conferences": [
+        {
+          "id": "2026-001",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "cvpr",
+          "title": "Computer Vision and Pattern Recognition",
+          "rating": "최우수",
+          "h5Index": 440
+        },
+        {
+          "id": "2026-002",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "nips",
+          "title": "Neural Information Processing Systems",
+          "rating": "최우수",
+          "h5Index": 337
+        },
+        {
+          "id": "2026-003",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "iclr",
+          "title": "International Conference on Learning Representation",
+          "rating": "최우수",
+          "h5Index": 304
+        },
+        {
+          "id": "2026-004",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "iccv/eccv",
+          "title": "International Conference on Computer Vision/ European Conference on Computer Vision",
+          "rating": "최우수",
+          "h5Index": 291
+        },
+        {
+          "id": "2026-005",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icml",
+          "title": "International Conference on Machine Learning",
+          "rating": "최우수",
+          "h5Index": 268
+        },
+        {
+          "id": "2026-006",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "aaai",
+          "title": "AAAI Conference on Artificial Intelligence",
+          "rating": "최우수",
+          "h5Index": 220
+        },
+        {
+          "id": "2026-007",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "acl",
+          "title": "Association for Computational Linguistics",
+          "rating": "최우수",
+          "h5Index": 215
+        },
+        {
+          "id": "2026-008",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "emnlp",
+          "title": "Conference on Empirical Methods in Natural Language Processing",
+          "rating": "최우수",
+          "h5Index": 193
+        },
+        {
+          "id": "2026-009",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ijcai",
+          "title": "International Joint Conference on Artificial Intelligence",
+          "rating": "우수",
+          "h5Index": 136
+        },
+        {
+          "id": "2026-010",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "naacl",
+          "title": "North American Chapter of the Association for Computational Linguistics",
+          "rating": "우수",
+          "h5Index": 132
+        },
+        {
+          "id": "2026-011",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "chi",
+          "title": "International Conference on Human Factors in Computing Systems",
+          "rating": "최우수",
+          "h5Index": 129
+        },
+        {
+          "id": "2026-012",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icassp",
+          "title": "International Conference on Acoustics, Speech, and Signal Processing",
+          "rating": "최우수",
+          "h5Index": 129
+        },
+        {
+          "id": "2026-013",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "kdd",
+          "title": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+          "rating": "최우수",
+          "h5Index": 124
+        },
+        {
+          "id": "2026-014",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icra",
+          "title": "IEEE International Conference on Robotics and Automation",
+          "rating": "최우수",
+          "h5Index": 122
+        },
+        {
+          "id": "2026-015",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sp",
+          "title": "IEEE Symposium on Security and Privacy",
+          "rating": "최우수",
+          "h5Index": 112
+        },
+        {
+          "id": "2026-016",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "www",
+          "title": "World Wide Web Conference Series",
+          "rating": "최우수",
+          "h5Index": 112
+        },
+        {
+          "id": "2026-017",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "interspeech",
+          "title": "Annual Conference of the International Speech Communication Association",
+          "rating": "최우수",
+          "h5Index": 111
+        },
+        {
+          "id": "2026-018",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "wacv",
+          "title": "IEEE Winter Conference on Applications of Computer Vision",
+          "rating": "우수",
+          "h5Index": 109
+        },
+        {
+          "id": "2026-019",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "uss",
+          "title": "USENIX Security Symposium",
+          "rating": "최우수",
+          "h5Index": 106
+        },
+        {
+          "id": "2026-020",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "siggraph",
+          "title": "ACM SIGGRAPH Conference",
+          "rating": "최우수",
+          "h5Index": 103
+        },
+        {
+          "id": "2026-021",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sigir",
+          "title": "Research and Development in Information Retrieval",
+          "rating": "최우수",
+          "h5Index": 103
+        },
+        {
+          "id": "2026-022",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mm",
+          "title": "ACM International Conference on Multimedia",
+          "rating": "최우수",
+          "h5Index": 101
+        },
+        {
+          "id": "2026-023",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "miccai",
+          "title": "Medical Image Computing and Computer Assisted Intervention",
+          "rating": "최우수",
+          "h5Index": 96
+        },
+        {
+          "id": "2026-024",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ccs",
+          "title": "ACM Symposium on Computer and Communications Security",
+          "rating": "최우수",
+          "h5Index": 92
+        },
+        {
+          "id": "2026-025",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "cikm",
+          "title": "International Conference on Information and Knowledge Management",
+          "rating": "최우수",
+          "h5Index": 91
+        },
+        {
+          "id": "2026-026",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "corl",
+          "title": "Conference on Robot Learning",
+          "rating": "최우수",
+          "h5Index": 88
+        },
+        {
+          "id": "2026-027",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "iros",
+          "title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+          "rating": "최우수",
+          "h5Index": 86
+        },
+        {
+          "id": "2026-028",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icse",
+          "title": "International Conference on Software Engineering",
+          "rating": "최우수",
+          "h5Index": 84
+        },
+        {
+          "id": "2026-029",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "infocom",
+          "title": "IEEE Conference on Computer Communications",
+          "rating": "최우수",
+          "h5Index": 80
+        },
+        {
+          "id": "2026-030",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "wsdm",
+          "title": "ACM International Conference on Web Search and Data Mining",
+          "rating": "우수",
+          "h5Index": 77
+        },
+        {
+          "id": "2026-031",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icc",
+          "title": "IEEE International Conference on Communications, ※ Workshop은 우수등급으로 가늠",
+          "rating": "최우수",
+          "h5Index": 76
+        },
+        {
+          "id": "2026-032",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "vldb",
+          "title": "Very Large Data Bases Conference",
+          "rating": "우수",
+          "h5Index": 75
+        },
+        {
+          "id": "2026-033",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ndss",
+          "title": "Network and Distributed System Security Symposium",
+          "rating": "우수",
+          "h5Index": 73
+        },
+        {
+          "id": "2026-034",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sigmod",
+          "title": "International Conference on Management of Data",
+          "rating": "우수",
+          "h5Index": 73
+        },
+        {
+          "id": "2026-035",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "asplos",
+          "title": "Architectural Support for Programming Languages and Operating Systems",
+          "rating": "최우수",
+          "h5Index": 71
+        },
+        {
+          "id": "2026-036",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icde",
+          "title": "International Conference on Data Engineering",
+          "rating": "우수",
+          "h5Index": 69
+        },
+        {
+          "id": "2026-037",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "isscc",
+          "title": "IEEE International Solid-State Circuits Conference",
+          "rating": "최우수",
+          "h5Index": 66
+        },
+        {
+          "id": "2026-038",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "rss",
+          "title": "Robotics: Science and Systems Conference",
+          "rating": "우수",
+          "h5Index": 66
+        },
+        {
+          "id": "2026-039",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icip",
+          "title": "IEEE International Conference on Image Processing",
+          "rating": "우수",
+          "h5Index": 66
+        },
+        {
+          "id": "2026-040",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sigcomm",
+          "title": "ACM Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+          "rating": "최우수",
+          "h5Index": 65
+        },
+        {
+          "id": "2026-041",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "globecom",
+          "title": "IEEE Global Communications Conference, ※ Workshop은 우수등급으로 가늠",
+          "rating": "최우수",
+          "h5Index": 63
+        },
+        {
+          "id": "2026-042",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "eurocrypt",
+          "title": "Theory and Application of Cryptographic Techniques",
+          "rating": "우수",
+          "h5Index": 63
+        },
+        {
+          "id": "2026-043",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "isca",
+          "title": "International Symposium on Computer Architecture",
+          "rating": "최우수",
+          "h5Index": 62
+        },
+        {
+          "id": "2026-044",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "nsdi",
+          "title": "USENIX Networked Systems Design and Implementation",
+          "rating": "최우수",
+          "h5Index": 62
+        },
+        {
+          "id": "2026-045",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "fse",
+          "title": "ACM SIGSOFT Conference on the Foundations of Software Engineering",
+          "rating": "우수",
+          "h5Index": 62
+        },
+        {
+          "id": "2026-046",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "crypto",
+          "title": "International Cryptology Conference",
+          "rating": "우수",
+          "h5Index": 61
+        },
+        {
+          "id": "2026-047",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "micro",
+          "title": "International Symposium on Microarchitecture",
+          "rating": "최우수",
+          "h5Index": 61
+        },
+        {
+          "id": "2026-048",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mlsys",
+          "title": "Conference on Machine Learning and Systems",
+          "rating": "최우수",
+          "h5Index": 60
+        },
+        {
+          "id": "2026-049",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "isit",
+          "title": "IEEE International Symposium on Information Theory",
+          "rating": "우수",
+          "h5Index": 57
+        },
+        {
+          "id": "2026-050",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ase",
+          "title": "International Conference on Automated Software Engineering, Knowledge-Based Software Engineering Conference",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2026-051",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "hri",
+          "title": "ACM/IEEE International Conference on Human Robot Interaction",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2026-052",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "osdi",
+          "title": "USENIX Symposium on Operating Systems Design and Implementation (OSDI)",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2026-053",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "bigdataconf",
+          "title": "IEEE International Conference on Big Data",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2026-054",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "UbiComp",
+          "title": "ACM International Conference on Ubiquitous Computing",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2026-055",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "recsys",
+          "title": "ACM Conference on Recommender Systems",
+          "rating": "우수",
+          "h5Index": 53
+        },
+        {
+          "id": "2026-056",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "iui",
+          "title": "Intelligent User Interfaces",
+          "rating": "우수",
+          "h5Index": 52
+        },
+        {
+          "id": "2026-057",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "dac",
+          "title": "Design Automation Conference",
+          "rating": "우수",
+          "h5Index": 52
+        },
+        {
+          "id": "2026-058",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "pldi",
+          "title": "SIGPLAN Conference on Programming Language Design and Implementation",
+          "rating": "우수",
+          "h5Index": 51
+        },
+        {
+          "id": "2026-059",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "uist",
+          "title": "User Interface Software and Technology",
+          "rating": "우수",
+          "h5Index": 51
+        },
+        {
+          "id": "2026-060",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "hpca",
+          "title": "International Symposium on High-Performance Computer Architecture",
+          "rating": "우수",
+          "h5Index": 50
+        },
+        {
+          "id": "2026-061",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sc",
+          "title": "ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis",
+          "rating": "우수",
+          "h5Index": 50
+        },
+        {
+          "id": "2026-062",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icdcs",
+          "title": "International Conference on Distributed Computing Systems",
+          "rating": "우수",
+          "h5Index": 48
+        },
+        {
+          "id": "2026-063",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "embc",
+          "title": "Engineering in Medicine and Biology Conference",
+          "rating": "우수",
+          "h5Index": 48
+        },
+        {
+          "id": "2026-064",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "eurosys",
+          "title": "European Conference on Computer Systems",
+          "rating": "우수",
+          "h5Index": 48
+        },
+        {
+          "id": "2026-065",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ICME",
+          "title": "IEEE International Conference on Multimedia and Expo",
+          "rating": "우수",
+          "h5Index": 46
+        },
+        {
+          "id": "2026-066",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "vtc",
+          "title": "IEEE Vehicular Technology Conference, VTC",
+          "rating": "우수",
+          "h5Index": 46
+        },
+        {
+          "id": "2026-067",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "issta",
+          "title": "ACM International Symposium on Software Testing and Analysis",
+          "rating": "우수",
+          "h5Index": 45
+        },
+        {
+          "id": "2026-068",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "asru/slt",
+          "title": "IEEE Workshop on Automatic Speech Recognition & Understanding / IEEE Spoken Language Technology Workshop",
+          "rating": "우수",
+          "h5Index": 45
+        },
+        {
+          "id": "2026-069",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "vr",
+          "title": "IEEE Virtual Reality Conference",
+          "rating": "우수",
+          "h5Index": 44
+        },
+        {
+          "id": "2026-070",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "vlsi",
+          "title": "IEEE Symposium on VLSI Circuits and Technology",
+          "rating": "우수",
+          "h5Index": 44
+        },
+        {
+          "id": "2026-071",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "fpga",
+          "title": "International Symposium on Field Programmable Gate Arrays",
+          "rating": "우수",
+          "h5Index": 40
+        },
+        {
+          "id": "2026-072",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sigmetrics",
+          "title": "ACM SIGMETRICS Measurement and Modeling of Computer Systems",
+          "rating": "우수",
+          "h5Index": 40
+        },
+        {
+          "id": "2026-073",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sosp",
+          "title": "ACM Symposium on Operating Systems Principles",
+          "rating": "우수",
+          "h5Index": 39
+        },
+        {
+          "id": "2026-074",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sensys",
+          "title": "ACM Conference On Embedded Networked Sensor Systems",
+          "rating": "우수",
+          "h5Index": 39
+        },
+        {
+          "id": "2026-075",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mobisys",
+          "title": "International Conference on Mobile Systems, Applications, and Services",
+          "rating": "우수",
+          "h5Index": 39
+        },
+        {
+          "id": "2026-076",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "cav",
+          "title": "International Conference on Computer-Aided Verification",
+          "rating": "우수",
+          "h5Index": 38
+        },
+        {
+          "id": "2026-077",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "APEC",
+          "title": "Applied Power Electronics Conference and Exposition",
+          "rating": "우수",
+          "h5Index": 34
+        },
+        {
+          "id": "2026-078",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "conext",
+          "title": "Conference on Emerging Network Experiment and Technology",
+          "rating": "우수",
+          "h5Index": 33
+        },
+        {
+          "id": "2026-079",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "bibm",
+          "title": "IEEE International Conference on Bioinformatics and Biomedicine",
+          "rating": "우수",
+          "h5Index": 32
+        },
+        {
+          "id": "2026-080",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ismar",
+          "title": "IEEE International Symposium on Mixed and Augmented Reality",
+          "rating": "우수",
+          "h5Index": 30
+        },
+        {
+          "id": "2026-081",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "EuCAP",
+          "title": "European Conference on Antennas and Propagation",
+          "rating": "우수",
+          "h5Index": 29
+        },
+        {
+          "id": "2026-082",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mmsys",
+          "title": "ACM Multimedia Systems Conference",
+          "rating": "우수",
+          "h5Index": 28
+        },
+        {
+          "id": "2026-083",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ccnc",
+          "title": "IEEE Consumer Communications and Networking Conference",
+          "rating": "우수",
+          "h5Index": 27
+        },
+        {
+          "id": "2026-084",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "IMS",
+          "title": "IEEE International Microwave Symposium",
+          "rating": "우수",
+          "h5Index": 27
+        },
+        {
+          "id": "2026-085",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "humanoids",
+          "title": "IEEE International Conference on Humanoid Robots",
+          "rating": "우수",
+          "h5Index": 26
+        },
+        {
+          "id": "2026-086",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mobicom",
+          "title": "ACM International Conference on Mobile Computing and Networking",
+          "rating": "우수",
+          "h5Index": 25
+        },
+        {
+          "id": "2026-087",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "RFIC",
+          "title": "Radio Frequency Integrated Circuit Symposia",
+          "rating": "우수",
+          "h5Index": 25
+        },
+        {
+          "id": "2026-088",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "siggrapha",
+          "title": "ACM SIGGRAPH Conference in Asia",
+          "rating": "우수",
+          "h5Index": 25
+        },
+        {
+          "id": "2026-089",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "SID",
+          "title": "SID DISPLAYWEEK",
+          "rating": "우수",
+          "h5Index": 25
+        },
+        {
+          "id": "2026-090",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "iTherm",
+          "title": "Int. Conf. on Thermal and Thermomechanical Phenomena in Electronic Systems (iTherm)",
+          "rating": "우수",
+          "h5Index": 21
+        },
+        {
+          "id": "2026-091",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "SPIEarvrmr",
+          "title": "SPIE ARVRMR",
+          "rating": "우수",
+          "h5Index": 21
+        },
+        {
+          "id": "2026-092",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "SPIEopto",
+          "title": "SIPE PhotonicWest",
+          "rating": "우수",
+          "h5Index": 21
+        },
+        {
+          "id": "2026-093",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ACS",
+          "title": "ACS Meeting (Spring / Fall)",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2026-094",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "APS",
+          "title": "American Physical Society Meeting",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2026-095",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "EFFT",
+          "title": "European Federation of FoodScience and Technology International conference",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2026-096",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ict",
+          "title": "International Conference on Thermoelectrics",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2026-097",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "IIR",
+          "title": "International Institute of Refrigeration Conference",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2026-098",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "MRS",
+          "title": "Materials Research Society Meeting",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2026-099",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "IFT",
+          "title": "IFT FIRST Annual Event and Expo",
+          "rating": "우수",
+          "h5Index": null
+        }
+      ]
+    },
+    {
+      "key": "2025",
+      "label": "2025년",
+      "note": "2025년 컨퍼런스 리스트",
+      "conferences": [
+        {
+          "id": "2025-001",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "cvpr",
+          "title": "Computer Vision and Pattern Recognition",
+          "rating": "최우수",
+          "h5Index": 440
+        },
+        {
+          "id": "2025-002",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "nips",
+          "title": "Neural Information Processing Systems",
+          "rating": "최우수",
+          "h5Index": 337
+        },
+        {
+          "id": "2025-003",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "iclr",
+          "title": "International Conference on Learning Representation",
+          "rating": "최우수",
+          "h5Index": 304
+        },
+        {
+          "id": "2025-004",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "iccv / eccv",
+          "title": "International Conference on Computer Vision / European Conference on Computer Vision",
+          "rating": "최우수",
+          "h5Index": 291
+        },
+        {
+          "id": "2025-005",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icml",
+          "title": "International Conference on Machine Learning",
+          "rating": "최우수",
+          "h5Index": 268
+        },
+        {
+          "id": "2025-006",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "aaai",
+          "title": "AAAI Conference on Artificial Intelligence",
+          "rating": "최우수",
+          "h5Index": 220
+        },
+        {
+          "id": "2025-007",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "acl",
+          "title": "Association for Computational Linguistics",
+          "rating": "최우수",
+          "h5Index": 215
+        },
+        {
+          "id": "2025-008",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "emnlp",
+          "title": "Conference on Empirical Methods in Natural Language Processing",
+          "rating": "최우수",
+          "h5Index": 193
+        },
+        {
+          "id": "2025-009",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "chi",
+          "title": "International Conference on Human Factors in Computing Systems",
+          "rating": "최우수",
+          "h5Index": 129
+        },
+        {
+          "id": "2025-010",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icassp",
+          "title": "International Conference on Acoustics, Speech, and Signal Processing",
+          "rating": "최우수",
+          "h5Index": 129
+        },
+        {
+          "id": "2025-011",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "kdd",
+          "title": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+          "rating": "최우수",
+          "h5Index": 124
+        },
+        {
+          "id": "2025-012",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icra",
+          "title": "IEEE International Conference on Robotics and Automation",
+          "rating": "최우수",
+          "h5Index": 122
+        },
+        {
+          "id": "2025-013",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sp",
+          "title": "IEEE Symposium on Security and Privacy",
+          "rating": "최우수",
+          "h5Index": 112
+        },
+        {
+          "id": "2025-014",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "www",
+          "title": "World Wide Web Conference Series",
+          "rating": "최우수",
+          "h5Index": 112
+        },
+        {
+          "id": "2025-015",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "interspeech",
+          "title": "Annual Conference of the International Speech Communication Association",
+          "rating": "최우수",
+          "h5Index": 111
+        },
+        {
+          "id": "2025-016",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "uss",
+          "title": "USENIX Security Symposium",
+          "rating": "최우수",
+          "h5Index": 106
+        },
+        {
+          "id": "2025-017",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "siggraph",
+          "title": "ACM SIGGRAPH Conference",
+          "rating": "최우수",
+          "h5Index": 103
+        },
+        {
+          "id": "2025-018",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sigir",
+          "title": "Research and Development in Information Retrieval",
+          "rating": "최우수",
+          "h5Index": 103
+        },
+        {
+          "id": "2025-019",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mm",
+          "title": "ACM International Conference on Multimedia",
+          "rating": "최우수",
+          "h5Index": 101
+        },
+        {
+          "id": "2025-020",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "miccai",
+          "title": "Medical Image Computing and Computer Assisted Intervention",
+          "rating": "최우수",
+          "h5Index": 96
+        },
+        {
+          "id": "2025-021",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ccs",
+          "title": "ACM Symposium on Computer and Communications Security",
+          "rating": "최우수",
+          "h5Index": 92
+        },
+        {
+          "id": "2025-022",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "cikm",
+          "title": "International Conference on Information and Knowledge Management",
+          "rating": "최우수",
+          "h5Index": 91
+        },
+        {
+          "id": "2025-023",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "corl",
+          "title": "Conference on Robot Learning",
+          "rating": "최우수",
+          "h5Index": 88
+        },
+        {
+          "id": "2025-024",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "iros",
+          "title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+          "rating": "최우수",
+          "h5Index": 86
+        },
+        {
+          "id": "2025-025",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icse",
+          "title": "International Conference on Software Engineering",
+          "rating": "최우수",
+          "h5Index": 84
+        },
+        {
+          "id": "2025-026",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "infocom",
+          "title": "IEEE Conference on Computer Communications",
+          "rating": "최우수",
+          "h5Index": 80
+        },
+        {
+          "id": "2025-027",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icc",
+          "title": "IEEE International Conference on Communications,  workshop은 우수 등급으로 가늠",
+          "rating": "최우수",
+          "h5Index": 76
+        },
+        {
+          "id": "2025-028",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "asplos",
+          "title": "Architectural Support for Programming Languages and Operating Systems",
+          "rating": "최우수",
+          "h5Index": 71
+        },
+        {
+          "id": "2025-029",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "isscc",
+          "title": "IEEE International Solid-State Circuits Conference",
+          "rating": "최우수",
+          "h5Index": 66
+        },
+        {
+          "id": "2025-030",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sigcomm",
+          "title": "ACM Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+          "rating": "최우수",
+          "h5Index": 65
+        },
+        {
+          "id": "2025-031",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "globecom",
+          "title": "IEEE Global Communications Conference, workshop은 우수 등급으로 가늠",
+          "rating": "최우수",
+          "h5Index": 63
+        },
+        {
+          "id": "2025-032",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "isca",
+          "title": "International Symposium on Computer Architecture",
+          "rating": "최우수",
+          "h5Index": 62
+        },
+        {
+          "id": "2025-033",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "nsdi",
+          "title": "USENIX Networked Systems Design and Implementation",
+          "rating": "최우수",
+          "h5Index": 62
+        },
+        {
+          "id": "2025-034",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "micro",
+          "title": "International Symposium on Microarchitecture",
+          "rating": "최우수",
+          "h5Index": 61
+        },
+        {
+          "id": "2025-035",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ijcai",
+          "title": "International Joint Conference on Artificial Intelligence",
+          "rating": "우수",
+          "h5Index": 136
+        },
+        {
+          "id": "2025-036",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "naacl",
+          "title": "North American Chapter of the Association for Computational Linguistics",
+          "rating": "우수",
+          "h5Index": 132
+        },
+        {
+          "id": "2025-037",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "wacv",
+          "title": "IEEE Winter Conference on Applications of Computer Vision",
+          "rating": "우수",
+          "h5Index": 109
+        },
+        {
+          "id": "2025-038",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "wsdm",
+          "title": "ACM International Conference on Web Search and Data Mining",
+          "rating": "우수",
+          "h5Index": 77
+        },
+        {
+          "id": "2025-039",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "vldb",
+          "title": "Very Large Data Bases Conference",
+          "rating": "우수",
+          "h5Index": 75
+        },
+        {
+          "id": "2025-040",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ndss",
+          "title": "Network and Distributed System Security Symposium",
+          "rating": "우수",
+          "h5Index": 73
+        },
+        {
+          "id": "2025-041",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sigmod",
+          "title": "International Conference on Management of Data",
+          "rating": "우수",
+          "h5Index": 73
+        },
+        {
+          "id": "2025-042",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icde",
+          "title": "International Conference on Data Engineering",
+          "rating": "우수",
+          "h5Index": 69
+        },
+        {
+          "id": "2025-043",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "rss",
+          "title": "Robotics: Science and Systems Conference",
+          "rating": "우수",
+          "h5Index": 66
+        },
+        {
+          "id": "2025-044",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "icip",
+          "title": "IEEE International Conference on Image Processing",
+          "rating": "우수",
+          "h5Index": 66
+        },
+        {
+          "id": "2025-045",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "eurocrypt",
+          "title": "Theory and Application of Cryptographic Techniques",
+          "rating": "우수",
+          "h5Index": 63
+        },
+        {
+          "id": "2025-046",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "crypto",
+          "title": "International Cryptology Conference",
+          "rating": "우수",
+          "h5Index": 61
+        },
+        {
+          "id": "2025-047",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "isit",
+          "title": "IEEE International Symposium on Information Theory",
+          "rating": "우수",
+          "h5Index": 57
+        },
+        {
+          "id": "2025-048",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "usenix",
+          "title": "USENIX Annual Technical Conference",
+          "rating": "우수",
+          "h5Index": 56
+        },
+        {
+          "id": "2025-049",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "osdi",
+          "title": "USENIX Symposium on Operating Systems Design and Implementation (OSDI)",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2025-050",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ase",
+          "title": "International Conference on Automated Software Engineering, Knowledge-Based Software Engineering Conference",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2025-051",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "hri",
+          "title": "ACM/IEEE International Conference on Human Robot Interaction",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2025-052",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "bigdataconf",
+          "title": "IEEE International Conference on Big Data",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2025-053",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "UbiComp",
+          "title": "ACM International Conference on Ubiquitous Computing",
+          "rating": "우수",
+          "h5Index": 54
+        },
+        {
+          "id": "2025-054",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "recsys",
+          "title": "ACM Conference on Recommender Systems",
+          "rating": "우수",
+          "h5Index": 53
+        },
+        {
+          "id": "2025-055",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "dac",
+          "title": "Design Automation Conference",
+          "rating": "우수",
+          "h5Index": 52
+        },
+        {
+          "id": "2025-056",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "iui",
+          "title": "Intelligent User Interfaces",
+          "rating": "우수",
+          "h5Index": 52
+        },
+        {
+          "id": "2025-057",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "pldi",
+          "title": "SIGPLAN Conference on Programming Language Design and Implementation",
+          "rating": "우수",
+          "h5Index": 51
+        },
+        {
+          "id": "2025-058",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "uist",
+          "title": "User Interface Software and Technology",
+          "rating": "우수",
+          "h5Index": 51
+        },
+        {
+          "id": "2025-059",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sc",
+          "title": "ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis",
+          "rating": "우수",
+          "h5Index": 50
+        },
+        {
+          "id": "2025-060",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "hpca",
+          "title": "International Symposium on High-Performance Computer Architecture",
+          "rating": "우수",
+          "h5Index": 50
+        },
+        {
+          "id": "2025-061",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "eurosys",
+          "title": "European Conference on Computer Systems",
+          "rating": "우수",
+          "h5Index": 48
+        },
+        {
+          "id": "2025-062",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "embc",
+          "title": "Engineering in Medicine and Biology Conference",
+          "rating": "우수",
+          "h5Index": 48
+        },
+        {
+          "id": "2025-063",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "vtc",
+          "title": "IEEE Vehicular Technology Conference, VTC",
+          "rating": "우수",
+          "h5Index": 46
+        },
+        {
+          "id": "2025-064",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ICME",
+          "title": "IEEE International Conference on Multimedia and Expo",
+          "rating": "우수",
+          "h5Index": 46
+        },
+        {
+          "id": "2025-065",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "asru",
+          "title": "IEEE Workshop on Automatic Speech Recognition & Understanding",
+          "rating": "우수",
+          "h5Index": 45
+        },
+        {
+          "id": "2025-066",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "issta",
+          "title": "ACM International Symposium on Software Testing and Analysis",
+          "rating": "우수",
+          "h5Index": 45
+        },
+        {
+          "id": "2025-067",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "vr",
+          "title": "IEEE Virtual Reality Conference",
+          "rating": "우수",
+          "h5Index": 44
+        },
+        {
+          "id": "2025-068",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "fpga",
+          "title": "International Symposium on Field Programmable Gate Arrays",
+          "rating": "우수",
+          "h5Index": 40
+        },
+        {
+          "id": "2025-069",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sigmetrics",
+          "title": "ACM SIGMETRICS Measurement and Modeling of Computer Systems",
+          "rating": "우수",
+          "h5Index": 40
+        },
+        {
+          "id": "2025-070",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sosp",
+          "title": "ACM Symposium on Operating Systems Principles",
+          "rating": "우수",
+          "h5Index": 39
+        },
+        {
+          "id": "2025-071",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mobisys",
+          "title": "International Conference on Mobile Systems, Applications, and Services",
+          "rating": "우수",
+          "h5Index": 39
+        },
+        {
+          "id": "2025-072",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "sensys",
+          "title": "ACM Conference On Embedded Networked Sensor Systems",
+          "rating": "우수",
+          "h5Index": 39
+        },
+        {
+          "id": "2025-073",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "cav",
+          "title": "International Conference on Computer-Aided Verification",
+          "rating": "우수",
+          "h5Index": 38
+        },
+        {
+          "id": "2025-074",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "vlsi",
+          "title": "IEEE Symposium on VLSI Circuits and Technology",
+          "rating": "우수",
+          "h5Index": 34
+        },
+        {
+          "id": "2025-075",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "conext",
+          "title": "Conference on Emerging Network Experiment and Technology",
+          "rating": "우수",
+          "h5Index": 33
+        },
+        {
+          "id": "2025-076",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "bibm",
+          "title": "IEEE International Conference on Bioinformatics and Biomedicine",
+          "rating": "우수",
+          "h5Index": 32
+        },
+        {
+          "id": "2025-077",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ismar",
+          "title": "IEEE International Symposium on Mixed and Augmented Reality",
+          "rating": "우수",
+          "h5Index": 30
+        },
+        {
+          "id": "2025-078",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "EuCAP",
+          "title": "European Conference on Antennas and Propagation",
+          "rating": "우수",
+          "h5Index": 29
+        },
+        {
+          "id": "2025-079",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mmsys",
+          "title": "ACM Multimedia Systems Conference",
+          "rating": "우수",
+          "h5Index": 28
+        },
+        {
+          "id": "2025-080",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "IMS",
+          "title": "IEEE International Microwave Symposium",
+          "rating": "우수",
+          "h5Index": 27
+        },
+        {
+          "id": "2025-081",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ccnc",
+          "title": "IEEE Consumer Communications and Networking Conference",
+          "rating": "우수",
+          "h5Index": 27
+        },
+        {
+          "id": "2025-082",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "cgo",
+          "title": "International Symposium on Code Generation and Optimization",
+          "rating": "우수",
+          "h5Index": 26
+        },
+        {
+          "id": "2025-083",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "humanoids",
+          "title": "IEEE International Conference on Humanoid Robots",
+          "rating": "우수",
+          "h5Index": 26
+        },
+        {
+          "id": "2025-084",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mobicom",
+          "title": "ACM International Conference on Mobile Computing and Networking",
+          "rating": "우수",
+          "h5Index": 25
+        },
+        {
+          "id": "2025-085",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "siggrapha",
+          "title": "ACM SIGGRAPH Conference in Asia",
+          "rating": "우수",
+          "h5Index": 25
+        },
+        {
+          "id": "2025-086",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "RFIC",
+          "title": "Radio Frequency Integrated Circuit Symposia",
+          "rating": "우수",
+          "h5Index": 25
+        },
+        {
+          "id": "2025-087",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "iTherm",
+          "title": "Int. Conf. on Thermal and Thermomechanical Phenomena in Electronic Systems (iTherm)",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2025-088",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "mlsys",
+          "title": "Conference on Machine Learning and Systems",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2025-089",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "SID",
+          "title": "SID DISPLAYWEEK",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2025-090",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "SPIEopto",
+          "title": "SIPE PhotonicWest",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2025-091",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "APEC",
+          "title": "Applied Power Electronics Conference and Exposition",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2025-092",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "SPIEarvrmr",
+          "title": "SPIE ARVRMR",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2025-093",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "MRS",
+          "title": "Materials Research Society Meeting",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2025-094",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "APS",
+          "title": "American Physical Society Meeting",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2025-095",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "EFFT",
+          "title": "European Federation of FoodScience and Technology International conference",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2025-096",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ACS",
+          "title": "ACS Meeting (Spring / Fall)",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2025-097",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "IIR",
+          "title": "International Institute of Refrigeration Conference",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2025-098",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "IFT",
+          "title": "IFT FIRST Annual Event and Expo",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2025-099",
+          "field": "",
+          "subfield": "",
+          "abbreviation": "ict",
+          "title": "International Conference on Thermoelectrics",
+          "rating": "우수",
+          "h5Index": null
+        }
+      ]
+    },
+    {
+      "key": "2024",
+      "label": "2024년",
+      "note": "2024년 컨퍼런스 리스트",
+      "conferences": [
+        {
+          "id": "2024-001",
+          "field": "System/OS",
+          "subfield": "Computer Architecture",
+          "abbreviation": "HPCA",
+          "title": "International Symposium on High-Performance Computer Architecture",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-002",
+          "field": "System/OS",
+          "subfield": "Computer Architecture",
+          "abbreviation": "SC",
+          "title": "ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-003",
+          "field": "System/OS",
+          "subfield": "Computer Architecture",
+          "abbreviation": "ISCA",
+          "title": "International Symposium on Computer Architecture",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-004",
+          "field": "System/OS",
+          "subfield": "Computer Architecture",
+          "abbreviation": "ASPLOS",
+          "title": "Architectural Support for Programming Languages and Operating Systems",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-005",
+          "field": "System/OS",
+          "subfield": "Operating System",
+          "abbreviation": "EUROSYS",
+          "title": "European Conference on Computer Systems",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-006",
+          "field": "System/OS",
+          "subfield": "Operating System",
+          "abbreviation": "USENIX ATC",
+          "title": "USENIX Annual Technical Conference",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-007",
+          "field": "System/OS",
+          "subfield": "Operating System",
+          "abbreviation": "USENIX OSDI",
+          "title": "USENIX Symposium on Operating Systems Design and Implementation",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-008",
+          "field": "System/OS",
+          "subfield": "Operating System",
+          "abbreviation": "SOSP",
+          "title": "ACM Symposium on Operating Systems Principles",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-009",
+          "field": "Intelligence",
+          "subfield": "AI General",
+          "abbreviation": "IJCAI",
+          "title": "International Joint Conference on Artificial Intelligence",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-010",
+          "field": "Intelligence",
+          "subfield": "AI General",
+          "abbreviation": "ICML",
+          "title": "International Conference on Machine Learning",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-011",
+          "field": "Intelligence",
+          "subfield": "AI General",
+          "abbreviation": "AAAI",
+          "title": "National Conference on Artificial Intelligence",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-012",
+          "field": "Intelligence",
+          "subfield": "Machine Learning",
+          "abbreviation": "ICLR",
+          "title": "International Conference on Learning Representation",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-013",
+          "field": "Intelligence",
+          "subfield": "Machine Learning",
+          "abbreviation": "NeurIPS",
+          "title": "Neural Information Processing Systems",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-014",
+          "field": "Intelligence",
+          "subfield": "NLP",
+          "abbreviation": "NAACL/HLT",
+          "title": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-015",
+          "field": "Intelligence",
+          "subfield": "NLP",
+          "abbreviation": "EMNLP",
+          "title": "Conference on Empirical Methods in Natural Language Processing",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-016",
+          "field": "Intelligence",
+          "subfield": "NLP",
+          "abbreviation": "ACL",
+          "title": "Association for Computational Linguistics",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-017",
+          "field": "Intelligence",
+          "subfield": "Speech",
+          "abbreviation": "ASRU",
+          "title": "IEEE Workshop on Automatic Speech Recognition & Understanding",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-018",
+          "field": "Intelligence",
+          "subfield": "Speech",
+          "abbreviation": "SemEval",
+          "title": "International Workshop on Semantic Evaluation",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-019",
+          "field": "Intelligence",
+          "subfield": "Speech",
+          "abbreviation": "INTERSPEECH",
+          "title": "Annual Conference of the International Speech Communication Association",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-020",
+          "field": "Intelligence",
+          "subfield": "Speech",
+          "abbreviation": "ICASSP",
+          "title": "International Conference on Acoustics, Speech, and Signal Processing",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-021",
+          "field": "Intelligence",
+          "subfield": "Video/Image processing",
+          "abbreviation": "ICIP",
+          "title": "IEEE International Conference on Image Processing",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-022",
+          "field": "Intelligence",
+          "subfield": "Video/Image processing",
+          "abbreviation": "BMVC",
+          "title": "British Machine Vision Conference",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-023",
+          "field": "Intelligence",
+          "subfield": "Video/Image processing",
+          "abbreviation": "WACV",
+          "title": "IEEE Winter Conference on Applications of Computer Vision",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-024",
+          "field": "Intelligence",
+          "subfield": "Vision",
+          "abbreviation": "ECCV",
+          "title": "European Conference on Computer Vision",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-025",
+          "field": "Intelligence",
+          "subfield": "Vision",
+          "abbreviation": "ICCV",
+          "title": "International Conference on Computer Vision",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-026",
+          "field": "Intelligence",
+          "subfield": "Vision",
+          "abbreviation": "CVPR",
+          "title": "Computer Vision and Pattern Recognition",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-027",
+          "field": "Data",
+          "subfield": "Data & Information Retrieval",
+          "abbreviation": "RecSys",
+          "title": "ACM Conference on Recommender Systems",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-028",
+          "field": "Data",
+          "subfield": "Data & Information Retrieval",
+          "abbreviation": "CIKM",
+          "title": "International Conference on Information and Knowledge Management",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-029",
+          "field": "Data",
+          "subfield": "Data Engineering & System",
+          "abbreviation": "ICDE",
+          "title": "International Conference on Data Engineering",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-030",
+          "field": "Data",
+          "subfield": "Data Engineering & System",
+          "abbreviation": "BIGDATA",
+          "title": "IEEE International Conference on BigData",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-031",
+          "field": "Data",
+          "subfield": "Data Engineering & System",
+          "abbreviation": "VLDB/PVLDB",
+          "title": "International Conference on Very Large DataBases",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-032",
+          "field": "Data",
+          "subfield": "Data Management System",
+          "abbreviation": "SIGMOD",
+          "title": "International Conference on Management of Data",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-033",
+          "field": "Data",
+          "subfield": "Data Management System",
+          "abbreviation": "WWW",
+          "title": "World Wide Web Conference Series",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-034",
+          "field": "Data",
+          "subfield": "Data Mining & Analysis",
+          "abbreviation": "ICDM",
+          "title": "IEEE International Conference on Data Mining",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-035",
+          "field": "Data",
+          "subfield": "Data Mining & Analysis",
+          "abbreviation": "WSDM",
+          "title": "ACM International Conference on Web Search and Data Mining",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-036",
+          "field": "Data",
+          "subfield": "Data Mining & Analysis",
+          "abbreviation": "SIGKDD",
+          "title": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-037",
+          "field": "Network & Communications",
+          "subfield": "Communication Applications and Services",
+          "abbreviation": "CCNC",
+          "title": "IEEE Consumer Communications and Networking Conference",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-038",
+          "field": "Network & Communications",
+          "subfield": "Communication Applications and Services",
+          "abbreviation": "MobiSys",
+          "title": "International Conference on Mobile Systems, Applications, and Services",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-039",
+          "field": "Network & Communications",
+          "subfield": "Networking",
+          "abbreviation": "WCNC",
+          "title": "IEEE Wireless Communications and Networking Conference",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-040",
+          "field": "Network & Communications",
+          "subfield": "Networking",
+          "abbreviation": "MOBICOM",
+          "title": "ACM International Conference on Mobile Computing and Networking",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-041",
+          "field": "Network & Communications",
+          "subfield": "Networking",
+          "abbreviation": "INFOCOM",
+          "title": "IEEE Conference on Computer Communications",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-042",
+          "field": "Network & Communications",
+          "subfield": "Wireless Communications",
+          "abbreviation": "VTC",
+          "title": "IEEE Vehicular Technology Conference, VTC",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-043",
+          "field": "Network & Communications",
+          "subfield": "Wireless Communications",
+          "abbreviation": "ICC",
+          "title": "IEEE International Conference on Communications본 학술대회의 Workshop은 우수 등급으로 가늠",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-044",
+          "field": "Network & Communications",
+          "subfield": "Wireless Communications",
+          "abbreviation": "GLOBECOM",
+          "title": "IEEE Global Communications Conference본 학술대회의 Workshop은 우수 등급으로 가늠",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-045",
+          "field": "Security",
+          "subfield": "Crypto",
+          "abbreviation": "EUROCRYPT",
+          "title": "Theory and Application of Cryptographic Techniques",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-046",
+          "field": "Security",
+          "subfield": "Crypto",
+          "abbreviation": "CRYPTO",
+          "title": "International Cryptology Conference",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-047",
+          "field": "Security",
+          "subfield": "Security General",
+          "abbreviation": "CCS",
+          "title": "ACM Symposium on Computer and Communications Security",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-048",
+          "field": "Security",
+          "subfield": "Security General",
+          "abbreviation": "USENIX Security",
+          "title": "USENIX Security Symposium",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-049",
+          "field": "Security",
+          "subfield": "Security General",
+          "abbreviation": "SP",
+          "title": "IEEE Symposium on Security and Privacy",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-050",
+          "field": "Programming & SE",
+          "subfield": "Software Engineering",
+          "abbreviation": "FSE",
+          "title": "ACM SIGSOFT International Symposium on the Foundations of Software Engineering",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-051",
+          "field": "Programming & SE",
+          "subfield": "Software Engineering",
+          "abbreviation": "ICSE",
+          "title": "International Conference on Software Engineering",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-052",
+          "field": "Programming & SE",
+          "subfield": "Software Engineering",
+          "abbreviation": "ASE",
+          "title": "IEEE/ACM International Conference on Automated Software Engineering",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-053",
+          "field": "Programming & SE",
+          "subfield": "Programming Language",
+          "abbreviation": "CGO",
+          "title": "International Symposium on Code Generation and Optimization",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-054",
+          "field": "Programming & SE",
+          "subfield": "Programming Language",
+          "abbreviation": "OOPSLA",
+          "title": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-055",
+          "field": "Programming & SE",
+          "subfield": "Programming Language",
+          "abbreviation": "PPoPP",
+          "title": "Principles and Practice of Parallel Programming",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-056",
+          "field": "Programming & SE",
+          "subfield": "Programming Language",
+          "abbreviation": "PLDI",
+          "title": "SIGPLAN Conference on Programming Language Design and Implementation",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-057",
+          "field": "Human-Computer Interaction & Graphics",
+          "subfield": "3D Computer Graphics",
+          "abbreviation": "VAST",
+          "title": "IEEE Symposium on Visual Analytics Science and Technology",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-058",
+          "field": "Human-Computer Interaction & Graphics",
+          "subfield": "3D Computer Graphics",
+          "abbreviation": "SIGGRAPH-ASIA",
+          "title": "ACM SIGGRAPH Conference in Asia",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-059",
+          "field": "Human-Computer Interaction & Graphics",
+          "subfield": "3D Computer Graphics",
+          "abbreviation": "SIGGRAPH",
+          "title": "ACM SIGGRAPH Conference",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-060",
+          "field": "Human-Computer Interaction & Graphics",
+          "subfield": "Multimedia",
+          "abbreviation": "ICME",
+          "title": "IEEE International Conference on Multimedia and Expo",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-061",
+          "field": "Human-Computer Interaction & Graphics",
+          "subfield": "Multimedia",
+          "abbreviation": "Mmsys",
+          "title": "ACM Multimedia Systems Conference",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-062",
+          "field": "Human-Computer Interaction & Graphics",
+          "subfield": "Multimedia",
+          "abbreviation": "ACM MM",
+          "title": "ACM Multimedia Conference",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-063",
+          "field": "Human-Computer Interaction & Graphics",
+          "subfield": "UX General",
+          "abbreviation": "DIS",
+          "title": "Designing Interactive Systems",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-064",
+          "field": "Human-Computer Interaction & Graphics",
+          "subfield": "UX General",
+          "abbreviation": "UbiComp",
+          "title": "ACM International Conference on Ubiquitous Computing",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-065",
+          "field": "Human-Computer Interaction & Graphics",
+          "subfield": "UX General",
+          "abbreviation": "CHI",
+          "title": "International Conference on Human Factors in Computing Systems",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-066",
+          "field": "Algorithms & Theory",
+          "subfield": "Algorithms & Theory",
+          "abbreviation": "FOCS",
+          "title": "IEEE Symposium on Foundations of Computer Science",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-067",
+          "field": "Algorithms & Theory",
+          "subfield": "Algorithms & Theory",
+          "abbreviation": "SODA",
+          "title": "ACM-SIAM Symposium on Discrete Algorithms",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-068",
+          "field": "Algorithms & Theory",
+          "subfield": "Algorithms & Theory",
+          "abbreviation": "STOC",
+          "title": "ACM Symposium on Theory of Computing",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-069",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "Chip Design",
+          "abbreviation": "VLSI",
+          "title": "IEEE Symposium on VLSI Circuits and Technology",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-070",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "Chip Design",
+          "abbreviation": "MICRO",
+          "title": "International Symposium on Microarchitecture",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-071",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "Chip Design",
+          "abbreviation": "DAC",
+          "title": "Design Automation Conference",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-072",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "Display device",
+          "abbreviation": "AES",
+          "title": "Audio engineering society convention",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-073",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "Display device",
+          "abbreviation": "SID",
+          "title": "Display Week",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-074",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "Display device",
+          "abbreviation": "Photonics West",
+          "title": "Photonics West",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-075",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "Display device",
+          "abbreviation": "SPIE AR, VR, MR",
+          "title": "SPIE AR, VR, MR",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-076",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "RF & Antennas",
+          "abbreviation": "IMS",
+          "title": "IEEE/MTT-S International Microwave Symposium",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-077",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "RF & Antennas",
+          "abbreviation": "APEC",
+          "title": "IEEE Applied Power Electronics Conference and Exposition",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-078",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "RF & Antennas",
+          "abbreviation": "RFIC",
+          "title": "IEEE Radio Frequency Integrated Circuits Symposium",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-079",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "RF & Antennas",
+          "abbreviation": "EuCAP",
+          "title": "European Conference on Antennas and Propagation",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-080",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "Robot _Control",
+          "abbreviation": "ICRA",
+          "title": "IEEE International Conference on Robotics and Automation",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-081",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "Robot _Control",
+          "abbreviation": "RSS",
+          "title": "Robotics: Science and Systems Conference",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-082",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "Robot_HRI",
+          "abbreviation": "DATE",
+          "title": "Design Automation and Test in Europe Conference",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-083",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "Robot_HRI",
+          "abbreviation": "HRI",
+          "title": "ACM/IEEE International Conference on Human Robot Interaction",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-084",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "Robot_System",
+          "abbreviation": "IROS",
+          "title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-085",
+          "field": "Hardware, Robotics & Electronics",
+          "subfield": "Robot_System",
+          "abbreviation": "ISSCC",
+          "title": "IEEE International Solid-State Circuits Conference",
+          "rating": "최우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-086",
+          "field": "Health, Digital Health & Biometrics",
+          "subfield": "Health",
+          "abbreviation": "IEEE BHI&BSN",
+          "title": "IEEE-EMBS International Conference on Biomedical and Health Informatics(BHI) and the Body Sensor Networks(BSN) Conferences",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-087",
+          "field": "Health, Digital Health & Biometrics",
+          "subfield": "Health",
+          "abbreviation": "EMBC",
+          "title": "Engineering in Medicine and Biology Conference",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-088",
+          "field": "Mechanics & Chemistry",
+          "subfield": "Chemistry",
+          "abbreviation": "ESC",
+          "title": "ESC Meeting Fall",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-089",
+          "field": "Mechanics & Chemistry",
+          "subfield": "Chemistry",
+          "abbreviation": "IWTC",
+          "title": "International Water Technology Conference",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-090",
+          "field": "Mechanics & Chemistry",
+          "subfield": "Food Science",
+          "abbreviation": "IFT",
+          "title": "IFT FIRST Annual Event and Expo",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-091",
+          "field": "Mechanics & Chemistry",
+          "subfield": "Thermoelecronics",
+          "abbreviation": "ECCE",
+          "title": "IEEE Energy Conversion Congress and Exposition",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-092",
+          "field": "Mechanics & Chemistry",
+          "subfield": "Thermoelecronics",
+          "abbreviation": "Therminic",
+          "title": "International Workshop on Thermal Investigations of ICs and Systems (Therminic)",
+          "rating": "우수",
+          "h5Index": null
+        },
+        {
+          "id": "2024-093",
+          "field": "Mechanics & Chemistry",
+          "subfield": "Thermoelecronics",
+          "abbreviation": "iTherm",
+          "title": "Int. Conf. on Thermal and Thermomechanical Phenomena in Electronic Systems (iTherm)",
+          "rating": "최우수",
+          "h5Index": null
+        }
+      ]
+    }
+  ]
+}
