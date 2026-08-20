@@ -52,12 +52,19 @@
     dashMonth: null, // 월별 현황에서 선택한 "YYYY-MM"
     paperConf: null, // 논문 수 패널에서 선택한 학회 id
     paperYear: null, // 논문 패널에서 선택한 연도(국가 상세용)
+    journals: [],
+    dashboardKind: "conference",
+    conferenceHistory: [],
+    conferenceYear: "2026-h2",
   };
 
   const $ = (sel) => document.querySelector(sel);
+  const escapeHtml = (value) => String(value).replace(/[&<>'"]/g, (char) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;",
+  })[char]);
 
   // 뷰별 직접 접속 주소: #calendar, #list, #dashboard
-  const VIEW_HASHES = { calendar: "#calendar", list: "#list", dashboard: "#dashboard" };
+  const VIEW_HASHES = { calendar: "#calendar", list: "#list", dashboard: "#dashboard", journals: "#journals" };
 
   function viewFromHash() {
     const h = location.hash;
@@ -67,6 +74,9 @@
   function setView(view, updateHash) {
     if (!VIEW_HASHES[view]) return;
     state.view = view;
+    $("#conference-search").placeholder = view === "journals"
+      ? "저널명 검색 (예: Nature, IEEE Transactions)"
+      : t("search.placeholder");
     document.querySelectorAll(".view-btn").forEach((b) => {
       const on = b.dataset.view === view;
       b.classList.toggle("active", on);
@@ -83,15 +93,21 @@
     fetch("data/conferences.json").then((r) => r.json()),
     fetch("data/paper_stats.json").then((r) => (r.ok ? r.json() : null)).catch(() => null),
     fetch("data/paper_countries.json").then((r) => (r.ok ? r.json() : null)).catch(() => null),
+    fetch("data/journals.json").then((r) => r.json()),
+    fetch("data/conference_history.json").then((r) => r.json()),
   ])
-    .then(([data, paperStats, paperCountries]) => {
+    .then(([data, paperStats, paperCountries, journalData, conferenceHistory]) => {
       state.data = data;
       state.paperStats = paperStats;
       state.paperCountries = paperCountries;
+      state.journals = journalData.journals || [];
+      state.conferenceHistory = conferenceHistory.versions || [];
       state.events = flatten(data.conferences);
       renderUpdatedAt();
       buildFieldChips();
       bindControls();
+      buildJournalFilters();
+      buildConferenceYearFilter();
       const hashView = viewFromHash();
       if (hashView) setView(hashView, false);
       else render();
@@ -233,8 +249,26 @@
       render();
     });
 
+    $("#conference-year").addEventListener("change", (e) => {
+      state.conferenceYear = e.target.value;
+      state.page = 1;
+      renderBoard();
+    });
+
     document.querySelectorAll(".view-btn").forEach((btn) => {
       btn.addEventListener("click", () => setView(btn.dataset.view));
+    });
+
+    $(".dashboard-kind-toggle").addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-dashboard-kind]");
+      if (!btn) return;
+      state.dashboardKind = btn.dataset.dashboardKind;
+      $(".dashboard-kind-toggle").querySelectorAll("button").forEach((item) => {
+        const active = item === btn;
+        item.classList.toggle("active", active);
+        item.setAttribute("aria-selected", active ? "true" : "false");
+      });
+      renderDashboard();
     });
 
     // 주소창에서 해시를 바꾸거나 뒤로/앞으로 이동해도 뷰가 따라간다
@@ -286,12 +320,16 @@
   // ── 렌더링 ───────────────────────────────
   function render() {
     const isDash = state.view === "dashboard";
-    const isSearch = !isDash && state.query.length > 0;
+    const isJournal = state.view === "journals";
+    const isSearch = !isDash && !isJournal && state.view !== "list" && state.query.length > 0;
     const isCal = state.view === "calendar";
     $("#search-view").hidden = !isSearch;
-    $("#calendar-view").hidden = isDash || isSearch || !isCal;
-    $("#list-view").hidden = isDash || isSearch || isCal;
+    $("#calendar-view").hidden = isDash || isJournal || isSearch || !isCal;
+    $("#list-view").hidden = isDash || isJournal || isSearch || isCal;
     $("#dashboard-view").hidden = !isDash;
+    $("#journal-view").hidden = !isJournal;
+    $("#status-filter").closest(".control-row").hidden = isJournal || state.view === "list";
+    $("#field-filter").closest(".control-row").hidden = isJournal;
     document.querySelector(".controls").classList.toggle("dash-mode", isDash);
     document.querySelector(".controls").classList.toggle("cal-mode", isCal && !isSearch);
     $("#empty-msg").hidden = true;
@@ -299,6 +337,7 @@
       renderDashboard();
       return;
     }
+    if (isJournal) { renderJournals(); return; }
     if (isSearch) {
       renderSearchResults();
       return;
@@ -309,6 +348,31 @@
     } else {
       renderBoard();
     }
+  }
+
+  function buildJournalFilters() {
+    const select = $("#journal-field");
+    [...new Set(state.journals.map((j) => j.field))].forEach((field) => {
+      const option = document.createElement("option");
+      option.value = field; option.textContent = field; select.appendChild(option);
+    });
+    select.addEventListener("change", renderJournals);
+    $("#journal-rating").addEventListener("change", renderJournals);
+  }
+
+  function renderJournals() {
+    const field = $("#journal-field").value;
+    const rating = $("#journal-rating").value;
+    const rows = state.journals.filter((j) =>
+      (field === "all" || j.field === field) &&
+      (rating === "all" || j.rating === rating) &&
+      (!state.query || j.title.toLocaleLowerCase().includes(state.query))
+    );
+    $("#journal-count").textContent = `${rows.length}개 저널`;
+    $("#journal-body").innerHTML = rows.map((j) => `<tr>
+      <td>${escapeHtml(j.field)}</td><td><span class="rating-badge ${j.rating === "최우수" ? "rating-top" : "rating-good"}">${j.rating}</span></td>
+      <td class="journal-title">${escapeHtml(j.title)}</td><td>${j.sjr == null ? "—" : Number(j.sjr).toFixed(2)}</td>
+    </tr>`).join("");
   }
 
   function renderSearchResults() {
@@ -477,6 +541,22 @@
     return conf.name.replace(/\s+\d{4}$/, "");
   }
 
+  function displayAbbreviation(value) {
+    return String(value || "").toLocaleUpperCase("en-US");
+  }
+
+  function buildConferenceYearFilter() {
+    const select = $("#conference-year");
+    select.innerHTML = "";
+    state.conferenceHistory.forEach((version) => {
+      const option = document.createElement("option");
+      option.value = version.key;
+      option.textContent = `${version.label} (${version.conferences.length}개)`;
+      select.appendChild(option);
+    });
+    select.value = state.conferenceYear;
+  }
+
   // 학회 id → 게시판 번호(등급별 일련번호). 필터와 무관하게 번호가 고정되도록 전체 목록 기준으로 1회 생성
   let boardIndex = null;
   function buildBoardIndex() {
@@ -503,6 +583,11 @@
   }
 
   function renderBoard() {
+    const historical = state.conferenceHistory.find((version) => version.key === state.conferenceYear);
+    if (historical) {
+      renderHistoricalBoard(historical);
+      return;
+    }
     if (!boardIndex) buildBoardIndex();
     const confs = (state.data.conferences || []).filter((conf) => {
       if (state.field !== "all" && conf.field !== state.field) return false;
@@ -536,7 +621,7 @@
         <td class="board-no">${idx.no}</td>
         <td><span class="badge-cat ${isAI ? "cat-ai" : "cat-cs"}">${isAI ? "AI" : "CS"}</span></td>
         <td class="board-sub">${SUBFIELD_CODE[conf.field] || "Etc"}</td>
-        <td class="board-abbr">${abbrOf(conf)}</td>
+        <td class="board-abbr">${escapeHtml(displayAbbreviation(abbrOf(conf)))}</td>
         <td class="board-name"><a href="${conf.url}" target="_blank" rel="noopener">${conf.fullName} <span aria-hidden="true">↗</span></a></td>
         <td><span class="grade-badge grade-${idx.letter.toLowerCase()}" title="${conf.rating || ""}">${idx.letter}</span></td>
         <td class="board-note">${noteKey ? t(noteKey) : ""}</td>`;
@@ -546,6 +631,38 @@
       body.appendChild(tr);
     });
 
+    renderBoardPager(totalPages);
+  }
+
+  function renderHistoricalBoard(version) {
+    const query = state.query;
+    const rows = version.conferences.filter((conf) => {
+      if (query && !`${conf.abbreviation} ${conf.title}`.toLocaleLowerCase().includes(query)) return false;
+      if (state.field !== "all" && conf.fieldKey !== state.field) return false;
+      return true;
+    });
+    $("#board-heading").textContent = t("board.heading.count", { n: rows.length });
+    $("#board-version-note").textContent = t("board.sourceNote", { note: version.note });
+    const totalPages = Math.max(1, Math.ceil(rows.length / state.pageSize));
+    state.page = Math.min(Math.max(state.page, 1), totalPages);
+    const start = (state.page - 1) * state.pageSize;
+    const body = $("#board-body");
+    body.innerHTML = "";
+    rows.slice(start, start + state.pageSize).forEach((conf, offset) => {
+      const letter = GRADE_LETTER[conf.rating] || "B";
+      const category = conf.field || "—";
+      const subfield = conf.subfield || "—";
+      const note = conf.h5Index == null ? "" : `h5-index: ${conf.h5Index}`;
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td class="board-no">${version.key}-${String(start + offset + 1).padStart(3, "0")}</td>
+        <td>${escapeHtml(category)}</td><td class="board-sub">${escapeHtml(subfield)}</td>
+        <td class="board-abbr">${escapeHtml(displayAbbreviation(conf.abbreviation))}</td>
+        <td class="board-name">${escapeHtml(conf.title)}</td>
+        <td><span class="grade-badge grade-${letter.toLowerCase()}" title="${escapeHtml(conf.rating)}">${letter}</span></td>
+        <td class="board-note">${note}</td>`;
+      body.appendChild(tr);
+    });
+    if (rows.length === 0) body.innerHTML = `<tr><td colspan="7"><p class="empty">${t("board.empty")}</p></td></tr>`;
     renderBoardPager(totalPages);
   }
 
@@ -786,11 +903,66 @@
   }
 
   function renderDashboard() {
+    const journalMode = state.dashboardKind === "journal";
+    $("#conference-dashboard").hidden = journalMode;
+    $("#journal-dashboard").hidden = !journalMode;
+    if (journalMode) {
+      renderJournalDashboard();
+      return;
+    }
     renderDashTiles();
     renderDomainChart();
     renderMonthChart();
     renderKoreaPanel();
     renderPaperPanel();
+  }
+
+  function journalDomainCounts() {
+    const counts = {};
+    state.journals.forEach((journal) => {
+      const row = (counts[journal.field] ||= { top: 0, good: 0 });
+      row[journal.rating === RATING_TOP ? "top" : "good"] += 1;
+    });
+    return Object.entries(counts).map(([field, row]) => ({
+      field, ...row, total: row.top + row.good,
+    })).sort((a, b) => b.total - a.total);
+  }
+
+  function renderJournalDashboard() {
+    const journals = state.journals;
+    const top = journals.filter((journal) => journal.rating === RATING_TOP).length;
+    const withSjr = journals.filter((journal) => Number.isFinite(journal.sjr));
+    const avgSjr = withSjr.reduce((sum, journal) => sum + journal.sjr, 0) / withSjr.length;
+    const tiles = [
+      ["전체 저널", fmtNum(journals.length), `${new Set(journals.map((journal) => journal.field)).size}개 분야`],
+      [t("rating.top"), fmtNum(top), `${Math.round(top / journals.length * 100)}%`],
+      [t("rating.good"), fmtNum(journals.length - top), `${Math.round((journals.length - top) / journals.length * 100)}%`],
+      ["평균 SJR", avgSjr.toFixed(2), `SJR 제공 ${fmtNum(withSjr.length)}개`],
+    ];
+    $("#journal-dash-tiles").innerHTML = tiles.map(([label, value, sub]) =>
+      `<div class="dash-tile"><div class="tile-label">${label}</div><div class="tile-value">${value}</div><div class="tile-sub">${sub}</div></div>`
+    ).join("");
+
+    const rows = journalDomainCounts();
+    const max = Math.max(...rows.map((row) => row.total), 1);
+    $("#journal-domain-chart").innerHTML = rows.map((row) => `<div class="domain-row">
+      <span class="domain-label" title="${escapeHtml(row.field)}">${escapeHtml(row.field)}</span>
+      <div class="domain-track"><div class="domain-bar" style="width:${row.total / max * 100}%">
+        ${row.top ? `<div class="seg seg-top" style="flex-grow:${row.top}"></div>` : ""}
+        ${row.good ? `<div class="seg seg-good" style="flex-grow:${row.good}"></div>` : ""}
+      </div></div><span class="domain-total">${row.total}</span></div>`).join("");
+    const fieldTable = $("#journal-domain-table");
+    fieldTable.innerHTML = "";
+    fieldTable.appendChild(tableRow([t("field.label"), t("rating.top"), t("rating.good"), t("dash.total")], "th"));
+    rows.forEach((row) => fieldTable.appendChild(tableRow([row.field, row.top, row.good, row.total])));
+
+    const ranked = [...withSjr].sort((a, b) => b.sjr - a.sjr).slice(0, 15);
+    const rankTable = $("#journal-rank-table");
+    rankTable.innerHTML = "";
+    rankTable.appendChild(tableRow(["#", "Journal Title", t("field.label"), t("board.rating"), "SJR"], "th"));
+    ranked.forEach((journal, index) => rankTable.appendChild(tableRow([
+      index + 1, journal.title, journal.field, t(journal.rating === RATING_TOP ? "rating.top" : "rating.good"), journal.sjr.toFixed(2),
+    ])));
   }
 
   // ── 대시보드: 한국 개최 학회 현황 ──
