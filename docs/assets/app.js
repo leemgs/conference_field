@@ -53,6 +53,7 @@
     paperConf: null, // 논문 수 패널에서 선택한 학회 id
     paperYear: null, // 논문 패널에서 선택한 연도(국가 상세용)
     journals: [],
+    dashboardKind: "conference",
   };
 
   const $ = (sel) => document.querySelector(sel);
@@ -245,6 +246,18 @@
 
     document.querySelectorAll(".view-btn").forEach((btn) => {
       btn.addEventListener("click", () => setView(btn.dataset.view));
+    });
+
+    $(".dashboard-kind-toggle").addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-dashboard-kind]");
+      if (!btn) return;
+      state.dashboardKind = btn.dataset.dashboardKind;
+      $(".dashboard-kind-toggle").querySelectorAll("button").forEach((item) => {
+        const active = item === btn;
+        item.classList.toggle("active", active);
+        item.setAttribute("aria-selected", active ? "true" : "false");
+      });
+      renderDashboard();
     });
 
     // 주소창에서 해시를 바꾸거나 뒤로/앞으로 이동해도 뷰가 따라간다
@@ -826,11 +839,66 @@
   }
 
   function renderDashboard() {
+    const journalMode = state.dashboardKind === "journal";
+    $("#conference-dashboard").hidden = journalMode;
+    $("#journal-dashboard").hidden = !journalMode;
+    if (journalMode) {
+      renderJournalDashboard();
+      return;
+    }
     renderDashTiles();
     renderDomainChart();
     renderMonthChart();
     renderKoreaPanel();
     renderPaperPanel();
+  }
+
+  function journalDomainCounts() {
+    const counts = {};
+    state.journals.forEach((journal) => {
+      const row = (counts[journal.field] ||= { top: 0, good: 0 });
+      row[journal.rating === RATING_TOP ? "top" : "good"] += 1;
+    });
+    return Object.entries(counts).map(([field, row]) => ({
+      field, ...row, total: row.top + row.good,
+    })).sort((a, b) => b.total - a.total);
+  }
+
+  function renderJournalDashboard() {
+    const journals = state.journals;
+    const top = journals.filter((journal) => journal.rating === RATING_TOP).length;
+    const withSjr = journals.filter((journal) => Number.isFinite(journal.sjr));
+    const avgSjr = withSjr.reduce((sum, journal) => sum + journal.sjr, 0) / withSjr.length;
+    const tiles = [
+      ["전체 저널", fmtNum(journals.length), `${new Set(journals.map((journal) => journal.field)).size}개 분야`],
+      [t("rating.top"), fmtNum(top), `${Math.round(top / journals.length * 100)}%`],
+      [t("rating.good"), fmtNum(journals.length - top), `${Math.round((journals.length - top) / journals.length * 100)}%`],
+      ["평균 SJR", avgSjr.toFixed(2), `SJR 제공 ${fmtNum(withSjr.length)}개`],
+    ];
+    $("#journal-dash-tiles").innerHTML = tiles.map(([label, value, sub]) =>
+      `<div class="dash-tile"><div class="tile-label">${label}</div><div class="tile-value">${value}</div><div class="tile-sub">${sub}</div></div>`
+    ).join("");
+
+    const rows = journalDomainCounts();
+    const max = Math.max(...rows.map((row) => row.total), 1);
+    $("#journal-domain-chart").innerHTML = rows.map((row) => `<div class="domain-row">
+      <span class="domain-label" title="${escapeHtml(row.field)}">${escapeHtml(row.field)}</span>
+      <div class="domain-track"><div class="domain-bar" style="width:${row.total / max * 100}%">
+        ${row.top ? `<div class="seg seg-top" style="flex-grow:${row.top}"></div>` : ""}
+        ${row.good ? `<div class="seg seg-good" style="flex-grow:${row.good}"></div>` : ""}
+      </div></div><span class="domain-total">${row.total}</span></div>`).join("");
+    const fieldTable = $("#journal-domain-table");
+    fieldTable.innerHTML = "";
+    fieldTable.appendChild(tableRow([t("field.label"), t("rating.top"), t("rating.good"), t("dash.total")], "th"));
+    rows.forEach((row) => fieldTable.appendChild(tableRow([row.field, row.top, row.good, row.total])));
+
+    const ranked = [...withSjr].sort((a, b) => b.sjr - a.sjr).slice(0, 15);
+    const rankTable = $("#journal-rank-table");
+    rankTable.innerHTML = "";
+    rankTable.appendChild(tableRow(["#", "Journal Title", t("field.label"), t("board.rating"), "SJR"], "th"));
+    ranked.forEach((journal, index) => rankTable.appendChild(tableRow([
+      index + 1, journal.title, journal.field, t(journal.rating === RATING_TOP ? "rating.top" : "rating.good"), journal.sjr.toFixed(2),
+    ])));
   }
 
   // ── 대시보드: 한국 개최 학회 현황 ──

@@ -594,6 +594,15 @@ a { color: var(--accent); }
 /* ── Dashboard ──────────────────────────── */
 .controls.dash-mode .control-row:not(:first-child) { display: none; }
 
+.dashboard-kind-toggle {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.dashboard-kind-toggle .chip { min-width: 120px; font-size: 0.95rem; }
+.journal-rank-table th:nth-child(2) { text-align: left; }
+
 .dash-tiles {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));

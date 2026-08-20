@@ -27,6 +27,12 @@
     "view.list": { ko: "📋 컨퍼런스", en: "📋 Conferences" },
     "view.journals": { ko: "📚 저널", en: "📚 Journals" },
     "view.dashboard": { ko: "📊 대시보드", en: "📊 Dashboard" },
+    "dash.kind.conference": { ko: "Conference", en: "Conference" },
+    "dash.kind.journal": { ko: "Journal", en: "Journal" },
+    "dash.journal.fieldTitle": { ko: "분야별 저널 등급 현황", en: "Journal Ratings by Field" },
+    "dash.journal.fieldSub": { ko: "분야별 최우수·우수 저널 수", en: "Top-tier and excellent journals by field" },
+    "dash.journal.sjrTitle": { ko: "SJR 상위 저널", en: "Top Journals by SJR" },
+    "dash.journal.sjrSub": { ko: "2025년 목록의 SJR 기준 상위 15개 저널", en: "Top 15 journals by SJR in the 2025 list" },
 
     "search.label": { ko: "검색", en: "Search" },
     "search.placeholder": { ko: "학회명 검색 (예: CVPR, Machine Learning)", en: "Search conferences (e.g. CVPR, Machine Learning)" },
