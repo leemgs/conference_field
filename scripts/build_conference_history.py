@@ -17,6 +17,15 @@ VERSIONS = [
     ("2025", "2025년", "2025년 컨퍼런스 리스트"),
     ("2024", "2024년", "2024년 컨퍼런스 리스트"),
 ]
+FIELD_KEYS = {
+    "System/OS": "sys", "Intelligence": "ai", "Data": "data",
+    "Network & Communications": "net", "Security": "sec",
+    "Programming & SE": "plse", "Human-Computer Interaction & Graphics": "hci",
+    "Algorithms & Theory": "theory", "Hardware, Robotics & Electronics": "hw",
+    "Health, Digital Health & Biometrics": "health", "Mechanics & Chemistry": "etc",
+}
+FIELD_NAMES = {key: name for name, key in FIELD_KEYS.items()}
+FIELD_NAMES.update({"arvr": "AR/VR", "health": "Health, Digital Health & Biometrics", "etc": "Etc"})
 
 
 def cell_text(cell):
@@ -25,6 +34,10 @@ def cell_text(cell):
 
 def clean_field(value):
     return re.sub(r"^\d{2}\.\s*", "", value).strip()
+
+
+def normalized(value):
+    return re.sub(r"[^a-z0-9]", "", value.lower())
 
 
 def extract():
@@ -52,6 +65,7 @@ def extract():
             rows.append({
                 "id": f"{key}-{row_index:03d}",
                 "field": clean_field(field),
+                "fieldKey": FIELD_KEYS.get(clean_field(field), ""),
                 "subfield": subfield.strip(),
                 "abbreviation": abbreviation.strip(),
                 "title": title.strip(),
@@ -59,6 +73,30 @@ def extract():
                 "h5Index": int(h5) if h5.isdigit() else None,
             })
         versions.append({"key": key, "label": label, "note": note, "conferences": rows})
+
+    # The 2025+ tables omit taxonomy columns. Reuse the 2024 taxonomy and the
+    # current conference dataset so year filtering remains useful in the UI.
+    by_abbreviation = {}
+    by_title = {}
+    for row in versions[-1]["conferences"]:
+        for alias in re.split(r"[/&]", row["abbreviation"]):
+            if normalized(alias):
+                by_abbreviation[normalized(alias)] = row["fieldKey"]
+        by_title[normalized(row["title"])] = row["fieldKey"]
+    current_path = ROOT / "docs/data/conferences.json"
+    if current_path.exists():
+        current = json.loads(current_path.read_text(encoding="utf-8"))
+        for conference in current.get("conferences", []):
+            key = conference.get("field", "")
+            by_abbreviation[normalized(re.sub(r"\s+20\d{2}$", "", conference.get("name", "")))] = key
+            by_title[normalized(conference.get("fullName", ""))] = key
+    for version in versions[:-1]:
+        for row in version["conferences"]:
+            aliases = [normalized(alias) for alias in re.split(r"[/&]", row["abbreviation"])]
+            key = next((by_abbreviation.get(alias) for alias in aliases if by_abbreviation.get(alias)), "")
+            key = key or by_title.get(normalized(row["title"]), "")
+            row["fieldKey"] = key or "etc"
+            row["field"] = FIELD_NAMES.get(row["fieldKey"], "Etc")
     return {"source": SOURCE.name, "exported": "2026-08-20 20:05:31", "versions": versions}
 
 

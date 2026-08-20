@@ -321,14 +321,14 @@
   function render() {
     const isDash = state.view === "dashboard";
     const isJournal = state.view === "journals";
-    const isSearch = !isDash && !isJournal && state.query.length > 0;
+    const isSearch = !isDash && !isJournal && state.view !== "list" && state.query.length > 0;
     const isCal = state.view === "calendar";
     $("#search-view").hidden = !isSearch;
     $("#calendar-view").hidden = isDash || isJournal || isSearch || !isCal;
     $("#list-view").hidden = isDash || isJournal || isSearch || isCal;
     $("#dashboard-view").hidden = !isDash;
     $("#journal-view").hidden = !isJournal;
-    $("#status-filter").closest(".control-row").hidden = isJournal;
+    $("#status-filter").closest(".control-row").hidden = isJournal || state.view === "list";
     $("#field-filter").closest(".control-row").hidden = isJournal;
     document.querySelector(".controls").classList.toggle("dash-mode", isDash);
     document.querySelector(".controls").classList.toggle("cal-mode", isCal && !isSearch);
@@ -634,10 +634,7 @@
     const query = state.query;
     const rows = version.conferences.filter((conf) => {
       if (query && !`${conf.abbreviation} ${conf.title}`.toLocaleLowerCase().includes(query)) return false;
-      if (state.field !== "all" && conf.field) {
-        const label = fieldLabel(state.field).toLocaleLowerCase();
-        if (!conf.field.toLocaleLowerCase().includes(label)) return false;
-      }
+      if (state.field !== "all" && conf.fieldKey !== state.field) return false;
       return true;
     });
     $("#board-heading").textContent = t("board.heading.count", { n: rows.length });

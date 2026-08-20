@@ -9,7 +9,8 @@
       "conferences": [
         {
           "id": "2026-h2-001",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "cvpr",
           "title": "Computer Vision and Pattern Recognition",
@@ -18,7 +19,8 @@
         },
         {
           "id": "2026-h2-002",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "nips",
           "title": "Neural Information Processing Systems",
@@ -27,7 +29,8 @@
         },
         {
           "id": "2026-h2-003",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "iclr",
           "title": "International Conference on Learning Representation",
@@ -36,7 +39,8 @@
         },
         {
           "id": "2026-h2-004",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "iccv/eccv",
           "title": "International Conference on Computer Vision/ European Conference on Computer Vision",
@@ -45,7 +49,8 @@
         },
         {
           "id": "2026-h2-005",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "icml",
           "title": "International Conference on Machine Learning",
@@ -54,7 +59,8 @@
         },
         {
           "id": "2026-h2-006",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "aaai",
           "title": "AAAI Conference on Artificial Intelligence",
@@ -63,7 +69,8 @@
         },
         {
           "id": "2026-h2-007",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "acl",
           "title": "Association for Computational Linguistics",
@@ -72,7 +79,8 @@
         },
         {
           "id": "2026-h2-008",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "emnlp",
           "title": "Conference on Empirical Methods in Natural Language Processing",
@@ -81,7 +89,8 @@
         },
         {
           "id": "2026-h2-009",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "ijcai",
           "title": "International Joint Conference on Artificial Intelligence",
@@ -90,7 +99,8 @@
         },
         {
           "id": "2026-h2-010",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "naacl",
           "title": "North American Chapter of the Association for Computational Linguistics",
@@ -99,7 +109,8 @@
         },
         {
           "id": "2026-h2-011",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "chi",
           "title": "International Conference on Human Factors in Computing Systems",
@@ -108,7 +119,8 @@
         },
         {
           "id": "2026-h2-012",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "kdd",
           "title": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
@@ -117,7 +129,8 @@
         },
         {
           "id": "2026-h2-013",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "sp",
           "title": "IEEE Symposium on Security and Privacy",
@@ -126,7 +139,8 @@
         },
         {
           "id": "2026-h2-014",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "www",
           "title": "World Wide Web Conference Series",
@@ -135,7 +149,8 @@
         },
         {
           "id": "2026-h2-015",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "wacv",
           "title": "IEEE Winter Conference on Applications of Computer Vision",
@@ -144,7 +159,8 @@
         },
         {
           "id": "2026-h2-016",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "uss",
           "title": "USENIX Security Symposium",
@@ -153,7 +169,8 @@
         },
         {
           "id": "2026-h2-017",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "siggraph",
           "title": "ACM SIGGRAPH Conference",
@@ -162,7 +179,8 @@
         },
         {
           "id": "2026-h2-018",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "sigir",
           "title": "Research and Development in Information Retrieval",
@@ -171,7 +189,8 @@
         },
         {
           "id": "2026-h2-019",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "mm",
           "title": "ACM International Conference on Multimedia",
@@ -180,7 +199,8 @@
         },
         {
           "id": "2026-h2-020",
-          "field": "",
+          "field": "Health, Digital Health & Biometrics",
+          "fieldKey": "health",
           "subfield": "",
           "abbreviation": "miccai",
           "title": "Medical Image Computing and Computer Assisted Intervention",
@@ -189,7 +209,8 @@
         },
         {
           "id": "2026-h2-021",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "ccs",
           "title": "ACM Symposium on Computer and Communications Security",
@@ -198,7 +219,8 @@
         },
         {
           "id": "2026-h2-022",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "cikm",
           "title": "International Conference on Information and Knowledge Management",
@@ -207,7 +229,8 @@
         },
         {
           "id": "2026-h2-023",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "corl",
           "title": "Conference on Robot Learning",
@@ -216,7 +239,8 @@
         },
         {
           "id": "2026-h2-024",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "icse",
           "title": "International Conference on Software Engineering",
@@ -225,7 +249,8 @@
         },
         {
           "id": "2026-h2-025",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "infocom",
           "title": "IEEE Conference on Computer Communications",
@@ -234,7 +259,8 @@
         },
         {
           "id": "2026-h2-026",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "wsdm",
           "title": "ACM International Conference on Web Search and Data Mining",
@@ -243,7 +269,8 @@
         },
         {
           "id": "2026-h2-027",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "icc",
           "title": "IEEE International Conference on Communications,",
@@ -252,7 +279,8 @@
         },
         {
           "id": "2026-h2-028",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "vldb",
           "title": "Very Large Data Bases Conference",
@@ -261,7 +289,8 @@
         },
         {
           "id": "2026-h2-029",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "ndss",
           "title": "Network and Distributed System Security Symposium",
@@ -270,7 +299,8 @@
         },
         {
           "id": "2026-h2-030",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "sigmod",
           "title": "International Conference on Management of Data",
@@ -279,7 +309,8 @@
         },
         {
           "id": "2026-h2-031",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "asplos",
           "title": "Architectural Support for Programming Languages and Operating Systems",
@@ -288,7 +319,8 @@
         },
         {
           "id": "2026-h2-032",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "icde",
           "title": "International Conference on Data Engineering",
@@ -297,7 +329,8 @@
         },
         {
           "id": "2026-h2-033",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "isscc",
           "title": "IEEE International Solid-State Circuits Conference",
@@ -306,7 +339,8 @@
         },
         {
           "id": "2026-h2-034",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "rss",
           "title": "Robotics: Science and Systems Conference",
@@ -315,7 +349,8 @@
         },
         {
           "id": "2026-h2-035",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "sigcomm",
           "title": "ACM Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
@@ -324,7 +359,8 @@
         },
         {
           "id": "2026-h2-036",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "globecom",
           "title": "IEEE Global Communications Conference,",
@@ -333,7 +369,8 @@
         },
         {
           "id": "2026-h2-037",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "eurocrypt",
           "title": "Theory and Application of Cryptographic Techniques",
@@ -342,7 +379,8 @@
         },
         {
           "id": "2026-h2-038",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "isca",
           "title": "International Symposium on Computer Architecture",
@@ -351,7 +389,8 @@
         },
         {
           "id": "2026-h2-039",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "nsdi",
           "title": "USENIX Networked Systems Design and Implementation",
@@ -360,7 +399,8 @@
         },
         {
           "id": "2026-h2-040",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "fse",
           "title": "ACM SIGSOFT Conference on the Foundations of Software Engineering",
@@ -369,7 +409,8 @@
         },
         {
           "id": "2026-h2-041",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "crypto",
           "title": "International Cryptology Conference",
@@ -378,7 +419,8 @@
         },
         {
           "id": "2026-h2-042",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "micro",
           "title": "International Symposium on Microarchitecture",
@@ -387,7 +429,8 @@
         },
         {
           "id": "2026-h2-043",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "mlsys",
           "title": "Conference on Machine Learning and Systems",
@@ -396,7 +439,8 @@
         },
         {
           "id": "2026-h2-044",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "isit",
           "title": "IEEE International Symposium on Information Theory",
@@ -405,7 +449,8 @@
         },
         {
           "id": "2026-h2-045",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "ase",
           "title": "International Conference on Automated Software Engineering, Knowledge-Based Software Engineering Conference",
@@ -414,7 +459,8 @@
         },
         {
           "id": "2026-h2-046",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "hri",
           "title": "ACM/IEEE International Conference on Human Robot Interaction",
@@ -423,7 +469,8 @@
         },
         {
           "id": "2026-h2-047",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "osdi",
           "title": "USENIX Symposium on Operating Systems Design and Implementation (OSDI)",
@@ -432,7 +479,8 @@
         },
         {
           "id": "2026-h2-048",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "bigdataconf",
           "title": "IEEE International Conference on Big Data",
@@ -441,7 +489,8 @@
         },
         {
           "id": "2026-h2-049",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "UbiComp",
           "title": "ACM International Conference on Ubiquitous Computing",
@@ -450,7 +499,8 @@
         },
         {
           "id": "2026-h2-050",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "recsys",
           "title": "ACM Conference on Recommender Systems",
@@ -459,7 +509,8 @@
         },
         {
           "id": "2026-h2-051",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "iui",
           "title": "Intelligent User Interfaces",
@@ -468,7 +519,8 @@
         },
         {
           "id": "2026-h2-052",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "dac",
           "title": "Design Automation Conference",
@@ -477,7 +529,8 @@
         },
         {
           "id": "2026-h2-053",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "pldi",
           "title": "SIGPLAN Conference on Programming Language Design and Implementation",
@@ -486,7 +539,8 @@
         },
         {
           "id": "2026-h2-054",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "uist",
           "title": "User Interface Software and Technology",
@@ -495,7 +549,8 @@
         },
         {
           "id": "2026-h2-055",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "hpca",
           "title": "International Symposium on High-Performance Computer Architecture",
@@ -504,7 +559,8 @@
         },
         {
           "id": "2026-h2-056",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "sc",
           "title": "ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis",
@@ -513,7 +569,8 @@
         },
         {
           "id": "2026-h2-057",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "icdcs",
           "title": "International Conference on Distributed Computing Systems",
@@ -522,7 +579,8 @@
         },
         {
           "id": "2026-h2-058",
-          "field": "",
+          "field": "Health, Digital Health & Biometrics",
+          "fieldKey": "health",
           "subfield": "",
           "abbreviation": "embc",
           "title": "Engineering in Medicine and Biology Conference",
@@ -531,7 +589,8 @@
         },
         {
           "id": "2026-h2-059",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "eurosys",
           "title": "European Conference on Computer Systems",
@@ -540,7 +599,8 @@
         },
         {
           "id": "2026-h2-060",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "ICME",
           "title": "IEEE International Conference on Multimedia and Expo",
@@ -549,7 +609,8 @@
         },
         {
           "id": "2026-h2-061",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "issta",
           "title": "ACM International Symposium on Software Testing and Analysis",
@@ -558,7 +619,8 @@
         },
         {
           "id": "2026-h2-062",
-          "field": "",
+          "field": "AR/VR",
+          "fieldKey": "arvr",
           "subfield": "",
           "abbreviation": "vr",
           "title": "IEEE Virtual Reality Conference",
@@ -567,7 +629,8 @@
         },
         {
           "id": "2026-h2-063",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "vlsi",
           "title": "IEEE Symposium on VLSI Circuits and Technology",
@@ -576,7 +639,8 @@
         },
         {
           "id": "2026-h2-064",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "fpga",
           "title": "International Symposium on Field Programmable Gate Arrays",
@@ -585,7 +649,8 @@
         },
         {
           "id": "2026-h2-065",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "sigmetrics",
           "title": "ACM SIGMETRICS Measurement and Modeling of Computer Systems",
@@ -594,7 +659,8 @@
         },
         {
           "id": "2026-h2-066",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "sosp",
           "title": "ACM Symposium on Operating Systems Principles",
@@ -603,7 +669,8 @@
         },
         {
           "id": "2026-h2-067",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "sensys",
           "title": "ACM Conference On Embedded Networked Sensor Systems",
@@ -612,7 +679,8 @@
         },
         {
           "id": "2026-h2-068",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "mobisys",
           "title": "International Conference on Mobile Systems, Applications, and Services",
@@ -621,7 +689,8 @@
         },
         {
           "id": "2026-h2-069",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "cav",
           "title": "International Conference on Computer-Aided Verification",
@@ -630,7 +699,8 @@
         },
         {
           "id": "2026-h2-070",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "APEC",
           "title": "Applied Power Electronics Conference and Exposition",
@@ -639,7 +709,8 @@
         },
         {
           "id": "2026-h2-071",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "conext",
           "title": "Conference on Emerging Network Experiment and Technology",
@@ -648,7 +719,8 @@
         },
         {
           "id": "2026-h2-072",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "bibm",
           "title": "IEEE International Conference on Bioinformatics and Biomedicine",
@@ -657,7 +729,8 @@
         },
         {
           "id": "2026-h2-073",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "ismar",
           "title": "IEEE International Symposium on Mixed and Augmented Reality",
@@ -666,7 +739,8 @@
         },
         {
           "id": "2026-h2-074",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "mmsys",
           "title": "ACM Multimedia Systems Conference",
@@ -675,7 +749,8 @@
         },
         {
           "id": "2026-h2-075",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "ccnc",
           "title": "IEEE Consumer Communications and Networking Conference",
@@ -684,7 +759,8 @@
         },
         {
           "id": "2026-h2-076",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "mobicom",
           "title": "ACM International Conference on Mobile Computing and Networking",
@@ -693,7 +769,8 @@
         },
         {
           "id": "2026-h2-077",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "siggrapha",
           "title": "ACM SIGGRAPH Conference in Asia",
@@ -709,7 +786,8 @@
       "conferences": [
         {
           "id": "2026-001",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "cvpr",
           "title": "Computer Vision and Pattern Recognition",
@@ -718,7 +796,8 @@
         },
         {
           "id": "2026-002",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "nips",
           "title": "Neural Information Processing Systems",
@@ -727,7 +806,8 @@
         },
         {
           "id": "2026-003",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "iclr",
           "title": "International Conference on Learning Representation",
@@ -736,7 +816,8 @@
         },
         {
           "id": "2026-004",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "iccv/eccv",
           "title": "International Conference on Computer Vision/ European Conference on Computer Vision",
@@ -745,7 +826,8 @@
         },
         {
           "id": "2026-005",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "icml",
           "title": "International Conference on Machine Learning",
@@ -754,7 +836,8 @@
         },
         {
           "id": "2026-006",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "aaai",
           "title": "AAAI Conference on Artificial Intelligence",
@@ -763,7 +846,8 @@
         },
         {
           "id": "2026-007",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "acl",
           "title": "Association for Computational Linguistics",
@@ -772,7 +856,8 @@
         },
         {
           "id": "2026-008",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "emnlp",
           "title": "Conference on Empirical Methods in Natural Language Processing",
@@ -781,7 +866,8 @@
         },
         {
           "id": "2026-009",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "ijcai",
           "title": "International Joint Conference on Artificial Intelligence",
@@ -790,7 +876,8 @@
         },
         {
           "id": "2026-010",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "naacl",
           "title": "North American Chapter of the Association for Computational Linguistics",
@@ -799,7 +886,8 @@
         },
         {
           "id": "2026-011",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "chi",
           "title": "International Conference on Human Factors in Computing Systems",
@@ -808,7 +896,8 @@
         },
         {
           "id": "2026-012",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "icassp",
           "title": "International Conference on Acoustics, Speech, and Signal Processing",
@@ -817,7 +906,8 @@
         },
         {
           "id": "2026-013",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "kdd",
           "title": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
@@ -826,7 +916,8 @@
         },
         {
           "id": "2026-014",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "icra",
           "title": "IEEE International Conference on Robotics and Automation",
@@ -835,7 +926,8 @@
         },
         {
           "id": "2026-015",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "sp",
           "title": "IEEE Symposium on Security and Privacy",
@@ -844,7 +936,8 @@
         },
         {
           "id": "2026-016",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "www",
           "title": "World Wide Web Conference Series",
@@ -853,7 +946,8 @@
         },
         {
           "id": "2026-017",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "interspeech",
           "title": "Annual Conference of the International Speech Communication Association",
@@ -862,7 +956,8 @@
         },
         {
           "id": "2026-018",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "wacv",
           "title": "IEEE Winter Conference on Applications of Computer Vision",
@@ -871,7 +966,8 @@
         },
         {
           "id": "2026-019",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "uss",
           "title": "USENIX Security Symposium",
@@ -880,7 +976,8 @@
         },
         {
           "id": "2026-020",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "siggraph",
           "title": "ACM SIGGRAPH Conference",
@@ -889,7 +986,8 @@
         },
         {
           "id": "2026-021",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "sigir",
           "title": "Research and Development in Information Retrieval",
@@ -898,7 +996,8 @@
         },
         {
           "id": "2026-022",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "mm",
           "title": "ACM International Conference on Multimedia",
@@ -907,7 +1006,8 @@
         },
         {
           "id": "2026-023",
-          "field": "",
+          "field": "Health, Digital Health & Biometrics",
+          "fieldKey": "health",
           "subfield": "",
           "abbreviation": "miccai",
           "title": "Medical Image Computing and Computer Assisted Intervention",
@@ -916,7 +1016,8 @@
         },
         {
           "id": "2026-024",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "ccs",
           "title": "ACM Symposium on Computer and Communications Security",
@@ -925,7 +1026,8 @@
         },
         {
           "id": "2026-025",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "cikm",
           "title": "International Conference on Information and Knowledge Management",
@@ -934,7 +1036,8 @@
         },
         {
           "id": "2026-026",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "corl",
           "title": "Conference on Robot Learning",
@@ -943,7 +1046,8 @@
         },
         {
           "id": "2026-027",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "iros",
           "title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
@@ -952,7 +1056,8 @@
         },
         {
           "id": "2026-028",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "icse",
           "title": "International Conference on Software Engineering",
@@ -961,7 +1066,8 @@
         },
         {
           "id": "2026-029",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "infocom",
           "title": "IEEE Conference on Computer Communications",
@@ -970,7 +1076,8 @@
         },
         {
           "id": "2026-030",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "wsdm",
           "title": "ACM International Conference on Web Search and Data Mining",
@@ -979,7 +1086,8 @@
         },
         {
           "id": "2026-031",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "icc",
           "title": "IEEE International Conference on Communications, ※ Workshop은 우수등급으로 가늠",
@@ -988,7 +1096,8 @@
         },
         {
           "id": "2026-032",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "vldb",
           "title": "Very Large Data Bases Conference",
@@ -997,7 +1106,8 @@
         },
         {
           "id": "2026-033",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "ndss",
           "title": "Network and Distributed System Security Symposium",
@@ -1006,7 +1116,8 @@
         },
         {
           "id": "2026-034",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "sigmod",
           "title": "International Conference on Management of Data",
@@ -1015,7 +1126,8 @@
         },
         {
           "id": "2026-035",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "asplos",
           "title": "Architectural Support for Programming Languages and Operating Systems",
@@ -1024,7 +1136,8 @@
         },
         {
           "id": "2026-036",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "icde",
           "title": "International Conference on Data Engineering",
@@ -1033,7 +1146,8 @@
         },
         {
           "id": "2026-037",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "isscc",
           "title": "IEEE International Solid-State Circuits Conference",
@@ -1042,7 +1156,8 @@
         },
         {
           "id": "2026-038",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "rss",
           "title": "Robotics: Science and Systems Conference",
@@ -1051,7 +1166,8 @@
         },
         {
           "id": "2026-039",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "icip",
           "title": "IEEE International Conference on Image Processing",
@@ -1060,7 +1176,8 @@
         },
         {
           "id": "2026-040",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "sigcomm",
           "title": "ACM Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
@@ -1069,7 +1186,8 @@
         },
         {
           "id": "2026-041",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "globecom",
           "title": "IEEE Global Communications Conference, ※ Workshop은 우수등급으로 가늠",
@@ -1078,7 +1196,8 @@
         },
         {
           "id": "2026-042",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "eurocrypt",
           "title": "Theory and Application of Cryptographic Techniques",
@@ -1087,7 +1206,8 @@
         },
         {
           "id": "2026-043",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "isca",
           "title": "International Symposium on Computer Architecture",
@@ -1096,7 +1216,8 @@
         },
         {
           "id": "2026-044",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "nsdi",
           "title": "USENIX Networked Systems Design and Implementation",
@@ -1105,7 +1226,8 @@
         },
         {
           "id": "2026-045",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "fse",
           "title": "ACM SIGSOFT Conference on the Foundations of Software Engineering",
@@ -1114,7 +1236,8 @@
         },
         {
           "id": "2026-046",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "crypto",
           "title": "International Cryptology Conference",
@@ -1123,7 +1246,8 @@
         },
         {
           "id": "2026-047",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "micro",
           "title": "International Symposium on Microarchitecture",
@@ -1132,7 +1256,8 @@
         },
         {
           "id": "2026-048",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "mlsys",
           "title": "Conference on Machine Learning and Systems",
@@ -1141,7 +1266,8 @@
         },
         {
           "id": "2026-049",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "isit",
           "title": "IEEE International Symposium on Information Theory",
@@ -1150,7 +1276,8 @@
         },
         {
           "id": "2026-050",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "ase",
           "title": "International Conference on Automated Software Engineering, Knowledge-Based Software Engineering Conference",
@@ -1159,7 +1286,8 @@
         },
         {
           "id": "2026-051",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "hri",
           "title": "ACM/IEEE International Conference on Human Robot Interaction",
@@ -1168,7 +1296,8 @@
         },
         {
           "id": "2026-052",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "osdi",
           "title": "USENIX Symposium on Operating Systems Design and Implementation (OSDI)",
@@ -1177,7 +1306,8 @@
         },
         {
           "id": "2026-053",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "bigdataconf",
           "title": "IEEE International Conference on Big Data",
@@ -1186,7 +1316,8 @@
         },
         {
           "id": "2026-054",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "UbiComp",
           "title": "ACM International Conference on Ubiquitous Computing",
@@ -1195,7 +1326,8 @@
         },
         {
           "id": "2026-055",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "recsys",
           "title": "ACM Conference on Recommender Systems",
@@ -1204,7 +1336,8 @@
         },
         {
           "id": "2026-056",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "iui",
           "title": "Intelligent User Interfaces",
@@ -1213,7 +1346,8 @@
         },
         {
           "id": "2026-057",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "dac",
           "title": "Design Automation Conference",
@@ -1222,7 +1356,8 @@
         },
         {
           "id": "2026-058",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "pldi",
           "title": "SIGPLAN Conference on Programming Language Design and Implementation",
@@ -1231,7 +1366,8 @@
         },
         {
           "id": "2026-059",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "uist",
           "title": "User Interface Software and Technology",
@@ -1240,7 +1376,8 @@
         },
         {
           "id": "2026-060",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "hpca",
           "title": "International Symposium on High-Performance Computer Architecture",
@@ -1249,7 +1386,8 @@
         },
         {
           "id": "2026-061",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "sc",
           "title": "ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis",
@@ -1258,7 +1396,8 @@
         },
         {
           "id": "2026-062",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "icdcs",
           "title": "International Conference on Distributed Computing Systems",
@@ -1267,7 +1406,8 @@
         },
         {
           "id": "2026-063",
-          "field": "",
+          "field": "Health, Digital Health & Biometrics",
+          "fieldKey": "health",
           "subfield": "",
           "abbreviation": "embc",
           "title": "Engineering in Medicine and Biology Conference",
@@ -1276,7 +1416,8 @@
         },
         {
           "id": "2026-064",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "eurosys",
           "title": "European Conference on Computer Systems",
@@ -1285,7 +1426,8 @@
         },
         {
           "id": "2026-065",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "ICME",
           "title": "IEEE International Conference on Multimedia and Expo",
@@ -1294,7 +1436,8 @@
         },
         {
           "id": "2026-066",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "vtc",
           "title": "IEEE Vehicular Technology Conference, VTC",
@@ -1303,7 +1446,8 @@
         },
         {
           "id": "2026-067",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "issta",
           "title": "ACM International Symposium on Software Testing and Analysis",
@@ -1312,7 +1456,8 @@
         },
         {
           "id": "2026-068",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "asru/slt",
           "title": "IEEE Workshop on Automatic Speech Recognition & Understanding / IEEE Spoken Language Technology Workshop",
@@ -1321,7 +1466,8 @@
         },
         {
           "id": "2026-069",
-          "field": "",
+          "field": "AR/VR",
+          "fieldKey": "arvr",
           "subfield": "",
           "abbreviation": "vr",
           "title": "IEEE Virtual Reality Conference",
@@ -1330,7 +1476,8 @@
         },
         {
           "id": "2026-070",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "vlsi",
           "title": "IEEE Symposium on VLSI Circuits and Technology",
@@ -1339,7 +1486,8 @@
         },
         {
           "id": "2026-071",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "fpga",
           "title": "International Symposium on Field Programmable Gate Arrays",
@@ -1348,7 +1496,8 @@
         },
         {
           "id": "2026-072",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "sigmetrics",
           "title": "ACM SIGMETRICS Measurement and Modeling of Computer Systems",
@@ -1357,7 +1506,8 @@
         },
         {
           "id": "2026-073",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "sosp",
           "title": "ACM Symposium on Operating Systems Principles",
@@ -1366,7 +1516,8 @@
         },
         {
           "id": "2026-074",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "sensys",
           "title": "ACM Conference On Embedded Networked Sensor Systems",
@@ -1375,7 +1526,8 @@
         },
         {
           "id": "2026-075",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "mobisys",
           "title": "International Conference on Mobile Systems, Applications, and Services",
@@ -1384,7 +1536,8 @@
         },
         {
           "id": "2026-076",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "cav",
           "title": "International Conference on Computer-Aided Verification",
@@ -1393,7 +1546,8 @@
         },
         {
           "id": "2026-077",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "APEC",
           "title": "Applied Power Electronics Conference and Exposition",
@@ -1402,7 +1556,8 @@
         },
         {
           "id": "2026-078",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "conext",
           "title": "Conference on Emerging Network Experiment and Technology",
@@ -1411,7 +1566,8 @@
         },
         {
           "id": "2026-079",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "bibm",
           "title": "IEEE International Conference on Bioinformatics and Biomedicine",
@@ -1420,7 +1576,8 @@
         },
         {
           "id": "2026-080",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "ismar",
           "title": "IEEE International Symposium on Mixed and Augmented Reality",
@@ -1429,7 +1586,8 @@
         },
         {
           "id": "2026-081",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "EuCAP",
           "title": "European Conference on Antennas and Propagation",
@@ -1438,7 +1596,8 @@
         },
         {
           "id": "2026-082",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "mmsys",
           "title": "ACM Multimedia Systems Conference",
@@ -1447,7 +1606,8 @@
         },
         {
           "id": "2026-083",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "ccnc",
           "title": "IEEE Consumer Communications and Networking Conference",
@@ -1456,7 +1616,8 @@
         },
         {
           "id": "2026-084",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "IMS",
           "title": "IEEE International Microwave Symposium",
@@ -1465,7 +1626,8 @@
         },
         {
           "id": "2026-085",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "humanoids",
           "title": "IEEE International Conference on Humanoid Robots",
@@ -1474,7 +1636,8 @@
         },
         {
           "id": "2026-086",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "mobicom",
           "title": "ACM International Conference on Mobile Computing and Networking",
@@ -1483,7 +1646,8 @@
         },
         {
           "id": "2026-087",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "RFIC",
           "title": "Radio Frequency Integrated Circuit Symposia",
@@ -1492,7 +1656,8 @@
         },
         {
           "id": "2026-088",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "siggrapha",
           "title": "ACM SIGGRAPH Conference in Asia",
@@ -1501,7 +1666,8 @@
         },
         {
           "id": "2026-089",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "SID",
           "title": "SID DISPLAYWEEK",
@@ -1510,7 +1676,8 @@
         },
         {
           "id": "2026-090",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "iTherm",
           "title": "Int. Conf. on Thermal and Thermomechanical Phenomena in Electronic Systems (iTherm)",
@@ -1519,7 +1686,8 @@
         },
         {
           "id": "2026-091",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "SPIEarvrmr",
           "title": "SPIE ARVRMR",
@@ -1528,7 +1696,8 @@
         },
         {
           "id": "2026-092",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "SPIEopto",
           "title": "SIPE PhotonicWest",
@@ -1537,7 +1706,8 @@
         },
         {
           "id": "2026-093",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "ACS",
           "title": "ACS Meeting (Spring / Fall)",
@@ -1546,7 +1716,8 @@
         },
         {
           "id": "2026-094",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "APS",
           "title": "American Physical Society Meeting",
@@ -1555,7 +1726,8 @@
         },
         {
           "id": "2026-095",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "EFFT",
           "title": "European Federation of FoodScience and Technology International conference",
@@ -1564,7 +1736,8 @@
         },
         {
           "id": "2026-096",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "ict",
           "title": "International Conference on Thermoelectrics",
@@ -1573,7 +1746,8 @@
         },
         {
           "id": "2026-097",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "IIR",
           "title": "International Institute of Refrigeration Conference",
@@ -1582,7 +1756,8 @@
         },
         {
           "id": "2026-098",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "MRS",
           "title": "Materials Research Society Meeting",
@@ -1591,7 +1766,8 @@
         },
         {
           "id": "2026-099",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "IFT",
           "title": "IFT FIRST Annual Event and Expo",
@@ -1607,7 +1783,8 @@
       "conferences": [
         {
           "id": "2025-001",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "cvpr",
           "title": "Computer Vision and Pattern Recognition",
@@ -1616,7 +1793,8 @@
         },
         {
           "id": "2025-002",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "nips",
           "title": "Neural Information Processing Systems",
@@ -1625,7 +1803,8 @@
         },
         {
           "id": "2025-003",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "iclr",
           "title": "International Conference on Learning Representation",
@@ -1634,7 +1813,8 @@
         },
         {
           "id": "2025-004",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "iccv / eccv",
           "title": "International Conference on Computer Vision / European Conference on Computer Vision",
@@ -1643,7 +1823,8 @@
         },
         {
           "id": "2025-005",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "icml",
           "title": "International Conference on Machine Learning",
@@ -1652,7 +1833,8 @@
         },
         {
           "id": "2025-006",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "aaai",
           "title": "AAAI Conference on Artificial Intelligence",
@@ -1661,7 +1843,8 @@
         },
         {
           "id": "2025-007",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "acl",
           "title": "Association for Computational Linguistics",
@@ -1670,7 +1853,8 @@
         },
         {
           "id": "2025-008",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "emnlp",
           "title": "Conference on Empirical Methods in Natural Language Processing",
@@ -1679,7 +1863,8 @@
         },
         {
           "id": "2025-009",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "chi",
           "title": "International Conference on Human Factors in Computing Systems",
@@ -1688,7 +1873,8 @@
         },
         {
           "id": "2025-010",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "icassp",
           "title": "International Conference on Acoustics, Speech, and Signal Processing",
@@ -1697,7 +1883,8 @@
         },
         {
           "id": "2025-011",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "kdd",
           "title": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
@@ -1706,7 +1893,8 @@
         },
         {
           "id": "2025-012",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "icra",
           "title": "IEEE International Conference on Robotics and Automation",
@@ -1715,7 +1903,8 @@
         },
         {
           "id": "2025-013",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "sp",
           "title": "IEEE Symposium on Security and Privacy",
@@ -1724,7 +1913,8 @@
         },
         {
           "id": "2025-014",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "www",
           "title": "World Wide Web Conference Series",
@@ -1733,7 +1923,8 @@
         },
         {
           "id": "2025-015",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "interspeech",
           "title": "Annual Conference of the International Speech Communication Association",
@@ -1742,7 +1933,8 @@
         },
         {
           "id": "2025-016",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "uss",
           "title": "USENIX Security Symposium",
@@ -1751,7 +1943,8 @@
         },
         {
           "id": "2025-017",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "siggraph",
           "title": "ACM SIGGRAPH Conference",
@@ -1760,7 +1953,8 @@
         },
         {
           "id": "2025-018",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "sigir",
           "title": "Research and Development in Information Retrieval",
@@ -1769,7 +1963,8 @@
         },
         {
           "id": "2025-019",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "mm",
           "title": "ACM International Conference on Multimedia",
@@ -1778,7 +1973,8 @@
         },
         {
           "id": "2025-020",
-          "field": "",
+          "field": "Health, Digital Health & Biometrics",
+          "fieldKey": "health",
           "subfield": "",
           "abbreviation": "miccai",
           "title": "Medical Image Computing and Computer Assisted Intervention",
@@ -1787,7 +1983,8 @@
         },
         {
           "id": "2025-021",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "ccs",
           "title": "ACM Symposium on Computer and Communications Security",
@@ -1796,7 +1993,8 @@
         },
         {
           "id": "2025-022",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "cikm",
           "title": "International Conference on Information and Knowledge Management",
@@ -1805,7 +2003,8 @@
         },
         {
           "id": "2025-023",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "corl",
           "title": "Conference on Robot Learning",
@@ -1814,7 +2013,8 @@
         },
         {
           "id": "2025-024",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "iros",
           "title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
@@ -1823,7 +2023,8 @@
         },
         {
           "id": "2025-025",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "icse",
           "title": "International Conference on Software Engineering",
@@ -1832,7 +2033,8 @@
         },
         {
           "id": "2025-026",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "infocom",
           "title": "IEEE Conference on Computer Communications",
@@ -1841,7 +2043,8 @@
         },
         {
           "id": "2025-027",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "icc",
           "title": "IEEE International Conference on Communications,  workshop은 우수 등급으로 가늠",
@@ -1850,7 +2053,8 @@
         },
         {
           "id": "2025-028",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "asplos",
           "title": "Architectural Support for Programming Languages and Operating Systems",
@@ -1859,7 +2063,8 @@
         },
         {
           "id": "2025-029",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "isscc",
           "title": "IEEE International Solid-State Circuits Conference",
@@ -1868,7 +2073,8 @@
         },
         {
           "id": "2025-030",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "sigcomm",
           "title": "ACM Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
@@ -1877,7 +2083,8 @@
         },
         {
           "id": "2025-031",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "globecom",
           "title": "IEEE Global Communications Conference, workshop은 우수 등급으로 가늠",
@@ -1886,7 +2093,8 @@
         },
         {
           "id": "2025-032",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "isca",
           "title": "International Symposium on Computer Architecture",
@@ -1895,7 +2103,8 @@
         },
         {
           "id": "2025-033",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "nsdi",
           "title": "USENIX Networked Systems Design and Implementation",
@@ -1904,7 +2113,8 @@
         },
         {
           "id": "2025-034",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "micro",
           "title": "International Symposium on Microarchitecture",
@@ -1913,7 +2123,8 @@
         },
         {
           "id": "2025-035",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "ijcai",
           "title": "International Joint Conference on Artificial Intelligence",
@@ -1922,7 +2133,8 @@
         },
         {
           "id": "2025-036",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "naacl",
           "title": "North American Chapter of the Association for Computational Linguistics",
@@ -1931,7 +2143,8 @@
         },
         {
           "id": "2025-037",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "wacv",
           "title": "IEEE Winter Conference on Applications of Computer Vision",
@@ -1940,7 +2153,8 @@
         },
         {
           "id": "2025-038",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "wsdm",
           "title": "ACM International Conference on Web Search and Data Mining",
@@ -1949,7 +2163,8 @@
         },
         {
           "id": "2025-039",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "vldb",
           "title": "Very Large Data Bases Conference",
@@ -1958,7 +2173,8 @@
         },
         {
           "id": "2025-040",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "ndss",
           "title": "Network and Distributed System Security Symposium",
@@ -1967,7 +2183,8 @@
         },
         {
           "id": "2025-041",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "sigmod",
           "title": "International Conference on Management of Data",
@@ -1976,7 +2193,8 @@
         },
         {
           "id": "2025-042",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "icde",
           "title": "International Conference on Data Engineering",
@@ -1985,7 +2203,8 @@
         },
         {
           "id": "2025-043",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "rss",
           "title": "Robotics: Science and Systems Conference",
@@ -1994,7 +2213,8 @@
         },
         {
           "id": "2025-044",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "icip",
           "title": "IEEE International Conference on Image Processing",
@@ -2003,7 +2223,8 @@
         },
         {
           "id": "2025-045",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "eurocrypt",
           "title": "Theory and Application of Cryptographic Techniques",
@@ -2012,7 +2233,8 @@
         },
         {
           "id": "2025-046",
-          "field": "",
+          "field": "Security",
+          "fieldKey": "sec",
           "subfield": "",
           "abbreviation": "crypto",
           "title": "International Cryptology Conference",
@@ -2021,7 +2243,8 @@
         },
         {
           "id": "2025-047",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "isit",
           "title": "IEEE International Symposium on Information Theory",
@@ -2030,7 +2253,8 @@
         },
         {
           "id": "2025-048",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "usenix",
           "title": "USENIX Annual Technical Conference",
@@ -2039,7 +2263,8 @@
         },
         {
           "id": "2025-049",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "osdi",
           "title": "USENIX Symposium on Operating Systems Design and Implementation (OSDI)",
@@ -2048,7 +2273,8 @@
         },
         {
           "id": "2025-050",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "ase",
           "title": "International Conference on Automated Software Engineering, Knowledge-Based Software Engineering Conference",
@@ -2057,7 +2283,8 @@
         },
         {
           "id": "2025-051",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "hri",
           "title": "ACM/IEEE International Conference on Human Robot Interaction",
@@ -2066,7 +2293,8 @@
         },
         {
           "id": "2025-052",
-          "field": "",
+          "field": "Data",
+          "fieldKey": "data",
           "subfield": "",
           "abbreviation": "bigdataconf",
           "title": "IEEE International Conference on Big Data",
@@ -2075,7 +2303,8 @@
         },
         {
           "id": "2025-053",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "UbiComp",
           "title": "ACM International Conference on Ubiquitous Computing",
@@ -2084,7 +2313,8 @@
         },
         {
           "id": "2025-054",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "recsys",
           "title": "ACM Conference on Recommender Systems",
@@ -2093,7 +2323,8 @@
         },
         {
           "id": "2025-055",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "dac",
           "title": "Design Automation Conference",
@@ -2102,7 +2333,8 @@
         },
         {
           "id": "2025-056",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "iui",
           "title": "Intelligent User Interfaces",
@@ -2111,7 +2343,8 @@
         },
         {
           "id": "2025-057",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "pldi",
           "title": "SIGPLAN Conference on Programming Language Design and Implementation",
@@ -2120,7 +2353,8 @@
         },
         {
           "id": "2025-058",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "uist",
           "title": "User Interface Software and Technology",
@@ -2129,7 +2363,8 @@
         },
         {
           "id": "2025-059",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "sc",
           "title": "ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis",
@@ -2138,7 +2373,8 @@
         },
         {
           "id": "2025-060",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "hpca",
           "title": "International Symposium on High-Performance Computer Architecture",
@@ -2147,7 +2383,8 @@
         },
         {
           "id": "2025-061",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "eurosys",
           "title": "European Conference on Computer Systems",
@@ -2156,7 +2393,8 @@
         },
         {
           "id": "2025-062",
-          "field": "",
+          "field": "Health, Digital Health & Biometrics",
+          "fieldKey": "health",
           "subfield": "",
           "abbreviation": "embc",
           "title": "Engineering in Medicine and Biology Conference",
@@ -2165,7 +2403,8 @@
         },
         {
           "id": "2025-063",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "vtc",
           "title": "IEEE Vehicular Technology Conference, VTC",
@@ -2174,7 +2413,8 @@
         },
         {
           "id": "2025-064",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "ICME",
           "title": "IEEE International Conference on Multimedia and Expo",
@@ -2183,7 +2423,8 @@
         },
         {
           "id": "2025-065",
-          "field": "",
+          "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "",
           "abbreviation": "asru",
           "title": "IEEE Workshop on Automatic Speech Recognition & Understanding",
@@ -2192,7 +2433,8 @@
         },
         {
           "id": "2025-066",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "issta",
           "title": "ACM International Symposium on Software Testing and Analysis",
@@ -2201,7 +2443,8 @@
         },
         {
           "id": "2025-067",
-          "field": "",
+          "field": "AR/VR",
+          "fieldKey": "arvr",
           "subfield": "",
           "abbreviation": "vr",
           "title": "IEEE Virtual Reality Conference",
@@ -2210,7 +2453,8 @@
         },
         {
           "id": "2025-068",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "fpga",
           "title": "International Symposium on Field Programmable Gate Arrays",
@@ -2219,7 +2463,8 @@
         },
         {
           "id": "2025-069",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "sigmetrics",
           "title": "ACM SIGMETRICS Measurement and Modeling of Computer Systems",
@@ -2228,7 +2473,8 @@
         },
         {
           "id": "2025-070",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "sosp",
           "title": "ACM Symposium on Operating Systems Principles",
@@ -2237,7 +2483,8 @@
         },
         {
           "id": "2025-071",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "mobisys",
           "title": "International Conference on Mobile Systems, Applications, and Services",
@@ -2246,7 +2493,8 @@
         },
         {
           "id": "2025-072",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "sensys",
           "title": "ACM Conference On Embedded Networked Sensor Systems",
@@ -2255,7 +2503,8 @@
         },
         {
           "id": "2025-073",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "cav",
           "title": "International Conference on Computer-Aided Verification",
@@ -2264,7 +2513,8 @@
         },
         {
           "id": "2025-074",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "vlsi",
           "title": "IEEE Symposium on VLSI Circuits and Technology",
@@ -2273,7 +2523,8 @@
         },
         {
           "id": "2025-075",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "conext",
           "title": "Conference on Emerging Network Experiment and Technology",
@@ -2282,7 +2533,8 @@
         },
         {
           "id": "2025-076",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "bibm",
           "title": "IEEE International Conference on Bioinformatics and Biomedicine",
@@ -2291,7 +2543,8 @@
         },
         {
           "id": "2025-077",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "ismar",
           "title": "IEEE International Symposium on Mixed and Augmented Reality",
@@ -2300,7 +2553,8 @@
         },
         {
           "id": "2025-078",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "EuCAP",
           "title": "European Conference on Antennas and Propagation",
@@ -2309,7 +2563,8 @@
         },
         {
           "id": "2025-079",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "mmsys",
           "title": "ACM Multimedia Systems Conference",
@@ -2318,7 +2573,8 @@
         },
         {
           "id": "2025-080",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "IMS",
           "title": "IEEE International Microwave Symposium",
@@ -2327,7 +2583,8 @@
         },
         {
           "id": "2025-081",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "ccnc",
           "title": "IEEE Consumer Communications and Networking Conference",
@@ -2336,7 +2593,8 @@
         },
         {
           "id": "2025-082",
-          "field": "",
+          "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "",
           "abbreviation": "cgo",
           "title": "International Symposium on Code Generation and Optimization",
@@ -2345,7 +2603,8 @@
         },
         {
           "id": "2025-083",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "humanoids",
           "title": "IEEE International Conference on Humanoid Robots",
@@ -2354,7 +2613,8 @@
         },
         {
           "id": "2025-084",
-          "field": "",
+          "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "",
           "abbreviation": "mobicom",
           "title": "ACM International Conference on Mobile Computing and Networking",
@@ -2363,7 +2623,8 @@
         },
         {
           "id": "2025-085",
-          "field": "",
+          "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "",
           "abbreviation": "siggrapha",
           "title": "ACM SIGGRAPH Conference in Asia",
@@ -2372,7 +2633,8 @@
         },
         {
           "id": "2025-086",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "RFIC",
           "title": "Radio Frequency Integrated Circuit Symposia",
@@ -2381,7 +2643,8 @@
         },
         {
           "id": "2025-087",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "iTherm",
           "title": "Int. Conf. on Thermal and Thermomechanical Phenomena in Electronic Systems (iTherm)",
@@ -2390,7 +2653,8 @@
         },
         {
           "id": "2025-088",
-          "field": "",
+          "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "",
           "abbreviation": "mlsys",
           "title": "Conference on Machine Learning and Systems",
@@ -2399,7 +2663,8 @@
         },
         {
           "id": "2025-089",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "SID",
           "title": "SID DISPLAYWEEK",
@@ -2408,7 +2673,8 @@
         },
         {
           "id": "2025-090",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "SPIEopto",
           "title": "SIPE PhotonicWest",
@@ -2417,7 +2683,8 @@
         },
         {
           "id": "2025-091",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "APEC",
           "title": "Applied Power Electronics Conference and Exposition",
@@ -2426,7 +2693,8 @@
         },
         {
           "id": "2025-092",
-          "field": "",
+          "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "",
           "abbreviation": "SPIEarvrmr",
           "title": "SPIE ARVRMR",
@@ -2435,7 +2703,8 @@
         },
         {
           "id": "2025-093",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "MRS",
           "title": "Materials Research Society Meeting",
@@ -2444,7 +2713,8 @@
         },
         {
           "id": "2025-094",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "APS",
           "title": "American Physical Society Meeting",
@@ -2453,7 +2723,8 @@
         },
         {
           "id": "2025-095",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "EFFT",
           "title": "European Federation of FoodScience and Technology International conference",
@@ -2462,7 +2733,8 @@
         },
         {
           "id": "2025-096",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "ACS",
           "title": "ACS Meeting (Spring / Fall)",
@@ -2471,7 +2743,8 @@
         },
         {
           "id": "2025-097",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "IIR",
           "title": "International Institute of Refrigeration Conference",
@@ -2480,7 +2753,8 @@
         },
         {
           "id": "2025-098",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "IFT",
           "title": "IFT FIRST Annual Event and Expo",
@@ -2489,7 +2763,8 @@
         },
         {
           "id": "2025-099",
-          "field": "",
+          "field": "Etc",
+          "fieldKey": "etc",
           "subfield": "",
           "abbreviation": "ict",
           "title": "International Conference on Thermoelectrics",
@@ -2506,6 +2781,7 @@
         {
           "id": "2024-001",
           "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "Computer Architecture",
           "abbreviation": "HPCA",
           "title": "International Symposium on High-Performance Computer Architecture",
@@ -2515,6 +2791,7 @@
         {
           "id": "2024-002",
           "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "Computer Architecture",
           "abbreviation": "SC",
           "title": "ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis",
@@ -2524,6 +2801,7 @@
         {
           "id": "2024-003",
           "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "Computer Architecture",
           "abbreviation": "ISCA",
           "title": "International Symposium on Computer Architecture",
@@ -2533,6 +2811,7 @@
         {
           "id": "2024-004",
           "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "Computer Architecture",
           "abbreviation": "ASPLOS",
           "title": "Architectural Support for Programming Languages and Operating Systems",
@@ -2542,6 +2821,7 @@
         {
           "id": "2024-005",
           "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "Operating System",
           "abbreviation": "EUROSYS",
           "title": "European Conference on Computer Systems",
@@ -2551,6 +2831,7 @@
         {
           "id": "2024-006",
           "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "Operating System",
           "abbreviation": "USENIX ATC",
           "title": "USENIX Annual Technical Conference",
@@ -2560,6 +2841,7 @@
         {
           "id": "2024-007",
           "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "Operating System",
           "abbreviation": "USENIX OSDI",
           "title": "USENIX Symposium on Operating Systems Design and Implementation",
@@ -2569,6 +2851,7 @@
         {
           "id": "2024-008",
           "field": "System/OS",
+          "fieldKey": "sys",
           "subfield": "Operating System",
           "abbreviation": "SOSP",
           "title": "ACM Symposium on Operating Systems Principles",
@@ -2578,6 +2861,7 @@
         {
           "id": "2024-009",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "AI General",
           "abbreviation": "IJCAI",
           "title": "International Joint Conference on Artificial Intelligence",
@@ -2587,6 +2871,7 @@
         {
           "id": "2024-010",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "AI General",
           "abbreviation": "ICML",
           "title": "International Conference on Machine Learning",
@@ -2596,6 +2881,7 @@
         {
           "id": "2024-011",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "AI General",
           "abbreviation": "AAAI",
           "title": "National Conference on Artificial Intelligence",
@@ -2605,6 +2891,7 @@
         {
           "id": "2024-012",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "Machine Learning",
           "abbreviation": "ICLR",
           "title": "International Conference on Learning Representation",
@@ -2614,6 +2901,7 @@
         {
           "id": "2024-013",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "Machine Learning",
           "abbreviation": "NeurIPS",
           "title": "Neural Information Processing Systems",
@@ -2623,6 +2911,7 @@
         {
           "id": "2024-014",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "NLP",
           "abbreviation": "NAACL/HLT",
           "title": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
@@ -2632,6 +2921,7 @@
         {
           "id": "2024-015",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "NLP",
           "abbreviation": "EMNLP",
           "title": "Conference on Empirical Methods in Natural Language Processing",
@@ -2641,6 +2931,7 @@
         {
           "id": "2024-016",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "NLP",
           "abbreviation": "ACL",
           "title": "Association for Computational Linguistics",
@@ -2650,6 +2941,7 @@
         {
           "id": "2024-017",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "Speech",
           "abbreviation": "ASRU",
           "title": "IEEE Workshop on Automatic Speech Recognition & Understanding",
@@ -2659,6 +2951,7 @@
         {
           "id": "2024-018",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "Speech",
           "abbreviation": "SemEval",
           "title": "International Workshop on Semantic Evaluation",
@@ -2668,6 +2961,7 @@
         {
           "id": "2024-019",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "Speech",
           "abbreviation": "INTERSPEECH",
           "title": "Annual Conference of the International Speech Communication Association",
@@ -2677,6 +2971,7 @@
         {
           "id": "2024-020",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "Speech",
           "abbreviation": "ICASSP",
           "title": "International Conference on Acoustics, Speech, and Signal Processing",
@@ -2686,6 +2981,7 @@
         {
           "id": "2024-021",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "Video/Image processing",
           "abbreviation": "ICIP",
           "title": "IEEE International Conference on Image Processing",
@@ -2695,6 +2991,7 @@
         {
           "id": "2024-022",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "Video/Image processing",
           "abbreviation": "BMVC",
           "title": "British Machine Vision Conference",
@@ -2704,6 +3001,7 @@
         {
           "id": "2024-023",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "Video/Image processing",
           "abbreviation": "WACV",
           "title": "IEEE Winter Conference on Applications of Computer Vision",
@@ -2713,6 +3011,7 @@
         {
           "id": "2024-024",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "Vision",
           "abbreviation": "ECCV",
           "title": "European Conference on Computer Vision",
@@ -2722,6 +3021,7 @@
         {
           "id": "2024-025",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "Vision",
           "abbreviation": "ICCV",
           "title": "International Conference on Computer Vision",
@@ -2731,6 +3031,7 @@
         {
           "id": "2024-026",
           "field": "Intelligence",
+          "fieldKey": "ai",
           "subfield": "Vision",
           "abbreviation": "CVPR",
           "title": "Computer Vision and Pattern Recognition",
@@ -2740,6 +3041,7 @@
         {
           "id": "2024-027",
           "field": "Data",
+          "fieldKey": "data",
           "subfield": "Data & Information Retrieval",
           "abbreviation": "RecSys",
           "title": "ACM Conference on Recommender Systems",
@@ -2749,6 +3051,7 @@
         {
           "id": "2024-028",
           "field": "Data",
+          "fieldKey": "data",
           "subfield": "Data & Information Retrieval",
           "abbreviation": "CIKM",
           "title": "International Conference on Information and Knowledge Management",
@@ -2758,6 +3061,7 @@
         {
           "id": "2024-029",
           "field": "Data",
+          "fieldKey": "data",
           "subfield": "Data Engineering & System",
           "abbreviation": "ICDE",
           "title": "International Conference on Data Engineering",
@@ -2767,6 +3071,7 @@
         {
           "id": "2024-030",
           "field": "Data",
+          "fieldKey": "data",
           "subfield": "Data Engineering & System",
           "abbreviation": "BIGDATA",
           "title": "IEEE International Conference on BigData",
@@ -2776,6 +3081,7 @@
         {
           "id": "2024-031",
           "field": "Data",
+          "fieldKey": "data",
           "subfield": "Data Engineering & System",
           "abbreviation": "VLDB/PVLDB",
           "title": "International Conference on Very Large DataBases",
@@ -2785,6 +3091,7 @@
         {
           "id": "2024-032",
           "field": "Data",
+          "fieldKey": "data",
           "subfield": "Data Management System",
           "abbreviation": "SIGMOD",
           "title": "International Conference on Management of Data",
@@ -2794,6 +3101,7 @@
         {
           "id": "2024-033",
           "field": "Data",
+          "fieldKey": "data",
           "subfield": "Data Management System",
           "abbreviation": "WWW",
           "title": "World Wide Web Conference Series",
@@ -2803,6 +3111,7 @@
         {
           "id": "2024-034",
           "field": "Data",
+          "fieldKey": "data",
           "subfield": "Data Mining & Analysis",
           "abbreviation": "ICDM",
           "title": "IEEE International Conference on Data Mining",
@@ -2812,6 +3121,7 @@
         {
           "id": "2024-035",
           "field": "Data",
+          "fieldKey": "data",
           "subfield": "Data Mining & Analysis",
           "abbreviation": "WSDM",
           "title": "ACM International Conference on Web Search and Data Mining",
@@ -2821,6 +3131,7 @@
         {
           "id": "2024-036",
           "field": "Data",
+          "fieldKey": "data",
           "subfield": "Data Mining & Analysis",
           "abbreviation": "SIGKDD",
           "title": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
@@ -2830,6 +3141,7 @@
         {
           "id": "2024-037",
           "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "Communication Applications and Services",
           "abbreviation": "CCNC",
           "title": "IEEE Consumer Communications and Networking Conference",
@@ -2839,6 +3151,7 @@
         {
           "id": "2024-038",
           "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "Communication Applications and Services",
           "abbreviation": "MobiSys",
           "title": "International Conference on Mobile Systems, Applications, and Services",
@@ -2848,6 +3161,7 @@
         {
           "id": "2024-039",
           "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "Networking",
           "abbreviation": "WCNC",
           "title": "IEEE Wireless Communications and Networking Conference",
@@ -2857,6 +3171,7 @@
         {
           "id": "2024-040",
           "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "Networking",
           "abbreviation": "MOBICOM",
           "title": "ACM International Conference on Mobile Computing and Networking",
@@ -2866,6 +3181,7 @@
         {
           "id": "2024-041",
           "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "Networking",
           "abbreviation": "INFOCOM",
           "title": "IEEE Conference on Computer Communications",
@@ -2875,6 +3191,7 @@
         {
           "id": "2024-042",
           "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "Wireless Communications",
           "abbreviation": "VTC",
           "title": "IEEE Vehicular Technology Conference, VTC",
@@ -2884,6 +3201,7 @@
         {
           "id": "2024-043",
           "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "Wireless Communications",
           "abbreviation": "ICC",
           "title": "IEEE International Conference on Communications본 학술대회의 Workshop은 우수 등급으로 가늠",
@@ -2893,6 +3211,7 @@
         {
           "id": "2024-044",
           "field": "Network & Communications",
+          "fieldKey": "net",
           "subfield": "Wireless Communications",
           "abbreviation": "GLOBECOM",
           "title": "IEEE Global Communications Conference본 학술대회의 Workshop은 우수 등급으로 가늠",
@@ -2902,6 +3221,7 @@
         {
           "id": "2024-045",
           "field": "Security",
+          "fieldKey": "sec",
           "subfield": "Crypto",
           "abbreviation": "EUROCRYPT",
           "title": "Theory and Application of Cryptographic Techniques",
@@ -2911,6 +3231,7 @@
         {
           "id": "2024-046",
           "field": "Security",
+          "fieldKey": "sec",
           "subfield": "Crypto",
           "abbreviation": "CRYPTO",
           "title": "International Cryptology Conference",
@@ -2920,6 +3241,7 @@
         {
           "id": "2024-047",
           "field": "Security",
+          "fieldKey": "sec",
           "subfield": "Security General",
           "abbreviation": "CCS",
           "title": "ACM Symposium on Computer and Communications Security",
@@ -2929,6 +3251,7 @@
         {
           "id": "2024-048",
           "field": "Security",
+          "fieldKey": "sec",
           "subfield": "Security General",
           "abbreviation": "USENIX Security",
           "title": "USENIX Security Symposium",
@@ -2938,6 +3261,7 @@
         {
           "id": "2024-049",
           "field": "Security",
+          "fieldKey": "sec",
           "subfield": "Security General",
           "abbreviation": "SP",
           "title": "IEEE Symposium on Security and Privacy",
@@ -2947,6 +3271,7 @@
         {
           "id": "2024-050",
           "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "Software Engineering",
           "abbreviation": "FSE",
           "title": "ACM SIGSOFT International Symposium on the Foundations of Software Engineering",
@@ -2956,6 +3281,7 @@
         {
           "id": "2024-051",
           "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "Software Engineering",
           "abbreviation": "ICSE",
           "title": "International Conference on Software Engineering",
@@ -2965,6 +3291,7 @@
         {
           "id": "2024-052",
           "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "Software Engineering",
           "abbreviation": "ASE",
           "title": "IEEE/ACM International Conference on Automated Software Engineering",
@@ -2974,6 +3301,7 @@
         {
           "id": "2024-053",
           "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "Programming Language",
           "abbreviation": "CGO",
           "title": "International Symposium on Code Generation and Optimization",
@@ -2983,6 +3311,7 @@
         {
           "id": "2024-054",
           "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "Programming Language",
           "abbreviation": "OOPSLA",
           "title": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
@@ -2992,6 +3321,7 @@
         {
           "id": "2024-055",
           "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "Programming Language",
           "abbreviation": "PPoPP",
           "title": "Principles and Practice of Parallel Programming",
@@ -3001,6 +3331,7 @@
         {
           "id": "2024-056",
           "field": "Programming & SE",
+          "fieldKey": "plse",
           "subfield": "Programming Language",
           "abbreviation": "PLDI",
           "title": "SIGPLAN Conference on Programming Language Design and Implementation",
@@ -3010,6 +3341,7 @@
         {
           "id": "2024-057",
           "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "3D Computer Graphics",
           "abbreviation": "VAST",
           "title": "IEEE Symposium on Visual Analytics Science and Technology",
@@ -3019,6 +3351,7 @@
         {
           "id": "2024-058",
           "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "3D Computer Graphics",
           "abbreviation": "SIGGRAPH-ASIA",
           "title": "ACM SIGGRAPH Conference in Asia",
@@ -3028,6 +3361,7 @@
         {
           "id": "2024-059",
           "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "3D Computer Graphics",
           "abbreviation": "SIGGRAPH",
           "title": "ACM SIGGRAPH Conference",
@@ -3037,6 +3371,7 @@
         {
           "id": "2024-060",
           "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "Multimedia",
           "abbreviation": "ICME",
           "title": "IEEE International Conference on Multimedia and Expo",
@@ -3046,6 +3381,7 @@
         {
           "id": "2024-061",
           "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "Multimedia",
           "abbreviation": "Mmsys",
           "title": "ACM Multimedia Systems Conference",
@@ -3055,6 +3391,7 @@
         {
           "id": "2024-062",
           "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "Multimedia",
           "abbreviation": "ACM MM",
           "title": "ACM Multimedia Conference",
@@ -3064,6 +3401,7 @@
         {
           "id": "2024-063",
           "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "UX General",
           "abbreviation": "DIS",
           "title": "Designing Interactive Systems",
@@ -3073,6 +3411,7 @@
         {
           "id": "2024-064",
           "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "UX General",
           "abbreviation": "UbiComp",
           "title": "ACM International Conference on Ubiquitous Computing",
@@ -3082,6 +3421,7 @@
         {
           "id": "2024-065",
           "field": "Human-Computer Interaction & Graphics",
+          "fieldKey": "hci",
           "subfield": "UX General",
           "abbreviation": "CHI",
           "title": "International Conference on Human Factors in Computing Systems",
@@ -3091,6 +3431,7 @@
         {
           "id": "2024-066",
           "field": "Algorithms & Theory",
+          "fieldKey": "theory",
           "subfield": "Algorithms & Theory",
           "abbreviation": "FOCS",
           "title": "IEEE Symposium on Foundations of Computer Science",
@@ -3100,6 +3441,7 @@
         {
           "id": "2024-067",
           "field": "Algorithms & Theory",
+          "fieldKey": "theory",
           "subfield": "Algorithms & Theory",
           "abbreviation": "SODA",
           "title": "ACM-SIAM Symposium on Discrete Algorithms",
@@ -3109,6 +3451,7 @@
         {
           "id": "2024-068",
           "field": "Algorithms & Theory",
+          "fieldKey": "theory",
           "subfield": "Algorithms & Theory",
           "abbreviation": "STOC",
           "title": "ACM Symposium on Theory of Computing",
@@ -3118,6 +3461,7 @@
         {
           "id": "2024-069",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "Chip Design",
           "abbreviation": "VLSI",
           "title": "IEEE Symposium on VLSI Circuits and Technology",
@@ -3127,6 +3471,7 @@
         {
           "id": "2024-070",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "Chip Design",
           "abbreviation": "MICRO",
           "title": "International Symposium on Microarchitecture",
@@ -3136,6 +3481,7 @@
         {
           "id": "2024-071",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "Chip Design",
           "abbreviation": "DAC",
           "title": "Design Automation Conference",
@@ -3145,6 +3491,7 @@
         {
           "id": "2024-072",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "Display device",
           "abbreviation": "AES",
           "title": "Audio engineering society convention",
@@ -3154,6 +3501,7 @@
         {
           "id": "2024-073",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "Display device",
           "abbreviation": "SID",
           "title": "Display Week",
@@ -3163,6 +3511,7 @@
         {
           "id": "2024-074",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "Display device",
           "abbreviation": "Photonics West",
           "title": "Photonics West",
@@ -3172,6 +3521,7 @@
         {
           "id": "2024-075",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "Display device",
           "abbreviation": "SPIE AR, VR, MR",
           "title": "SPIE AR, VR, MR",
@@ -3181,6 +3531,7 @@
         {
           "id": "2024-076",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "RF & Antennas",
           "abbreviation": "IMS",
           "title": "IEEE/MTT-S International Microwave Symposium",
@@ -3190,6 +3541,7 @@
         {
           "id": "2024-077",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "RF & Antennas",
           "abbreviation": "APEC",
           "title": "IEEE Applied Power Electronics Conference and Exposition",
@@ -3199,6 +3551,7 @@
         {
           "id": "2024-078",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "RF & Antennas",
           "abbreviation": "RFIC",
           "title": "IEEE Radio Frequency Integrated Circuits Symposium",
@@ -3208,6 +3561,7 @@
         {
           "id": "2024-079",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "RF & Antennas",
           "abbreviation": "EuCAP",
           "title": "European Conference on Antennas and Propagation",
@@ -3217,6 +3571,7 @@
         {
           "id": "2024-080",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "Robot _Control",
           "abbreviation": "ICRA",
           "title": "IEEE International Conference on Robotics and Automation",
@@ -3226,6 +3581,7 @@
         {
           "id": "2024-081",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "Robot _Control",
           "abbreviation": "RSS",
           "title": "Robotics: Science and Systems Conference",
@@ -3235,6 +3591,7 @@
         {
           "id": "2024-082",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "Robot_HRI",
           "abbreviation": "DATE",
           "title": "Design Automation and Test in Europe Conference",
@@ -3244,6 +3601,7 @@
         {
           "id": "2024-083",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "Robot_HRI",
           "abbreviation": "HRI",
           "title": "ACM/IEEE International Conference on Human Robot Interaction",
@@ -3253,6 +3611,7 @@
         {
           "id": "2024-084",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "Robot_System",
           "abbreviation": "IROS",
           "title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
@@ -3262,6 +3621,7 @@
         {
           "id": "2024-085",
           "field": "Hardware, Robotics & Electronics",
+          "fieldKey": "hw",
           "subfield": "Robot_System",
           "abbreviation": "ISSCC",
           "title": "IEEE International Solid-State Circuits Conference",
@@ -3271,6 +3631,7 @@
         {
           "id": "2024-086",
           "field": "Health, Digital Health & Biometrics",
+          "fieldKey": "health",
           "subfield": "Health",
           "abbreviation": "IEEE BHI&BSN",
           "title": "IEEE-EMBS International Conference on Biomedical and Health Informatics(BHI) and the Body Sensor Networks(BSN) Conferences",
@@ -3280,6 +3641,7 @@
         {
           "id": "2024-087",
           "field": "Health, Digital Health & Biometrics",
+          "fieldKey": "health",
           "subfield": "Health",
           "abbreviation": "EMBC",
           "title": "Engineering in Medicine and Biology Conference",
@@ -3289,6 +3651,7 @@
         {
           "id": "2024-088",
           "field": "Mechanics & Chemistry",
+          "fieldKey": "etc",
           "subfield": "Chemistry",
           "abbreviation": "ESC",
           "title": "ESC Meeting Fall",
@@ -3298,6 +3661,7 @@
         {
           "id": "2024-089",
           "field": "Mechanics & Chemistry",
+          "fieldKey": "etc",
           "subfield": "Chemistry",
           "abbreviation": "IWTC",
           "title": "International Water Technology Conference",
@@ -3307,6 +3671,7 @@
         {
           "id": "2024-090",
           "field": "Mechanics & Chemistry",
+          "fieldKey": "etc",
           "subfield": "Food Science",
           "abbreviation": "IFT",
           "title": "IFT FIRST Annual Event and Expo",
@@ -3316,6 +3681,7 @@
         {
           "id": "2024-091",
           "field": "Mechanics & Chemistry",
+          "fieldKey": "etc",
           "subfield": "Thermoelecronics",
           "abbreviation": "ECCE",
           "title": "IEEE Energy Conversion Congress and Exposition",
@@ -3325,6 +3691,7 @@
         {
           "id": "2024-092",
           "field": "Mechanics & Chemistry",
+          "fieldKey": "etc",
           "subfield": "Thermoelecronics",
           "abbreviation": "Therminic",
           "title": "International Workshop on Thermal Investigations of ICs and Systems (Therminic)",
@@ -3334,6 +3701,7 @@
         {
           "id": "2024-093",
           "field": "Mechanics & Chemistry",
+          "fieldKey": "etc",
           "subfield": "Thermoelecronics",
           "abbreviation": "iTherm",
           "title": "Int. Conf. on Thermal and Thermomechanical Phenomena in Electronic Systems (iTherm)",
