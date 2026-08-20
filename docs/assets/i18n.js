@@ -108,6 +108,8 @@
     "board.heading": { ko: "학회 목록", en: "Conference List" },
     "board.heading.count": { ko: "학회 목록 ({n}개)", en: "Conference List ({n})" },
     "board.perPage": { ko: "페이지당 표시", en: "Per page" },
+    "board.year": { ko: "기준 연도", en: "List year" },
+    "board.sourceNote": { ko: "{note} · Samsung Research 문서 기준", en: "{note} · Based on the Samsung Research document" },
     "board.no": { ko: "번호", en: "No." },
     "board.cat": { ko: "대분야", en: "Category" },
     "board.subcat": { ko: "소분야", en: "Subfield" },

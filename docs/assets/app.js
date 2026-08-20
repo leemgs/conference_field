@@ -54,6 +54,8 @@
     paperYear: null, // 논문 패널에서 선택한 연도(국가 상세용)
     journals: [],
     dashboardKind: "conference",
+    conferenceHistory: [],
+    conferenceYear: "2026-h2",
   };
 
   const $ = (sel) => document.querySelector(sel);
@@ -92,17 +94,20 @@
     fetch("data/paper_stats.json").then((r) => (r.ok ? r.json() : null)).catch(() => null),
     fetch("data/paper_countries.json").then((r) => (r.ok ? r.json() : null)).catch(() => null),
     fetch("data/journals.json").then((r) => r.json()),
+    fetch("data/conference_history.json").then((r) => r.json()),
   ])
-    .then(([data, paperStats, paperCountries, journalData]) => {
+    .then(([data, paperStats, paperCountries, journalData, conferenceHistory]) => {
       state.data = data;
       state.paperStats = paperStats;
       state.paperCountries = paperCountries;
       state.journals = journalData.journals || [];
+      state.conferenceHistory = conferenceHistory.versions || [];
       state.events = flatten(data.conferences);
       renderUpdatedAt();
       buildFieldChips();
       bindControls();
       buildJournalFilters();
+      buildConferenceYearFilter();
       const hashView = viewFromHash();
       if (hashView) setView(hashView, false);
       else render();
@@ -242,6 +247,12 @@
       state.page = 1;
       try { localStorage.setItem("boardPageSize", String(state.pageSize)); } catch (_) {}
       render();
+    });
+
+    $("#conference-year").addEventListener("change", (e) => {
+      state.conferenceYear = e.target.value;
+      state.page = 1;
+      renderBoard();
     });
 
     document.querySelectorAll(".view-btn").forEach((btn) => {
@@ -530,6 +541,18 @@
     return conf.name.replace(/\s+\d{4}$/, "");
   }
 
+  function buildConferenceYearFilter() {
+    const select = $("#conference-year");
+    select.innerHTML = "";
+    state.conferenceHistory.forEach((version) => {
+      const option = document.createElement("option");
+      option.value = version.key;
+      option.textContent = `${version.label} (${version.conferences.length}개)`;
+      select.appendChild(option);
+    });
+    select.value = state.conferenceYear;
+  }
+
   // 학회 id → 게시판 번호(등급별 일련번호). 필터와 무관하게 번호가 고정되도록 전체 목록 기준으로 1회 생성
   let boardIndex = null;
   function buildBoardIndex() {
@@ -556,6 +579,11 @@
   }
 
   function renderBoard() {
+    const historical = state.conferenceHistory.find((version) => version.key === state.conferenceYear);
+    if (historical) {
+      renderHistoricalBoard(historical);
+      return;
+    }
     if (!boardIndex) buildBoardIndex();
     const confs = (state.data.conferences || []).filter((conf) => {
       if (state.field !== "all" && conf.field !== state.field) return false;
@@ -599,6 +627,41 @@
       body.appendChild(tr);
     });
 
+    renderBoardPager(totalPages);
+  }
+
+  function renderHistoricalBoard(version) {
+    const query = state.query;
+    const rows = version.conferences.filter((conf) => {
+      if (query && !`${conf.abbreviation} ${conf.title}`.toLocaleLowerCase().includes(query)) return false;
+      if (state.field !== "all" && conf.field) {
+        const label = fieldLabel(state.field).toLocaleLowerCase();
+        if (!conf.field.toLocaleLowerCase().includes(label)) return false;
+      }
+      return true;
+    });
+    $("#board-heading").textContent = t("board.heading.count", { n: rows.length });
+    $("#board-version-note").textContent = t("board.sourceNote", { note: version.note });
+    const totalPages = Math.max(1, Math.ceil(rows.length / state.pageSize));
+    state.page = Math.min(Math.max(state.page, 1), totalPages);
+    const start = (state.page - 1) * state.pageSize;
+    const body = $("#board-body");
+    body.innerHTML = "";
+    rows.slice(start, start + state.pageSize).forEach((conf, offset) => {
+      const letter = GRADE_LETTER[conf.rating] || "B";
+      const category = conf.field || "—";
+      const subfield = conf.subfield || "—";
+      const note = conf.h5Index == null ? "" : `h5-index: ${conf.h5Index}`;
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td class="board-no">${version.key}-${String(start + offset + 1).padStart(3, "0")}</td>
+        <td>${escapeHtml(category)}</td><td class="board-sub">${escapeHtml(subfield)}</td>
+        <td class="board-abbr">${escapeHtml(conf.abbreviation)}</td>
+        <td class="board-name">${escapeHtml(conf.title)}</td>
+        <td><span class="grade-badge grade-${letter.toLowerCase()}" title="${escapeHtml(conf.rating)}">${letter}</span></td>
+        <td class="board-note">${note}</td>`;
+      body.appendChild(tr);
+    });
+    if (rows.length === 0) body.innerHTML = `<tr><td colspan="7"><p class="empty">${t("board.empty")}</p></td></tr>`;
     renderBoardPager(totalPages);
   }
 

@@ -590,6 +590,7 @@ a { color: var(--accent); }
 }
 .board-pager button:disabled { opacity: 0.45; cursor: default; }
 .board-pager .ellipsis { color: var(--text-muted); padding: 0 2px; }
+.board-version-note { margin: -8px 0 10px; color: var(--text-muted); font-size: .8rem; }
 
 /* ── Dashboard ──────────────────────────── */
 .controls.dash-mode .control-row:not(:first-child) { display: none; }

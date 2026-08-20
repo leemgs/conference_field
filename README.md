@@ -15,6 +15,7 @@
 
 - **🗓️ 월별 달력 뷰** — 마감일을 달력 그리드에 분야별 색상으로 표시
 - **📋 목록 뷰** — 다가오는 마감을 D-day 카운트다운과 함께 정렬, 지난 마감·미확인 학회는 접이식 분리
+- **🗂️ 연도별 컨퍼런스 목록** — Samsung Research 문서 기준 2024년, 2025년, 2026년 및 2026년 하반기 목록을 선택 조회
 - **🔍 검색·필터** — 학회 약어·전체 이름 검색, 결과별 인터넷 검색 팝업 / 분야 12종(시스템·AI·데이터·네트워크·보안·PL/SE·HCI·이론·HW·AR/VR·헬스·기타) / 상태(✅ 확정 · 🔮 예상)
 - **🏆 등급 배지** — `data/list_conf.csv` 기준 최우수/우수 등급 표시
 - **📚 저널 탐색** — Samsung Research 2025년 개정 목록의 8개 분야, 304개 최우수/우수 저널을 분야·등급·이름으로 검색하고 SJR 확인
@@ -34,6 +35,7 @@ conference/
 ├── data/
 │   └── list_conf.csv        # 학회 목록·분야·등급 (진실의 원천 ①)
 │   └── list_journal.csv     # 2025년 저널 목록·분야·등급·SJR
+├── field-conference-list-v37-20260820_200532.docx # 연도별 컨퍼런스 원본 문서
 ├── docs/                    # GitHub Pages 정적 사이트
 │   ├── index.html           # 메인 페이지 (달력/목록 뷰)
 │   ├── assets/
@@ -42,11 +44,13 @@ conference/
 │   ├── data/
 │   │   ├── conferences.json # 마감일 데이터 (빌드 산출물, 진실의 원천 ②)
 │   │   ├── journals.json    # 저널 탐색용 데이터
+│   │   ├── conference_history.json # 2024~2026 연도별 컨퍼런스 목록
 │   │   └── paper_stats.json # 학회별 연도별 논문 수 (대시보드용)
 │   └── conferences.ics      # 구독용 ICS 피드 (자동 생성물)
 ├── scripts/
 │   ├── build_data.py        # CSV + ccfddl → conferences.json 생성
 │   ├── build_paper_stats.py # DBLP → paper_stats.json 갱신
+│   ├── build_conference_history.py # DOCX → 연도별 컨퍼런스 JSON 생성
 │   └── generate_ics.py      # conferences.json → ICS 피드 생성
 └── README.md
 ```

@@ -181,6 +181,10 @@
       <div class="board-bar">
         <h2 class="list-heading" id="board-heading" data-i18n="board.heading">학회 목록</h2>
         <label class="board-size">
+          <span data-i18n="board.year">기준 연도</span>
+          <select id="conference-year"></select>
+        </label>
+        <label class="board-size">
           <span data-i18n="board.perPage">페이지당 표시</span>
           <select id="page-size">
             <option value="5">5</option>
@@ -193,6 +197,7 @@
           </select>
         </label>
       </div>
+      <p class="board-version-note" id="board-version-note"></p>
       <div class="board-wrap">
         <table class="board-table">
           <thead>
@@ -248,6 +253,6 @@
   </div>
 
   <script src="assets/i18n.js?v=20260820-2"></script>
-  <script src="assets/app.js?v=20260820-2"></script>
+  <script src="assets/app.js?v=20260820-3"></script>
 </body>
 </html>
