@@ -52,12 +52,16 @@
     dashMonth: null, // 월별 현황에서 선택한 "YYYY-MM"
     paperConf: null, // 논문 수 패널에서 선택한 학회 id
     paperYear: null, // 논문 패널에서 선택한 연도(국가 상세용)
+    journals: [],
   };
 
   const $ = (sel) => document.querySelector(sel);
+  const escapeHtml = (value) => String(value).replace(/[&<>'"]/g, (char) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;",
+  })[char]);
 
   // 뷰별 직접 접속 주소: #calendar, #list, #dashboard
-  const VIEW_HASHES = { calendar: "#calendar", list: "#list", dashboard: "#dashboard" };
+  const VIEW_HASHES = { calendar: "#calendar", list: "#list", dashboard: "#dashboard", journals: "#journals" };
 
   function viewFromHash() {
     const h = location.hash;
@@ -67,6 +71,9 @@
   function setView(view, updateHash) {
     if (!VIEW_HASHES[view]) return;
     state.view = view;
+    $("#conference-search").placeholder = view === "journals"
+      ? "저널명 검색 (예: Nature, IEEE Transactions)"
+      : t("search.placeholder");
     document.querySelectorAll(".view-btn").forEach((b) => {
       const on = b.dataset.view === view;
       b.classList.toggle("active", on);
@@ -83,15 +90,18 @@
     fetch("data/conferences.json").then((r) => r.json()),
     fetch("data/paper_stats.json").then((r) => (r.ok ? r.json() : null)).catch(() => null),
     fetch("data/paper_countries.json").then((r) => (r.ok ? r.json() : null)).catch(() => null),
+    fetch("data/journals.json").then((r) => r.json()),
   ])
-    .then(([data, paperStats, paperCountries]) => {
+    .then(([data, paperStats, paperCountries, journalData]) => {
       state.data = data;
       state.paperStats = paperStats;
       state.paperCountries = paperCountries;
+      state.journals = journalData.journals || [];
       state.events = flatten(data.conferences);
       renderUpdatedAt();
       buildFieldChips();
       bindControls();
+      buildJournalFilters();
       const hashView = viewFromHash();
       if (hashView) setView(hashView, false);
       else render();
@@ -286,12 +296,16 @@
   // ── 렌더링 ───────────────────────────────
   function render() {
     const isDash = state.view === "dashboard";
-    const isSearch = !isDash && state.query.length > 0;
+    const isJournal = state.view === "journals";
+    const isSearch = !isDash && !isJournal && state.query.length > 0;
     const isCal = state.view === "calendar";
     $("#search-view").hidden = !isSearch;
-    $("#calendar-view").hidden = isDash || isSearch || !isCal;
-    $("#list-view").hidden = isDash || isSearch || isCal;
+    $("#calendar-view").hidden = isDash || isJournal || isSearch || !isCal;
+    $("#list-view").hidden = isDash || isJournal || isSearch || isCal;
     $("#dashboard-view").hidden = !isDash;
+    $("#journal-view").hidden = !isJournal;
+    $("#status-filter").closest(".control-row").hidden = isJournal;
+    $("#field-filter").closest(".control-row").hidden = isJournal;
     document.querySelector(".controls").classList.toggle("dash-mode", isDash);
     document.querySelector(".controls").classList.toggle("cal-mode", isCal && !isSearch);
     $("#empty-msg").hidden = true;
@@ -299,6 +313,7 @@
       renderDashboard();
       return;
     }
+    if (isJournal) { renderJournals(); return; }
     if (isSearch) {
       renderSearchResults();
       return;
@@ -309,6 +324,31 @@
     } else {
       renderBoard();
     }
+  }
+
+  function buildJournalFilters() {
+    const select = $("#journal-field");
+    [...new Set(state.journals.map((j) => j.field))].forEach((field) => {
+      const option = document.createElement("option");
+      option.value = field; option.textContent = field; select.appendChild(option);
+    });
+    select.addEventListener("change", renderJournals);
+    $("#journal-rating").addEventListener("change", renderJournals);
+  }
+
+  function renderJournals() {
+    const field = $("#journal-field").value;
+    const rating = $("#journal-rating").value;
+    const rows = state.journals.filter((j) =>
+      (field === "all" || j.field === field) &&
+      (rating === "all" || j.rating === rating) &&
+      (!state.query || j.title.toLocaleLowerCase().includes(state.query))
+    );
+    $("#journal-count").textContent = `${rows.length}개 저널`;
+    $("#journal-body").innerHTML = rows.map((j) => `<tr>
+      <td>${escapeHtml(j.field)}</td><td><span class="rating-badge ${j.rating === "최우수" ? "rating-top" : "rating-good"}">${j.rating}</span></td>
+      <td class="journal-title">${escapeHtml(j.title)}</td><td>${j.sjr == null ? "—" : Number(j.sjr).toFixed(2)}</td>
+    </tr>`).join("");
   }
 
   function renderSearchResults() {

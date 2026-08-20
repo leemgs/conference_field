@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="light dark" />
-  <title>탑티어 학회 마감일 캘린더</title>
+  <title>탑티어 학회·저널 탐색기</title>
   <meta name="description" content="ICML, AAAI, CVPR 등 12개 분야 185개 탑티어 학회의 논문 제출 마감일을 한눈에 보는 캘린더" />
-  <link rel="stylesheet" href="assets/style.css?v=20260723-1" />
+  <link rel="stylesheet" href="assets/style.css?v=20260820-1" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
 </head>
 <body>
@@ -28,8 +28,9 @@
     <section class="controls">
       <div class="control-row">
         <div class="view-toggle" role="tablist" data-i18n-aria-label="view.tablist" aria-label="보기 전환">
+          <button type="button" class="view-btn" data-view="list" role="tab" aria-selected="false" data-i18n="view.list">📋 컨퍼런스</button>
+          <button type="button" class="view-btn" data-view="journals" role="tab" aria-selected="false" data-i18n="view.journals">📚 저널</button>
           <button type="button" class="view-btn active" data-view="calendar" role="tab" aria-selected="true" data-i18n="view.calendar">🗓️ 달력</button>
-          <button type="button" class="view-btn" data-view="list" role="tab" aria-selected="false" data-i18n="view.list">📋 목록</button>
           <button type="button" class="view-btn" data-view="dashboard" role="tab" aria-selected="false" data-i18n="view.dashboard">📊 대시보드</button>
         </div>
       </div>
@@ -181,6 +182,22 @@
       <nav class="board-pager" id="board-pager" data-i18n-aria-label="board.pagerAria" aria-label="페이지 이동"></nav>
     </section>
 
+    <section id="journal-view" hidden>
+      <div class="journal-intro">
+        <div><h2>최우수/우수 저널 목록</h2><p>Samsung Research 기준 · 2025.3.1부터 적용</p></div>
+        <strong id="journal-count"></strong>
+      </div>
+      <div class="journal-filters" aria-label="저널 필터">
+        <label>분야 <select id="journal-field"><option value="all">전체 분야</option></select></label>
+        <label>등급 <select id="journal-rating"><option value="all">전체 등급</option><option value="최우수">최우수</option><option value="우수">우수</option></select></label>
+      </div>
+      <div class="board-wrap"><table class="board-table journal-table">
+        <thead><tr><th>분야</th><th>등급</th><th>Journal Title</th><th>SJR</th></tr></thead>
+        <tbody id="journal-body"></tbody>
+      </table></div>
+      <p class="journal-source">※ 제공된 「최우수/우수 저널 목록 (2025.3.1~적용)」을 기준으로 합니다.</p>
+    </section>
+
     <p id="empty-msg" class="empty" data-i18n="empty.default" hidden>표시할 학회 일정이 없습니다.</p>
   </main>
 
@@ -200,7 +217,7 @@
     </div>
   </div>
 
-  <script src="assets/i18n.js?v=20260723-1"></script>
-  <script src="assets/app.js?v=20260723-1"></script>
+  <script src="assets/i18n.js?v=20260820-1"></script>
+  <script src="assets/app.js?v=20260820-1"></script>
 </body>
 </html>
