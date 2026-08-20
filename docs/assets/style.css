@@ -205,6 +205,18 @@ a { color: var(--accent); }
 
 .view-toggle { display: flex; gap: 6px; }
 
+.journal-intro { display:flex; align-items:flex-end; justify-content:space-between; gap:16px; margin-bottom:14px; }
+.journal-intro h2 { margin:0; }
+.journal-intro p, .journal-source { color:var(--text-muted); margin:4px 0 0; }
+.journal-filters { display:flex; flex-wrap:wrap; gap:12px; margin-bottom:14px; }
+.journal-filters label { font-size:.85rem; font-weight:700; color:var(--text-muted); }
+.journal-filters select { margin-left:6px; padding:7px 28px 7px 9px; border:1px solid var(--border); border-radius:8px; background:var(--surface); color:var(--text); }
+.journal-table .journal-title { font-weight:600; min-width:320px; }
+.journal-table th:last-child, .journal-table td:last-child { text-align:right; font-variant-numeric:tabular-nums; }
+.rating-badge { display:inline-block; padding:3px 8px; border-radius:999px; white-space:nowrap; font-size:.78rem; font-weight:700; }
+.rating-badge.rating-top { background:rgba(0,131,0,.13); color:var(--tier-top); }
+.rating-badge.rating-good { background:rgba(37,106,191,.13); color:var(--tier-good); }
+
 /* ── Calendar ───────────────────────────── */
 .cal-nav {
   display: flex;
