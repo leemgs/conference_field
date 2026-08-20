@@ -5,8 +5,8 @@
   window.I18N = {
     "app.title": { ko: "탑티어 학회 마감일·저널 탐색기", en: "Top-Tier Conference Deadlines & Journal Explorer" },
     "app.description": {
-      ko: "12개 분야 탑티어 학회 마감일과 Samsung Research 선정 304개 최우수·우수 저널을 한곳에서 탐색하세요",
-      en: "Explore top-tier conference deadlines across 12 fields and 304 Samsung Research top-tier and excellent journals in one place",
+      ko: "12개 분야 탑티어 학회 마감일과 산업 분야 관점의 304개 최우수·우수 저널을 한곳에서 탐색하세요",
+      en: "Explore top-tier conference deadlines across 12 fields and 304 industry-view top-tier and excellent journals in one place",
     },
     "brand.h1": { ko: "탑티어 학회 마감일·저널 탐색기", en: "Top-Tier Conference Deadlines & Journal Explorer" },
     "brand.home": { ko: "홈으로 이동", en: "Go to home" },
@@ -109,7 +109,7 @@
     "board.heading.count": { ko: "학회 목록 ({n}개)", en: "Conference List ({n})" },
     "board.perPage": { ko: "페이지당 표시", en: "Per page" },
     "board.year": { ko: "기준 연도", en: "List year" },
-    "board.sourceNote": { ko: "{note} · Samsung Research 문서 기준", en: "{note} · Based on the Samsung Research document" },
+    "board.sourceNote": { ko: "{note} · Field (industry view) 기준", en: "{note} · Field (industry view) criteria" },
     "board.no": { ko: "번호", en: "No." },
     "board.cat": { ko: "대분야", en: "Category" },
     "board.subcat": { ko: "소분야", en: "Subfield" },

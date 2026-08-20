@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract the yearly conference lists from the Samsung Research DOCX export."""
+"""Extract the yearly conference lists from the field-industry DOCX export."""
 
 import json
 import re
