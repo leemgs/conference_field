@@ -24,7 +24,8 @@
 
     "view.tablist": { ko: "보기 전환", en: "Switch view" },
     "view.calendar": { ko: "🗓️ 달력", en: "🗓️ Calendar" },
-    "view.list": { ko: "📋 목록", en: "📋 List" },
+    "view.list": { ko: "📋 컨퍼런스", en: "📋 Conferences" },
+    "view.journals": { ko: "📚 저널", en: "📚 Journals" },
     "view.dashboard": { ko: "📊 대시보드", en: "📊 Dashboard" },
 
     "search.label": { ko: "검색", en: "Search" },
