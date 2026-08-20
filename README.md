@@ -1,4 +1,4 @@
-# 🎓 Top Conference Deadlines Calendar
+# 🎓 Top-Tier Conference Deadlines & Journal Explorer
 
  
 
@@ -9,7 +9,7 @@
 - 📊 대시보드: **https://leemgs.github.io/conference_field/#dashboard**
 - 📚 저널: **https://leemgs.github.io/conference_field/#journals**
 
-**12개 분야, 185개 탑티어 학회**(ICML, AAAI, CVPR, SOSP, SIGCOMM, CHI, PLDI 등)의 논문 제출 마감일을 한눈에 볼 수 있는 캘린더 웹사이트입니다.  
+**12개 분야 탑티어 학회**(ICML, AAAI, CVPR, SOSP, SIGCOMM, CHI, PLDI 등)의 논문 제출 마감일과 **8개 분야 304개 최우수·우수 저널**의 등급·SJR 정보를 한곳에서 조회할 수 있는 웹사이트입니다.
 
 ## ✨ 주요 기능
 

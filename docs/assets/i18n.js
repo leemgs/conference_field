@@ -3,16 +3,16 @@
   "use strict";
 
   window.I18N = {
-    "app.title": { ko: "탑티어 학회 마감일 캘린더", en: "Top-Tier Conference Deadline Calendar" },
+    "app.title": { ko: "탑티어 학회 마감일·저널 탐색기", en: "Top-Tier Conference Deadlines & Journal Explorer" },
     "app.description": {
-      ko: "ICML, AAAI, CVPR 등 12개 분야 185개 탑티어 학회의 논문 제출 마감일을 한눈에 보는 캘린더",
-      en: "A calendar of paper submission deadlines for 185 top-tier conferences across 12 fields, including ICML, AAAI, and CVPR",
+      ko: "12개 분야 탑티어 학회 마감일과 Samsung Research 선정 304개 최우수·우수 저널을 한곳에서 탐색하세요",
+      en: "Explore top-tier conference deadlines across 12 fields and 304 Samsung Research top-tier and excellent journals in one place",
     },
-    "brand.h1": { ko: "탑티어 학회 마감일 캘린더", en: "Top-Tier Conference Deadline Calendar" },
+    "brand.h1": { ko: "탑티어 학회 마감일·저널 탐색기", en: "Top-Tier Conference Deadlines & Journal Explorer" },
     "brand.home": { ko: "홈으로 이동", en: "Go to home" },
     "brand.tagline": {
-      ko: "ICML · AAAI · CVPR 등 12개 분야, 185개 탑티어 학회 논문 제출 일정 모음",
-      en: "Paper submission schedules for 185 top-tier conferences across 12 fields, including ICML, AAAI, and CVPR",
+      ko: "12개 분야 탑티어 학회 일정과 8개 분야 304개 최우수·우수 저널을 한곳에서",
+      en: "Top-tier conference schedules across 12 fields and 304 selected journals across 8 fields, all in one place",
     },
 
     "header.ics": { ko: "📅 캘린더 구독 (ICS)", en: "📅 Subscribe (ICS)" },
