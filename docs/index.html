@@ -4,17 +4,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="light dark" />
-  <title>탑티어 학회 마감일 캘린더</title>
-  <meta name="description" content="ICML, AAAI, CVPR 등 12개 분야 185개 탑티어 학회의 논문 제출 마감일을 한눈에 보는 캘린더" />
-  <link rel="stylesheet" href="assets/style.css?v=20260723-1" />
+  <title>탑티어 학회 마감일·저널 탐색기</title>
+  <meta name="description" content="12개 분야 탑티어 학회 마감일과 산업 분야 관점의 304개 최우수·우수 저널을 한곳에서 탐색하세요" />
+  <link rel="stylesheet" href="assets/style.css?v=20260820-1" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
 </head>
 <body>
   <header class="site-header">
     <div class="header-inner">
       <div class="brand">
-        <h1><a class="brand-logo" href="https://leemgs.github.io/conference_field" data-i18n-aria-label="brand.home" aria-label="홈으로 이동">🎓</a> <span data-i18n="brand.h1">탑티어 학회 마감일 캘린더</span></h1>
-        <p class="tagline" data-i18n="brand.tagline">ICML · AAAI · CVPR 등 12개 분야, 185개 탑티어 학회 논문 제출 일정 모음</p>
+        <h1><a class="brand-logo" href="https://leemgs.github.io/conference_field" data-i18n-aria-label="brand.home" aria-label="홈으로 이동">🎓</a> <span data-i18n="brand.h1">탑티어 학회 마감일·저널 탐색기</span></h1>
+        <p class="tagline" data-i18n="brand.tagline">12개 분야 탑티어 학회 일정과 8개 분야 304개 최우수·우수 저널을 한곳에서</p>
       </div>
       <div class="header-actions">
         <a class="ics-link" href="conferences.ics" data-i18n="header.ics" data-i18n-title="header.ics.title" title="구글 캘린더 등에서 URL로 구독할 수 있습니다">📅 캘린더 구독 (ICS)</a>
@@ -28,8 +28,9 @@
     <section class="controls">
       <div class="control-row">
         <div class="view-toggle" role="tablist" data-i18n-aria-label="view.tablist" aria-label="보기 전환">
+          <button type="button" class="view-btn" data-view="list" role="tab" aria-selected="false" data-i18n="view.list">📋 컨퍼런스</button>
+          <button type="button" class="view-btn" data-view="journals" role="tab" aria-selected="false" data-i18n="view.journals">📚 저널</button>
           <button type="button" class="view-btn active" data-view="calendar" role="tab" aria-selected="true" data-i18n="view.calendar">🗓️ 달력</button>
-          <button type="button" class="view-btn" data-view="list" role="tab" aria-selected="false" data-i18n="view.list">📋 목록</button>
           <button type="button" class="view-btn" data-view="dashboard" role="tab" aria-selected="false" data-i18n="view.dashboard">📊 대시보드</button>
         </div>
       </div>
@@ -82,7 +83,13 @@
     </section>
 
     <section id="dashboard-view" hidden>
-      <div class="dash-tiles" id="dash-tiles"></div>
+      <div class="dashboard-kind-toggle" role="tablist" aria-label="대시보드 종류">
+        <button type="button" class="chip active" data-dashboard-kind="conference" role="tab" aria-selected="true" data-i18n="dash.kind.conference">Conference</button>
+        <button type="button" class="chip" data-dashboard-kind="journal" role="tab" aria-selected="false" data-i18n="dash.kind.journal">Journal</button>
+      </div>
+
+      <div id="conference-dashboard">
+        <div class="dash-tiles" id="dash-tiles"></div>
 
       <div class="dash-grid">
         <article class="dash-card" id="domain-card">
@@ -143,12 +150,40 @@
           </details>
           <p class="dash-note" id="paper-country-note"></p>
         </article>
+        </div>
+      </div>
+
+      <div id="journal-dashboard" hidden>
+        <div class="dash-tiles" id="journal-dash-tiles"></div>
+        <div class="dash-grid">
+          <article class="dash-card">
+            <h3 class="dash-title" data-i18n="dash.journal.fieldTitle">분야별 저널 등급 현황</h3>
+            <p class="dash-sub" data-i18n="dash.journal.fieldSub">분야별 최우수·우수 저널 수</p>
+            <div class="dash-legend" aria-hidden="true">
+              <span class="legend-item"><span class="legend-swatch swatch-top"></span><span data-i18n="rating.top">최우수</span></span>
+              <span class="legend-item"><span class="legend-swatch swatch-good"></span><span data-i18n="rating.good">우수</span></span>
+            </div>
+            <div id="journal-domain-chart" class="domain-chart"></div>
+            <details class="dash-table-details"><summary data-i18n="dash.tableToggle">표로 보기</summary>
+              <div class="dash-table-wrap"><table class="dash-table" id="journal-domain-table"></table></div>
+            </details>
+          </article>
+          <article class="dash-card">
+            <h3 class="dash-title" data-i18n="dash.journal.sjrTitle">SJR 상위 저널</h3>
+            <p class="dash-sub" data-i18n="dash.journal.sjrSub">2025년 목록의 SJR 기준 상위 15개 저널</p>
+            <div class="dash-table-wrap"><table class="dash-table journal-rank-table" id="journal-rank-table"></table></div>
+          </article>
+        </div>
       </div>
     </section>
 
     <section id="list-view" hidden>
       <div class="board-bar">
         <h2 class="list-heading" id="board-heading" data-i18n="board.heading">학회 목록</h2>
+        <label class="board-size">
+          <span data-i18n="board.year">기준 연도</span>
+          <select id="conference-year"></select>
+        </label>
         <label class="board-size">
           <span data-i18n="board.perPage">페이지당 표시</span>
           <select id="page-size">
@@ -162,6 +197,7 @@
           </select>
         </label>
       </div>
+      <p class="board-version-note" id="board-version-note"></p>
       <div class="board-wrap">
         <table class="board-table">
           <thead>
@@ -179,6 +215,22 @@
         </table>
       </div>
       <nav class="board-pager" id="board-pager" data-i18n-aria-label="board.pagerAria" aria-label="페이지 이동"></nav>
+    </section>
+
+    <section id="journal-view" hidden>
+      <div class="journal-intro">
+        <div><h2>최우수/우수 저널 목록</h2><p>Field (industry view) 기준 · 2025.3.1부터 적용</p></div>
+        <strong id="journal-count"></strong>
+      </div>
+      <div class="journal-filters" aria-label="저널 필터">
+        <label>분야 <select id="journal-field"><option value="all">전체 분야</option></select></label>
+        <label>등급 <select id="journal-rating"><option value="all">전체 등급</option><option value="최우수">최우수</option><option value="우수">우수</option></select></label>
+      </div>
+      <div class="board-wrap"><table class="board-table journal-table">
+        <thead><tr><th>분야</th><th>등급</th><th>Journal Title</th><th>SJR</th></tr></thead>
+        <tbody id="journal-body"></tbody>
+      </table></div>
+      <p class="journal-source">※ 제공된 「최우수/우수 저널 목록 (2025.3.1~적용)」을 기준으로 합니다.</p>
     </section>
 
     <p id="empty-msg" class="empty" data-i18n="empty.default" hidden>표시할 학회 일정이 없습니다.</p>
@@ -200,7 +252,7 @@
     </div>
   </div>
 
-  <script src="assets/i18n.js?v=20260723-1"></script>
-  <script src="assets/app.js?v=20260723-1"></script>
+  <script src="assets/i18n.js?v=20260820-3"></script>
+  <script src="assets/app.js?v=20260820-4"></script>
 </body>
 </html>
