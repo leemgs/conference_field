@@ -541,6 +541,10 @@
     return conf.name.replace(/\s+\d{4}$/, "");
   }
 
+  function displayAbbreviation(value) {
+    return String(value || "").toLocaleUpperCase("en-US");
+  }
+
   function buildConferenceYearFilter() {
     const select = $("#conference-year");
     select.innerHTML = "";
@@ -617,7 +621,7 @@
         <td class="board-no">${idx.no}</td>
         <td><span class="badge-cat ${isAI ? "cat-ai" : "cat-cs"}">${isAI ? "AI" : "CS"}</span></td>
         <td class="board-sub">${SUBFIELD_CODE[conf.field] || "Etc"}</td>
-        <td class="board-abbr">${abbrOf(conf)}</td>
+        <td class="board-abbr">${escapeHtml(displayAbbreviation(abbrOf(conf)))}</td>
         <td class="board-name"><a href="${conf.url}" target="_blank" rel="noopener">${conf.fullName} <span aria-hidden="true">↗</span></a></td>
         <td><span class="grade-badge grade-${idx.letter.toLowerCase()}" title="${conf.rating || ""}">${idx.letter}</span></td>
         <td class="board-note">${noteKey ? t(noteKey) : ""}</td>`;
@@ -652,7 +656,7 @@
       const tr = document.createElement("tr");
       tr.innerHTML = `<td class="board-no">${version.key}-${String(start + offset + 1).padStart(3, "0")}</td>
         <td>${escapeHtml(category)}</td><td class="board-sub">${escapeHtml(subfield)}</td>
-        <td class="board-abbr">${escapeHtml(conf.abbreviation)}</td>
+        <td class="board-abbr">${escapeHtml(displayAbbreviation(conf.abbreviation))}</td>
         <td class="board-name">${escapeHtml(conf.title)}</td>
         <td><span class="grade-badge grade-${letter.toLowerCase()}" title="${escapeHtml(conf.rating)}">${letter}</span></td>
         <td class="board-note">${note}</td>`;
