@@ -1,32 +1,7 @@
 {
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "iui",
-      "name": "IUI 2027",
-      "fullName": "Intelligent User Interfaces",
-      "field": "hci",
-      "rating": "우수",
-      "location": "Helsinki, Finland",
-      "confText": "February 8-11, 2027",
-      "url": "https://iui.hosting.acm.org/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-13",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-08-20",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "wacv-easy",
       "name": "WACV (easy) 2027",
@@ -3233,6 +3208,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-08-19",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "iui",
+      "name": "IUI 2028",
+      "fullName": "Intelligent User Interfaces",
+      "field": "hci",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://iui.hosting.acm.org/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-08-20",
           "status": "estimated"
         }
       ]

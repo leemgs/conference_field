@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "source": "openalex",
   "topN": 8,
   "note": "OpenAlex 기준 제1저자(first author) 소속 국가 추정치입니다. 일부 논문은 소속 정보가 없어 집계에서 제외됩니다. 학회마다 OpenAlex 색인 완성도가 달라, 매핑이 확인된 학회/연도만 표시됩니다.",
@@ -172,7 +172,7 @@
         },
         "2021": {
           "total": 2327,
-          "unknown": 125,
+          "unknown": 130,
           "countries": [
             {
               "code": "US",
@@ -217,7 +217,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 458
+              "count": 453
             }
           ]
         },
@@ -273,7 +273,7 @@
           ]
         },
         "2023": {
-          "total": 2021,
+          "total": 2020,
           "unknown": 125,
           "countries": [
             {
@@ -299,7 +299,7 @@
             {
               "code": "DE",
               "country": "Germany",
-              "count": 53
+              "count": 52
             },
             {
               "code": "AU",
@@ -376,22 +376,22 @@
         },
         "2025": {
           "total": 3485,
-          "unknown": 406,
+          "unknown": 396,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 1646
+              "count": 1654
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 493
+              "count": 494
             },
             {
               "code": "KR",
               "country": "South Korea",
-              "count": 113
+              "count": 114
             },
             {
               "code": "HK",
@@ -426,13 +426,13 @@
           ]
         },
         "2026": {
-          "total": 4980,
-          "unknown": 1032,
+          "total": 4979,
+          "unknown": 1031,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 2174
+              "count": 2175
             },
             {
               "code": "US",
@@ -457,7 +457,7 @@
             {
               "code": "KR",
               "country": "South Korea",
-              "count": 108
+              "count": 107
             },
             {
               "code": "IN",
