@@ -1,88 +1,7 @@
 {
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "wacv-easy",
-      "name": "WACV (easy) 2027",
-      "fullName": "IEEE Winter Conference on Applications of Computer Vision",
-      "field": "ai",
-      "rating": "우수",
-      "location": "Disney Springs, Buena Vista, FL, USA",
-      "confText": "Jan 5 - 9, 2027",
-      "url": "https://wacv.thecvf.com/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-06-19",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (First round)",
-          "date": "2026-06-26",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-21",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Second round)",
-          "date": "2026-08-28",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "bigdata",
-      "name": "BIGDATA 2026",
-      "fullName": "IEEE International Conference on BigData",
-      "field": "data",
-      "rating": "최우수",
-      "location": "Phoenix, Arizona, United State",
-      "confText": "December 14-17, 2026",
-      "url": "https://bigdataieee.org/BigData2026/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-08-21",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "asiaccs",
-      "name": "AsiaCCS 2027",
-      "fullName": "ACM ASIA Conference on Computer and Communications Security",
-      "field": "sec",
-      "rating": "우수",
-      "location": "Macau, China",
-      "confText": "July 12-16, 2027",
-      "url": "https://asiaccs2027.cityu.edu.mo/index.html",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (1st round Deadline)",
-          "date": "2026-08-21",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (2nd round Deadline)",
-          "date": "2026-12-11",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "vr",
       "name": "VR 2027",
@@ -372,6 +291,43 @@
         {
           "type": "paper",
           "label": "논문 마감 (Supplementary material due Sep 2, 2026. All deadlines are 11:00 am PDT.)",
+          "date": "2026-08-28",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "wacv-easy",
+      "name": "WACV (easy) 2027",
+      "fullName": "IEEE Winter Conference on Applications of Computer Vision",
+      "field": "ai",
+      "rating": "우수",
+      "location": "Disney Springs, Buena Vista, FL, USA",
+      "confText": "Jan 5 - 9, 2027",
+      "url": "https://wacv.thecvf.com/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-06-19",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (First round)",
+          "date": "2026-06-26",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-08-21",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Second round)",
           "date": "2026-08-28",
           "status": "confirmed"
         }
@@ -1575,6 +1531,31 @@
           "label": "논문 마감 (예상)",
           "date": "2026-12-05",
           "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "asiaccs",
+      "name": "AsiaCCS 2027",
+      "fullName": "ACM ASIA Conference on Computer and Communications Security",
+      "field": "sec",
+      "rating": "우수",
+      "location": "Macau, China",
+      "confText": "July 12-16, 2027",
+      "url": "https://asiaccs2027.cityu.edu.mo/index.html",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (1st round Deadline)",
+          "date": "2026-08-21",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (2nd round Deadline)",
+          "date": "2026-12-11",
+          "status": "confirmed"
         }
       ]
     },
@@ -3227,6 +3208,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-08-20",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "bigdata",
+      "name": "BIGDATA 2027",
+      "fullName": "IEEE International Conference on BigData",
+      "field": "data",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2027년 (예정)",
+      "url": "https://bigdataieee.org/BigData2026/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-08-21",
           "status": "estimated"
         }
       ]
