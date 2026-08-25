@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24",
+  "updated": "2026-08-25",
   "source": "dblp",
   "note": "DBLP 프로시딩 등재 레코드 수 기준입니다(front matter 등 소량 포함 가능). scripts/build_paper_stats.py 로 갱신합니다.",
   "venues": [
@@ -123,8 +123,6 @@
       "dblp": "conf/emnlp",
       "approx": false,
       "years": {
-        "2020": 1240,
-        "2021": 1326,
         "2023": 2252,
         "2024": 2460,
         "2025": 3499

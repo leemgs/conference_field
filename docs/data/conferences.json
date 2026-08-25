@@ -1,63 +1,7 @@
 {
-  "updated": "2026-08-24",
+  "updated": "2026-08-25",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "vr",
-      "name": "VR 2027",
-      "fullName": "IEEE Virtual Reality Conference",
-      "field": "arvr",
-      "rating": "우수",
-      "location": "Melbourne, Australia",
-      "confText": "February 27 - March 3, 2027",
-      "url": "https://ieeevr.org/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-24",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-08-31",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "wsdm",
-      "name": "WSDM 2027",
-      "fullName": "ACM International Conference on Web Search and Data Mining",
-      "field": "data",
-      "rating": "최우수",
-      "location": "Cordis, Hong Kong SAR, China",
-      "confText": "February 15 - 19, 2027",
-      "url": "https://wsdm-conference.org/2027/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-17",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Full Paper)",
-          "date": "2026-08-24",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Short Paper)",
-          "date": "2026-11-17",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "vldb-pvldb",
       "name": "VLDB/PVLDB 2027",
@@ -329,6 +273,31 @@
           "type": "paper",
           "label": "논문 마감 (Second round)",
           "date": "2026-08-28",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "vr",
+      "name": "VR 2027",
+      "fullName": "IEEE Virtual Reality Conference",
+      "field": "arvr",
+      "rating": "우수",
+      "location": "Melbourne, Australia",
+      "confText": "February 27 - March 3, 2027",
+      "url": "https://ieeevr.org/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-08-24",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-08-31",
           "status": "confirmed"
         }
       ]
@@ -1296,7 +1265,7 @@
       "field": "sec",
       "rating": "최우수",
       "location": "MONTREAL, CANADA",
-      "confText": "TBD",
+      "confText": "May 17-19, 2027",
       "url": "https://sp2027.ieee-security.org/index.html",
       "tz": "UTC-12",
       "deadlines": [
@@ -1411,6 +1380,37 @@
           "label": "논문 마감 (예상)",
           "date": "2026-11-17",
           "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "wsdm",
+      "name": "WSDM 2027",
+      "fullName": "ACM International Conference on Web Search and Data Mining",
+      "field": "data",
+      "rating": "최우수",
+      "location": "Cordis, Hong Kong SAR, China",
+      "confText": "February 15 - 19, 2027",
+      "url": "https://wsdm-conference.org/2027/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-08-17",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Full Paper)",
+          "date": "2026-08-24",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Short Paper)",
+          "date": "2026-11-17",
+          "status": "confirmed"
         }
       ]
     },

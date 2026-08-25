@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24",
+  "updated": "2026-08-25",
   "source": "openalex",
   "topN": 8,
   "note": "OpenAlex 기준 제1저자(first author) 소속 국가 추정치입니다. 일부 논문은 소속 정보가 없어 집계에서 제외됩니다. 학회마다 OpenAlex 색인 완성도가 달라, 매핑이 확인된 학회/연도만 표시됩니다.",
@@ -34,11 +34,11 @@
             {
               "code": "DE",
               "country": "Germany",
-              "count": 76
+              "count": 75
             },
             {
               "code": "GB",
-              "country": "GB",
+              "country": "United Kingdom",
               "count": 72
             },
             {
@@ -54,7 +54,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 328
+              "count": 329
             }
           ]
         }
@@ -84,7 +84,7 @@
             },
             {
               "code": "GB",
-              "country": "GB",
+              "country": "United Kingdom",
               "count": 66
             },
             {
@@ -186,7 +186,7 @@
             },
             {
               "code": "GB",
-              "country": "GB",
+              "country": "United Kingdom",
               "count": 89
             },
             {
@@ -237,7 +237,7 @@
             },
             {
               "code": "GB",
-              "country": "GB",
+              "country": "United Kingdom",
               "count": 67
             },
             {
@@ -288,7 +288,7 @@
             },
             {
               "code": "GB",
-              "country": "GB",
+              "country": "United Kingdom",
               "count": 71
             },
             {
@@ -427,7 +427,7 @@
         },
         "2026": {
           "total": 4976,
-          "unknown": 1013,
+          "unknown": 1016,
           "countries": [
             {
               "code": "CN",
@@ -452,7 +452,7 @@
             {
               "code": "GB",
               "country": "United Kingdom",
-              "count": 113
+              "count": 112
             },
             {
               "code": "KR",
@@ -467,7 +467,7 @@
             {
               "code": "DE",
               "country": "Germany",
-              "count": 78
+              "count": 76
             },
             {
               "code": "other",
@@ -502,7 +502,7 @@
             },
             {
               "code": "GB",
-              "country": "GB",
+              "country": "United Kingdom",
               "count": 83
             },
             {
@@ -563,7 +563,7 @@
             },
             {
               "code": "GB",
-              "country": "GB",
+              "country": "United Kingdom",
               "count": 32
             },
             {
