@@ -1,7 +1,150 @@
 {
-  "updated": "2026-08-25",
+  "updated": "2026-08-26",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
+    {
+      "id": "mobicom",
+      "name": "MOBICOM 2027",
+      "fullName": "ACM International Conference on Mobile Computing and Networking",
+      "field": "net",
+      "rating": "최우수",
+      "location": "TBD",
+      "confText": "Oct 18-22, 2027",
+      "url": "https://www.sigmobile.org/mobicom/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-08-26",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Summer Deadlines)",
+          "date": "2026-09-02",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "3dv",
+      "name": "3DV 2027",
+      "fullName": "International Conference on 3D Vision",
+      "field": "ai",
+      "rating": "우수",
+      "location": "Thessaloniki, Greece",
+      "confText": "April 6-9, 2027",
+      "url": "https://3dvconf.github.io/2027/",
+      "tz": "UTC-7",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (Supplementary material due Sep 2, 2026. All deadlines are 11:00 am PDT.)",
+          "date": "2026-08-28",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "wacv-easy",
+      "name": "WACV (easy) 2027",
+      "fullName": "IEEE Winter Conference on Applications of Computer Vision",
+      "field": "ai",
+      "rating": "우수",
+      "location": "Disney Springs, Buena Vista, FL, USA",
+      "confText": "Jan 5 - 9, 2027",
+      "url": "https://wacv.thecvf.com/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-06-19",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (First round)",
+          "date": "2026-06-26",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-08-21",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Second round)",
+          "date": "2026-08-28",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "vr",
+      "name": "VR 2027",
+      "fullName": "IEEE Virtual Reality Conference",
+      "field": "arvr",
+      "rating": "우수",
+      "location": "Melbourne, Australia",
+      "confText": "February 27 - March 3, 2027",
+      "url": "https://ieeevr.org/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-08-24",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-08-31",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "pets",
+      "name": "PETS 2027",
+      "fullName": "Proceedings on Privacy Enhancing Technologies",
+      "field": "sec",
+      "rating": "우수",
+      "location": "Delft, The Netherlands",
+      "confText": "July 19-24, 2027",
+      "url": "https://petsymposium.org/cfp27.php",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (Issue 1 Paper Submission Deadline)",
+          "date": "2026-05-31",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Issue 2 Paper Submission Deadline)",
+          "date": "2026-08-31",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Issue 3 Paper Submission Deadline)",
+          "date": "2026-11-30",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Issue 4 Paper Submission Deadline)",
+          "date": "2027-02-28",
+          "status": "confirmed"
+        }
+      ]
+    },
     {
       "id": "vldb-pvldb",
       "name": "VLDB/PVLDB 2027",
@@ -155,186 +298,6 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2027-03-01",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "usenix-security",
-      "name": "USENIX Security 2027",
-      "fullName": "USENIX Security Symposium",
-      "field": "sec",
-      "rating": "최우수",
-      "location": "Denver, CO, USA",
-      "confText": "August 11-13, 2027",
-      "url": "https://www.usenix.org/conference/usenixsecurity27",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-18",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Cycle 1 Deadline)",
-          "date": "2026-08-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-01-19",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Cycle 2 Deadline)",
-          "date": "2027-01-26",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "mobicom",
-      "name": "MOBICOM 2027",
-      "fullName": "ACM International Conference on Mobile Computing and Networking",
-      "field": "net",
-      "rating": "최우수",
-      "location": "TBD",
-      "confText": "Oct 18-22, 2027",
-      "url": "https://www.sigmobile.org/mobicom/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-26",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Summer Deadlines)",
-          "date": "2026-09-02",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "3dv",
-      "name": "3DV 2027",
-      "fullName": "International Conference on 3D Vision",
-      "field": "ai",
-      "rating": "우수",
-      "location": "Thessaloniki, Greece",
-      "confText": "April 6-9, 2027",
-      "url": "https://3dvconf.github.io/2027/",
-      "tz": "UTC-7",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (Supplementary material due Sep 2, 2026. All deadlines are 11:00 am PDT.)",
-          "date": "2026-08-28",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "wacv-easy",
-      "name": "WACV (easy) 2027",
-      "fullName": "IEEE Winter Conference on Applications of Computer Vision",
-      "field": "ai",
-      "rating": "우수",
-      "location": "Disney Springs, Buena Vista, FL, USA",
-      "confText": "Jan 5 - 9, 2027",
-      "url": "https://wacv.thecvf.com/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-06-19",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (First round)",
-          "date": "2026-06-26",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-21",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Second round)",
-          "date": "2026-08-28",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "vr",
-      "name": "VR 2027",
-      "fullName": "IEEE Virtual Reality Conference",
-      "field": "arvr",
-      "rating": "우수",
-      "location": "Melbourne, Australia",
-      "confText": "February 27 - March 3, 2027",
-      "url": "https://ieeevr.org/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-24",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-08-31",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "pets",
-      "name": "PETS 2027",
-      "fullName": "Proceedings on Privacy Enhancing Technologies",
-      "field": "sec",
-      "rating": "우수",
-      "location": "Delft, The Netherlands",
-      "confText": "July 19-24, 2027",
-      "url": "https://petsymposium.org/cfp27.php",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (Issue 1 Paper Submission Deadline)",
-          "date": "2026-05-31",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Issue 2 Paper Submission Deadline)",
-          "date": "2026-08-31",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Issue 3 Paper Submission Deadline)",
-          "date": "2026-11-30",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Issue 4 Paper Submission Deadline)",
-          "date": "2027-02-28",
           "status": "confirmed"
         }
       ]
@@ -1617,6 +1580,31 @@
       ]
     },
     {
+      "id": "issta",
+      "name": "ISSTA 2027",
+      "fullName": "ACM International Symposium on Software Testing and Analysis",
+      "field": "plse",
+      "rating": "우수",
+      "location": "Singapore",
+      "confText": "September 7-10, 2027",
+      "url": "https://conf.researchr.org/home/issta-2027",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-08",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-01-11",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "icwsm",
       "name": "ICWSM 2027",
       "fullName": "International AAAI Conference on Web and Social Media",
@@ -1670,6 +1658,43 @@
           "label": "논문 마감 (예상)",
           "date": "2027-01-19",
           "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "usenix-security",
+      "name": "USENIX Security 2027",
+      "fullName": "USENIX Security Symposium",
+      "field": "sec",
+      "rating": "최우수",
+      "location": "Denver, CO, USA",
+      "confText": "August 11-13, 2027",
+      "url": "https://www.usenix.org/conference/usenixsecurity27",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-08-18",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Cycle 1 Deadline)",
+          "date": "2026-08-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-19",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Cycle 2 Deadline)",
+          "date": "2027-01-26",
+          "status": "confirmed"
         }
       ]
     },
@@ -1797,25 +1822,6 @@
       "confText": "2027년 (예정)",
       "url": "https://icml.cc/Conferences/2026",
       "tz": "UTC+0",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-01-29",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
-      "id": "issta",
-      "name": "ISSTA 2027",
-      "fullName": "ACM International Symposium on Software Testing and Analysis",
-      "field": "plse",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://conf.researchr.org/home/issta-2026",
-      "tz": "AoE",
       "deadlines": [
         {
           "type": "paper",
