@@ -1,32 +1,7 @@
 {
-  "updated": "2026-08-26",
+  "updated": "2026-08-28",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "mobicom",
-      "name": "MOBICOM 2027",
-      "fullName": "ACM International Conference on Mobile Computing and Networking",
-      "field": "net",
-      "rating": "최우수",
-      "location": "TBD",
-      "confText": "Oct 18-22, 2027",
-      "url": "https://www.sigmobile.org/mobicom/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-26",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Summer Deadlines)",
-          "date": "2026-09-02",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "3dv",
       "name": "3DV 2027",
@@ -298,6 +273,31 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2027-03-01",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "mobicom",
+      "name": "MOBICOM 2027",
+      "fullName": "ACM International Conference on Mobile Computing and Networking",
+      "field": "net",
+      "rating": "최우수",
+      "location": "TBD",
+      "confText": "Oct 18-22, 2027",
+      "url": "https://www.sigmobile.org/mobicom/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-08-26",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Summer Deadlines)",
+          "date": "2026-09-02",
           "status": "confirmed"
         }
       ]
@@ -1114,16 +1114,16 @@
       "fullName": "Conference on Machine Learning and Systems",
       "field": "sys",
       "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
+      "location": "Bellevue, Washington, USA",
+      "confText": "TBD",
       "url": "https://mlsys.org/",
-      "tz": "AoE",
+      "tz": "UTC",
       "deadlines": [
         {
           "type": "paper",
-          "label": "논문 마감 (예상)",
+          "label": "논문 마감",
           "date": "2026-10-30",
-          "status": "estimated"
+          "status": "confirmed"
         }
       ]
     },
@@ -1851,25 +1851,6 @@
       ]
     },
     {
-      "id": "cec",
-      "name": "CEC 2027",
-      "fullName": "IEEE Congress on Evolutionary Computation",
-      "field": "ai",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://attend.ieee.org/wcci-2026/ieee-cec-2025/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-01-31",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "icmr",
       "name": "ICMR 2027",
       "fullName": "ACM International Conference on Multimedia Retrieval",
@@ -2113,6 +2094,25 @@
           "label": "논문 마감 (예상)",
           "date": "2027-02-27",
           "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "cec",
+      "name": "CEC 2027",
+      "fullName": "IEEE Congress on Evolutionary Computation",
+      "field": "ai",
+      "rating": "우수",
+      "location": "Edinburgh, Scotland, UK",
+      "confText": "July 25-28, 2027",
+      "url": "https://ieeecec.org/2027",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-02-28",
+          "status": "confirmed"
         }
       ]
     },
