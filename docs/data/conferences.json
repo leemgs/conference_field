@@ -1,63 +1,7 @@
 {
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "3dv",
-      "name": "3DV 2027",
-      "fullName": "International Conference on 3D Vision",
-      "field": "ai",
-      "rating": "우수",
-      "location": "Thessaloniki, Greece",
-      "confText": "April 6-9, 2027",
-      "url": "https://3dvconf.github.io/2027/",
-      "tz": "UTC-7",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (Supplementary material due Sep 2, 2026. All deadlines are 11:00 am PDT.)",
-          "date": "2026-08-28",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "wacv-easy",
-      "name": "WACV (easy) 2027",
-      "fullName": "IEEE Winter Conference on Applications of Computer Vision",
-      "field": "ai",
-      "rating": "우수",
-      "location": "Disney Springs, Buena Vista, FL, USA",
-      "confText": "Jan 5 - 9, 2027",
-      "url": "https://wacv.thecvf.com/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-06-19",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (First round)",
-          "date": "2026-06-26",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-21",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Second round)",
-          "date": "2026-08-28",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "vr",
       "name": "VR 2027",
@@ -3233,6 +3177,44 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-08-21",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "3dv",
+      "name": "3DV 2028",
+      "fullName": "International Conference on 3D Vision",
+      "field": "ai",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://3dvconf.github.io/2027/",
+      "tz": "UTC-7",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-08-28",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "wacv-easy",
+      "name": "WACV (easy) 2028",
+      "fullName": "IEEE Winter Conference on Applications of Computer Vision",
+      "field": "ai",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://wacv.thecvf.com/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-08-28",
           "status": "estimated"
         }
       ]
