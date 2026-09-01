@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "source": "openalex",
   "topN": 8,
   "note": "OpenAlex 기준 제1저자(first author) 소속 국가 추정치입니다. 일부 논문은 소속 정보가 없어 집계에서 제외됩니다. 학회마다 OpenAlex 색인 완성도가 달라, 매핑이 확인된 학회/연도만 표시됩니다.",
@@ -9,7 +9,7 @@
       "years": {
         "2022": {
           "total": 2082,
-          "unknown": 170,
+          "unknown": 169,
           "countries": [
             {
               "code": "CN",
@@ -54,7 +54,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 329
+              "count": 330
             }
           ]
         }
@@ -65,7 +65,7 @@
       "years": {
         "2021": {
           "total": 1618,
-          "unknown": 101,
+          "unknown": 100,
           "countries": [
             {
               "code": "CN",
@@ -110,7 +110,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 303
+              "count": 304
             }
           ]
         }
@@ -274,7 +274,7 @@
         },
         "2023": {
           "total": 2020,
-          "unknown": 125,
+          "unknown": 123,
           "countries": [
             {
               "code": "CN",
@@ -319,7 +319,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 340
+              "count": 342
             }
           ]
         },

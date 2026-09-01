@@ -1,69 +1,7 @@
 {
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "vr",
-      "name": "VR 2027",
-      "fullName": "IEEE Virtual Reality Conference",
-      "field": "arvr",
-      "rating": "우수",
-      "location": "Melbourne, Australia",
-      "confText": "February 27 - March 3, 2027",
-      "url": "https://ieeevr.org/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-24",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-08-31",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "pets",
-      "name": "PETS 2027",
-      "fullName": "Proceedings on Privacy Enhancing Technologies",
-      "field": "sec",
-      "rating": "우수",
-      "location": "Delft, The Netherlands",
-      "confText": "July 19-24, 2027",
-      "url": "https://petsymposium.org/cfp27.php",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (Issue 1 Paper Submission Deadline)",
-          "date": "2026-05-31",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Issue 2 Paper Submission Deadline)",
-          "date": "2026-08-31",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Issue 3 Paper Submission Deadline)",
-          "date": "2026-11-30",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Issue 4 Paper Submission Deadline)",
-          "date": "2027-02-28",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "vldb-pvldb",
       "name": "VLDB/PVLDB 2027",
@@ -1375,6 +1313,43 @@
           "label": "논문 마감 (예상)",
           "date": "2026-11-26",
           "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "pets",
+      "name": "PETS 2027",
+      "fullName": "Proceedings on Privacy Enhancing Technologies",
+      "field": "sec",
+      "rating": "우수",
+      "location": "Delft, The Netherlands",
+      "confText": "July 19-24, 2027",
+      "url": "https://petsymposium.org/cfp27.php",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (Issue 1 Paper Submission Deadline)",
+          "date": "2026-05-31",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Issue 2 Paper Submission Deadline)",
+          "date": "2026-08-31",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Issue 3 Paper Submission Deadline)",
+          "date": "2026-11-30",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Issue 4 Paper Submission Deadline)",
+          "date": "2027-02-28",
+          "status": "confirmed"
         }
       ]
     },
@@ -3215,6 +3190,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-08-28",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "vr",
+      "name": "VR 2028",
+      "fullName": "IEEE Virtual Reality Conference",
+      "field": "arvr",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://ieeevr.org/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-08-31",
           "status": "estimated"
         }
       ]
