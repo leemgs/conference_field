@@ -1,164 +1,7 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "vldb-pvldb",
-      "name": "VLDB/PVLDB 2027",
-      "fullName": "International Conference on Very Large DataBases",
-      "field": "data",
-      "rating": "최우수",
-      "location": "Athens, Greece",
-      "confText": "August 23 - August 27, 2027",
-      "url": "https://www.vldb.org/2027/",
-      "tz": "PT",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-03-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-04-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-04-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-05-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-05-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-06-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-06-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-07-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-08-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-11-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-12-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-12-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2027-01-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-01-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2027-02-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-02-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2027-03-01",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "mobicom",
       "name": "MOBICOM 2027",
@@ -543,6 +386,163 @@
           "type": "paper",
           "label": "논문 마감 (Research Track Paper submission deadline)",
           "date": "2026-09-25",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "vldb-pvldb",
+      "name": "VLDB/PVLDB 2027",
+      "fullName": "International Conference on Very Large DataBases",
+      "field": "data",
+      "rating": "최우수",
+      "location": "Athens, Greece",
+      "confText": "August 23 - August 27, 2027",
+      "url": "https://www.vldb.org/2027/",
+      "tz": "PT",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-03-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-04-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-04-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-05-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-05-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-06-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-06-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-07-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-07-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-08-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-08-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-09-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-09-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-11-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-12-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-12-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-01-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-02-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-02-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-03-01",
           "status": "confirmed"
         }
       ]
