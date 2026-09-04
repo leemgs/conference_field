@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -523,6 +523,31 @@
       ]
     },
     {
+      "id": "aistats",
+      "name": "AISTATS 2027",
+      "fullName": "International Conference on Artificial Intelligence and Statistics",
+      "field": "ai",
+      "rating": "우수",
+      "location": "Montréal, Canada",
+      "confText": "May 3, 2027",
+      "url": "https://virtual.aistats.org/Conferences/2027",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-09-29",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-06",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "ipdps",
       "name": "IPDPS 2027",
       "fullName": "IEEE International Parallel and Distributed Processing Symposium",
@@ -618,25 +643,6 @@
           "label": "논문 마감 (winter round)",
           "date": "2027-01-11",
           "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "aistats",
-      "name": "AISTATS 2027",
-      "fullName": "International Conference on Artificial Intelligence and Statistics",
-      "field": "ai",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://virtual.aistats.org/Conferences/2026",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2026-10-02",
-          "status": "estimated"
         }
       ]
     },
@@ -790,31 +796,6 @@
       ]
     },
     {
-      "id": "www",
-      "name": "WWW 2027",
-      "fullName": "World Wide Web Conference Series",
-      "field": "data",
-      "rating": "최우수",
-      "location": "Dublin, Ireland",
-      "confText": "May 10 - 14, 2027",
-      "url": "https://acmweb2027.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-11",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-18",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
       "id": "naacl-hlt",
       "name": "NAACL/HLT 2027",
       "fullName": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
@@ -943,6 +924,31 @@
           "label": "논문 마감 (예상)",
           "date": "2026-10-16",
           "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "www",
+      "name": "WWW 2027",
+      "fullName": "World Wide Web Conference Series",
+      "field": "data",
+      "rating": "최우수",
+      "location": "Dublin, Ireland",
+      "confText": "May 10 - 14, 2027",
+      "url": "https://www2027.thewebconf.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-18",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-25",
+          "status": "confirmed"
         }
       ]
     },
@@ -1116,6 +1122,31 @@
       ]
     },
     {
+      "id": "cvpr",
+      "name": "CVPR 2027",
+      "fullName": "Computer Vision and Pattern Recognition",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "Seattle, WA, United States",
+      "confText": "June 20-24, 2027",
+      "url": "https://cvpr.thecvf.com/Conferences/2027",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-10",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-11-16",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "sp",
       "name": "SP 2027",
       "fullName": "IEEE Symposium on Security and Privacy",
@@ -1193,31 +1224,6 @@
           "label": "논문 마감",
           "date": "2026-11-12",
           "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "cvpr",
-      "name": "CVPR 2027",
-      "fullName": "Computer Vision and Pattern Recognition",
-      "field": "ai",
-      "rating": "최우수",
-      "location": "미정",
-      "confText": "June 20-25, 2027",
-      "url": "https://cvpr.thecvf.com",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "논문 등록(초록) 마감",
-          "date": "2026-11-15",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2026-11-19",
-          "status": "estimated"
         }
       ]
     },
