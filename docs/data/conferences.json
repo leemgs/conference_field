@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -1655,6 +1655,25 @@
       ]
     },
     {
+      "id": "cav",
+      "name": "CAV 2027",
+      "fullName": "International Conference on Computer-Aided Verification",
+      "field": "sys",
+      "rating": "우수",
+      "location": "KIT, Amsterdam, The Netherlands",
+      "confText": "July 19-23, 2027",
+      "url": "https://conferences.i-cav.org/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-01-20",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "icdcs",
       "name": "ICDCS 2027",
       "fullName": "International Conference on Distributed Computing Systems",
@@ -1726,25 +1745,6 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-01-22",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
-      "id": "cav",
-      "name": "CAV 2027",
-      "fullName": "International Conference on Computer-Aided Verification",
-      "field": "sys",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://conferences.i-cav.org/2026/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-01-28",
           "status": "estimated"
         }
       ]
