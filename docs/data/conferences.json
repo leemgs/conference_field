@@ -1,32 +1,7 @@
 {
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "asplos",
-      "name": "ASPLOS 2027",
-      "fullName": "Architectural Support for Programming Languages and Operating Systems",
-      "field": "sys",
-      "rating": "최우수",
-      "location": "Crete, Greece",
-      "confText": "April 11-15, 2027",
-      "url": "https://www.asplos-conference.org/asplos2027/cfp/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (April Cycle Submission Deadline)",
-          "date": "2026-04-15",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (September Cycle Submission Deadline)",
-          "date": "2026-09-09",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "usenix-nsdi",
       "name": "USENIX NSDI 2027",
@@ -3227,6 +3202,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-09-02",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "asplos",
+      "name": "ASPLOS 2028",
+      "fullName": "Architectural Support for Programming Languages and Operating Systems",
+      "field": "sys",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://www.asplos-conference.org/asplos2027/cfp/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-09-09",
           "status": "estimated"
         }
       ]
