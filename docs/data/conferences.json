@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11",
+  "updated": "2026-09-12",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -1214,16 +1214,16 @@
       "fullName": "Design Automation Conference",
       "field": "hw",
       "rating": "최우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://dac.com/2026/call-for-contributions",
+      "location": "San Jose, CA",
+      "confText": "July 11-14, 2027",
+      "url": "https://dac.com/2027/authors/call-for-contributions",
       "tz": "UTC-8",
       "deadlines": [
         {
           "type": "paper",
-          "label": "논문 마감 (예상)",
+          "label": "논문 마감",
           "date": "2026-11-18",
-          "status": "estimated"
+          "status": "confirmed"
         }
       ]
     },
