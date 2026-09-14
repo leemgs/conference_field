@@ -1,32 +1,7 @@
 {
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "date",
-      "name": "DATE 2027",
-      "fullName": "Design Automation and Test in Europe Conference",
-      "field": "hw",
-      "rating": "최우수",
-      "location": "Dresden, Germany",
-      "confText": "March 22-24, 2027",
-      "url": "https://www.date-conference.com/date-2027-call-papers",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-13",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-20",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "usenix-fast",
       "name": "USENIX FAST 2027",
@@ -248,6 +223,31 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-09-25",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "date",
+      "name": "DATE 2027",
+      "fullName": "Design Automation and Test in Europe Conference",
+      "field": "hw",
+      "rating": "최우수",
+      "location": "Dresden, Germany",
+      "confText": "March 22-24, 2027",
+      "url": "https://www.date-conference.com/date-2027-call-papers",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-09-13",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-09-20",
           "status": "confirmed"
         }
       ]
@@ -803,6 +803,31 @@
       ]
     },
     {
+      "id": "oopsla",
+      "name": "OOPSLA 2027",
+      "fullName": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+      "field": "plse",
+      "rating": "우수",
+      "location": "Prague, Czechia",
+      "confText": "October 10-15, 2027",
+      "url": "https://2027.splashcon.org/track/splashoopsla2027",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (Submission Deadline Round 1)",
+          "date": "2026-10-14",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Submission Deadline Round 2)",
+          "date": "2027-04-07",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "ches",
       "name": "CHES 2027",
       "fullName": "Cryptographic Hardware and Embedded Systems",
@@ -845,16 +870,22 @@
       "fullName": "International Conference on Tools and Algorithms for Construction and Analysis of Systems",
       "field": "theory",
       "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://etaps.org/2026",
+      "location": "Copenhagen, Denmark",
+      "confText": "April 10-15, 2027",
+      "url": "https://etaps.org/2027",
       "tz": "AoE",
       "deadlines": [
         {
           "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2026-10-16",
-          "status": "estimated"
+          "label": "논문 마감 (ESOP round 1)",
+          "date": "2026-05-28",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (ESOP round 2, FoSSaCS, TACAS, iFS)",
+          "date": "2026-10-15",
+          "status": "confirmed"
         }
       ]
     },
@@ -1343,6 +1374,43 @@
           "label": "논문 마감 (예상)",
           "date": "2026-12-02",
           "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "pods",
+      "name": "PODS 2027",
+      "fullName": "Symposium on Principles of Database",
+      "field": "data",
+      "rating": "우수",
+      "location": "Huntington Beach, California, USA",
+      "confText": "June 13-19, 2027",
+      "url": "https://2027.sigmod.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-05-23",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (First Submission Cycle)",
+          "date": "2026-05-30",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-12-03",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Second Submission Cycle)",
+          "date": "2026-12-10",
+          "status": "confirmed"
         }
       ]
     },
@@ -1928,25 +1996,6 @@
       ]
     },
     {
-      "id": "miccai",
-      "name": "MICCAI 2027",
-      "fullName": "Medical Image Computing and Computer Assisted Intervention Society",
-      "field": "health",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://conferences.miccai.org/2026/en/IMPORTANT-DATES.html",
-      "tz": "UTC-8",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-02-26",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "icdar",
       "name": "ICDAR 2027",
       "fullName": "International Conference on Document Analysis and Recognition",
@@ -2037,25 +2086,6 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-03-08",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
-      "id": "oopsla",
-      "name": "OOPSLA 2027",
-      "fullName": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
-      "field": "plse",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://conf.researchr.org/track/splash-2026/oopsla-2026",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-03-17",
           "status": "estimated"
         }
       ]
@@ -2360,6 +2390,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-04-21",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "esa",
+      "name": "ESA 2027",
+      "fullName": "European Symposium on Algorithms",
+      "field": "theory",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2027년 (예정)",
+      "url": "https://algo-conference.org/2026/esa/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-04-23",
           "status": "estimated"
         }
       ]
@@ -3422,18 +3471,6 @@
       ]
     },
     {
-      "id": "esa",
-      "name": "ESA",
-      "fullName": "European Symposium on Algorithms",
-      "field": "theory",
-      "rating": "우수",
-      "location": "미확인",
-      "confText": "일정 미확인",
-      "url": "",
-      "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
-      "deadlines": []
-    },
-    {
       "id": "eucap",
       "name": "EuCAP",
       "fullName": "European Conference on Antennas and Propagation",
@@ -3578,15 +3615,15 @@
       "deadlines": []
     },
     {
-      "id": "pods",
-      "name": "PODS",
-      "fullName": "Symposium on Principles of Database",
-      "field": "data",
+      "id": "miccai",
+      "name": "MICCAI 2028",
+      "fullName": "Medical Image Computing and Computer Assisted Intervention Society",
+      "field": "health",
       "rating": "우수",
-      "location": "미확인",
-      "confText": "일정 미확인",
-      "url": "",
-      "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
+      "location": "São Paulo, Brazil",
+      "confText": "Oct 16-20, 2028",
+      "url": "https://conferences.miccai.org/2028/en/",
+      "tz": "UTC-8",
       "deadlines": []
     },
     {
