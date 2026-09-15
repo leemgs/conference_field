@@ -59,6 +59,8 @@
     conferenceYear: "2026-h2",
     journalHistory: [],
     journalYear: "2026-h2",
+    aiExpert: [], // AI Expert 대상 학회 연도별 목록
+    aiExpertYear: "2026-h2",
   };
 
   const $ = (sel) => document.querySelector(sel);
@@ -67,7 +69,7 @@
   })[char]);
 
   // 뷰별 직접 접속 주소: #calendar, #list, #dashboard
-  const VIEW_HASHES = { calendar: "#calendar", list: "#list", dashboard: "#dashboard", journals: "#journals" };
+  const VIEW_HASHES = { calendar: "#calendar", list: "#list", dashboard: "#dashboard", journals: "#journals", aiexpert: "#aiexpert" };
 
   function viewFromHash() {
     const h = location.hash;
@@ -99,8 +101,9 @@
     fetch("data/journals.json").then((r) => r.json()),
     fetch("data/conference_history.json").then((r) => r.json()),
     fetch("data/journal_history.json").then((r) => r.json()).catch(() => null),
+    fetch("data/ai_expert.json").then((r) => r.json()).catch(() => null),
   ])
-    .then(([data, paperStats, paperCountries, journalData, conferenceHistory, journalHistory]) => {
+    .then(([data, paperStats, paperCountries, journalData, conferenceHistory, journalHistory, aiExpert]) => {
       state.data = data;
       state.paperStats = paperStats;
       state.paperCountries = paperCountries;
@@ -109,6 +112,8 @@
       state.journalHistory = (journalHistory && journalHistory.versions) || [];
       // 기본 기준 연도는 최신(첫) 버전. 대시보드는 항상 최신(journals.json) 기준.
       if (state.journalHistory.length) state.journalYear = state.journalHistory[0].key;
+      state.aiExpert = (aiExpert && aiExpert.versions) || [];
+      if (state.aiExpert.length) state.aiExpertYear = state.aiExpert[0].key;
       state.events = flatten(data.conferences);
       renderUpdatedAt();
       buildFieldChips();
@@ -116,6 +121,7 @@
       buildJournalFilters();
       buildConferenceYearFilter();
       buildDashboardYearFilter();
+      buildAiExpertYearFilter();
       const hashView = viewFromHash();
       if (hashView) setView(hashView, false);
       else render();
@@ -268,6 +274,11 @@
       renderDashboard();
     });
 
+    $("#aiexpert-year").addEventListener("change", (e) => {
+      state.aiExpertYear = e.target.value;
+      renderAiExpert();
+    });
+
     document.querySelectorAll(".view-btn").forEach((btn) => {
       btn.addEventListener("click", () => setView(btn.dataset.view));
     });
@@ -334,23 +345,27 @@
   function render() {
     const isDash = state.view === "dashboard";
     const isJournal = state.view === "journals";
-    const isSearch = !isDash && !isJournal && state.view !== "list" && state.query.length > 0;
+    const isAi = state.view === "aiexpert";
+    const isSearch = !isDash && !isJournal && !isAi && state.view !== "list" && state.query.length > 0;
     const isCal = state.view === "calendar";
     $("#search-view").hidden = !isSearch;
-    $("#calendar-view").hidden = isDash || isJournal || isSearch || !isCal;
-    $("#list-view").hidden = isDash || isJournal || isSearch || isCal;
+    $("#calendar-view").hidden = isDash || isJournal || isAi || isSearch || !isCal;
+    $("#list-view").hidden = isDash || isJournal || isAi || isSearch || isCal;
     $("#dashboard-view").hidden = !isDash;
     $("#journal-view").hidden = !isJournal;
+    $("#aiexpert-view").hidden = !isAi;
     $("#status-filter").closest(".control-row").hidden = isJournal || state.view === "list";
     $("#field-filter").closest(".control-row").hidden = isJournal;
     document.querySelector(".controls").classList.toggle("dash-mode", isDash);
     document.querySelector(".controls").classList.toggle("cal-mode", isCal && !isSearch);
     document.querySelector(".controls").classList.toggle("journal-mode", isJournal);
+    document.querySelector(".controls").classList.toggle("aiexpert-mode", isAi);
     $("#empty-msg").hidden = true;
     if (isDash) {
       renderDashboard();
       return;
     }
+    if (isAi) { renderAiExpert(); return; }
     if (isJournal) { renderJournals(); return; }
     if (isSearch) {
       renderSearchResults();
@@ -421,6 +436,187 @@
       <td>${escapeHtml(j.field)}</td><td><span class="rating-badge ${j.rating === "최우수" ? "rating-top" : "rating-good"}">${j.rating}</span></td>
       <td class="journal-title">${escapeHtml(j.title)}</td><td>${j.sjr == null ? "—" : Number(j.sjr).toFixed(2)}</td>
     </tr>`).join("");
+  }
+
+  // ── AI Expert 대상 학회 ───────────────────────
+  // conferences.json id 가 약칭과 다른 경우의 별칭(컨퍼런스 리스트 등재 판별용)
+  const AI_ALIASES = { "neurips": ["neurips", "nips"], "naacl-hlt": ["naacl"] };
+  function aiNorm(s) { return (s || "").toLowerCase().replace(/[^a-z0-9]/g, ""); }
+
+  function buildAiExpertYearFilter() {
+    const select = $("#aiexpert-year");
+    if (!select) return;
+    select.innerHTML = "";
+    state.aiExpert.forEach((v) => {
+      const o = document.createElement("option");
+      o.value = v.key;
+      o.textContent = `${v.label} (${v.conferences.length}개)`;
+      select.appendChild(o);
+    });
+    if (!state.aiExpert.some((v) => v.key === state.aiExpertYear)) {
+      state.aiExpertYear = state.aiExpert.length ? state.aiExpert[0].key : "";
+    }
+    select.value = state.aiExpertYear;
+  }
+
+  // 해당 연도 컨퍼런스 리스트(conference_history)에 등재된 약칭 집합
+  function aiListedAbbrevs(yearKey) {
+    const version = state.conferenceHistory.find((v) => v.key === yearKey);
+    const set = new Set();
+    if (!version) return set;
+    version.conferences.forEach((c) => {
+      (c.abbreviation || "").split(/[/&]/).forEach((part) => {
+        const n = aiNorm(part);
+        if (n) set.add(n);
+      });
+    });
+    return set;
+  }
+
+  function aiTargetAliases(target) {
+    return (AI_ALIASES[target.id] || [aiNorm(target.name)]).map(aiNorm);
+  }
+
+  // 대상 학회의 다음(가장 이른 미래) 마감. 없으면 가장 이른 전체 마감.
+  function aiNextDeadline(conf) {
+    if (!conf || !conf.deadlines || conf.deadlines.length === 0) return null;
+    const sorted = [...conf.deadlines].sort((a, b) => a.date.localeCompare(b.date));
+    return sorted.find((d) => ddayOf(parseDate(d.date)) >= 0) || sorted[sorted.length - 1];
+  }
+
+  function aiSummaryCard(kind, title, list, desc) {
+    const card = el("div", "ai-sum-card ai-sum-" + kind);
+    const head = el("div", "ai-sum-head");
+    head.appendChild(el("span", "ai-sum-count", String(list.length)));
+    head.appendChild(el("span", "ai-sum-title", title));
+    card.appendChild(head);
+    card.appendChild(el("div", "ai-sum-names", list.length ? list.map((c) => c.name).join(", ") : "—"));
+    card.appendChild(el("p", "ai-sum-desc", desc));
+    return card;
+  }
+
+  // 예상 마감이면서 라벨에 아직 '예상' 표기가 없을 때만 접미사를 붙인다(중복 방지).
+  function aiDeadlineLabel(dl) {
+    const needEst = dl.status === "estimated" && !/예상|est/i.test(dl.label);
+    return dl.label + (needEst ? ` (${t("ai.est")})` : "");
+  }
+
+  function aiDeadlineLine(dl) {
+    const d = parseDate(dl.date);
+    const dday = ddayOf(d);
+    const line = el("span", "kr-dl-line" + (dday < 0 ? " past" : ""));
+    line.appendChild(el("span", "kr-dl-date", fmtDate(d)));
+    line.appendChild(el("span", "kr-dl-label", aiDeadlineLabel(dl)));
+    if (dday >= 0) line.appendChild(el("span", "mini-dday", dday === 0 ? "D-Day" : `D-${dday}`));
+    else line.appendChild(el("span", "kr-dl-flag", `(${t("dash.korea.pastDl")})`));
+    return line;
+  }
+
+  function renderAiExpert() {
+    const version = state.aiExpert.find((v) => v.key === state.aiExpertYear) || state.aiExpert[0];
+    const wrap = $("#ai-summary");
+    if (!version) { wrap.innerHTML = ""; return; }
+    const targets = version.conferences || [];
+    const confMap = new Map((state.data.conferences || []).map((c) => [c.id, c]));
+    const listed = aiListedAbbrevs(version.key);
+    const yearLabel = version.label;
+
+    $("#ai-version-note").textContent = `${t("ai.sub")} · ${yearLabel}`;
+    $("#ai-count").textContent = `${targets.length}개 학회`;
+
+    // 컨퍼런스 리스트 등재 / 미등재 분류
+    const inList = [], outList = [];
+    targets.forEach((tc) => {
+      (aiTargetAliases(tc).some((a) => listed.has(a)) ? inList : outList).push(tc);
+    });
+
+    wrap.innerHTML = "";
+    wrap.appendChild(aiSummaryCard("in", t("ai.summary.inlist"), inList, t("ai.summary.inlistDesc", { label: yearLabel })));
+    wrap.appendChild(aiSummaryCard("out", t("ai.summary.notinlist"), outList, t("ai.summary.notinlistDesc", { label: yearLabel })));
+
+    // 대상 학회 목록 테이블
+    const body = $("#ai-list-body");
+    body.innerHTML = "";
+    targets.forEach((tc, i) => {
+      const conf = confMap.get(tc.id);
+      const isIn = aiTargetAliases(tc).some((a) => listed.has(a));
+      const tr = document.createElement("tr");
+      tr.appendChild(el("td", "board-no", String(i + 1)));
+
+      const abbrTd = document.createElement("td");
+      abbrTd.className = "ai-abbr";
+      if (conf) {
+        const btn = el("button", "kr-name-btn", tc.name);
+        btn.type = "button";
+        btn.title = tc.fullName || tc.name;
+        btn.addEventListener("click", () => openModal(conf));
+        abbrTd.appendChild(btn);
+      } else {
+        abbrTd.textContent = tc.name;
+      }
+      tr.appendChild(abbrTd);
+
+      tr.appendChild(el("td", "ai-name", tc.fullName || (conf && conf.fullName) || "—"));
+
+      const inTd = document.createElement("td");
+      inTd.appendChild(el("span", "ai-badge " + (isIn ? "ai-in" : "ai-out"), isIn ? t("ai.badge.in") : t("ai.badge.out")));
+      tr.appendChild(inTd);
+
+      const dlTd = document.createElement("td");
+      dlTd.className = "ai-nextdl";
+      const dl = aiNextDeadline(conf);
+      dlTd.appendChild(dl ? aiDeadlineLine(dl) : el("span", "kr-dl-line", t("ai.noDeadline")));
+      tr.appendChild(dlTd);
+
+      body.appendChild(tr);
+    });
+
+    renderAiMonthSchedule(targets, confMap);
+  }
+
+  // 대상 학회들의 마감일을 월(YYYY-MM)별로 묶어 표시
+  function renderAiMonthSchedule(targets, confMap) {
+    const wrap = $("#ai-month-schedule");
+    wrap.innerHTML = "";
+    const byMonth = new Map();
+    targets.forEach((tc) => {
+      const conf = confMap.get(tc.id);
+      if (!conf || !conf.deadlines) return;
+      conf.deadlines.forEach((dl) => {
+        const mk = dl.date.slice(0, 7);
+        if (!byMonth.has(mk)) byMonth.set(mk, []);
+        byMonth.get(mk).push({ name: tc.name, fullName: tc.fullName, conf, dl });
+      });
+    });
+    const months = [...byMonth.keys()].sort();
+    if (months.length === 0) {
+      wrap.appendChild(el("p", "empty", t("ai.monthEmpty")));
+      return;
+    }
+    months.forEach((mk) => {
+      const [y, m] = mk.split("-");
+      const block = el("div", "ai-month-block");
+      const head = el("div", "ai-month-head");
+      head.appendChild(el("span", "ai-month-name", `${y}.${m} (${t("month." + Number(m))})`));
+      head.appendChild(el("span", "ai-month-count", t("unit.cases", { n: byMonth.get(mk).length })));
+      block.appendChild(head);
+      byMonth.get(mk).sort((a, b) => a.dl.date.localeCompare(b.dl.date)).forEach((ev) => {
+        const d = parseDate(ev.dl.date);
+        const dday = ddayOf(d);
+        const row = el("div", "ai-month-row" + (dday < 0 ? " past" : ""));
+        const nameBtn = el("button", "ai-month-abbr kr-name-btn", ev.name);
+        nameBtn.type = "button";
+        nameBtn.title = ev.fullName || ev.name;
+        nameBtn.addEventListener("click", () => openModal(ev.conf));
+        row.appendChild(nameBtn);
+        row.appendChild(el("span", "ai-month-date", fmtDate(d)));
+        row.appendChild(el("span", "ai-month-label", aiDeadlineLabel(ev.dl)));
+        if (dday >= 0) row.appendChild(el("span", "mini-dday", dday === 0 ? "D-Day" : `D-${dday}`));
+        else row.appendChild(el("span", "kr-dl-flag", `(${t("dash.korea.pastDl")})`));
+        block.appendChild(row);
+      });
+      wrap.appendChild(block);
+    });
   }
 
   function renderSearchResults() {

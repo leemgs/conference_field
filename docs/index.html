@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="light dark" />
   <title>탑티어 학회 마감일·저널 탐색기</title>
   <meta name="description" content="12개 분야 탑티어 학회 마감일과 산업 분야 관점의 309개 최우수·우수 저널을 한곳에서 탐색하세요" />
-  <link rel="stylesheet" href="assets/style.css?v=20260915-2" />
+  <link rel="stylesheet" href="assets/style.css?v=20260915-4" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
 </head>
 <body>
@@ -32,6 +32,7 @@
           <button type="button" class="view-btn" data-view="journals" role="tab" aria-selected="false" data-i18n="view.journals">📚 저널</button>
           <button type="button" class="view-btn active" data-view="calendar" role="tab" aria-selected="true" data-i18n="view.calendar">🗓️ 달력</button>
           <button type="button" class="view-btn" data-view="dashboard" role="tab" aria-selected="false" data-i18n="view.dashboard">📊 대시보드</button>
+          <button type="button" class="view-btn" data-view="aiexpert" role="tab" aria-selected="false" data-i18n="view.aiexpert">🎓 AI Expert</button>
         </div>
       </div>
       <div class="control-row search-row">
@@ -249,6 +250,40 @@
       <p class="journal-source">※ 제공된 「최우수/우수 저널 목록」(Field, industry view)을 기준으로 하며, 위의 <strong>기준 연도</strong> 메뉴에서 연도별 목록을 선택해 열람할 수 있습니다.</p>
     </section>
 
+    <section id="aiexpert-view" hidden>
+      <div class="journal-intro">
+        <div>
+          <h2 data-i18n="ai.title">🎓 AI Expert 대상 학회 리스트</h2>
+          <p id="ai-version-note" data-i18n="ai.sub">AI 전문가 인증 대상 13개 최상위 학회</p>
+        </div>
+        <strong id="ai-count"></strong>
+      </div>
+      <div class="journal-filters" aria-label="AI Expert 필터">
+        <label><span data-i18n="board.year">기준 연도</span> <select id="aiexpert-year"></select></label>
+      </div>
+
+      <div class="ai-summary" id="ai-summary"></div>
+
+      <h3 class="dash-title" data-i18n="ai.listTitle">대상 학회 목록</h3>
+      <p class="dash-sub" data-i18n="ai.listSub">선택한 기준 연도의 컨퍼런스 리스트 등재 여부를 함께 표시합니다</p>
+      <div class="board-wrap"><table class="board-table ai-table">
+        <thead><tr>
+          <th data-i18n="ai.th.no">번호</th>
+          <th data-i18n="ai.th.abbr">약칭</th>
+          <th data-i18n="ai.th.name">학회명</th>
+          <th data-i18n="ai.th.inlist">컨퍼런스 리스트</th>
+          <th data-i18n="ai.th.nextdl">다음 마감</th>
+        </tr></thead>
+        <tbody id="ai-list-body"></tbody>
+      </table></div>
+
+      <h3 class="dash-title" data-i18n="ai.monthTitle">월별 제출 일정</h3>
+      <p class="dash-sub" data-i18n="ai.monthSub">현재 추적 중인 마감일을 월별로 정리했습니다 (AoE 기준)</p>
+      <div id="ai-month-schedule" class="ai-month-schedule"></div>
+
+      <p class="journal-source" data-i18n="ai.sourceNote">※ 대상 학회 리스트는 매년 갱신됩니다. 마감일은 각 학회 공지 기준이며 '예상'은 직전 개최 패턴 기반 추정치입니다.</p>
+    </section>
+
     <p id="empty-msg" class="empty" data-i18n="empty.default" hidden>표시할 학회 일정이 없습니다.</p>
   </main>
 
@@ -268,7 +303,7 @@
     </div>
   </div>
 
-  <script src="assets/i18n.js?v=20260915-3"></script>
-  <script src="assets/app.js?v=20260915-3"></script>
+  <script src="assets/i18n.js?v=20260915-4"></script>
+  <script src="assets/app.js?v=20260915-4"></script>
 </body>
 </html>

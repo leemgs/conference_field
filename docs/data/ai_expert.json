@@ -1,0 +1,294 @@
+{
+  "source": "AI Expert 대상 학회 (13개)",
+  "updated": "2026-09-15",
+  "versions": [
+    {
+      "key": "2026-h2",
+      "label": "2026년 하반기",
+      "note": "2026년 하반기 AI Expert 대상 학회",
+      "conferences": [
+        {
+          "id": "icml",
+          "name": "ICML",
+          "fullName": "International Conference on Machine Learning"
+        },
+        {
+          "id": "iclr",
+          "name": "ICLR",
+          "fullName": "International Conference on Learning Representation"
+        },
+        {
+          "id": "aaai",
+          "name": "AAAI",
+          "fullName": "National Conference on Artificial Intelligence"
+        },
+        {
+          "id": "neurips",
+          "name": "NeurIPS",
+          "fullName": "Neural Information Processing Systems"
+        },
+        {
+          "id": "ijcai",
+          "name": "IJCAI",
+          "fullName": "International Joint Conference on Artificial Intelligence"
+        },
+        {
+          "id": "cvpr",
+          "name": "CVPR",
+          "fullName": "Computer Vision and Pattern Recognition"
+        },
+        {
+          "id": "iccv",
+          "name": "ICCV",
+          "fullName": "International Conference on Computer Vision"
+        },
+        {
+          "id": "eccv",
+          "name": "ECCV",
+          "fullName": "European Conference on Computer Vision"
+        },
+        {
+          "id": "acl",
+          "name": "ACL",
+          "fullName": "Association for Computational Linguistics"
+        },
+        {
+          "id": "emnlp",
+          "name": "EMNLP",
+          "fullName": "Conference on Empirical Methods in Natural Language Processing"
+        },
+        {
+          "id": "naacl-hlt",
+          "name": "NAACL",
+          "fullName": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+        },
+        {
+          "id": "icassp",
+          "name": "ICASSP",
+          "fullName": "International Conference on Acoustics, Speech, and Signal Processing"
+        },
+        {
+          "id": "interspeech",
+          "name": "INTERSPEECH",
+          "fullName": "Annual Conference of the International Speech Communication Association"
+        }
+      ]
+    },
+    {
+      "key": "2026",
+      "label": "2026년",
+      "note": "2026년 AI Expert 대상 학회",
+      "conferences": [
+        {
+          "id": "icml",
+          "name": "ICML",
+          "fullName": "International Conference on Machine Learning"
+        },
+        {
+          "id": "iclr",
+          "name": "ICLR",
+          "fullName": "International Conference on Learning Representation"
+        },
+        {
+          "id": "aaai",
+          "name": "AAAI",
+          "fullName": "National Conference on Artificial Intelligence"
+        },
+        {
+          "id": "neurips",
+          "name": "NeurIPS",
+          "fullName": "Neural Information Processing Systems"
+        },
+        {
+          "id": "ijcai",
+          "name": "IJCAI",
+          "fullName": "International Joint Conference on Artificial Intelligence"
+        },
+        {
+          "id": "cvpr",
+          "name": "CVPR",
+          "fullName": "Computer Vision and Pattern Recognition"
+        },
+        {
+          "id": "iccv",
+          "name": "ICCV",
+          "fullName": "International Conference on Computer Vision"
+        },
+        {
+          "id": "eccv",
+          "name": "ECCV",
+          "fullName": "European Conference on Computer Vision"
+        },
+        {
+          "id": "acl",
+          "name": "ACL",
+          "fullName": "Association for Computational Linguistics"
+        },
+        {
+          "id": "emnlp",
+          "name": "EMNLP",
+          "fullName": "Conference on Empirical Methods in Natural Language Processing"
+        },
+        {
+          "id": "naacl-hlt",
+          "name": "NAACL",
+          "fullName": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+        },
+        {
+          "id": "icassp",
+          "name": "ICASSP",
+          "fullName": "International Conference on Acoustics, Speech, and Signal Processing"
+        },
+        {
+          "id": "interspeech",
+          "name": "INTERSPEECH",
+          "fullName": "Annual Conference of the International Speech Communication Association"
+        }
+      ]
+    },
+    {
+      "key": "2025",
+      "label": "2025년",
+      "note": "2025년 AI Expert 대상 학회",
+      "conferences": [
+        {
+          "id": "icml",
+          "name": "ICML",
+          "fullName": "International Conference on Machine Learning"
+        },
+        {
+          "id": "iclr",
+          "name": "ICLR",
+          "fullName": "International Conference on Learning Representation"
+        },
+        {
+          "id": "aaai",
+          "name": "AAAI",
+          "fullName": "National Conference on Artificial Intelligence"
+        },
+        {
+          "id": "neurips",
+          "name": "NeurIPS",
+          "fullName": "Neural Information Processing Systems"
+        },
+        {
+          "id": "ijcai",
+          "name": "IJCAI",
+          "fullName": "International Joint Conference on Artificial Intelligence"
+        },
+        {
+          "id": "cvpr",
+          "name": "CVPR",
+          "fullName": "Computer Vision and Pattern Recognition"
+        },
+        {
+          "id": "iccv",
+          "name": "ICCV",
+          "fullName": "International Conference on Computer Vision"
+        },
+        {
+          "id": "eccv",
+          "name": "ECCV",
+          "fullName": "European Conference on Computer Vision"
+        },
+        {
+          "id": "acl",
+          "name": "ACL",
+          "fullName": "Association for Computational Linguistics"
+        },
+        {
+          "id": "emnlp",
+          "name": "EMNLP",
+          "fullName": "Conference on Empirical Methods in Natural Language Processing"
+        },
+        {
+          "id": "naacl-hlt",
+          "name": "NAACL",
+          "fullName": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+        },
+        {
+          "id": "icassp",
+          "name": "ICASSP",
+          "fullName": "International Conference on Acoustics, Speech, and Signal Processing"
+        },
+        {
+          "id": "interspeech",
+          "name": "INTERSPEECH",
+          "fullName": "Annual Conference of the International Speech Communication Association"
+        }
+      ]
+    },
+    {
+      "key": "2024",
+      "label": "2024년",
+      "note": "2024년 AI Expert 대상 학회",
+      "conferences": [
+        {
+          "id": "icml",
+          "name": "ICML",
+          "fullName": "International Conference on Machine Learning"
+        },
+        {
+          "id": "iclr",
+          "name": "ICLR",
+          "fullName": "International Conference on Learning Representation"
+        },
+        {
+          "id": "aaai",
+          "name": "AAAI",
+          "fullName": "National Conference on Artificial Intelligence"
+        },
+        {
+          "id": "neurips",
+          "name": "NeurIPS",
+          "fullName": "Neural Information Processing Systems"
+        },
+        {
+          "id": "ijcai",
+          "name": "IJCAI",
+          "fullName": "International Joint Conference on Artificial Intelligence"
+        },
+        {
+          "id": "cvpr",
+          "name": "CVPR",
+          "fullName": "Computer Vision and Pattern Recognition"
+        },
+        {
+          "id": "iccv",
+          "name": "ICCV",
+          "fullName": "International Conference on Computer Vision"
+        },
+        {
+          "id": "eccv",
+          "name": "ECCV",
+          "fullName": "European Conference on Computer Vision"
+        },
+        {
+          "id": "acl",
+          "name": "ACL",
+          "fullName": "Association for Computational Linguistics"
+        },
+        {
+          "id": "emnlp",
+          "name": "EMNLP",
+          "fullName": "Conference on Empirical Methods in Natural Language Processing"
+        },
+        {
+          "id": "naacl-hlt",
+          "name": "NAACL",
+          "fullName": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+        },
+        {
+          "id": "icassp",
+          "name": "ICASSP",
+          "fullName": "International Conference on Acoustics, Speech, and Signal Processing"
+        },
+        {
+          "id": "interspeech",
+          "name": "INTERSPEECH",
+          "fullName": "Annual Conference of the International Speech Communication Association"
+        }
+      ]
+    }
+  ]
+}
