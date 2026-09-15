@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -1264,16 +1264,22 @@
       "fullName": "IEEE European Symposium on Security and Privacy",
       "field": "sec",
       "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://eurosp2026.ieee-security.org/",
+      "location": "Madrid, Spain",
+      "confText": "July 5 - 9, 2027",
+      "url": "https://eurosp2027.ieee-security.org/",
       "tz": "UTC-12",
       "deadlines": [
         {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-25",
+          "status": "confirmed"
+        },
+        {
           "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2026-11-20",
-          "status": "estimated"
+          "label": "논문 마감",
+          "date": "2026-12-02",
+          "status": "confirmed"
         }
       ]
     },
