@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="light dark" />
   <title>탑티어 학회 마감일·저널 탐색기</title>
-  <meta name="description" content="12개 분야 탑티어 학회 마감일과 산업 분야 관점의 304개 최우수·우수 저널을 한곳에서 탐색하세요" />
-  <link rel="stylesheet" href="assets/style.css?v=20260820-1" />
+  <meta name="description" content="12개 분야 탑티어 학회 마감일과 산업 분야 관점의 309개 최우수·우수 저널을 한곳에서 탐색하세요" />
+  <link rel="stylesheet" href="assets/style.css?v=20260915-2" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
 </head>
 <body>
@@ -14,7 +14,7 @@
     <div class="header-inner">
       <div class="brand">
         <h1><a class="brand-logo" href="https://leemgs.github.io/conference_field" data-i18n-aria-label="brand.home" aria-label="홈으로 이동">🎓</a> <span data-i18n="brand.h1">탑티어 학회 마감일·저널 탐색기</span></h1>
-        <p class="tagline" data-i18n="brand.tagline">12개 분야 탑티어 학회 일정과 8개 분야 304개 최우수·우수 저널을 한곳에서</p>
+        <p class="tagline" data-i18n="brand.tagline">12개 분야 탑티어 학회 일정과 8개 분야 309개 최우수·우수 저널을 한곳에서</p>
       </div>
       <div class="header-actions">
         <a class="ics-link" href="conferences.ics" data-i18n="header.ics" data-i18n-title="header.ics.title" title="구글 캘린더 등에서 URL로 구독할 수 있습니다">📅 캘린더 구독 (ICS)</a>
@@ -89,6 +89,13 @@
       </div>
 
       <div id="conference-dashboard">
+        <div class="dash-yearbar">
+          <label class="board-size">
+            <span data-i18n="board.year">기준 연도</span>
+            <select id="dashboard-year"></select>
+          </label>
+          <p class="dash-note" id="dashboard-scope-note"></p>
+        </div>
         <div class="dash-tiles" id="dash-tiles"></div>
 
       <div class="dash-grid">
@@ -128,6 +135,14 @@
           <div id="korea-content"></div>
           <p class="dash-note" id="korea-watch-note"></p>
           <p class="dash-note" data-i18n="dash.korea.autoNote">개최지가 미정(TBD)인 학회는 장소가 발표되어 데이터에 반영되는 대로 이 표에 자동 표시됩니다.</p>
+        </article>
+
+        <article class="dash-card" id="japan-card">
+          <h3 class="dash-title" data-i18n="dash.japan.title">🇯🇵 일본 개최 학회 현황</h3>
+          <p class="dash-sub" data-i18n="dash.japan.sub">개최지가 일본인 학회 — 인접국 개최라 이동 부담이 적고 출장 일정을 잡기 수월합니다</p>
+          <div id="japan-content"></div>
+          <p class="dash-note" id="japan-watch-note"></p>
+          <p class="dash-note" data-i18n="dash.japan.autoNote">개최지가 미정(TBD)인 학회는 장소가 발표되어 데이터에 반영되는 대로 이 표에 자동 표시됩니다.</p>
         </article>
 
         <article class="dash-card" id="papers-card">
@@ -219,10 +234,11 @@
 
     <section id="journal-view" hidden>
       <div class="journal-intro">
-        <div><h2>최우수/우수 저널 목록</h2><p>Field (industry view) 기준 · 2025.3.1부터 적용</p></div>
+        <div><h2>최우수/우수 저널 목록</h2><p id="journal-version-note">Field (industry view) 기준</p></div>
         <strong id="journal-count"></strong>
       </div>
       <div class="journal-filters" aria-label="저널 필터">
+        <label>기준 연도 <select id="journal-year"></select></label>
         <label>분야 <select id="journal-field"><option value="all">전체 분야</option></select></label>
         <label>등급 <select id="journal-rating"><option value="all">전체 등급</option><option value="최우수">최우수</option><option value="우수">우수</option></select></label>
       </div>
@@ -230,7 +246,7 @@
         <thead><tr><th>분야</th><th>등급</th><th>Journal Title</th><th>SJR</th></tr></thead>
         <tbody id="journal-body"></tbody>
       </table></div>
-      <p class="journal-source">※ 제공된 「최우수/우수 저널 목록 (2025.3.1~적용)」을 기준으로 합니다.</p>
+      <p class="journal-source">※ 제공된 「최우수/우수 저널 목록」(Field, industry view)을 기준으로 하며, 위의 <strong>기준 연도</strong> 메뉴에서 연도별 목록을 선택해 열람할 수 있습니다.</p>
     </section>
 
     <p id="empty-msg" class="empty" data-i18n="empty.default" hidden>표시할 학회 일정이 없습니다.</p>
@@ -252,7 +268,7 @@
     </div>
   </div>
 
-  <script src="assets/i18n.js?v=20260820-3"></script>
-  <script src="assets/app.js?v=20260820-4"></script>
+  <script src="assets/i18n.js?v=20260915-3"></script>
+  <script src="assets/app.js?v=20260915-3"></script>
 </body>
 </html>

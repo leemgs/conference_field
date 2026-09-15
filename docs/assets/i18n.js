@@ -5,14 +5,14 @@
   window.I18N = {
     "app.title": { ko: "탑티어 학회 마감일·저널 탐색기", en: "Top-Tier Conference Deadlines & Journal Explorer" },
     "app.description": {
-      ko: "12개 분야 탑티어 학회 마감일과 산업 분야 관점의 304개 최우수·우수 저널을 한곳에서 탐색하세요",
-      en: "Explore top-tier conference deadlines across 12 fields and 304 industry-view top-tier and excellent journals in one place",
+      ko: "12개 분야 탑티어 학회 마감일과 산업 분야 관점의 309개 최우수·우수 저널을 한곳에서 탐색하세요",
+      en: "Explore top-tier conference deadlines across 12 fields and 309 industry-view top-tier and excellent journals in one place",
     },
     "brand.h1": { ko: "탑티어 학회 마감일·저널 탐색기", en: "Top-Tier Conference Deadlines & Journal Explorer" },
     "brand.home": { ko: "홈으로 이동", en: "Go to home" },
     "brand.tagline": {
-      ko: "12개 분야 탑티어 학회 일정과 8개 분야 304개 최우수·우수 저널을 한곳에서",
-      en: "Top-tier conference schedules across 12 fields and 304 selected journals across 8 fields, all in one place",
+      ko: "12개 분야 탑티어 학회 일정과 8개 분야 309개 최우수·우수 저널을 한곳에서",
+      en: "Top-tier conference schedules across 12 fields and 309 selected journals across 8 fields, all in one place",
     },
 
     "header.ics": { ko: "📅 캘린더 구독 (ICS)", en: "📅 Subscribe (ICS)" },
@@ -32,7 +32,7 @@
     "dash.journal.fieldTitle": { ko: "분야별 저널 등급 현황", en: "Journal Ratings by Field" },
     "dash.journal.fieldSub": { ko: "분야별 최우수·우수 저널 수", en: "Top-tier and excellent journals by field" },
     "dash.journal.sjrTitle": { ko: "SJR 상위 저널", en: "Top Journals by SJR" },
-    "dash.journal.sjrSub": { ko: "2025년 목록의 SJR 기준 상위 15개 저널", en: "Top 15 journals by SJR in the 2025 list" },
+    "dash.journal.sjrSub": { ko: "2026년 하반기 목록의 SJR 기준 상위 15개 저널", en: "Top 15 journals by SJR in the 2026 H2 list" },
 
     "search.label": { ko: "검색", en: "Search" },
     "search.placeholder": { ko: "학회명 검색 (예: CVPR, Machine Learning)", en: "Search conferences (e.g. CVPR, Machine Learning)" },
@@ -144,8 +144,18 @@
     "dash.tile.pctOfTotal": { ko: "전체의 {pct}%", en: "{pct}% of total" },
     "dash.tile.confirmedEstimated": { ko: "확정 {c} · 예상 {e}", en: "Confirmed {c} · Estimated {e}" },
 
+    "dash.year.allOption": { ko: "전체 (마감일 추적)", en: "All (deadline-tracked)" },
+    "dash.year.note": {
+      ko: "요약·카테고리 차트는 선택한 기준 연도({label}) 기준입니다. 아래 월별 마감·한국 개최·논문 수 패널은 마감일 추적 전체 목록 기준입니다.",
+      en: "The summary tiles and category chart reflect the selected year ({label}). The monthly-deadline, Korea-hosted, and paper-count panels below use the full deadline-tracked list.",
+    },
+    "dash.year.noteAll": {
+      ko: "모든 패널이 마감일 추적 전체 목록 기준입니다.",
+      en: "All panels use the full deadline-tracked list.",
+    },
     "dash.domain.title": { ko: "카테고리별 학회 등급 현황", en: "Ratings by Category" },
     "dash.domain.sub": { ko: "도메인별 최우수·우수 학회 수 (전체 기간 기준)", en: "Top-tier/excellent counts by domain (all-time)" },
+    "dash.domain.subOf": { ko: "도메인별 최우수·우수 학회 수 · {label} 기준", en: "Top-tier/excellent counts by domain · {label}" },
     "dash.domain.ariaBar": {
       ko: "{field}: 최우수 {top}개, 우수 {good}개, 합계 {total}개",
       en: "{field}: {top} top-tier, {good} excellent, {total} total",
@@ -217,6 +227,24 @@
       en: "No conferences currently confirmed to be held in Korea.",
     },
     "dash.korea.autoNote": {
+      ko: "개최지가 미정(TBD)인 학회는 장소가 발표되어 데이터에 반영되는 대로 이 표에 자동 표시됩니다.",
+      en: "Conferences with venues still TBD appear here automatically once their locations are announced in the data.",
+    },
+
+    "dash.japan.title": { ko: "🇯🇵 일본 개최 학회 현황", en: "🇯🇵 Conferences Held in Japan" },
+    "dash.japan.sub": {
+      ko: "개최지가 일본인 학회 — 인접국 개최라 이동 부담이 적고 출장 일정을 잡기 수월합니다",
+      en: "Conferences hosted in Japan — a nearby destination with lighter travel and easier trip planning",
+    },
+    "dash.japan.watchNote": {
+      ko: "🔴 빨간색은 특별 관리 대상 학회(13개)입니다: {list}",
+      en: "🔴 Red marks the 13 specially watched conferences: {list}",
+    },
+    "dash.japan.empty": {
+      ko: "현재 데이터에 일본 개최가 확정된 학회가 없습니다.",
+      en: "No conferences currently confirmed to be held in Japan.",
+    },
+    "dash.japan.autoNote": {
       ko: "개최지가 미정(TBD)인 학회는 장소가 발표되어 데이터에 반영되는 대로 이 표에 자동 표시됩니다.",
       en: "Conferences with venues still TBD appear here automatically once their locations are announced in the data.",
     },
