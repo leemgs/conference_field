@@ -54,6 +54,7 @@
     paperYear: null, // 논문 패널에서 선택한 연도(국가 상세용)
     journals: [],
     dashboardKind: "conference",
+    dashboardYear: "2026-h2", // 대시보드 요약·카테고리 차트의 기준 연도 ("all"=마감일 추적 전체)
     conferenceHistory: [],
     conferenceYear: "2026-h2",
     journalHistory: [],
@@ -114,6 +115,7 @@
       bindControls();
       buildJournalFilters();
       buildConferenceYearFilter();
+      buildDashboardYearFilter();
       const hashView = viewFromHash();
       if (hashView) setView(hashView, false);
       else render();
@@ -259,6 +261,11 @@
       state.conferenceYear = e.target.value;
       state.page = 1;
       renderBoard();
+    });
+
+    $("#dashboard-year").addEventListener("change", (e) => {
+      state.dashboardYear = e.target.value;
+      renderDashboard();
     });
 
     document.querySelectorAll(".view-btn").forEach((btn) => {
@@ -598,6 +605,44 @@
     select.value = state.conferenceYear;
   }
 
+  // 대시보드 기준 연도 선택: 연도별 큐레이션 목록(conference_history) + "전체(마감일 추적)" 옵션
+  function buildDashboardYearFilter() {
+    const select = $("#dashboard-year");
+    if (!select) return;
+    select.innerHTML = "";
+    state.conferenceHistory.forEach((version) => {
+      const option = document.createElement("option");
+      option.value = version.key;
+      option.textContent = `${version.label} (${version.conferences.length}개)`;
+      select.appendChild(option);
+    });
+    const allOption = document.createElement("option");
+    allOption.value = "all";
+    allOption.textContent = `${t("dash.year.allOption")} (${(state.data.conferences || []).length}개)`;
+    select.appendChild(allOption);
+    // 기본 기준 연도가 이력에 없으면 전체로 폴백
+    if (!state.conferenceHistory.some((v) => v.key === state.dashboardYear)) {
+      state.dashboardYear = state.conferenceHistory.length ? state.conferenceHistory[0].key : "all";
+    }
+    select.value = state.dashboardYear;
+  }
+
+  // 대시보드 요약·카테고리 차트가 사용할 학회 목록을 {field(=fieldKey), rating} 형태로 반환.
+  // 연도를 고르면 해당 큐레이션 목록을, "all"이거나 이력이 없으면 마감일 추적 전체 목록을 쓴다.
+  function currentDashList() {
+    const version = state.conferenceHistory.find((v) => v.key === state.dashboardYear);
+    if (state.dashboardYear === "all" || !version) {
+      return (state.data.conferences || []).map((c) => ({ field: c.field, rating: c.rating }));
+    }
+    return version.conferences.map((c) => ({ field: c.fieldKey || "etc", rating: c.rating }));
+  }
+
+  // 현재 기준 연도의 표시 라벨
+  function dashYearLabel() {
+    const version = state.conferenceHistory.find((v) => v.key === state.dashboardYear);
+    return version ? version.label : t("dash.year.allOption");
+  }
+
   // 학회 id → 게시판 번호(등급별 일련번호). 필터와 무관하게 번호가 고정되도록 전체 목록 기준으로 1회 생성
   let boardIndex = null;
   function buildBoardIndex() {
@@ -899,9 +944,9 @@
   }
 
   // ── 대시보드: 집계 ──
-  function domainCounts() {
+  function domainCounts(list) {
     const rows = {};
-    (state.data.conferences || []).forEach((conf) => {
+    (list || state.data.conferences || []).forEach((conf) => {
       const r = (rows[conf.field] = rows[conf.field] || { top: 0, good: 0 });
       if (conf.rating === RATING_TOP) r.top += 1;
       else r.good += 1;
@@ -1122,17 +1167,28 @@
 
   // ── 대시보드: 요약 타일 ──
   function renderDashTiles() {
-    const confs = state.data.conferences || [];
+    // 요약 3종(전체/최우수/우수)은 선택한 기준 연도 목록 기준.
+    const confs = currentDashList();
+    const total = confs.length || 1;
     const top = confs.filter((c) => c.rating === RATING_TOP).length;
     const fields = new Set(confs.map((c) => c.field)).size;
+    // '이번 달 마감'은 마감일 정보가 있는 전체 추적 목록 기준(연도 선택과 무관).
     const nowKey = monthKeys12()[0];
     const thisMonth = monthStats()[0];
     const nowMonthLabel = t("month." + nowKey.month);
 
+    // 기준 연도 안내 문구
+    const scopeNote = $("#dashboard-scope-note");
+    if (scopeNote) {
+      scopeNote.textContent = state.dashboardYear === "all"
+        ? t("dash.year.noteAll")
+        : t("dash.year.note", { label: dashYearLabel() });
+    }
+
     const tiles = [
       { label: t("dash.tile.total"), value: fmtNum(confs.length), sub: t("dash.tile.fieldsCount", { n: fields }) },
-      { label: t("dash.tile.top"), value: fmtNum(top), sub: t("dash.tile.pctOfTotal", { pct: Math.round((top / confs.length) * 100) }) },
-      { label: t("dash.tile.good"), value: fmtNum(confs.length - top), sub: t("dash.tile.pctOfTotal", { pct: Math.round(((confs.length - top) / confs.length) * 100) }) },
+      { label: t("dash.tile.top"), value: fmtNum(top), sub: t("dash.tile.pctOfTotal", { pct: Math.round((top / total) * 100) }) },
+      { label: t("dash.tile.good"), value: fmtNum(confs.length - top), sub: t("dash.tile.pctOfTotal", { pct: Math.round(((confs.length - top) / total) * 100) }) },
       { label: t("dash.tile.thisMonth", { monthLabel: nowMonthLabel }), value: t("unit.cases", { n: fmtNum(thisMonth.count) }), sub: t("dash.tile.confirmedEstimated", { c: thisMonth.confirmed, e: thisMonth.estimated }) },
     ];
 
@@ -1149,8 +1205,11 @@
 
   // ── 대시보드: 카테고리별 등급 현황 ──
   function renderDomainChart() {
-    const rows = domainCounts();
+    const rows = domainCounts(currentDashList());
     const max = Math.max(...rows.map((r) => r.total), 1);
+    // 부제목에 현재 기준 연도를 반영
+    const sub = $("#domain-card .dash-sub");
+    if (sub) sub.textContent = t("dash.domain.subOf", { label: dashYearLabel() });
     const wrap = $("#domain-chart");
     wrap.innerHTML = "";
 

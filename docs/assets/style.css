@@ -606,6 +606,15 @@ a { color: var(--accent); }
 .dashboard-kind-toggle .chip { min-width: 120px; font-size: 0.95rem; }
 .journal-rank-table th:nth-child(2) { text-align: left; }
 
+.dash-yearbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-bottom: 14px;
+}
+.dash-yearbar .dash-note { margin: 0; flex: 1 1 260px; }
+
 .dash-tiles {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));

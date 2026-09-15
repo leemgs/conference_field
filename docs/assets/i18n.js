@@ -144,8 +144,18 @@
     "dash.tile.pctOfTotal": { ko: "전체의 {pct}%", en: "{pct}% of total" },
     "dash.tile.confirmedEstimated": { ko: "확정 {c} · 예상 {e}", en: "Confirmed {c} · Estimated {e}" },
 
+    "dash.year.allOption": { ko: "전체 (마감일 추적)", en: "All (deadline-tracked)" },
+    "dash.year.note": {
+      ko: "요약·카테고리 차트는 선택한 기준 연도({label}) 기준입니다. 아래 월별 마감·한국 개최·논문 수 패널은 마감일 추적 전체 목록 기준입니다.",
+      en: "The summary tiles and category chart reflect the selected year ({label}). The monthly-deadline, Korea-hosted, and paper-count panels below use the full deadline-tracked list.",
+    },
+    "dash.year.noteAll": {
+      ko: "모든 패널이 마감일 추적 전체 목록 기준입니다.",
+      en: "All panels use the full deadline-tracked list.",
+    },
     "dash.domain.title": { ko: "카테고리별 학회 등급 현황", en: "Ratings by Category" },
     "dash.domain.sub": { ko: "도메인별 최우수·우수 학회 수 (전체 기간 기준)", en: "Top-tier/excellent counts by domain (all-time)" },
+    "dash.domain.subOf": { ko: "도메인별 최우수·우수 학회 수 · {label} 기준", en: "Top-tier/excellent counts by domain · {label}" },
     "dash.domain.ariaBar": {
       ko: "{field}: 최우수 {top}개, 우수 {good}개, 합계 {total}개",
       en: "{field}: {top} top-tier, {good} excellent, {total} total",

@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="light dark" />
   <title>탑티어 학회 마감일·저널 탐색기</title>
   <meta name="description" content="12개 분야 탑티어 학회 마감일과 산업 분야 관점의 309개 최우수·우수 저널을 한곳에서 탐색하세요" />
-  <link rel="stylesheet" href="assets/style.css?v=20260915-1" />
+  <link rel="stylesheet" href="assets/style.css?v=20260915-2" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
 </head>
 <body>
@@ -89,6 +89,13 @@
       </div>
 
       <div id="conference-dashboard">
+        <div class="dash-yearbar">
+          <label class="board-size">
+            <span data-i18n="board.year">기준 연도</span>
+            <select id="dashboard-year"></select>
+          </label>
+          <p class="dash-note" id="dashboard-scope-note"></p>
+        </div>
         <div class="dash-tiles" id="dash-tiles"></div>
 
       <div class="dash-grid">
@@ -253,7 +260,7 @@
     </div>
   </div>
 
-  <script src="assets/i18n.js?v=20260915-1"></script>
-  <script src="assets/app.js?v=20260915-1"></script>
+  <script src="assets/i18n.js?v=20260915-2"></script>
+  <script src="assets/app.js?v=20260915-2"></script>
 </body>
 </html>
