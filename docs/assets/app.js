@@ -21,6 +21,37 @@
     return t("field." + key);
   }
 
+  // 데이터의 연도 라벨/비고는 한국어로 저장되어 있어, 영어 모드에서는 형태를 변환한다.
+  // 예: "2026년 하반기" → "2026 H2", "2025년" → "2025"
+  function verLabel(label) {
+    if (window.I18N_LANG !== "en" || !label) return label;
+    return String(label)
+      .replace(/(\d{4})\s*년\s*하반기/, "$1 H2")
+      .replace(/(\d{4})\s*년\s*상반기/, "$1 H1")
+      .replace(/(\d{4})\s*년/, "$1");
+  }
+  function verNote(note) {
+    if (window.I18N_LANG !== "en" || !note) return note;
+    return String(note)
+      .replace(/(\d{4}-\d{2}-\d{2})\s*부터\s*적용/, "effective $1")
+      .replace(/(\d{4})\s*년\s*하반기/, "$1 H2")
+      .replace(/(\d{4})\s*년/, "$1")
+      .replace(/AI Expert 대상 학회/, "AI Expert target list")
+      .replace(/컨퍼런스\s*리스트/, "conference list");
+  }
+  // 마감일 라벨(데이터는 한국어)을 영어 모드에서 표준 표현으로 변환한다.
+  function dlLabel(label) {
+    if (window.I18N_LANG !== "en" || !label) return label;
+    return String(label)
+      .replace(/논문 등록\(초록\)\s*마감/g, "Registration (abstract) deadline")
+      .replace(/초록\s*마감/g, "Abstract deadline")
+      .replace(/커밋먼트\s*마감/g, "Commitment deadline")
+      .replace(/ARR\s*논문\s*마감/g, "ARR paper deadline")
+      .replace(/논문\s*마감/g, "Paper deadline")
+      .replace(/예상/g, "est.")
+      .replace(/마감/g, "deadline");
+  }
+
   function weekdayLabel(i) {
     return t("weekday." + ["sun", "mon", "tue", "wed", "thu", "fri", "sat"][i]);
   }
@@ -80,7 +111,7 @@
     if (!VIEW_HASHES[view]) return;
     state.view = view;
     $("#conference-search").placeholder = view === "journals"
-      ? "저널명 검색 (예: Nature, IEEE Transactions)"
+      ? t("journal.searchPlaceholder")
       : t("search.placeholder");
     document.querySelectorAll(".view-btn").forEach((b) => {
       const on = b.dataset.view === view;
@@ -326,6 +357,7 @@
       updateFieldChipLabels();
       renderWeekdayHeader();
       renderUpdatedAt();
+      refreshYearSelectors();
       render();
     });
   }
@@ -392,7 +424,7 @@
       state.journalHistory.forEach((version) => {
         const option = document.createElement("option");
         option.value = version.key;
-        option.textContent = `${version.label} (${version.journals.length}개)`;
+        option.textContent = `${verLabel(version.label)} ${t("unit.itemsParen", { n: version.journals.length })}`;
         yearSelect.appendChild(option);
       });
       yearSelect.value = state.journalYear;
@@ -423,17 +455,17 @@
     const note = $("#journal-version-note");
     if (note) {
       note.textContent = version
-        ? `Field (industry view) 기준 · ${version.label} (${version.note})`
-        : "Field (industry view) 기준";
+        ? `${t("journal.basis", { label: verLabel(version.label) })} (${verNote(version.note)})`
+        : "Field (industry view)";
     }
     const rows = currentJournalRows().filter((j) =>
       (field === "all" || j.field === field) &&
       (rating === "all" || j.rating === rating) &&
       (!state.query || j.title.toLocaleLowerCase().includes(state.query))
     );
-    $("#journal-count").textContent = `${rows.length}개 저널`;
+    $("#journal-count").textContent = t("unit.journalsCount", { n: rows.length });
     $("#journal-body").innerHTML = rows.map((j) => `<tr>
-      <td>${escapeHtml(j.field)}</td><td><span class="rating-badge ${j.rating === "최우수" ? "rating-top" : "rating-good"}">${j.rating}</span></td>
+      <td>${escapeHtml(j.field)}</td><td><span class="rating-badge ${j.rating === "최우수" ? "rating-top" : "rating-good"}">${escapeHtml(t(j.rating === "최우수" ? "rating.top" : "rating.good"))}</span></td>
       <td class="journal-title">${escapeHtml(j.title)}</td><td>${j.sjr == null ? "—" : Number(j.sjr).toFixed(2)}</td>
     </tr>`).join("");
   }
@@ -450,7 +482,7 @@
     state.aiExpert.forEach((v) => {
       const o = document.createElement("option");
       o.value = v.key;
-      o.textContent = `${v.label} (${v.conferences.length}개)`;
+      o.textContent = `${verLabel(v.label)} ${t("unit.itemsParen", { n: v.conferences.length })}`;
       select.appendChild(o);
     });
     if (!state.aiExpert.some((v) => v.key === state.aiExpertYear)) {
@@ -498,7 +530,7 @@
   // 예상 마감이면서 라벨에 아직 '예상' 표기가 없을 때만 접미사를 붙인다(중복 방지).
   function aiDeadlineLabel(dl) {
     const needEst = dl.status === "estimated" && !/예상|est/i.test(dl.label);
-    return dl.label + (needEst ? ` (${t("ai.est")})` : "");
+    return dlLabel(dl.label) + (needEst ? ` (${t("ai.est")})` : "");
   }
 
   function aiDeadlineLine(dl) {
@@ -521,8 +553,8 @@
     const listed = aiListedAbbrevs(version.key);
     const yearLabel = version.label;
 
-    $("#ai-version-note").textContent = `${t("ai.sub")} · ${yearLabel}`;
-    $("#ai-count").textContent = `${targets.length}개 학회`;
+    $("#ai-version-note").textContent = `${t("ai.sub")} · ${verLabel(yearLabel)}`;
+    $("#ai-count").textContent = t("unit.confCount", { n: targets.length });
 
     // 컨퍼런스 리스트 등재 / 미등재 분류
     const inList = [], outList = [];
@@ -531,8 +563,8 @@
     });
 
     wrap.innerHTML = "";
-    wrap.appendChild(aiSummaryCard("in", t("ai.summary.inlist"), inList, t("ai.summary.inlistDesc", { label: yearLabel })));
-    wrap.appendChild(aiSummaryCard("out", t("ai.summary.notinlist"), outList, t("ai.summary.notinlistDesc", { label: yearLabel })));
+    wrap.appendChild(aiSummaryCard("in", t("ai.summary.inlist"), inList, t("ai.summary.inlistDesc", { label: verLabel(yearLabel) })));
+    wrap.appendChild(aiSummaryCard("out", t("ai.summary.notinlist"), outList, t("ai.summary.notinlistDesc", { label: verLabel(yearLabel) })));
 
     // 대상 학회 목록 테이블
     const body = $("#ai-list-body");
@@ -795,7 +827,7 @@
     state.conferenceHistory.forEach((version) => {
       const option = document.createElement("option");
       option.value = version.key;
-      option.textContent = `${version.label} (${version.conferences.length}개)`;
+      option.textContent = `${verLabel(version.label)} ${t("unit.itemsParen", { n: version.conferences.length })}`;
       select.appendChild(option);
     });
     select.value = state.conferenceYear;
@@ -809,18 +841,45 @@
     state.conferenceHistory.forEach((version) => {
       const option = document.createElement("option");
       option.value = version.key;
-      option.textContent = `${version.label} (${version.conferences.length}개)`;
+      option.textContent = `${verLabel(version.label)} ${t("unit.itemsParen", { n: version.conferences.length })}`;
       select.appendChild(option);
     });
     const allOption = document.createElement("option");
     allOption.value = "all";
-    allOption.textContent = `${t("dash.year.allOption")} (${(state.data.conferences || []).length}개)`;
+    allOption.textContent = `${t("dash.year.allOption")} ${t("unit.itemsParen", { n: (state.data.conferences || []).length })}`;
     select.appendChild(allOption);
     // 기본 기준 연도가 이력에 없으면 전체로 폴백
     if (!state.conferenceHistory.some((v) => v.key === state.dashboardYear)) {
       state.dashboardYear = state.conferenceHistory.length ? state.conferenceHistory[0].key : "all";
     }
     select.value = state.dashboardYear;
+  }
+
+  // 언어 전환 시 연도 선택 <option> 라벨(연도·개수)을 현재 언어로 다시 채운다.
+  // (선택 값은 유지하고, select 요소 자체는 교체하지 않아 기존 이벤트 리스너가 살아있다)
+  function refreshYearSelectors() {
+    const setOpts = (sel, versions, countOf, withAll) => {
+      if (!sel) return;
+      const cur = sel.value;
+      sel.innerHTML = "";
+      versions.forEach((v) => {
+        const o = document.createElement("option");
+        o.value = v.key;
+        o.textContent = `${verLabel(v.label)} ${t("unit.itemsParen", { n: countOf(v) })}`;
+        sel.appendChild(o);
+      });
+      if (withAll) {
+        const o = document.createElement("option");
+        o.value = "all";
+        o.textContent = `${t("dash.year.allOption")} ${t("unit.itemsParen", { n: (state.data.conferences || []).length })}`;
+        sel.appendChild(o);
+      }
+      if (cur) sel.value = cur;
+    };
+    setOpts($("#journal-year"), state.journalHistory, (v) => v.journals.length, false);
+    setOpts($("#conference-year"), state.conferenceHistory, (v) => v.conferences.length, false);
+    setOpts($("#dashboard-year"), state.conferenceHistory, (v) => v.conferences.length, true);
+    setOpts($("#aiexpert-year"), state.aiExpert, (v) => v.conferences.length, false);
   }
 
   // 대시보드 요약·카테고리 차트가 사용할 학회 목록을 {field(=fieldKey), rating} 형태로 반환.
@@ -836,7 +895,7 @@
   // 현재 기준 연도의 표시 라벨
   function dashYearLabel() {
     const version = state.conferenceHistory.find((v) => v.key === state.dashboardYear);
-    return version ? version.label : t("dash.year.allOption");
+    return version ? verLabel(version.label) : t("dash.year.allOption");
   }
 
   // 학회 id → 게시판 번호(등급별 일련번호). 필터와 무관하게 번호가 고정되도록 전체 목록 기준으로 1회 생성
@@ -924,7 +983,7 @@
       return true;
     });
     $("#board-heading").textContent = t("board.heading.count", { n: rows.length });
-    $("#board-version-note").textContent = t("board.sourceNote", { note: version.note });
+    $("#board-version-note").textContent = t("board.sourceNote", { note: verNote(version.note) });
     const totalPages = Math.max(1, Math.ceil(rows.length / state.pageSize));
     state.page = Math.min(Math.max(state.page, 1), totalPages);
     const start = (state.page - 1) * state.pageSize;
@@ -1217,10 +1276,10 @@
     const withSjr = journals.filter((journal) => Number.isFinite(journal.sjr));
     const avgSjr = withSjr.reduce((sum, journal) => sum + journal.sjr, 0) / withSjr.length;
     const tiles = [
-      ["전체 저널", fmtNum(journals.length), `${new Set(journals.map((journal) => journal.field)).size}개 분야`],
+      [t("dash.jtile.total"), fmtNum(journals.length), t("dash.tile.fieldsCount", { n: new Set(journals.map((journal) => journal.field)).size })],
       [t("rating.top"), fmtNum(top), `${Math.round(top / journals.length * 100)}%`],
       [t("rating.good"), fmtNum(journals.length - top), `${Math.round((journals.length - top) / journals.length * 100)}%`],
-      ["평균 SJR", avgSjr.toFixed(2), `SJR 제공 ${fmtNum(withSjr.length)}개`],
+      [t("dash.jtile.avgSjr"), avgSjr.toFixed(2), t("dash.jtile.sjrProvided", { n: fmtNum(withSjr.length) })],
     ];
     $("#journal-dash-tiles").innerHTML = tiles.map(([label, value, sub]) =>
       `<div class="dash-tile"><div class="tile-label">${label}</div><div class="tile-value">${value}</div><div class="tile-sub">${sub}</div></div>`
@@ -1279,7 +1338,7 @@
       const dday = ddayOf(d);
       const line = el("span", "kr-dl-line" + (dday < 0 ? " past" : ""));
       line.appendChild(el("span", "kr-dl-date", fmtDate(d)));
-      line.appendChild(el("span", "kr-dl-label", dl.label));
+      line.appendChild(el("span", "kr-dl-label", dlLabel(dl.label)));
       if (dday < 0) {
         line.appendChild(el("span", "kr-dl-flag", `(${t("dash.korea.pastDl")})`));
       } else {
