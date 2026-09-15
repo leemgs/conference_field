@@ -9,7 +9,7 @@
 - 📊 대시보드: **https://leemgs.github.io/conference_field/#dashboard**
 - 📚 저널: **https://leemgs.github.io/conference_field/#journals**
 
-**12개 분야 탑티어 학회**(ICML, AAAI, CVPR, SOSP, SIGCOMM, CHI, PLDI 등)의 논문 제출 마감일과 **8개 분야 304개 최우수·우수 저널**의 등급·SJR 정보를 한곳에서 조회할 수 있는 웹사이트입니다.
+**12개 분야 탑티어 학회**(ICML, AAAI, CVPR, SOSP, SIGCOMM, CHI, PLDI 등)의 논문 제출 마감일과 **8개 분야 309개 최우수·우수 저널**의 등급·SJR 정보를 한곳에서 조회할 수 있는 웹사이트입니다.
 
 ## ✨ 주요 기능
 
@@ -18,7 +18,7 @@
 - **🗂️ 연도별 컨퍼런스 목록** — Field (industry view) 기준 2024년, 2025년, 2026년 및 2026년 하반기 목록을 선택 조회
 - **🔍 검색·필터** — 학회 약어·전체 이름 검색, 결과별 인터넷 검색 팝업 / 분야 12종(시스템·AI·데이터·네트워크·보안·PL/SE·HCI·이론·HW·AR/VR·헬스·기타) / 상태(✅ 확정 · 🔮 예상)
 - **🏆 등급 배지** — `data/list_conf.csv` 기준 최우수/우수 등급 표시
-- **📚 저널 탐색** — Field (industry view) 2025년 목록의 8개 분야, 304개 최우수/우수 저널을 분야·등급·이름으로 검색하고 SJR 확인
+- **📚 저널 탐색** — Field (industry view) 2026년 하반기 목록의 8개 분야, 309개 최우수/우수 저널을 분야·등급·이름으로 검색하고 SJR 확인
 - **📊 대시보드 뷰** — ① 카테고리(도메인)별 최우수·우수 학회 수 ② 향후 12개월 월별 마감 현황(월 클릭 시 해당 월 목록) ③ 🇰🇷 한국 개최 학회 현황(연도별: 학회명·제출마감일·개최지·학회 일정·학회 사이트) ④ 매년 학회별 등재 논문 수 차트. 모든 차트는 표 뷰·툴팁·키보드 접근을 지원
 - **🇰🇷 한국 개최 특별 관리 학회(빨간색 표기, 13개)** — ICML, ICLR, AAAI, NeurIPS, IJCAI, CVPR, ICCV, ECCV, ACL, EMNLP, NAACL, ICASSP, INTERSPEECH가 한국에서 개최되면 대시보드 한국 개최 표에 빨간색으로 강조됩니다 (목록 수정: `docs/assets/app.js`의 `KOREA_WATCH_IDS`)
 - **📅 ICS 구독 피드** — [`docs/conferences.ics`](docs/conferences.ics)를 구글 캘린더 등에서 URL로 구독
@@ -34,7 +34,7 @@
 conference/
 ├── data/
 │   └── list_conf.csv        # 학회 목록·분야·등급 (진실의 원천 ①)
-│   └── list_journal.csv     # 2025년 저널 목록·분야·등급·SJR
+│   └── list_journal.csv     # 2026년 하반기 저널 목록·분야·등급·SJR
 ├── field-conference-list-v37-20260820_200532.docx # 연도별 컨퍼런스 원본 문서
 ├── docs/                    # GitHub Pages 정적 사이트
 │   ├── index.html           # 메인 페이지 (달력/목록 뷰)

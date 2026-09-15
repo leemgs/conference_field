@@ -5,14 +5,14 @@
   window.I18N = {
     "app.title": { ko: "탑티어 학회 마감일·저널 탐색기", en: "Top-Tier Conference Deadlines & Journal Explorer" },
     "app.description": {
-      ko: "12개 분야 탑티어 학회 마감일과 산업 분야 관점의 304개 최우수·우수 저널을 한곳에서 탐색하세요",
-      en: "Explore top-tier conference deadlines across 12 fields and 304 industry-view top-tier and excellent journals in one place",
+      ko: "12개 분야 탑티어 학회 마감일과 산업 분야 관점의 309개 최우수·우수 저널을 한곳에서 탐색하세요",
+      en: "Explore top-tier conference deadlines across 12 fields and 309 industry-view top-tier and excellent journals in one place",
     },
     "brand.h1": { ko: "탑티어 학회 마감일·저널 탐색기", en: "Top-Tier Conference Deadlines & Journal Explorer" },
     "brand.home": { ko: "홈으로 이동", en: "Go to home" },
     "brand.tagline": {
-      ko: "12개 분야 탑티어 학회 일정과 8개 분야 304개 최우수·우수 저널을 한곳에서",
-      en: "Top-tier conference schedules across 12 fields and 304 selected journals across 8 fields, all in one place",
+      ko: "12개 분야 탑티어 학회 일정과 8개 분야 309개 최우수·우수 저널을 한곳에서",
+      en: "Top-tier conference schedules across 12 fields and 309 selected journals across 8 fields, all in one place",
     },
 
     "header.ics": { ko: "📅 캘린더 구독 (ICS)", en: "📅 Subscribe (ICS)" },
@@ -32,7 +32,7 @@
     "dash.journal.fieldTitle": { ko: "분야별 저널 등급 현황", en: "Journal Ratings by Field" },
     "dash.journal.fieldSub": { ko: "분야별 최우수·우수 저널 수", en: "Top-tier and excellent journals by field" },
     "dash.journal.sjrTitle": { ko: "SJR 상위 저널", en: "Top Journals by SJR" },
-    "dash.journal.sjrSub": { ko: "2025년 목록의 SJR 기준 상위 15개 저널", en: "Top 15 journals by SJR in the 2025 list" },
+    "dash.journal.sjrSub": { ko: "2026년 하반기 목록의 SJR 기준 상위 15개 저널", en: "Top 15 journals by SJR in the 2026 H2 list" },
 
     "search.label": { ko: "검색", en: "Search" },
     "search.placeholder": { ko: "학회명 검색 (예: CVPR, Machine Learning)", en: "Search conferences (e.g. CVPR, Machine Learning)" },
