@@ -84,7 +84,7 @@
     </section>
 
     <section id="dashboard-view" hidden>
-      <div class="dashboard-kind-toggle" role="tablist" aria-label="대시보드 종류">
+      <div class="dashboard-kind-toggle" role="tablist" data-i18n-aria-label="aria.dashKind" aria-label="대시보드 종류">
         <button type="button" class="chip active" data-dashboard-kind="conference" role="tab" aria-selected="true" data-i18n="dash.kind.conference">Conference</button>
         <button type="button" class="chip" data-dashboard-kind="journal" role="tab" aria-selected="false" data-i18n="dash.kind.journal">Journal</button>
       </div>
@@ -235,19 +235,19 @@
 
     <section id="journal-view" hidden>
       <div class="journal-intro">
-        <div><h2>최우수/우수 저널 목록</h2><p id="journal-version-note">Field (industry view) 기준</p></div>
+        <div><h2 data-i18n="journal.title">최우수/우수 저널 목록</h2><p id="journal-version-note">Field (industry view)</p></div>
         <strong id="journal-count"></strong>
       </div>
-      <div class="journal-filters" aria-label="저널 필터">
-        <label>기준 연도 <select id="journal-year"></select></label>
-        <label>분야 <select id="journal-field"><option value="all">전체 분야</option></select></label>
-        <label>등급 <select id="journal-rating"><option value="all">전체 등급</option><option value="최우수">최우수</option><option value="우수">우수</option></select></label>
+      <div class="journal-filters" data-i18n-aria-label="aria.journalFilter" aria-label="저널 필터">
+        <label><span data-i18n="board.year">기준 연도</span> <select id="journal-year"></select></label>
+        <label><span data-i18n="journal.field">분야</span> <select id="journal-field"><option value="all" data-i18n="journal.allFields">전체 분야</option></select></label>
+        <label><span data-i18n="journal.rating">등급</span> <select id="journal-rating"><option value="all" data-i18n="journal.allRatings">전체 등급</option><option value="최우수" data-i18n="rating.top">최우수</option><option value="우수" data-i18n="rating.good">우수</option></select></label>
       </div>
       <div class="board-wrap"><table class="board-table journal-table">
-        <thead><tr><th>분야</th><th>등급</th><th>Journal Title</th><th>SJR</th></tr></thead>
+        <thead><tr><th data-i18n="journal.field">분야</th><th data-i18n="journal.rating">등급</th><th data-i18n="journal.th.title">Journal Title</th><th data-i18n="journal.th.sjr">SJR</th></tr></thead>
         <tbody id="journal-body"></tbody>
       </table></div>
-      <p class="journal-source">※ 제공된 「최우수/우수 저널 목록」(Field, industry view)을 기준으로 하며, 위의 <strong>기준 연도</strong> 메뉴에서 연도별 목록을 선택해 열람할 수 있습니다.</p>
+      <p class="journal-source" data-i18n="journal.source">※ 제공된 「최우수/우수 저널 목록」(Field, industry view)을 기준으로 하며, 위의 기준 연도 메뉴에서 연도별 목록을 선택해 열람할 수 있습니다.</p>
     </section>
 
     <section id="aiexpert-view" hidden>
@@ -258,7 +258,7 @@
         </div>
         <strong id="ai-count"></strong>
       </div>
-      <div class="journal-filters" aria-label="AI Expert 필터">
+      <div class="journal-filters" data-i18n-aria-label="aria.aiFilter" aria-label="AI Expert 필터">
         <label><span data-i18n="board.year">기준 연도</span> <select id="aiexpert-year"></select></label>
       </div>
 
@@ -303,7 +303,7 @@
     </div>
   </div>
 
-  <script src="assets/i18n.js?v=20260915-4"></script>
-  <script src="assets/app.js?v=20260915-4"></script>
+  <script src="assets/i18n.js?v=20260915-5"></script>
+  <script src="assets/app.js?v=20260915-6"></script>
 </body>
 </html>
