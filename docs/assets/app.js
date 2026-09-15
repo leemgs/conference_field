@@ -56,6 +56,8 @@
     dashboardKind: "conference",
     conferenceHistory: [],
     conferenceYear: "2026-h2",
+    journalHistory: [],
+    journalYear: "2026-h2",
   };
 
   const $ = (sel) => document.querySelector(sel);
@@ -95,13 +97,17 @@
     fetch("data/paper_countries.json").then((r) => (r.ok ? r.json() : null)).catch(() => null),
     fetch("data/journals.json").then((r) => r.json()),
     fetch("data/conference_history.json").then((r) => r.json()),
+    fetch("data/journal_history.json").then((r) => r.json()).catch(() => null),
   ])
-    .then(([data, paperStats, paperCountries, journalData, conferenceHistory]) => {
+    .then(([data, paperStats, paperCountries, journalData, conferenceHistory, journalHistory]) => {
       state.data = data;
       state.paperStats = paperStats;
       state.paperCountries = paperCountries;
       state.journals = journalData.journals || [];
       state.conferenceHistory = conferenceHistory.versions || [];
+      state.journalHistory = (journalHistory && journalHistory.versions) || [];
+      // 기본 기준 연도는 최신(첫) 버전. 대시보드는 항상 최신(journals.json) 기준.
+      if (state.journalHistory.length) state.journalYear = state.journalHistory[0].key;
       state.events = flatten(data.conferences);
       renderUpdatedAt();
       buildFieldChips();
@@ -332,6 +338,7 @@
     $("#field-filter").closest(".control-row").hidden = isJournal;
     document.querySelector(".controls").classList.toggle("dash-mode", isDash);
     document.querySelector(".controls").classList.toggle("cal-mode", isCal && !isSearch);
+    document.querySelector(".controls").classList.toggle("journal-mode", isJournal);
     $("#empty-msg").hidden = true;
     if (isDash) {
       renderDashboard();
@@ -350,9 +357,36 @@
     }
   }
 
+  // 현재 선택된 기준 연도의 저널 목록. 이력이 없으면 최신(journals.json)으로 폴백.
+  function currentJournalRows() {
+    const version = state.journalHistory.find((v) => v.key === state.journalYear);
+    return version ? version.journals : state.journals;
+  }
+
   function buildJournalFilters() {
+    const yearSelect = $("#journal-year");
+    if (yearSelect) {
+      yearSelect.innerHTML = "";
+      state.journalHistory.forEach((version) => {
+        const option = document.createElement("option");
+        option.value = version.key;
+        option.textContent = `${version.label} (${version.journals.length}개)`;
+        yearSelect.appendChild(option);
+      });
+      yearSelect.value = state.journalYear;
+      yearSelect.addEventListener("change", (e) => {
+        state.journalYear = e.target.value;
+        renderJournals();
+      });
+    }
+    // 분야 목록은 모든 연도 버전을 합친 기준으로 구성해 연도 전환 시에도 일관되게 유지.
+    const allFields = new Set();
+    (state.journalHistory.length
+      ? state.journalHistory.flatMap((v) => v.journals)
+      : state.journals
+    ).forEach((j) => allFields.add(j.field));
     const select = $("#journal-field");
-    [...new Set(state.journals.map((j) => j.field))].forEach((field) => {
+    [...allFields].forEach((field) => {
       const option = document.createElement("option");
       option.value = field; option.textContent = field; select.appendChild(option);
     });
@@ -363,7 +397,14 @@
   function renderJournals() {
     const field = $("#journal-field").value;
     const rating = $("#journal-rating").value;
-    const rows = state.journals.filter((j) =>
+    const version = state.journalHistory.find((v) => v.key === state.journalYear);
+    const note = $("#journal-version-note");
+    if (note) {
+      note.textContent = version
+        ? `Field (industry view) 기준 · ${version.label} (${version.note})`
+        : "Field (industry view) 기준";
+    }
+    const rows = currentJournalRows().filter((j) =>
       (field === "all" || j.field === field) &&
       (rating === "all" || j.rating === rating) &&
       (!state.query || j.title.toLocaleLowerCase().includes(state.query))

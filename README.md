@@ -18,7 +18,7 @@
 - **🗂️ 연도별 컨퍼런스 목록** — Field (industry view) 기준 2024년, 2025년, 2026년 및 2026년 하반기 목록을 선택 조회
 - **🔍 검색·필터** — 학회 약어·전체 이름 검색, 결과별 인터넷 검색 팝업 / 분야 12종(시스템·AI·데이터·네트워크·보안·PL/SE·HCI·이론·HW·AR/VR·헬스·기타) / 상태(✅ 확정 · 🔮 예상)
 - **🏆 등급 배지** — `data/list_conf.csv` 기준 최우수/우수 등급 표시
-- **📚 저널 탐색** — Field (industry view) 2026년 하반기 목록의 8개 분야, 309개 최우수/우수 저널을 분야·등급·이름으로 검색하고 SJR 확인
+- **📚 저널 탐색** — Field (industry view) 목록의 8개 분야, 309개 최우수/우수 저널을 분야·등급·이름으로 검색하고 SJR 확인. **기준 연도 메뉴**로 연도별(2026년 하반기·2025년) 저널 목록을 선택 조회 (컨퍼런스 연도별 목록과 동일한 방식)
 - **📊 대시보드 뷰** — ① 카테고리(도메인)별 최우수·우수 학회 수 ② 향후 12개월 월별 마감 현황(월 클릭 시 해당 월 목록) ③ 🇰🇷 한국 개최 학회 현황(연도별: 학회명·제출마감일·개최지·학회 일정·학회 사이트) ④ 매년 학회별 등재 논문 수 차트. 모든 차트는 표 뷰·툴팁·키보드 접근을 지원
 - **🇰🇷 한국 개최 특별 관리 학회(빨간색 표기, 13개)** — ICML, ICLR, AAAI, NeurIPS, IJCAI, CVPR, ICCV, ECCV, ACL, EMNLP, NAACL, ICASSP, INTERSPEECH가 한국에서 개최되면 대시보드 한국 개최 표에 빨간색으로 강조됩니다 (목록 수정: `docs/assets/app.js`의 `KOREA_WATCH_IDS`)
 - **📅 ICS 구독 피드** — [`docs/conferences.ics`](docs/conferences.ics)를 구글 캘린더 등에서 URL로 구독
@@ -43,7 +43,8 @@ conference/
 │   │   └── app.js           # 캘린더 렌더링/필터/모달 로직
 │   ├── data/
 │   │   ├── conferences.json # 마감일 데이터 (빌드 산출물, 진실의 원천 ②)
-│   │   ├── journals.json    # 저널 탐색용 데이터
+│   │   ├── journals.json    # 저널 탐색용 데이터 (최신 기준 연도)
+│   │   ├── journal_history.json # 연도별(2026 하반기·2025) 저널 목록
 │   │   ├── conference_history.json # 2024~2026 연도별 컨퍼런스 목록
 │   │   └── paper_stats.json # 학회별 연도별 논문 수 (대시보드용)
 │   └── conferences.ics      # 구독용 ICS 피드 (자동 생성물)
@@ -88,6 +89,20 @@ python3 scripts/build_paper_stats.py --from 2018 --to 2025
 
 - 학회를 추가하려면 `paper_stats.json`의 `venues`에 `{"id", "label", "dblp"}` 항목을 넣고
   스크립트를 다시 실행합니다 (`id`는 `conferences.json`의 id, `dblp`는 `conf/nips` 형태의 DBLP 스트림 키).
+
+## 📚 저널 데이터 갱신 방법
+
+저널 목록은 `data/list_journal.csv`(진실의 원천)와 뷰용 산출물
+[`docs/data/journals.json`](docs/data/journals.json)·
+[`docs/data/journal_history.json`](docs/data/journal_history.json)로 관리합니다.
+
+- **최신 목록 갱신**: `list_journal.csv`(및 동일 내용의 `journals.json`)를 수정합니다.
+- **연도별(기준 연도) 목록**: 저널 뷰의 `기준 연도` 메뉴는 `journal_history.json`을 사용합니다.
+  구조는 컨퍼런스의 `conference_history.json`과 동일하게 `versions` 배열이며,
+  각 항목은 `{"key", "label", "note", "journals": [...]}` 형태입니다
+  (예: `key: "2026-h2"`, `label: "2026년 하반기"`). 새 연도 에디션을 추가하려면
+  `versions` 맨 앞(최신순)에 새 항목을 넣습니다. `key`가 매칭되면 뷰가 해당 목록을 표시하고,
+  이력이 없으면 `journals.json`으로 폴백합니다.
 
 ## 🚀 로컬 실행
 

@@ -478,6 +478,8 @@ a { color: var(--accent); }
 /* ── Board (목록 게시판) ─────────────────── */
 /* 달력 뷰에서는 검색·분야·상태 필터를 숨기고 보기 전환만 남긴다 */
 .controls.cal-mode .control-row:not(:first-child) { display: none; }
+/* 저널 뷰에서는 보기 전환·검색만 남기고 학회용 분야·상태 필터는 숨긴다 */
+.controls.journal-mode .control-row:nth-child(n+3) { display: none; }
 
 .board-bar {
   display: flex;
