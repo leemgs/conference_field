@@ -1000,6 +1000,7 @@
     renderDomainChart();
     renderMonthChart();
     renderKoreaPanel();
+    renderJapanPanel();
     renderPaperPanel();
   }
 
@@ -1053,6 +1054,7 @@
 
   // ── 대시보드: 한국 개최 학회 현황 ──
   const KOREA_RE = /korea|한국|서울|seoul|jeju|제주|busan|부산|incheon|인천|daejeon|대전|gyeongju|경주|daegu|대구|gwangju|광주|songdo|송도|pyeongchang|평창/i;
+  const JAPAN_RE = /japan|일본|tokyo|도쿄|동경|osaka|오사카|kyoto|교토|yokohama|요코하마|nagoya|나고야|sapporo|삿포로|fukuoka|후쿠오카|kobe|고베|nara|나라|hiroshima|히로시마|sendai|센다이|okinawa|오키나와|kanazawa|가나자와|nagano|나가노|niigata|니가타/i;
   // 특별 관리 대상 학회(빨간색 표기, 13개) — conferences.json 의 id 기준
   const KOREA_WATCH_IDS = new Set([
     "icml", "iclr", "aaai", "neurips", "ijcai", "cvpr", "iccv",
@@ -1092,11 +1094,12 @@
     return cell;
   }
 
-  function renderKoreaPanel() {
-    const wrap = $("#korea-content");
+  // 한국·일본 개최 패널 공통 렌더러. opts.re 로 개최지를 매칭하고 연도별 표를 만든다.
+  function renderHostPanel(opts) {
+    const wrap = $(opts.contentSel);
     wrap.innerHTML = "";
 
-    const confs = (state.data.conferences || []).filter((c) => KOREA_RE.test(c.location || ""));
+    const confs = (state.data.conferences || []).filter((c) => opts.re.test(c.location || ""));
     const byYear = {};
     confs.forEach((c) => {
       const y = koreaYearOf(c) || 0;
@@ -1105,7 +1108,7 @@
     const years = Object.keys(byYear).map(Number).sort((a, b) => a - b);
 
     if (confs.length === 0) {
-      wrap.appendChild(el("p", "empty", t("dash.korea.empty")));
+      wrap.appendChild(el("p", "empty", t(opts.emptyKey)));
     }
 
     years.forEach((year) => {
@@ -1162,7 +1165,21 @@
       wrap.appendChild(tableWrap);
     });
 
-    $("#korea-watch-note").textContent = t("dash.korea.watchNote", { list: KOREA_WATCH_NAMES.join(", ") });
+    $(opts.watchNoteSel).textContent = t(opts.watchNote, { list: KOREA_WATCH_NAMES.join(", ") });
+  }
+
+  function renderKoreaPanel() {
+    renderHostPanel({
+      re: KOREA_RE, contentSel: "#korea-content", emptyKey: "dash.korea.empty",
+      watchNoteSel: "#korea-watch-note", watchNote: "dash.korea.watchNote",
+    });
+  }
+
+  function renderJapanPanel() {
+    renderHostPanel({
+      re: JAPAN_RE, contentSel: "#japan-content", emptyKey: "dash.japan.empty",
+      watchNoteSel: "#japan-watch-note", watchNote: "dash.japan.watchNote",
+    });
   }
 
   // ── 대시보드: 요약 타일 ──

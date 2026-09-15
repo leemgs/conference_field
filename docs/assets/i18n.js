@@ -231,6 +231,24 @@
       en: "Conferences with venues still TBD appear here automatically once their locations are announced in the data.",
     },
 
+    "dash.japan.title": { ko: "🇯🇵 일본 개최 학회 현황", en: "🇯🇵 Conferences Held in Japan" },
+    "dash.japan.sub": {
+      ko: "개최지가 일본인 학회 — 인접국 개최라 이동 부담이 적고 출장 일정을 잡기 수월합니다",
+      en: "Conferences hosted in Japan — a nearby destination with lighter travel and easier trip planning",
+    },
+    "dash.japan.watchNote": {
+      ko: "🔴 빨간색은 특별 관리 대상 학회(13개)입니다: {list}",
+      en: "🔴 Red marks the 13 specially watched conferences: {list}",
+    },
+    "dash.japan.empty": {
+      ko: "현재 데이터에 일본 개최가 확정된 학회가 없습니다.",
+      en: "No conferences currently confirmed to be held in Japan.",
+    },
+    "dash.japan.autoNote": {
+      ko: "개최지가 미정(TBD)인 학회는 장소가 발표되어 데이터에 반영되는 대로 이 표에 자동 표시됩니다.",
+      en: "Conferences with venues still TBD appear here automatically once their locations are announced in the data.",
+    },
+
     "modal.close": { ko: "닫기", en: "Close" },
     "modal.location": { ko: "장소", en: "Location" },
     "modal.dates": { ko: "개최", en: "Dates" },
