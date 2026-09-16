@@ -1,89 +1,7 @@
 {
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "usenix-fast",
-      "name": "USENIX FAST 2027",
-      "fullName": "USENIX Conference on File and Storage Technologies",
-      "field": "sys",
-      "rating": "우수",
-      "location": "Renton, WA, USA",
-      "confText": "FEBRUARY 23-25, 2027",
-      "url": "https://www.usenix.org/conference/fast27",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (Spring deadline)",
-          "date": "2026-03-17",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Fall deadline)",
-          "date": "2026-09-15",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "wcnc",
-      "name": "WCNC 2027",
-      "fullName": "IEEE Wireless Communications and Networking Conference",
-      "field": "net",
-      "rating": "우수",
-      "location": "Panama City, Panama",
-      "confText": "April 5-8, 2027",
-      "url": "https://wcnc2027.ieee-wcnc.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-15",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "icra",
-      "name": "ICRA 2027",
-      "fullName": "IEEE International Conference on Robotics and Automation",
-      "field": "hw",
-      "rating": "최우수",
-      "location": "Seoul, Republic of Korea",
-      "confText": "May 24-28, 2027",
-      "url": "https://2027.ieee-icra.org/",
-      "tz": "UTC-7",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-15",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "icassp",
-      "name": "ICASSP 2027",
-      "fullName": "International Conference on Acoustics, Speech, and Signal Processing",
-      "field": "ai",
-      "rating": "최우수",
-      "location": "Toronto, Canada",
-      "confText": "May 16-21, 2027",
-      "url": "https://2027.ieeeicassp.org/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-16",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "eurosys",
       "name": "EUROSYS 2027",
@@ -273,6 +191,25 @@
           "type": "paper",
           "label": "논문 마감 (Research Track Paper submission deadline)",
           "date": "2026-09-25",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "icassp",
+      "name": "ICASSP 2027",
+      "fullName": "International Conference on Acoustics, Speech, and Signal Processing",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "Toronto, Canada",
+      "confText": "May 16-21, 2027",
+      "url": "https://2027.ieeeicassp.org/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-09-23",
           "status": "confirmed"
         }
       ]
@@ -1190,6 +1127,31 @@
       ]
     },
     {
+      "id": "codaspy",
+      "name": "CODASPY 2027",
+      "fullName": "Data and Application Security and Privacy",
+      "field": "sec",
+      "rating": "우수",
+      "location": "Fort Collins, Colorado, USA",
+      "confText": "June 14-17, 2027",
+      "url": "https://www.codaspy.org/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-16",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-11-23",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "isca",
       "name": "ISCA 2027",
       "fullName": "International Symposium on Computer Architecture",
@@ -1479,25 +1441,6 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2026-12-22",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
-      "id": "codaspy",
-      "name": "CODASPY 2027",
-      "fullName": "Data and Application Security and Privacy",
-      "field": "sec",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://www.codaspy.org/2026/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2026-12-26",
           "status": "estimated"
         }
       ]
@@ -3270,6 +3213,63 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-09-10",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "usenix-fast",
+      "name": "USENIX FAST 2028",
+      "fullName": "USENIX Conference on File and Storage Technologies",
+      "field": "sys",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://www.usenix.org/conference/fast27",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-09-15",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "wcnc",
+      "name": "WCNC 2028",
+      "fullName": "IEEE Wireless Communications and Networking Conference",
+      "field": "net",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://wcnc2027.ieee-wcnc.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-09-15",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "icra",
+      "name": "ICRA 2028",
+      "fullName": "IEEE International Conference on Robotics and Automation",
+      "field": "hw",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://2027.ieee-icra.org/",
+      "tz": "UTC-7",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-09-15",
           "status": "estimated"
         }
       ]
