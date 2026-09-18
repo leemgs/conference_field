@@ -1,125 +1,7 @@
 {
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "eurosys",
-      "name": "EUROSYS 2027",
-      "fullName": "European Conference on Computer Systems",
-      "field": "sys",
-      "rating": "최우수",
-      "location": "Rabat, Morocco",
-      "confText": "April 19-24, 2027",
-      "url": "https://2027.eurosys.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-05-07",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Spring Submission Deadline)",
-          "date": "2026-05-14",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-17",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Fall Submission Deadline)",
-          "date": "2026-09-24",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "usenix-nsdi",
-      "name": "USENIX NSDI 2027",
-      "fullName": "Symposium on Networked Systems Design and Implementation",
-      "field": "net",
-      "rating": "최우수",
-      "location": "Providence, RI, USA",
-      "confText": "May 11-13, 2027",
-      "url": "https://www.usenix.org/conference/nsdi27",
-      "tz": "UTC-4",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-04-16",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-04-23",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-10",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-17",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "eurocrypt",
-      "name": "EUROCRYPT 2027",
-      "fullName": "Theory and Application of Cryptographic Techniques",
-      "field": "sec",
-      "rating": "최우수",
-      "location": "Eindhoven, Netherlands",
-      "confText": "April 11-15, 2027",
-      "url": "https://eurocrypt.iacr.org/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-17",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "mmsys",
-      "name": "Mmsys 2027",
-      "fullName": "ACM Multimedia Systems Conference",
-      "field": "hci",
-      "rating": "최우수",
-      "location": "Ghent, Belgium",
-      "confText": "March 30 - April 2, 2027",
-      "url": "https://2027.acmmmsys.org",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-10",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-17",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "iclr",
       "name": "ICLR 2027",
@@ -210,6 +92,43 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-09-23",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "eurosys",
+      "name": "EUROSYS 2027",
+      "fullName": "European Conference on Computer Systems",
+      "field": "sys",
+      "rating": "최우수",
+      "location": "Rabat, Morocco",
+      "confText": "April 19-24, 2027",
+      "url": "https://2027.eurosys.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-05-07",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Spring Submission Deadline)",
+          "date": "2026-05-14",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-09-17",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Fall Submission Deadline)",
+          "date": "2026-09-24",
           "status": "confirmed"
         }
       ]
@@ -969,16 +888,16 @@
       "fullName": "ACM Symposium on Theory of Computing",
       "field": "theory",
       "rating": "최우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://acm-stoc.org/stoc2026/",
-      "tz": "UTC-5",
+      "location": "Atlanta, Georgia, USA",
+      "confText": "June 6-11, 2027",
+      "url": "https://acm-stoc.org/stoc2027/",
+      "tz": "UTC-12",
       "deadlines": [
         {
           "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2026-11-04",
-          "status": "estimated"
+          "label": "논문 마감",
+          "date": "2026-11-02",
+          "status": "confirmed"
         }
       ]
     },
@@ -3270,6 +3189,63 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-09-15",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "usenix-nsdi",
+      "name": "USENIX NSDI 2028",
+      "fullName": "Symposium on Networked Systems Design and Implementation",
+      "field": "net",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://www.usenix.org/conference/nsdi27",
+      "tz": "UTC-4",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-09-17",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "eurocrypt",
+      "name": "EUROCRYPT 2028",
+      "fullName": "Theory and Application of Cryptographic Techniques",
+      "field": "sec",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://eurocrypt.iacr.org/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-09-17",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "mmsys",
+      "name": "Mmsys 2028",
+      "fullName": "ACM Multimedia Systems Conference",
+      "field": "hci",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://2027.acmmmsys.org",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-09-17",
           "status": "estimated"
         }
       ]
