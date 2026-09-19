@@ -1,32 +1,7 @@
 {
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "iclr",
-      "name": "ICLR 2027",
-      "fullName": "International Conference on Learning Representation",
-      "field": "ai",
-      "rating": "최우수",
-      "location": "San Francisco, CA, USA",
-      "confText": "April 26-30, 2027",
-      "url": "https://iclr.cc/Conferences/2027",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-18",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-25",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "date",
       "name": "DATE 2027",
@@ -148,6 +123,31 @@
           "type": "paper",
           "label": "논문 마감 (Submission deadline)",
           "date": "2026-09-24",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "iclr",
+      "name": "ICLR 2027",
+      "fullName": "International Conference on Learning Representation",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "San Francisco, CA, USA",
+      "confText": "April 26-30, 2027",
+      "url": "https://iclr.cc/Conferences/2027",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-09-18",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-09-25",
           "status": "confirmed"
         }
       ]
@@ -833,7 +833,7 @@
       "field": "sys",
       "rating": "우수",
       "location": "Bellevue, Washington, USA",
-      "confText": "TBD",
+      "confText": "June 21-25, 2027",
       "url": "https://mlsys.org/",
       "tz": "UTC",
       "deadlines": [
