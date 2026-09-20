@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -492,6 +492,25 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-10-02",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "wcnc",
+      "name": "WCNC 2027",
+      "fullName": "IEEE Wireless Communications and Networking Conference",
+      "field": "net",
+      "rating": "우수",
+      "location": "Panama City, Panama",
+      "confText": "April 5-8, 2027",
+      "url": "https://wcnc2027.ieee-wcnc.org/",
+      "tz": "UTC-4",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-05",
           "status": "confirmed"
         }
       ]
@@ -1726,25 +1745,6 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-02-05",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
-      "id": "sigcomm",
-      "name": "SIGCOMM 2027",
-      "fullName": "ACM Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
-      "field": "net",
-      "rating": "최우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://conferences.sigcomm.org/sigcomm/2026/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-02-06",
           "status": "estimated"
         }
       ]
@@ -3156,25 +3156,6 @@
       ]
     },
     {
-      "id": "wcnc",
-      "name": "WCNC 2028",
-      "fullName": "IEEE Wireless Communications and Networking Conference",
-      "field": "net",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2028년 (예정)",
-      "url": "https://wcnc2027.ieee-wcnc.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-09-15",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "icra",
       "name": "ICRA 2028",
       "fullName": "IEEE International Conference on Robotics and Automation",
@@ -3642,6 +3623,18 @@
       "confText": "일정 미확인",
       "url": "",
       "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
+      "deadlines": []
+    },
+    {
+      "id": "sigcomm",
+      "name": "SIGCOMM 2027",
+      "fullName": "ACM Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+      "field": "net",
+      "rating": "최우수",
+      "location": "Bangkok, Thailand",
+      "confText": "August 8 - 12, 2027",
+      "url": "https://conferences.sigcomm.org/sigcomm/2027/",
+      "tz": "AoE",
       "deadlines": []
     },
     {
