@@ -1,32 +1,7 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "date",
-      "name": "DATE 2027",
-      "fullName": "Design Automation and Test in Europe Conference",
-      "field": "hw",
-      "rating": "최우수",
-      "location": "Dresden, Germany",
-      "confText": "March 22-24, 2027",
-      "url": "https://www.date-conference.com/date-2027-call-papers",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-13",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-20",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "saner",
       "name": "SANER 2027",
@@ -1598,25 +1573,6 @@
       ]
     },
     {
-      "id": "siggraph",
-      "name": "SIGGRAPH 2027",
-      "fullName": "ACM SIGGRAPH Conference",
-      "field": "hci",
-      "rating": "최우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://s2026.siggraph.org/",
-      "tz": "UTC+0",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-01-22",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "lics",
       "name": "LICS 2027",
       "fullName": "Logic in Computer Science",
@@ -2434,25 +2390,6 @@
       ]
     },
     {
-      "id": "siggraph-asia",
-      "name": "SIGGRAPH-ASIA 2027",
-      "fullName": "ACM SIGGRAPH Conference in Asia",
-      "field": "hci",
-      "rating": "최우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://asia.siggraph.org/2026/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-05-12",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "rtss",
       "name": "RTSS 2027",
       "fullName": "IEEE Real-Time Systems Symposium",
@@ -3232,6 +3169,25 @@
       ]
     },
     {
+      "id": "date",
+      "name": "DATE 2028",
+      "fullName": "Design Automation and Test in Europe Conference",
+      "field": "hw",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://www.date-conference.com/date-2027-call-papers",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-09-20",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
       "id": "eccv",
       "name": "ECCV 2028",
       "fullName": "European Conference on Computer Vision",
@@ -3647,6 +3603,30 @@
       "confText": "일정 미확인",
       "url": "",
       "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
+      "deadlines": []
+    },
+    {
+      "id": "siggraph",
+      "name": "SIGGRAPH 2027",
+      "fullName": "ACM SIGGRAPH Conference",
+      "field": "hci",
+      "rating": "최우수",
+      "location": "Anaheim, California",
+      "confText": "August 8 - 12, 2027",
+      "url": "https://s2027.siggraph.org/",
+      "tz": "UTC+0",
+      "deadlines": []
+    },
+    {
+      "id": "siggraph-asia",
+      "name": "SIGGRAPH-ASIA 2027",
+      "fullName": "ACM SIGGRAPH Conference in Asia",
+      "field": "hci",
+      "rating": "최우수",
+      "location": "Tokyo International Forum, Tokyo, Japan",
+      "confText": "November 30 - December 3, 2027",
+      "url": "https://asia.siggraph.org/2027/",
+      "tz": "UTC-12",
       "deadlines": []
     },
     {
