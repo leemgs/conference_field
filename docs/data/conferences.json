@@ -1,32 +1,7 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "saner",
-      "name": "SANER 2027",
-      "fullName": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
-      "field": "plse",
-      "rating": "우수",
-      "location": "Richmond, Virginia, United States",
-      "confText": "March 9-12, 2027",
-      "url": "https://conf.researchr.org/home/saner-2027",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-21",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Research Track Paper submission deadline)",
-          "date": "2026-09-25",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "icassp",
       "name": "ICASSP 2027",
@@ -280,6 +255,31 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2027-03-01",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "saner",
+      "name": "SANER 2027",
+      "fullName": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
+      "field": "plse",
+      "rating": "우수",
+      "location": "Richmond, Virginia, United States",
+      "confText": "March 9-12, 2027",
+      "url": "https://conf.researchr.org/home/saner-2027",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-09-21",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Research Track Paper submission deadline)",
+          "date": "2026-09-25",
           "status": "confirmed"
         }
       ]
