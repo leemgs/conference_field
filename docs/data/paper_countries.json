@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "source": "openalex",
   "topN": 8,
   "note": "OpenAlex 기준 제1저자(first author) 소속 국가 추정치입니다. 일부 논문은 소속 정보가 없어 집계에서 제외됩니다. 학회마다 OpenAlex 색인 완성도가 달라, 매핑이 확인된 학회/연도만 표시됩니다.",
@@ -9,17 +9,17 @@
       "years": {
         "2022": {
           "total": 2082,
-          "unknown": 160,
+          "unknown": 162,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 678
+              "count": 681
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 450
+              "count": 448
             },
             {
               "code": "KR",
@@ -54,7 +54,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 332
+              "count": 329
             }
           ]
         }
@@ -65,7 +65,7 @@
       "years": {
         "2021": {
           "total": 1618,
-          "unknown": 96,
+          "unknown": 102,
           "countries": [
             {
               "code": "CN",
@@ -75,12 +75,12 @@
             {
               "code": "US",
               "country": "United States",
-              "count": 372
+              "count": 370
             },
             {
               "code": "KR",
               "country": "South Korea",
-              "count": 100
+              "count": 99
             },
             {
               "code": "GB",
@@ -110,7 +110,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 304
+              "count": 301
             }
           ]
         }
@@ -274,17 +274,17 @@
         },
         "2023": {
           "total": 2021,
-          "unknown": 106,
+          "unknown": 107,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 832
+              "count": 833
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 410
+              "count": 409
             },
             {
               "code": "KR",
@@ -319,28 +319,28 @@
             {
               "code": "other",
               "country": null,
-              "count": 342
+              "count": 341
             }
           ]
         },
         "2024": {
           "total": 2867,
-          "unknown": 106,
+          "unknown": 108,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 1407
+              "count": 1409
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 451
+              "count": 449
             },
             {
               "code": "KR",
               "country": "South Korea",
-              "count": 105
+              "count": 104
             },
             {
               "code": "GB",
@@ -370,7 +370,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 428
+              "count": 427
             }
           ]
         },
@@ -483,7 +483,7 @@
       "years": {
         "2022": {
           "total": 1875,
-          "unknown": 98,
+          "unknown": 107,
           "countries": [
             {
               "code": "CN",
@@ -503,7 +503,7 @@
             {
               "code": "GB",
               "country": "United Kingdom",
-              "count": 84
+              "count": 83
             },
             {
               "code": "DE",
@@ -528,7 +528,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 388
+              "count": 380
             }
           ]
         }
@@ -539,12 +539,12 @@
       "years": {
         "2022": {
           "total": 1102,
-          "unknown": 643,
+          "unknown": 645,
           "countries": [
             {
               "code": "US",
               "country": "United States",
-              "count": 106
+              "count": 104
             },
             {
               "code": "CN",
