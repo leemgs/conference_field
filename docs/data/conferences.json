@@ -1,26 +1,7 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "icassp",
-      "name": "ICASSP 2027",
-      "fullName": "International Conference on Acoustics, Speech, and Signal Processing",
-      "field": "ai",
-      "rating": "최우수",
-      "location": "Toronto, Canada",
-      "confText": "May 16-21, 2027",
-      "url": "https://2027.ieeeicassp.org/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-23",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "eurosys",
       "name": "EUROSYS 2027",
@@ -615,25 +596,6 @@
       ]
     },
     {
-      "id": "noms",
-      "name": "NOMS 2027",
-      "fullName": "IEEE/IFIP Network Operations and Management Symposium",
-      "field": "net",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://noms2026.ieee-noms.org/",
-      "tz": "UTC+10",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2026-10-13",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "iscas",
       "name": "ISCAS 2027",
       "fullName": "IEEE International Symposium on Circuits and Systems",
@@ -770,16 +732,22 @@
       "fullName": "Conference on Mining Software Repository",
       "field": "plse",
       "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://2026.msrconf.org/",
+      "location": "Dublin, Ireland",
+      "confText": "April 26-27, 2027",
+      "url": "https://2027.msrconf.org/",
       "tz": "AoE",
       "deadlines": [
         {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-20",
+          "status": "confirmed"
+        },
+        {
           "type": "paper",
-          "label": "논문 마감 (예상)",
+          "label": "논문 마감",
           "date": "2026-10-23",
-          "status": "estimated"
+          "status": "confirmed"
         }
       ]
     },
@@ -877,6 +845,25 @@
       ]
     },
     {
+      "id": "icst",
+      "name": "ICST 2027",
+      "fullName": "IEEE International Conference on Software Testing, Verification and Validation",
+      "field": "plse",
+      "rating": "우수",
+      "location": "San Sebastian, Spain",
+      "confText": "May 17-21, 2027",
+      "url": "https://conf.researchr.org/home/icst-2027",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-11-02",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "stoc",
       "name": "STOC 2027",
       "fullName": "ACM Symposium on Theory of Computing",
@@ -930,6 +917,25 @@
           "label": "논문 마감 (예상)",
           "date": "2026-11-08",
           "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "noms",
+      "name": "NOMS 2027",
+      "fullName": "IEEE/IFIP Network Operations and Management Symposium",
+      "field": "net",
+      "rating": "우수",
+      "location": "Montreal, Canada",
+      "confText": "May 10-14, 2027",
+      "url": "https://noms2027.ieee-noms.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-11-09",
+          "status": "confirmed"
         }
       ]
     },
@@ -1178,6 +1184,31 @@
       ]
     },
     {
+      "id": "mobisys",
+      "name": "MobiSys 2027",
+      "fullName": "International Conference on Mobile Systems, Applications, and Services",
+      "field": "net",
+      "rating": "최우수",
+      "location": "Ho Chi Minh City, Vietnam",
+      "confText": "June 21-25, 2027",
+      "url": "https://www.sigmobile.org/mobisys/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-27",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-12-04",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "pets",
       "name": "PETS 2027",
       "fullName": "Proceedings on Privacy Enhancing Technologies",
@@ -1296,25 +1327,6 @@
       ]
     },
     {
-      "id": "mobisys",
-      "name": "MobiSys 2027",
-      "fullName": "International Conference on Mobile Systems, Applications, and Services",
-      "field": "net",
-      "rating": "최우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://www.sigmobile.org/mobisys/2026/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2026-12-05",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "asiaccs",
       "name": "AsiaCCS 2027",
       "fullName": "ACM ASIA Conference on Computer and Communications Security",
@@ -1336,25 +1348,6 @@
           "label": "논문 마감 (2nd round Deadline)",
           "date": "2026-12-11",
           "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "icst",
-      "name": "ICST 2027",
-      "fullName": "IEEE International Conference on Software Testing, Verification and Validation",
-      "field": "plse",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://conf.researchr.org/home/icst-2026",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2026-12-22",
-          "status": "estimated"
         }
       ]
     },
@@ -1398,6 +1391,56 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2027-01-11",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "dis",
+      "name": "DIS 2027",
+      "fullName": "Designing Interactive Systems",
+      "field": "hci",
+      "rating": "우수",
+      "location": "Stockholm, Sweden",
+      "confText": "June 28 - July 2, 2027",
+      "url": "https://dis.acm.org/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-11",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-01-18",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "sigir",
+      "name": "SIGIR 2027",
+      "fullName": "Research and Development in Information Retrieval",
+      "field": "ai",
+      "rating": "우수",
+      "location": "San Jose, California, USA",
+      "confText": "July 18-24, 2027",
+      "url": "https://sigir2027.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-14",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-01-21",
           "status": "confirmed"
         }
       ]
@@ -1497,25 +1540,6 @@
       ]
     },
     {
-      "id": "dis",
-      "name": "DIS 2027",
-      "fullName": "Designing Interactive Systems",
-      "field": "hci",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://dis.acm.org/2026/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-01-19",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "cav",
       "name": "CAV 2027",
       "fullName": "International Conference on Computer-Aided Verification",
@@ -1549,25 +1573,6 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-01-21",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
-      "id": "sigir",
-      "name": "SIGIR 2027",
-      "fullName": "Research and Development in Information Retrieval",
-      "field": "ai",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://sigir2026.org/en-AU",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-01-22",
           "status": "estimated"
         }
       ]
@@ -1626,6 +1631,31 @@
           "label": "논문 마감 (예상)",
           "date": "2027-01-30",
           "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "icdar",
+      "name": "ICDAR 2027",
+      "fullName": "International Conference on Document Analysis and Recognition",
+      "field": "ai",
+      "rating": "우수",
+      "location": "Kuala Lumpur, Malaysia",
+      "confText": "August 18 - 22, 2027",
+      "url": "https://icdar2027.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-31",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-02-20",
+          "status": "confirmed"
         }
       ]
     },
@@ -1744,6 +1774,25 @@
       ]
     },
     {
+      "id": "interspeech",
+      "name": "INTERSPEECH 2027",
+      "fullName": "Annual Conference of the International Speech Communication Association",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "São Paulo, Brazil",
+      "confText": "August 29 - September 2, 2027",
+      "url": "https://interspeech2027.org/",
+      "tz": "UTC+0",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-02-09",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "crypto",
       "name": "CRYPTO 2027",
       "fullName": "International Cryptology Conference",
@@ -1801,44 +1850,6 @@
       ]
     },
     {
-      "id": "interspeech",
-      "name": "INTERSPEECH 2027",
-      "fullName": "Annual Conference of the International Speech Communication Association",
-      "field": "ai",
-      "rating": "최우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://interspeech2026.org/",
-      "tz": "UTC+0",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-02-25",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
-      "id": "icdar",
-      "name": "ICDAR 2027",
-      "fullName": "International Conference on Document Analysis and Recognition",
-      "field": "ai",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://icdar2026.org/",
-      "tz": "UTC+0",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-02-27",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "cec",
       "name": "CEC 2027",
       "fullName": "IEEE Congress on Evolutionary Computation",
@@ -1882,16 +1893,16 @@
       "fullName": "IEEE International Conference on Software Maintenance and Evolution",
       "field": "plse",
       "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://conf.researchr.org/home/icsme-2026",
+      "location": "Toronto, Canada",
+      "confText": "September 7-11, 2027",
+      "url": "https://conf.researchr.org/home/icsme-2027",
       "tz": "AoE",
       "deadlines": [
         {
           "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-03-06",
-          "status": "estimated"
+          "label": "논문 마감 (Research Papers Track)",
+          "date": "2027-03-05",
+          "status": "confirmed"
         }
       ]
     },
@@ -3183,6 +3194,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-09-20",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "icassp",
+      "name": "ICASSP 2028",
+      "fullName": "International Conference on Acoustics, Speech, and Signal Processing",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://2027.ieeeicassp.org/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-09-23",
           "status": "estimated"
         }
       ]
