@@ -6,319 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:AI 학회 논문 마감일
 X-WR-CALDESC:탑티어 AI 학회 논문 제출 마감일 (AoE 기준)
 BEGIN:VEVENT
-UID:iclr-abstract-2026-09-18@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260919
-SUMMARY:[ICLR 2027] 초록 마감 (확정)
-DESCRIPTION:International Conference on Learning Representation\n장소: S
- an Francisco\, CA\, USA\n마감 기준시: AoE\n공식 사이트: https://
- iclr.cc/Conferences/2027
-URL:https://iclr.cc/Conferences/2027
-END:VEVENT
-BEGIN:VEVENT
-UID:iclr-paper-2026-09-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:[ICLR 2027] 논문 마감 (확정)
-DESCRIPTION:International Conference on Learning Representation\n장소: S
- an Francisco\, CA\, USA\n마감 기준시: AoE\n공식 사이트: https://
- iclr.cc/Conferences/2027
-URL:https://iclr.cc/Conferences/2027
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-abstract-2026-03-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260325
-DTEND;VALUE=DATE:20260326
-SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-paper-2026-04-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260401
-DTEND;VALUE=DATE:20260402
-SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-abstract-2026-04-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260425
-DTEND;VALUE=DATE:20260426
-SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-paper-2026-05-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260501
-DTEND;VALUE=DATE:20260502
-SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-abstract-2026-05-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260525
-DTEND;VALUE=DATE:20260526
-SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-paper-2026-06-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260601
-DTEND;VALUE=DATE:20260602
-SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-abstract-2026-06-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260625
-DTEND;VALUE=DATE:20260626
-SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-paper-2026-07-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260701
-DTEND;VALUE=DATE:20260702
-SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-abstract-2026-07-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260725
-DTEND;VALUE=DATE:20260726
-SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-paper-2026-08-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20260802
-SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-abstract-2026-08-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260825
-DTEND;VALUE=DATE:20260826
-SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-paper-2026-09-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-abstract-2026-09-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-paper-2026-10-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-abstract-2026-10-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-paper-2026-11-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-abstract-2026-11-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-paper-2026-12-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
-SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-abstract-2026-12-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20261225
-DTEND;VALUE=DATE:20261226
-SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-paper-2027-01-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20270101
-DTEND;VALUE=DATE:20270102
-SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-abstract-2027-01-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20270125
-DTEND;VALUE=DATE:20270126
-SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-paper-2027-02-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20270201
-DTEND;VALUE=DATE:20270202
-SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-abstract-2027-02-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20270225
-DTEND;VALUE=DATE:20270226
-SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:vldb-pvldb-paper-2027-03-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20270301
-DTEND;VALUE=DATE:20270302
-SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
-DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
- ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
- 2027/
-URL:https://www.vldb.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:saner-abstract-2026-09-21@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
-SUMMARY:[SANER 2027] 초록 마감 (확정)
-DESCRIPTION:IEEE International Conference on Software Analysis\, Evolution
-  and Reengineering\n장소: Richmond\, Virginia\, United States\n마감 
- 기준시: AoE\n공식 사이트: https://conf.researchr.org/home/saner-20
- 27
-URL:https://conf.researchr.org/home/saner-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:saner-paper-2026-09-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:[SANER 2027] 논문 마감 (Research Track Paper submission deadli
- ne) (확정)
-DESCRIPTION:IEEE International Conference on Software Analysis\, Evolution
-  and Reengineering\n장소: Richmond\, Virginia\, United States\n마감 
- 기준시: AoE\n공식 사이트: https://conf.researchr.org/home/saner-20
- 27
-URL:https://conf.researchr.org/home/saner-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:aistats-abstract-2026-09-29@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:[AISTATS 2027] 초록 마감 (확정)
@@ -329,7 +18,7 @@ URL:https://virtual.aistats.org/Conferences/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:aistats-paper-2026-10-06@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 SUMMARY:[AISTATS 2027] 논문 마감 (확정)
@@ -340,7 +29,7 @@ URL:https://virtual.aistats.org/Conferences/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:ipdps-abstract-2026-10-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:[IPDPS 2027] 초록 마감 (확정)
@@ -351,7 +40,7 @@ URL:https://www.ipdps.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:ipdps-paper-2026-10-08@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:[IPDPS 2027] 논문 마감 (확정)
@@ -361,8 +50,272 @@ DESCRIPTION:IEEE International Parallel and Distributed Processing Symposi
 URL:https://www.ipdps.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:vldb-pvldb-abstract-2026-03-25@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260326
+SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-paper-2026-04-01@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-abstract-2026-04-25@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260425
+DTEND;VALUE=DATE:20260426
+SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-paper-2026-05-01@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-abstract-2026-05-25@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-paper-2026-06-01@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-abstract-2026-06-25@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-paper-2026-07-01@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-abstract-2026-07-25@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-paper-2026-08-01@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-abstract-2026-08-25@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-paper-2026-09-01@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-abstract-2026-09-25@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-paper-2026-10-01@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-abstract-2026-10-25@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-paper-2026-11-01@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-abstract-2026-11-25@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-paper-2026-12-01@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-abstract-2026-12-25@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-paper-2027-01-01@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-abstract-2027-01-25@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-paper-2027-02-01@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-abstract-2027-02-25@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:[VLDB/PVLDB 2027] 초록 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:vldb-pvldb-paper-2027-03-01@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:[VLDB/PVLDB 2027] 논문 마감 (확정)
+DESCRIPTION:International Conference on Very Large DataBases\n장소: Athe
+ ns\, Greece\n마감 기준시: PT\n공식 사이트: https://www.vldb.org/
+ 2027/
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
 UID:aamas-abstract-2026-10-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:[AAMAS 2027] 초록 마감 (확정)
@@ -373,7 +326,7 @@ URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:aamas-paper-2026-10-08@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:[AAMAS 2027] 논문 마감 (확정)
@@ -384,7 +337,7 @@ URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:fpga-abstract-2026-10-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:[FPGA 2027] Abstracts Due (확정)
@@ -395,7 +348,7 @@ URL:https://www.isfpga.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:fpga-paper-2026-10-08@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:[FPGA 2027] 논문 마감 (Submissions Due) (확정)
@@ -406,7 +359,7 @@ URL:https://www.isfpga.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigmetrics-abstract-2026-07-03@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
 SUMMARY:[SIGMETRICS 2027] 초록 마감 (확정)
@@ -417,7 +370,7 @@ URL:https://www.sigmetrics.org/sigmetrics2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigmetrics-paper-2026-07-10@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:[SIGMETRICS 2027] 논문 마감 (summer round) (확정)
@@ -428,7 +381,7 @@ URL:https://www.sigmetrics.org/sigmetrics2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigmetrics-abstract-2026-10-02@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:[SIGMETRICS 2027] 초록 마감 (확정)
@@ -439,7 +392,7 @@ URL:https://www.sigmetrics.org/sigmetrics2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigmetrics-paper-2026-10-09@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:[SIGMETRICS 2027] 논문 마감 (fall round) (확정)
@@ -450,7 +403,7 @@ URL:https://www.sigmetrics.org/sigmetrics2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigmetrics-abstract-2027-01-04@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 SUMMARY:[SIGMETRICS 2027] 초록 마감 (확정)
@@ -461,7 +414,7 @@ URL:https://www.sigmetrics.org/sigmetrics2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigmetrics-paper-2027-01-11@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 SUMMARY:[SIGMETRICS 2027] 논문 마감 (winter round) (확정)
@@ -472,7 +425,7 @@ URL:https://www.sigmetrics.org/sigmetrics2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:icc-paper-2026-10-02@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:[ICC 2027] 논문 마감 (확정)
@@ -483,7 +436,7 @@ URL:https://icc2027.ieee-icc.org
 END:VEVENT
 BEGIN:VEVENT
 UID:fse-paper-2026-10-02@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:[FSE 2027] 논문 마감 (확정)
@@ -494,7 +447,7 @@ URL:https://conf.researchr.org/home/fse-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:fg-abstract-2026-10-09@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:[FG 2027] 초록 마감 (확정)
@@ -505,7 +458,7 @@ URL:https://fg2027.ieee-biometrics.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:fg-paper-2026-10-16@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:[FG 2027] 논문 마감 (확정)
@@ -516,7 +469,7 @@ URL:https://fg2027.ieee-biometrics.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigmod-abstract-2026-01-10@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260110
 DTEND;VALUE=DATE:20260111
 SUMMARY:[SIGMOD 2027] 초록 마감 (확정)
@@ -527,7 +480,7 @@ URL:https://2027.sigmod.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigmod-paper-2026-01-17@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260117
 DTEND;VALUE=DATE:20260118
 SUMMARY:[SIGMOD 2027] 논문 마감 (round 1) (확정)
@@ -538,7 +491,7 @@ URL:https://2027.sigmod.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigmod-abstract-2026-04-10@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 SUMMARY:[SIGMOD 2027] 초록 마감 (확정)
@@ -549,7 +502,7 @@ URL:https://2027.sigmod.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigmod-paper-2026-04-17@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260417
 DTEND;VALUE=DATE:20260418
 SUMMARY:[SIGMOD 2027] 논문 마감 (round 2) (확정)
@@ -560,7 +513,7 @@ URL:https://2027.sigmod.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigmod-abstract-2026-07-10@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:[SIGMOD 2027] 초록 마감 (확정)
@@ -571,7 +524,7 @@ URL:https://2027.sigmod.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigmod-paper-2026-07-17@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:[SIGMOD 2027] 논문 마감 (round 3) (확정)
@@ -582,7 +535,7 @@ URL:https://2027.sigmod.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigmod-abstract-2026-10-10@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:[SIGMOD 2027] 초록 마감 (확정)
@@ -593,7 +546,7 @@ URL:https://2027.sigmod.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigmod-paper-2026-10-17@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:[SIGMOD 2027] 논문 마감 (round 4) (확정)
@@ -603,8 +556,31 @@ DESCRIPTION:International Conference on Management of Data\n장소: Huntin
 URL:https://2027.sigmod.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:eacl-paper-2026-08-03@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+SUMMARY:[EACL 2027] 논문 마감 (ARR Submission) (확정)
+DESCRIPTION:European Association for Computational Linguistics\n장소: At
+ hens\, Greece\n마감 기준시: UTC-12\n공식 사이트: https://2027.ea
+ cl.org/
+URL:https://2027.eacl.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:eacl-paper-2026-10-11@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:[EACL 2027] 논문 마감 (EACL commitment after ARR meta-reviews\
+ ; reviewed papers only) (확정)
+DESCRIPTION:European Association for Computational Linguistics\n장소: At
+ hens\, Greece\n마감 기준시: UTC-12\n공식 사이트: https://2027.ea
+ cl.org/
+URL:https://2027.eacl.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:naacl-hlt-paper-2026-10-12@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:[NAACL/HLT 2027] 논문 마감 (ARR Submission) (확정)
@@ -615,8 +591,21 @@ DESCRIPTION:Conference of the North American Chapter of the Association fo
 URL:https://2027.naacl.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:naacl-hlt-paper-2026-12-23@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:[NAACL/HLT 2027] 논문 마감 (NAACL commitment after ARR meta-re
+ views\; reviewed papers only) (확정)
+DESCRIPTION:Conference of the North American Chapter of the Association fo
+ r Computational Linguistics: Human Language Technologies\n장소: San Fran
+ cisco\, California\, USA\n마감 기준시: UTC-12\n공식 사이트: http
+ s://2027.naacl.org/
+URL:https://2027.naacl.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:coling-easy-paper-2026-10-12@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:[COLING (easy) 2027] 논문 마감 (ARR Submission) (확정)
@@ -626,8 +615,31 @@ DESCRIPTION:International Conference on Computational Linguistics\n장소:
 URL:https://2027.coling-iccl.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:coling-easy-paper-2026-12-23@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:[COLING (easy) 2027] 논문 마감 (COLING commitment after ARR me
+ ta-reviews\; reviewed papers only) (확정)
+DESCRIPTION:International Conference on Computational Linguistics\n장소:
+  Macau SAR\, China\n마감 기준시: UTC-12\n공식 사이트: https://20
+ 27.coling-iccl.org/
+URL:https://2027.coling-iccl.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:iscas-paper-2026-10-13@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:[ISCAS 2027] 논문 마감 (확정)
+DESCRIPTION:IEEE International Symposium on Circuits and Systems\n장소: 
+ Bordeaux\, France\n마감 기준시: UTC-5\n공식 사이트: https://2027
+ .ieee-iscas.org/
+URL:https://2027.ieee-iscas.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:oopsla-paper-2026-10-14@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:[OOPSLA 2027] 논문 마감 (Submission Deadline Round 1) (확정)
@@ -638,7 +650,7 @@ URL:https://2027.splashcon.org/track/splashoopsla2027
 END:VEVENT
 BEGIN:VEVENT
 UID:oopsla-paper-2027-04-07@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270408
 SUMMARY:[OOPSLA 2027] 논문 마감 (Submission Deadline Round 2) (확정)
@@ -649,7 +661,7 @@ URL:https://2027.splashcon.org/track/splashoopsla2027
 END:VEVENT
 BEGIN:VEVENT
 UID:ches-paper-2026-07-15@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:[CHES 2027] 논문 마감 (Schedule for TCHES Volume 2027/1) (확
@@ -661,7 +673,7 @@ URL:https://ches.iacr.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:ches-paper-2026-10-15@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:[CHES 2027] 논문 마감 (Schedule for TCHES Volume 2027/2) (확
@@ -673,7 +685,7 @@ URL:https://ches.iacr.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:ches-paper-2027-01-15@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:[CHES 2027] 논문 마감 (Schedule for TCHES Volume 2027/3) (확
@@ -685,7 +697,7 @@ URL:https://ches.iacr.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:ches-paper-2027-04-15@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 SUMMARY:[CHES 2027] 논문 마감 (Schedule for TCHES Volume 2027/4) (확
@@ -697,7 +709,7 @@ URL:https://ches.iacr.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:tacas-paper-2026-05-28@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260528
 DTEND;VALUE=DATE:20260529
 SUMMARY:[TACAS 2027] 논문 마감 (ESOP round 1) (확정)
@@ -708,7 +720,7 @@ URL:https://etaps.org/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:tacas-paper-2026-10-15@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:[TACAS 2027] 논문 마감 (ESOP round 2\, FoSSaCS\, TACAS\, iFS) 
@@ -720,7 +732,7 @@ URL:https://etaps.org/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:www-abstract-2026-10-18@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:[WWW 2027] 초록 마감 (확정)
@@ -730,7 +742,7 @@ URL:https://www2027.thewebconf.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:www-paper-2026-10-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:[WWW 2027] 논문 마감 (확정)
@@ -740,7 +752,7 @@ URL:https://www2027.thewebconf.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:msr-abstract-2026-10-20@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:[MSR 2027] 초록 마감 (확정)
@@ -750,7 +762,7 @@ URL:https://2027.msrconf.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:msr-paper-2026-10-23@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:[MSR 2027] 논문 마감 (확정)
@@ -760,7 +772,7 @@ URL:https://2027.msrconf.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:sensys-abstract-2026-05-29@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260529
 DTEND;VALUE=DATE:20260530
 SUMMARY:[SenSys 2027] 초록 마감 (확정)
@@ -771,7 +783,7 @@ URL:https://sensys.acm.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:sensys-paper-2026-06-05@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
 SUMMARY:[SenSys 2027] 논문 마감 (1st deadline) (확정)
@@ -782,7 +794,7 @@ URL:https://sensys.acm.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:sensys-abstract-2026-10-29@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:[SenSys 2027] 초록 마감 (확정)
@@ -793,7 +805,7 @@ URL:https://sensys.acm.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:sensys-paper-2026-11-05@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:[SenSys 2027] 논문 마감 (2nd deadline) (확정)
@@ -804,7 +816,7 @@ URL:https://sensys.acm.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:mlsys-paper-2026-10-30@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:[MLSys 2027] 논문 마감 (확정)
@@ -815,7 +827,7 @@ URL:https://mlsys.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:ubicomp-paper-2026-02-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260201
 DTEND;VALUE=DATE:20260202
 SUMMARY:[UbiComp 2026] 논문 마감 (first round) (확정)
@@ -828,7 +840,7 @@ URL:https://www.ubicomp.org/ubicomp-iswc-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ubicomp-paper-2026-05-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:[UbiComp 2026] 논문 마감 (second round) (확정)
@@ -840,22 +852,8 @@ DESCRIPTION:ACM International Conference on Ubiquitous Computing (※ UbiC
 URL:https://www.ubicomp.org/ubicomp-iswc-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:ubicomp-paper-2026-08-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20260802
-SUMMARY:[UbiComp 2026] 논문 마감 (third round (only for resubmissions 
- after major revisions)) (확정)
-DESCRIPTION:ACM International Conference on Ubiquitous Computing (※ UbiC
- omp의 Accept 여부는 "Proceedings of the ACM on Interactive\, Mobile\, 
- Wearable and Ubiquitous Technologies" 저널 탑재 기준으로 판단)\n
- 장소: Shanghai\, China\n마감 기준시: AoE\n공식 사이트: https:/
- /www.ubicomp.org/ubicomp-iswc-2026
-URL:https://www.ubicomp.org/ubicomp-iswc-2026
-END:VEVENT
-BEGIN:VEVENT
 UID:ubicomp-paper-2026-11-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:[UbiComp 2026] 논문 마감 (fourth round) (확정)
@@ -868,7 +866,7 @@ URL:https://www.ubicomp.org/ubicomp-iswc-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:icst-paper-2026-11-02@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:[ICST 2027] 논문 마감 (확정)
@@ -878,30 +876,8 @@ DESCRIPTION:IEEE International Conference on Software Testing\, Verificati
 URL:https://conf.researchr.org/home/icst-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:pacificvis-abstract-2026-09-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-SUMMARY:[PacificVis 2027] 초록 마감 (확정)
-DESCRIPTION:IEEE Pacific Visualization Symposium\n장소: Busan\, South Ko
- rea\n마감 기준시: AoE\n공식 사이트: https://pacificvis2027.githu
- b.io/
-URL:https://pacificvis2027.github.io/
-END:VEVENT
-BEGIN:VEVENT
-UID:pacificvis-paper-2026-09-08@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260908
-DTEND;VALUE=DATE:20260909
-SUMMARY:[PacificVis 2027] 논문 마감 (TVCG journal track) (확정)
-DESCRIPTION:IEEE Pacific Visualization Symposium\n장소: Busan\, South Ko
- rea\n마감 기준시: AoE\n공식 사이트: https://pacificvis2027.githu
- b.io/
-URL:https://pacificvis2027.github.io/
-END:VEVENT
-BEGIN:VEVENT
 UID:pacificvis-abstract-2026-11-02@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:[PacificVis 2027] 초록 마감 (확정)
@@ -912,7 +888,7 @@ URL:https://pacificvis2027.github.io/
 END:VEVENT
 BEGIN:VEVENT
 UID:pacificvis-paper-2026-11-09@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:[PacificVis 2027] 논문 마감 (Conference track) (확정)
@@ -923,7 +899,7 @@ URL:https://pacificvis2027.github.io/
 END:VEVENT
 BEGIN:VEVENT
 UID:stoc-paper-2026-11-02@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:[STOC 2027] 논문 마감 (확정)
@@ -934,7 +910,7 @@ URL:https://acm-stoc.org/stoc2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:rtas-paper-2026-11-05@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:[RTAS 2027] 논문 마감 (Submission Deadline (Firm)) (확정)
@@ -945,7 +921,7 @@ URL:https://2027.rtas.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:noms-paper-2026-11-09@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:[NOMS 2027] 논문 마감 (확정)
@@ -956,7 +932,7 @@ URL:https://noms2027.ieee-noms.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:cvpr-abstract-2026-11-10@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:[CVPR 2027] 초록 마감 (확정)
@@ -967,7 +943,7 @@ URL:https://cvpr.thecvf.com/Conferences/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:cvpr-paper-2026-11-16@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:[CVPR 2027] 논문 마감 (확정)
@@ -978,7 +954,7 @@ URL:https://cvpr.thecvf.com/Conferences/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:sp-abstract-2026-06-04@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
 SUMMARY:[SP 2027] 초록 마감 (확정)
@@ -989,7 +965,7 @@ URL:https://sp2027.ieee-security.org/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:sp-paper-2026-06-11@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260611
 DTEND;VALUE=DATE:20260612
 SUMMARY:[SP 2027] 논문 마감 (First Paper submission deadline) (확정)
@@ -1000,7 +976,7 @@ URL:https://sp2027.ieee-security.org/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:sp-abstract-2026-11-10@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:[SP 2027] 초록 마감 (확정)
@@ -1011,7 +987,7 @@ URL:https://sp2027.ieee-security.org/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:sp-paper-2026-11-17@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:[SP 2027] 논문 마감 (Second Paper submission deadline) (확정)
@@ -1022,7 +998,7 @@ URL:https://sp2027.ieee-security.org/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:icde-paper-2026-06-11@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260611
 DTEND;VALUE=DATE:20260612
 SUMMARY:[ICDE 2027] 논문 마감 (first round) (확정)
@@ -1033,7 +1009,7 @@ URL:https://icde2027.github.io/
 END:VEVENT
 BEGIN:VEVENT
 UID:icde-paper-2026-11-11@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:[ICDE 2027] 논문 마감 (second round) (확정)
@@ -1043,8 +1019,30 @@ DESCRIPTION:International Conference on Data Engineering\n장소: Copenhag
 URL:https://icde2027.github.io/
 END:VEVENT
 BEGIN:VEVENT
+UID:dac-abstract-2026-11-11@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:[DAC 2027] 초록 마감 (확정)
+DESCRIPTION:Design Automation Conference\n장소: San Jose\, CA\n마감 
+ 기준시: UTC-8\n공식 사이트: https://dac.com/2027/authors/call-for-
+ contributions
+URL:https://dac.com/2027/authors/call-for-contributions
+END:VEVENT
+BEGIN:VEVENT
+UID:dac-paper-2026-11-18@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:[DAC 2027] 논문 마감 (확정)
+DESCRIPTION:Design Automation Conference\n장소: San Jose\, CA\n마감 
+ 기준시: UTC-8\n공식 사이트: https://dac.com/2027/authors/call-for-
+ contributions
+URL:https://dac.com/2027/authors/call-for-contributions
+END:VEVENT
+BEGIN:VEVENT
 UID:pldi-paper-2026-11-12@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:[PLDI 2027] 논문 마감 (확정)
@@ -1055,7 +1053,7 @@ URL:https://pldi27.sigplan.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:mmsys-abstract-2026-09-17@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:[Mmsys 2027] 초록 마감 (확정)
@@ -1065,7 +1063,7 @@ URL:https://2027.acmmmsys.org
 END:VEVENT
 BEGIN:VEVENT
 UID:mmsys-paper-2026-09-17@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:[Mmsys 2027] 논문 마감 (Research Track - First Round (extended
@@ -1076,7 +1074,7 @@ URL:https://2027.acmmmsys.org
 END:VEVENT
 BEGIN:VEVENT
 UID:mmsys-abstract-2026-11-12@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:[Mmsys 2027] 초록 마감 (확정)
@@ -1086,7 +1084,7 @@ URL:https://2027.acmmmsys.org
 END:VEVENT
 BEGIN:VEVENT
 UID:mmsys-paper-2026-11-19@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:[Mmsys 2027] 논문 마감 (Research Track - Second Round) (확정)
@@ -1096,7 +1094,7 @@ URL:https://2027.acmmmsys.org
 END:VEVENT
 BEGIN:VEVENT
 UID:codaspy-abstract-2026-11-16@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:[CODASPY 2027] 초록 마감 (확정)
@@ -1107,7 +1105,7 @@ URL:https://www.codaspy.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:codaspy-paper-2026-11-23@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:[CODASPY 2027] 논문 마감 (확정)
@@ -1117,52 +1115,8 @@ DESCRIPTION:Data and Application Security and Privacy\n장소: Fort Collin
 URL:https://www.codaspy.org/2027/
 END:VEVENT
 BEGIN:VEVENT
-UID:wsdm-abstract-2026-08-17@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260818
-SUMMARY:[WSDM 2027] 초록 마감 (확정)
-DESCRIPTION:ACM International Conference on Web Search and Data Mining\n
- 장소: Cordis\, Hong Kong SAR\, China\n마감 기준시: UTC-12\n공식 
- 사이트: https://wsdm-conference.org/2027/
-URL:https://wsdm-conference.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:wsdm-paper-2026-08-24@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20260824
-DTEND;VALUE=DATE:20260825
-SUMMARY:[WSDM 2027] 논문 마감 (Full Paper) (확정)
-DESCRIPTION:ACM International Conference on Web Search and Data Mining\n
- 장소: Cordis\, Hong Kong SAR\, China\n마감 기준시: UTC-12\n공식 
- 사이트: https://wsdm-conference.org/2027/
-URL:https://wsdm-conference.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:wsdm-paper-2026-11-17@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:[WSDM 2027] 논문 마감 (Short Paper) (확정)
-DESCRIPTION:ACM International Conference on Web Search and Data Mining\n
- 장소: Cordis\, Hong Kong SAR\, China\n마감 기준시: UTC-12\n공식 
- 사이트: https://wsdm-conference.org/2027/
-URL:https://wsdm-conference.org/2027/
-END:VEVENT
-BEGIN:VEVENT
-UID:dac-paper-2026-11-18@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:[DAC 2027] 논문 마감 (확정)
-DESCRIPTION:Design Automation Conference\n장소: San Jose\, CA\n마감 
- 기준시: UTC-8\n공식 사이트: https://dac.com/2027/authors/call-for-
- contributions
-URL:https://dac.com/2027/authors/call-for-contributions
-END:VEVENT
-BEGIN:VEVENT
 UID:euros-p-abstract-2026-11-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:[EuroS&P 2027] 초록 마감 (확정)
@@ -1173,7 +1127,7 @@ URL:https://eurosp2027.ieee-security.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:euros-p-paper-2026-12-02@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:[EuroS&P 2027] 논문 마감 (확정)
@@ -1184,7 +1138,7 @@ URL:https://eurosp2027.ieee-security.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:mobisys-abstract-2026-11-27@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:[MobiSys 2027] 초록 마감 (확정)
@@ -1195,7 +1149,7 @@ URL:https://www.sigmobile.org/mobisys/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:mobisys-paper-2026-12-04@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:[MobiSys 2027] 논문 마감 (확정)
@@ -1206,7 +1160,7 @@ URL:https://www.sigmobile.org/mobisys/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:pets-paper-2026-05-31@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 SUMMARY:[PETS 2027] 논문 마감 (Issue 1 Paper Submission Deadline) (확
@@ -1218,7 +1172,7 @@ URL:https://petsymposium.org/cfp27.php
 END:VEVENT
 BEGIN:VEVENT
 UID:pets-paper-2026-08-31@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:[PETS 2027] 논문 마감 (Issue 2 Paper Submission Deadline) (확
@@ -1230,7 +1184,7 @@ URL:https://petsymposium.org/cfp27.php
 END:VEVENT
 BEGIN:VEVENT
 UID:pets-paper-2026-11-30@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:[PETS 2027] 논문 마감 (Issue 3 Paper Submission Deadline) (확
@@ -1242,7 +1196,7 @@ URL:https://petsymposium.org/cfp27.php
 END:VEVENT
 BEGIN:VEVENT
 UID:pets-paper-2027-02-28@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:[PETS 2027] 논문 마감 (Issue 4 Paper Submission Deadline) (확
@@ -1254,7 +1208,7 @@ URL:https://petsymposium.org/cfp27.php
 END:VEVENT
 BEGIN:VEVENT
 UID:usenix-osdi-abstract-2026-12-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:[USENIX OSDI 2027] 초록 마감 (확정)
@@ -1265,7 +1219,7 @@ URL:https://www.usenix.org/conference/osdi27
 END:VEVENT
 BEGIN:VEVENT
 UID:usenix-osdi-paper-2026-12-08@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:[USENIX OSDI 2027] 논문 마감 (확정)
@@ -1276,7 +1230,7 @@ URL:https://www.usenix.org/conference/osdi27
 END:VEVENT
 BEGIN:VEVENT
 UID:pods-abstract-2026-05-23@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260523
 DTEND;VALUE=DATE:20260524
 SUMMARY:[PODS 2027] 초록 마감 (확정)
@@ -1287,7 +1241,7 @@ URL:https://2027.sigmod.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:pods-paper-2026-05-30@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
 SUMMARY:[PODS 2027] 논문 마감 (First Submission Cycle) (확정)
@@ -1298,7 +1252,7 @@ URL:https://2027.sigmod.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:pods-abstract-2026-12-03@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:[PODS 2027] 초록 마감 (확정)
@@ -1309,7 +1263,7 @@ URL:https://2027.sigmod.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:pods-paper-2026-12-10@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:[PODS 2027] 논문 마감 (Second Submission Cycle) (확정)
@@ -1320,7 +1274,7 @@ URL:https://2027.sigmod.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:eurovis-paper-2026-12-03@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:[EuroVis 2027] 논문 마감 (예상) (예상)
@@ -1329,8 +1283,20 @@ DESCRIPTION:Eurographics Conference on Visualization\n장소: 미정\n마
 URL:https://www.eurovis.org.uk/
 END:VEVENT
 BEGIN:VEVENT
+UID:rss-abstract-2026-12-04@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:[RSS 2027] Stage 1: initial 6-page extended abstract submission (
+ 확정)
+DESCRIPTION:Robotics: Science and Systems Conference\n장소: Athens\, Gre
+ ece\n마감 기준시: AoE\n공식 사이트: https://roboticsconference.o
+ rg/
+URL:https://roboticsconference.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:asiaccs-paper-2026-08-21@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:[AsiaCCS 2027] 논문 마감 (1st round Deadline) (확정)
@@ -1341,7 +1307,7 @@ URL:https://asiaccs2027.cityu.edu.mo/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:asiaccs-paper-2026-12-11@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:[AsiaCCS 2027] 논문 마감 (2nd round Deadline) (확정)
@@ -1352,7 +1318,7 @@ URL:https://asiaccs2027.cityu.edu.mo/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:issta-abstract-2027-01-08@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:[ISSTA 2027] 초록 마감 (확정)
@@ -1363,7 +1329,7 @@ URL:https://conf.researchr.org/home/issta-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:issta-paper-2027-01-11@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 SUMMARY:[ISSTA 2027] 논문 마감 (확정)
@@ -1374,7 +1340,7 @@ URL:https://conf.researchr.org/home/issta-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:isit-paper-2027-01-10@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:[ISIT 2027] 논문 마감 (확정)
@@ -1385,7 +1351,7 @@ URL:https://2027.ieee-isit.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:dis-abstract-2027-01-11@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 SUMMARY:[DIS 2027] 초록 마감 (확정)
@@ -1395,7 +1361,7 @@ URL:https://dis.acm.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:dis-paper-2027-01-18@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 SUMMARY:[DIS 2027] 논문 마감 (확정)
@@ -1405,7 +1371,7 @@ URL:https://dis.acm.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigir-abstract-2027-01-14@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:[SIGIR 2027] 초록 마감 (확정)
@@ -1416,7 +1382,7 @@ URL:https://sigir2027.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigir-paper-2027-01-21@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:[SIGIR 2027] 논문 마감 (확정)
@@ -1427,7 +1393,7 @@ URL:https://sigir2027.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:icwsm-paper-2026-05-15@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260516
 SUMMARY:[ICWSM 2027] 논문 마감 (1st Full-paper Deadline) (확정)
@@ -1438,7 +1404,7 @@ URL:https://www.icwsm.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:icwsm-paper-2026-09-15@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:[ICWSM 2027] 논문 마감 (2nd Full-paper Deadline) (확정)
@@ -1449,7 +1415,7 @@ URL:https://www.icwsm.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:icwsm-paper-2027-01-15@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:[ICWSM 2027] 논문 마감 (3rd Full-paper Deadline) (확정)
@@ -1460,7 +1426,7 @@ URL:https://www.icwsm.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:usenix-security-abstract-2026-08-18@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
 SUMMARY:[USENIX Security 2027] 초록 마감 (확정)
@@ -1471,7 +1437,7 @@ URL:https://www.usenix.org/conference/usenixsecurity27
 END:VEVENT
 BEGIN:VEVENT
 UID:usenix-security-paper-2026-08-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260826
 SUMMARY:[USENIX Security 2027] 논문 마감 (Cycle 1 Deadline) (확정)
@@ -1482,7 +1448,7 @@ URL:https://www.usenix.org/conference/usenixsecurity27
 END:VEVENT
 BEGIN:VEVENT
 UID:usenix-security-abstract-2027-01-19@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:[USENIX Security 2027] 초록 마감 (확정)
@@ -1493,7 +1459,7 @@ URL:https://www.usenix.org/conference/usenixsecurity27
 END:VEVENT
 BEGIN:VEVENT
 UID:usenix-security-paper-2027-01-26@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:[USENIX Security 2027] 논문 마감 (Cycle 2 Deadline) (확정)
@@ -1504,7 +1470,7 @@ URL:https://www.usenix.org/conference/usenixsecurity27
 END:VEVENT
 BEGIN:VEVENT
 UID:cav-paper-2027-01-20@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:[CAV 2027] 논문 마감 (확정)
@@ -1515,7 +1481,7 @@ URL:https://conferences.i-cav.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-paper-2027-01-29@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:[ICML 2027] 논문 마감 (예상) (예상)
@@ -1526,7 +1492,7 @@ URL:https://icml.cc/Conferences/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:icdar-abstract-2027-01-31@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:[ICDAR 2027] 초록 마감 (확정)
@@ -1537,7 +1503,7 @@ URL:https://icdar2027.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:icdar-paper-2027-02-20@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:[ICDAR 2027] 논문 마감 (확정)
@@ -1548,7 +1514,7 @@ URL:https://icdar2027.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:icmr-paper-2027-01-31@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:[ICMR 2027] 논문 마감 (확정)
@@ -1559,17 +1525,17 @@ URL:https://www.icmr2027.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:icip-easy-paper-2027-02-04@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:[ICIP (easy) 2027] 논문 마감 (예상) (예상)
 DESCRIPTION:IEEE International Conference on Image Processing\n장소: 미
- 정\n마감 기준시: UTC+0\n공식 사이트: https://2026.ieeeicip.org/
+ 정\n마감 기준시: AoE\n공식 사이트: https://2026.ieeeicip.org/
 URL:https://2026.ieeeicip.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:hpdc-paper-2027-02-05@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:[HPDC 2027] 논문 마감 (예상) (예상)
@@ -1580,7 +1546,7 @@ URL:https://hpdc.sci.utah.edu/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:interspeech-paper-2027-02-09@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 SUMMARY:[INTERSPEECH 2027] 논문 마감 (확정)
@@ -1591,17 +1557,17 @@ URL:https://interspeech2027.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:crypto-paper-2027-02-12@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:[CRYPTO 2027] 논문 마감 (예상) (예상)
 DESCRIPTION:International Cryptology Conference\n장소: 미정\n마감 
- 기준시: UTC-12\n공식 사이트: https://crypto.iacr.org/2026/
+ 기준시: PT\n공식 사이트: https://crypto.iacr.org/2026/
 URL:https://crypto.iacr.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:conll-paper-2027-02-19@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 SUMMARY:[CoNLL 2027] 논문 마감 (예상) (예상)
@@ -1611,7 +1577,7 @@ URL:https://www.conll.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:cec-paper-2027-02-28@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:[CEC 2027] 논문 마감 (확정)
@@ -1622,7 +1588,7 @@ URL:https://ieeecec.org/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:icsme-paper-2027-03-05@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:[ICSME 2027] 논문 마감 (Research Papers Track) (확정)
@@ -1633,7 +1599,7 @@ URL:https://conf.researchr.org/home/icsme-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:ase-paper-2027-03-26@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:[ASE 2027] 논문 마감 (예상) (예상)
@@ -1644,7 +1610,7 @@ URL:https://conf.researchr.org/home/ase-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:uist-paper-2027-03-31@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:[UIST 2027] 논문 마감 (예상) (예상)
@@ -1654,7 +1620,7 @@ URL:https://uist.acm.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:vast-paper-2027-03-31@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:[VAST 2027] 논문 마감 (예상) (예상)
@@ -1665,7 +1631,7 @@ URL:https://ieeevis.org/year/2026/welcome
 END:VEVENT
 BEGIN:VEVENT
 UID:sosp-paper-2027-04-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:[SOSP 2027] 논문 마감 (예상) (예상)
@@ -1676,7 +1642,7 @@ URL:https://sigops.org/s/conferences/sosp/2026/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-mm-paper-2027-04-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:[ACM MM 2027] 논문 마감 (예상) (예상)
@@ -1686,7 +1652,7 @@ URL:https://2026.acmmm.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:focs-paper-2027-04-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:[FOCS 2027] 논문 마감 (예상) (예상)
@@ -1697,7 +1663,7 @@ URL:https://sanjeevkhanna.org/FOCS2026_CFP.html
 END:VEVENT
 BEGIN:VEVENT
 UID:micro-paper-2027-04-07@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270408
 SUMMARY:[MICRO 2027] 논문 마감 (예상) (예상)
@@ -1707,7 +1673,7 @@ URL:https://microarch.org/micro59/
 END:VEVENT
 BEGIN:VEVENT
 UID:sc-paper-2027-04-08@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270409
 SUMMARY:[SC 2027] 논문 마감 (예상) (예상)
@@ -1718,7 +1684,7 @@ URL:https://sc26.supercomputing.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:iccad-paper-2027-04-14@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270414
 DTEND;VALUE=DATE:20270415
 SUMMARY:[ICCAD 2027] 논문 마감 (예상) (예상)
@@ -1729,7 +1695,7 @@ URL:https://iccad.com/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:raid-paper-2027-04-16@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270417
 SUMMARY:[RAID 2027] 논문 마감 (예상) (예상)
@@ -1740,7 +1706,7 @@ URL:https://raid2026.org
 END:VEVENT
 BEGIN:VEVENT
 UID:sdm-paper-2027-04-17@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:[SDM 2027] 논문 마감 (예상) (예상)
@@ -1750,8 +1716,18 @@ DESCRIPTION:SIAM International Conference on Data Mining\n장소: 미정\n
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 END:VEVENT
 BEGIN:VEVENT
+UID:sca-paper-2027-04-17@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:[SCA 2027] 논문 마감 (예상) (예상)
+DESCRIPTION:Symposium on Computer Animation\n장소: 미정\n마감 기준
+ 시: AoE\n공식 사이트: https://computeranimation.org/
+URL:https://computeranimation.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:mobihoc-paper-2027-04-20@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270420
 DTEND;VALUE=DATE:20270421
 SUMMARY:[MobiHoc 2027] 논문 마감 (예상) (예상)
@@ -1762,7 +1738,7 @@ URL:https://www.sigmobile.org/mobihoc/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:esorics-paper-2027-04-21@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270421
 DTEND;VALUE=DATE:20270422
 SUMMARY:[ESORICS 2027] 논문 마감 (예상) (예상)
@@ -1773,7 +1749,7 @@ URL:https://sites.google.com/di.uniroma1.it/esorics2026/home
 END:VEVENT
 BEGIN:VEVENT
 UID:esa-paper-2027-04-23@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 SUMMARY:[ESA 2027] 논문 마감 (예상) (예상)
@@ -1783,7 +1759,7 @@ URL:https://algo-conference.org/2026/esa/
 END:VEVENT
 BEGIN:VEVENT
 UID:icmi-paper-2027-04-24@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:[ICMI 2027] 논문 마감 (예상) (예상)
@@ -1793,7 +1769,7 @@ URL:https://icmi.acm.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:pact-paper-2027-04-30@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 SUMMARY:[PACT 2027] 논문 마감 (예상) (예상)
@@ -1803,7 +1779,7 @@ URL:https://pact2026.github.io/
 END:VEVENT
 BEGIN:VEVENT
 UID:globecom-paper-2027-05-03@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:[GLOBECOM 2027] 논문 마감 (예상) (예상)
@@ -1814,7 +1790,7 @@ URL:https://globecom2026.ieee-globecom.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:smc-paper-2027-05-03@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:[SMC 2027] 논문 마감 (예상) (예상)
@@ -1825,7 +1801,7 @@ URL:https://www.ieeesmc2026.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-paper-2027-05-07@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270508
 SUMMARY:[NeurIPS 2027] 논문 마감 (예상) (예상)
@@ -1835,7 +1811,7 @@ URL:https://neurips.cc/Conferences/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:iswc-paper-2027-05-07@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270508
 SUMMARY:[ISWC 2027] 논문 마감 (예상) (예상)
@@ -1845,7 +1821,7 @@ URL:https://iswc2026.semanticweb.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:sec-paper-2027-05-08@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:[SEC 2027] 논문 마감 (예상) (예상)
@@ -1855,7 +1831,7 @@ URL:https://acm-ieee-sec.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:icnp-paper-2027-05-22@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
 SUMMARY:[ICNP 2027] 논문 마감 (예상) (예상)
@@ -1866,7 +1842,7 @@ URL:https://icnp26.cs.ucr.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:asiacrypt-paper-2027-05-22@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
 SUMMARY:[ASIACRYPT 2027] 논문 마감 (예상) (예상)
@@ -1877,7 +1853,7 @@ URL:https://asiacrypt.iacr.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:cikm-paper-2027-05-23@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:[CIKM 2027] 논문 마감 (예상) (예상)
@@ -1888,7 +1864,7 @@ URL:https://cikm2026.diag.uniroma1.it/
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcnlp-paper-2027-05-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270525
 DTEND;VALUE=DATE:20270526
 SUMMARY:[IJCNLP 2027] 논문 마감 (예상) (예상)
@@ -1899,17 +1875,18 @@ URL:https://2026.aaclnet.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:acsac-paper-2027-05-26@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270526
 DTEND;VALUE=DATE:20270527
 SUMMARY:[ACSAC 2027] 논문 마감 (예상) (예상)
 DESCRIPTION:Annual Computer Security Applications Conference\n장소: 미
- 정\n마감 기준시: UTC-12\n공식 사이트: https://www.acsac.org/
-URL:https://www.acsac.org/
+ 정\n마감 기준시: UTC-12\n공식 사이트: https://www.acsac.org/202
+ 6/
+URL:https://www.acsac.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:rtss-paper-2027-05-26@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270526
 DTEND;VALUE=DATE:20270527
 SUMMARY:[RTSS 2027] 논문 마감 (예상) (예상)
@@ -1919,7 +1896,7 @@ URL:http://2026.rtss.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:corl-paper-2027-05-28@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270528
 DTEND;VALUE=DATE:20270529
 SUMMARY:[CoRL 2027] 논문 마감 (예상) (예상)
@@ -1929,27 +1906,17 @@ URL:https://www.corl.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:bmvc-easy-paper-2027-05-29@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:[BMVC (easy) 2027] 논문 마감 (예상) (예상)
 DESCRIPTION:British Machine Vision Conference\n장소: 미정\n마감 기
- 준시: UTC+0\n공식 사이트: https://bmvc2026.bmva.org/
+ 준시: AoE\n공식 사이트: https://bmvc2026.bmva.org/
 URL:https://bmvc2026.bmva.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:sca-paper-2027-06-01@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20270601
-DTEND;VALUE=DATE:20270602
-SUMMARY:[SCA 2027] 논문 마감 (예상) (예상)
-DESCRIPTION:Symposium on Computer Animation\n장소: 미정\n마감 기준
- 시: AoE\n공식 사이트: https://computeranimation.org/
-URL:https://computeranimation.org/
-END:VEVENT
-BEGIN:VEVENT
 UID:middleware-paper-2027-06-05@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:[MIDDLEWARE 2027] 논문 마감 (예상) (예상)
@@ -1960,7 +1927,7 @@ URL:https://middleware-conf.github.io/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:conext-paper-2027-06-05@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:[CoNEXT 2027] 논문 마감 (예상) (예상)
@@ -1971,7 +1938,7 @@ URL:https://conferences.sigcomm.org/co-next/2026/#!/home
 END:VEVENT
 BEGIN:VEVENT
 UID:icdm-paper-2027-06-06@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:[ICDM 2027] 논문 마감 (예상) (예상)
@@ -1981,7 +1948,7 @@ URL:http://icdm2026.neu.edu.cn/
 END:VEVENT
 BEGIN:VEVENT
 UID:usenix-atc-paper-2027-06-11@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270611
 DTEND;VALUE=DATE:20270612
 SUMMARY:[USENIX ATC 2027] 논문 마감 (예상) (예상)
@@ -1991,10 +1958,10 @@ DESCRIPTION:USENIX Annual Technical Conference\n장소: 미정\n마감 기
 URL:https://sigops.org/s/conferences/atc/2026/index.html
 END:VEVENT
 BEGIN:VEVENT
-UID:slt-paper-2027-06-17@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20270617
-DTEND;VALUE=DATE:20270618
+UID:slt-paper-2027-06-24@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270625
 SUMMARY:[SLT 2027] 논문 마감 (예상) (예상)
 DESCRIPTION:IEEE Spoken Language Technology Workshop\n장소: 미정\n마
  감 기준시: AoE\n공식 사이트: https://attend.ieee.org/slt-2026/
@@ -2002,7 +1969,7 @@ URL:https://attend.ieee.org/slt-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:icse-paper-2027-06-30@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270701
 SUMMARY:[ICSE 2028] 논문 마감 (예상) (예상)
@@ -2013,7 +1980,7 @@ URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:popl-paper-2027-07-09@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 SUMMARY:[POPL 2028] 논문 마감 (예상) (예상)
@@ -2024,7 +1991,7 @@ URL:https://popl27.sigplan.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:soda-paper-2027-07-09@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 SUMMARY:[SODA 2028] 논문 마감 (예상) (예상)
@@ -2035,7 +2002,7 @@ URL:https://www.siam.org/conferences-events/siam-conferences/soda27/
 END:VEVENT
 BEGIN:VEVENT
 UID:socc-paper-2027-07-14@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270714
 DTEND;VALUE=DATE:20270715
 SUMMARY:[SOCC 2027] 논문 마감 (예상) (예상)
@@ -2045,7 +2012,7 @@ URL:https://acmsocc.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:asp-dac-paper-2027-07-18@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270718
 DTEND;VALUE=DATE:20270719
 SUMMARY:[ASP-DAC 2028] 논문 마감 (예상) (예상)
@@ -2056,7 +2023,7 @@ URL:https://www.aspdac.com/aspdac2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:sigkdd-paper-2027-07-26@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270726
 DTEND;VALUE=DATE:20270727
 SUMMARY:[SIGKDD 2028] 논문 마감 (예상) (예상)
@@ -2067,7 +2034,7 @@ URL:https://kdd2027.kdd.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-paper-2027-07-28@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270728
 DTEND;VALUE=DATE:20270729
 SUMMARY:[AAAI 2028] 논문 마감 (예상) (예상)
@@ -2078,7 +2045,7 @@ URL:https://aaai.org/conference/aaai/aaai-27/
 END:VEVENT
 BEGIN:VEVENT
 UID:hpca-paper-2027-07-31@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270801
 SUMMARY:[HPCA 2028] 논문 마감 (예상) (예상)
@@ -2089,7 +2056,7 @@ URL:https://conf.researchr.org/home/hpca-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:infocom-paper-2027-07-31@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270801
 SUMMARY:[INFOCOM 2028] 논문 마감 (예상) (예상)
@@ -2100,7 +2067,7 @@ URL:https://infocom2027.ieee-infocom.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:ppopp-paper-2027-08-03@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270803
 DTEND;VALUE=DATE:20270804
 SUMMARY:[PPoPP 2028] 논문 마감 (예상) (예상)
@@ -2109,18 +2076,8 @@ DESCRIPTION:Principles and Practice of Parallel Programming\n장소: 미
 URL:https://ppopp27.sigplan.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:eacl-paper-2027-08-03@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20270803
-DTEND;VALUE=DATE:20270804
-SUMMARY:[EACL 2028] 논문 마감 (예상) (예상)
-DESCRIPTION:European Association for Computational Linguistics\n장소: 
- 미정\n마감 기준시: UTC-12\n공식 사이트: https://2027.eacl.org/
-URL:https://2027.eacl.org/
-END:VEVENT
-BEGIN:VEVENT
 UID:pkc-paper-2027-08-16@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270816
 DTEND;VALUE=DATE:20270817
 SUMMARY:[PKC 2028] 논문 마감 (예상) (예상)
@@ -2130,7 +2087,7 @@ URL:https://pkc.iacr.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:ndss-paper-2027-08-19@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270819
 DTEND;VALUE=DATE:20270820
 SUMMARY:[NDSS 2028] 논문 마감 (예상) (예상)
@@ -2141,7 +2098,7 @@ URL:https://www.ndss-symposium.org/ndss2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:iui-paper-2027-08-20@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270820
 DTEND;VALUE=DATE:20270821
 SUMMARY:[IUI 2028] 논문 마감 (예상) (예상)
@@ -2151,7 +2108,7 @@ URL:https://iui.hosting.acm.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:bigdata-paper-2027-08-21@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270821
 DTEND;VALUE=DATE:20270822
 SUMMARY:[BIGDATA 2027] 논문 마감 (예상) (예상)
@@ -2160,8 +2117,19 @@ DESCRIPTION:IEEE International Conference on BigData\n장소: 미정\n마
 URL:https://bigdataieee.org/BigData2026/
 END:VEVENT
 BEGIN:VEVENT
+UID:wsdm-paper-2027-08-24@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270825
+SUMMARY:[WSDM 2028] 논문 마감 (예상) (예상)
+DESCRIPTION:ACM International Conference on Web Search and Data Mining\n
+ 장소: 미정\n마감 기준시: UTC-12\n공식 사이트: https://wsdm-c
+ onference.org/2027/
+URL:https://wsdm-conference.org/2027/
+END:VEVENT
+BEGIN:VEVENT
 UID:3dv-paper-2027-08-28@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270828
 DTEND;VALUE=DATE:20270829
 SUMMARY:[3DV 2028] 논문 마감 (예상) (예상)
@@ -2171,7 +2139,7 @@ URL:https://3dvconf.github.io/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:wacv-easy-paper-2027-08-28@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270828
 DTEND;VALUE=DATE:20270829
 SUMMARY:[WACV (easy) 2028] 논문 마감 (예상) (예상)
@@ -2182,7 +2150,7 @@ URL:https://wacv.thecvf.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:vr-paper-2027-08-31@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270831
 DTEND;VALUE=DATE:20270901
 SUMMARY:[VR 2028] 논문 마감 (예상) (예상)
@@ -2192,7 +2160,7 @@ URL:https://ieeevr.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:mobicom-paper-2027-09-02@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270902
 DTEND;VALUE=DATE:20270903
 SUMMARY:[MOBICOM 2028] 논문 마감 (예상) (예상)
@@ -2203,7 +2171,7 @@ URL:https://www.sigmobile.org/mobicom/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:asplos-paper-2027-09-09@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270909
 DTEND;VALUE=DATE:20270910
 SUMMARY:[ASPLOS 2028] 논문 마감 (예상) (예상)
@@ -2214,7 +2182,7 @@ URL:https://www.asplos-conference.org/asplos2027/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:cgo-paper-2027-09-10@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270910
 DTEND;VALUE=DATE:20270911
 SUMMARY:[CGO 2028] 논문 마감 (예상) (예상)
@@ -2225,7 +2193,7 @@ URL:https://conf.researchr.org/home/cgo-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:chi-paper-2027-09-10@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270910
 DTEND;VALUE=DATE:20270911
 SUMMARY:[CHI 2028] 논문 마감 (예상) (예상)
@@ -2236,7 +2204,7 @@ URL:https://chi2027.acm.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:usenix-fast-paper-2027-09-15@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270915
 DTEND;VALUE=DATE:20270916
 SUMMARY:[USENIX FAST 2028] 논문 마감 (예상) (예상)
@@ -2247,7 +2215,7 @@ URL:https://www.usenix.org/conference/fast27
 END:VEVENT
 BEGIN:VEVENT
 UID:icalp-paper-2027-09-15@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270915
 DTEND;VALUE=DATE:20270916
 SUMMARY:[ICALP 2028] 논문 마감 (예상) (예상)
@@ -2258,7 +2226,7 @@ URL:https://icalp.uj.edu.pl/
 END:VEVENT
 BEGIN:VEVENT
 UID:icra-paper-2027-09-16@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270916
 DTEND;VALUE=DATE:20270917
 SUMMARY:[ICRA 2028] 논문 마감 (예상) (예상)
@@ -2269,7 +2237,7 @@ URL:https://2027.ieee-icra.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:usenix-nsdi-paper-2027-09-17@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270917
 DTEND;VALUE=DATE:20270918
 SUMMARY:[USENIX NSDI 2028] 논문 마감 (예상) (예상)
@@ -2280,7 +2248,7 @@ URL:https://www.usenix.org/conference/nsdi27
 END:VEVENT
 BEGIN:VEVENT
 UID:eurocrypt-paper-2027-09-17@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270917
 DTEND;VALUE=DATE:20270918
 SUMMARY:[EUROCRYPT 2028] 논문 마감 (예상) (예상)
@@ -2291,7 +2259,7 @@ URL:https://eurocrypt.iacr.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:date-paper-2027-09-20@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270920
 DTEND;VALUE=DATE:20270921
 SUMMARY:[DATE 2028] 논문 마감 (예상) (예상)
@@ -2302,7 +2270,7 @@ URL:https://www.date-conference.com/date-2027-call-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:eurosys-paper-2027-09-24@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270924
 DTEND;VALUE=DATE:20270925
 SUMMARY:[EUROSYS 2028] 논문 마감 (예상) (예상)
@@ -2312,7 +2280,7 @@ URL:https://2027.eurosys.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:fc-paper-2027-09-24@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20270924
 DTEND;VALUE=DATE:20270925
 SUMMARY:[FC 2028] 논문 마감 (예상) (예상)
@@ -2321,8 +2289,19 @@ DESCRIPTION:Financial Cryptography and Data Security\n장소: 미정\n마
 URL:https://fc27.ifca.ai/
 END:VEVENT
 BEGIN:VEVENT
+UID:saner-paper-2027-09-25@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270926
+SUMMARY:[SANER 2028] 논문 마감 (예상) (예상)
+DESCRIPTION:IEEE International Conference on Software Analysis\, Evolution
+  and Reengineering\n장소: 미정\n마감 기준시: AoE\n공식 사이
+ 트: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
 UID:eccv-paper-2028-03-04@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20280304
 DTEND;VALUE=DATE:20280305
 SUMMARY:[ECCV 2028] 논문 마감 (예상) (예상)
@@ -2332,7 +2311,7 @@ URL:https://eccv.ecva.net/
 END:VEVENT
 BEGIN:VEVENT
 UID:accv-paper-2028-07-04@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20280704
 DTEND;VALUE=DATE:20280705
 SUMMARY:[ACCV 2028] 논문 마감 (예상) (예상)
@@ -2341,20 +2320,21 @@ DESCRIPTION:Asian Conference on Computer Vision\n장소: 미정\n마감
 URL:https://accv2026.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:cscw-paper-2025-05-13@leemgs.github.io
-DTSTAMP:20260925T205635Z
-DTSTART;VALUE=DATE:20250513
-DTEND;VALUE=DATE:20250514
-SUMMARY:[CSCW 2026] 논문 마감 (MAY 2025 SUBMISSION CYCLE) (확정)
+UID:cscw-paper-2025-05-14@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20250514
+DTEND;VALUE=DATE:20250515
+SUMMARY:[CSCW 2026] 논문 마감 (MAY 2025 SUBMISSION CYCLE (12:00 EDT)) 
+ (확정)
 DESCRIPTION:Conference on Computer Supported Cooperative Work (※ CSCW의
   Accept 여부는 "Proceedings of the ACM on Human-Computer Interaction" 
  저널 탑재 기준으로 판단)\n장소: Salt Lake City\, Utah\, USA\n
- 마감 기준시: AoE\n공식 사이트: https://cscw.acm.org/2026/
+ 마감 기준시: UTC-4\n공식 사이트: https://cscw.acm.org/2026/
 URL:https://cscw.acm.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:emnlp-paper-2026-05-25@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260525
 DTEND;VALUE=DATE:20260526
 SUMMARY:[EMNLP 2026] ARR 논문 마감 (확정)
@@ -2365,7 +2345,7 @@ URL:https://2026.emnlp.org
 END:VEVENT
 BEGIN:VEVENT
 UID:emnlp-etc-2026-08-02@leemgs.github.io
-DTSTAMP:20260925T205635Z
+DTSTAMP:20260926T202807Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:[EMNLP 2026] 커밋먼트 마감 (확정)
@@ -2373,5 +2353,25 @@ DESCRIPTION:Conference on Empirical Methods in Natural Language Processing
  \n장소: 헝가리\n마감 기준시: AoE\n공식 사이트: https://2026
  .emnlp.org
 URL:https://2026.emnlp.org
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-abstract-2026-09-19@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:[ICLR 2027] 초록 마감 (확정)
+DESCRIPTION:International Conference on Learning Representation\n장소: 
+ 브라질\n마감 기준시: AoE\n공식 사이트: https://iclr.cc
+URL:https://iclr.cc
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-paper-2026-09-24@leemgs.github.io
+DTSTAMP:20260926T202807Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:[ICLR 2027] 논문 마감 (확정)
+DESCRIPTION:International Conference on Learning Representation\n장소: 
+ 브라질\n마감 기준시: AoE\n공식 사이트: https://iclr.cc
+URL:https://iclr.cc
 END:VEVENT
 END:VCALENDAR
