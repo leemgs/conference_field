@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "source": "openalex",
   "topN": 8,
   "note": "OpenAlex 기준 제1저자(first author) 소속 국가 추정치입니다. 일부 논문은 소속 정보가 없어 집계에서 제외됩니다. 학회마다 OpenAlex 색인 완성도가 달라, 매핑이 확인된 학회/연도만 표시됩니다.",
@@ -9,52 +9,52 @@
       "years": {
         "2022": {
           "total": 2082,
-          "unknown": 155,
+          "unknown": 111,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 681
+              "count": 716
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 453
+              "count": 485
             },
             {
               "code": "KR",
               "country": "South Korea",
-              "count": 109
+              "count": 118
             },
             {
               "code": "HK",
               "country": "Hong Kong",
-              "count": 94
+              "count": 97
             },
             {
               "code": "DE",
               "country": "Germany",
-              "count": 75
+              "count": 81
             },
             {
               "code": "GB",
               "country": "United Kingdom",
-              "count": 72
+              "count": 71
             },
             {
               "code": "AU",
               "country": "Australia",
-              "count": 64
+              "count": 63
             },
             {
-              "code": "SG",
-              "country": "Singapore",
-              "count": 48
+              "code": "CH",
+              "country": "Switzerland",
+              "count": 53
             },
             {
               "code": "other",
               "country": null,
-              "count": 331
+              "count": 287
             }
           ]
         }
@@ -65,42 +65,42 @@
       "years": {
         "2021": {
           "total": 1618,
-          "unknown": 97,
+          "unknown": 83,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 475
+              "count": 493
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 375
+              "count": 406
             },
             {
               "code": "KR",
               "country": "South Korea",
-              "count": 98
+              "count": 106
             },
             {
               "code": "GB",
               "country": "United Kingdom",
-              "count": 66
-            },
-            {
-              "code": "DE",
-              "country": "Germany",
-              "count": 60
+              "count": 61
             },
             {
               "code": "HK",
               "country": "Hong Kong",
+              "count": 61
+            },
+            {
+              "code": "DE",
+              "country": "Germany",
               "count": 59
             },
             {
-              "code": "IL",
-              "country": "Israel",
-              "count": 44
+              "code": "CH",
+              "country": "Switzerland",
+              "count": 49
             },
             {
               "code": "AU",
@@ -110,7 +110,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 302
+              "count": 258
             }
           ]
         }
@@ -121,52 +121,52 @@
       "years": {
         "2020": {
           "total": 1864,
-          "unknown": 109,
+          "unknown": 62,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 621
+              "count": 651
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 475
+              "count": 520
             },
             {
               "code": "GB",
               "country": "United Kingdom",
-              "count": 74
+              "count": 68
             },
             {
               "code": "AU",
               "country": "Australia",
-              "count": 52
+              "count": 53
             },
             {
               "code": "IN",
               "country": "India",
-              "count": 48
+              "count": 47
             },
             {
               "code": "DE",
               "country": "Germany",
-              "count": 45
+              "count": 46
             },
             {
               "code": "KR",
               "country": "South Korea",
-              "count": 43
+              "count": 45
             },
             {
-              "code": "HK",
-              "country": "Hong Kong",
+              "code": "JP",
+              "country": "Japan",
               "count": 43
             },
             {
               "code": "other",
               "country": null,
-              "count": 354
+              "count": 329
             }
           ]
         },
@@ -223,78 +223,78 @@
         },
         "2022": {
           "total": 1619,
-          "unknown": 88,
+          "unknown": 54,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 509
+              "count": 526
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 385
-            },
-            {
-              "code": "GB",
-              "country": "United Kingdom",
-              "count": 68
+              "count": 423
             },
             {
               "code": "KR",
               "country": "South Korea",
-              "count": 61
+              "count": 65
+            },
+            {
+              "code": "GB",
+              "country": "United Kingdom",
+              "count": 57
             },
             {
               "code": "CA",
               "country": "Canada",
-              "count": 56
+              "count": 55
             },
             {
               "code": "SG",
               "country": "Singapore",
-              "count": 51
+              "count": 54
             },
             {
               "code": "AU",
               "country": "Australia",
-              "count": 44
+              "count": 45
             },
             {
-              "code": "DE",
-              "country": "Germany",
-              "count": 44
+              "code": "IN",
+              "country": "India",
+              "count": 43
             },
             {
               "code": "other",
               "country": null,
-              "count": 313
+              "count": 297
             }
           ]
         },
         "2023": {
           "total": 2021,
-          "unknown": 105,
+          "unknown": 58,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 833
+              "count": 850
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 410
+              "count": 442
             },
             {
               "code": "KR",
               "country": "South Korea",
-              "count": 73
+              "count": 83
             },
             {
               "code": "GB",
               "country": "United Kingdom",
-              "count": 71
+              "count": 66
             },
             {
               "code": "DE",
@@ -304,12 +304,7 @@
             {
               "code": "AU",
               "country": "Australia",
-              "count": 50
-            },
-            {
-              "code": "SG",
-              "country": "Singapore",
-              "count": 43
+              "count": 49
             },
             {
               "code": "HK",
@@ -317,44 +312,44 @@
               "count": 42
             },
             {
+              "code": "SG",
+              "country": "Singapore",
+              "count": 42
+            },
+            {
               "code": "other",
               "country": null,
-              "count": 342
+              "count": 337
             }
           ]
         },
         "2024": {
           "total": 2867,
-          "unknown": 106,
+          "unknown": 70,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 1408
+              "count": 1433
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 450
+              "count": 474
             },
             {
               "code": "KR",
               "country": "South Korea",
-              "count": 104
-            },
-            {
-              "code": "GB",
-              "country": "United Kingdom",
-              "count": 87
+              "count": 111
             },
             {
               "code": "SG",
               "country": "Singapore",
-              "count": 76
+              "count": 75
             },
             {
-              "code": "HK",
-              "country": "Hong Kong",
+              "code": "GB",
+              "country": "United Kingdom",
               "count": 73
             },
             {
@@ -363,14 +358,19 @@
               "count": 72
             },
             {
+              "code": "HK",
+              "country": "Hong Kong",
+              "count": 72
+            },
+            {
               "code": "AU",
               "country": "Australia",
-              "count": 63
+              "count": 64
             },
             {
               "code": "other",
               "country": null,
-              "count": 428
+              "count": 423
             }
           ]
         },
@@ -483,52 +483,52 @@
       "years": {
         "2022": {
           "total": 1875,
-          "unknown": 104,
+          "unknown": 76,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 619
+              "count": 621
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 398
+              "count": 429
             },
             {
               "code": "JP",
               "country": "Japan",
-              "count": 90
+              "count": 98
             },
             {
               "code": "GB",
               "country": "United Kingdom",
-              "count": 83
+              "count": 80
             },
             {
               "code": "DE",
               "country": "Germany",
-              "count": 58
+              "count": 59
             },
             {
               "code": "FR",
               "country": "France",
-              "count": 52
+              "count": 56
             },
             {
               "code": "KR",
               "country": "South Korea",
-              "count": 51
+              "count": 49
             },
             {
               "code": "SG",
               "country": "Singapore",
-              "count": 40
+              "count": 41
             },
             {
               "code": "other",
               "country": null,
-              "count": 380
+              "count": 366
             }
           ]
         }
@@ -539,17 +539,17 @@
       "years": {
         "2022": {
           "total": 1102,
-          "unknown": 646,
+          "unknown": 634,
           "countries": [
             {
               "code": "US",
               "country": "United States",
-              "count": 104
+              "count": 110
             },
             {
               "code": "CN",
               "country": "China",
-              "count": 91
+              "count": 93
             },
             {
               "code": "JP",
@@ -559,22 +559,22 @@
             {
               "code": "FR",
               "country": "France",
-              "count": 34
+              "count": 36
             },
             {
               "code": "GB",
               "country": "United Kingdom",
-              "count": 32
+              "count": 31
             },
             {
               "code": "DE",
               "country": "Germany",
-              "count": 24
+              "count": 27
             },
             {
               "code": "KR",
               "country": "South Korea",
-              "count": 21
+              "count": 26
             },
             {
               "code": "TW",
@@ -584,7 +584,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 100
+              "count": 95
             }
           ]
         }

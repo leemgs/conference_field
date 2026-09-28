@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -247,13 +247,13 @@
       "deadlines": [
         {
           "type": "abstract",
-          "label": "Abstracts Due",
+          "label": "초록 마감",
           "date": "2026-10-01",
           "status": "confirmed"
         },
         {
           "type": "paper",
-          "label": "논문 마감 (Submissions Due)",
+          "label": "논문 마감",
           "date": "2026-10-08",
           "status": "confirmed"
         }
@@ -1851,7 +1851,7 @@
       "location": "미정",
       "confText": "2027년 (예정)",
       "url": "https://computeranimation.org/",
-      "tz": "AoE",
+      "tz": "UTC+0",
       "deadlines": [
         {
           "type": "paper",
