@@ -1,32 +1,7 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "aistats",
-      "name": "AISTATS 2027",
-      "fullName": "International Conference on Artificial Intelligence and Statistics",
-      "field": "ai",
-      "rating": "우수",
-      "location": "Montréal, Canada",
-      "confText": "May 3-6, 2027",
-      "url": "https://virtual.aistats.org/Conferences/2027",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-29",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-06",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "ipdps",
       "name": "IPDPS 2027",
@@ -342,6 +317,31 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-10-02",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "aistats",
+      "name": "AISTATS 2027",
+      "fullName": "International Conference on Artificial Intelligence and Statistics",
+      "field": "ai",
+      "rating": "우수",
+      "location": "Montréal, Canada",
+      "confText": "May 3-6, 2027",
+      "url": "https://virtual.aistats.org/Conferences/2027",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-09-29",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-06",
           "status": "confirmed"
         }
       ]
@@ -2736,6 +2736,25 @@
       ]
     },
     {
+      "id": "wcnc",
+      "name": "WCNC 2028",
+      "fullName": "IEEE Wireless Communications and Networking Conference",
+      "field": "net",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://wcnc2027.ieee-wcnc.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-09-15",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
       "id": "icalp",
       "name": "ICALP 2028",
       "fullName": "International Colloquium on Automata, Languages and Programming",
@@ -3604,18 +3623,6 @@
       "confText": "일정 미확인",
       "url": "",
       "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
-      "deadlines": []
-    },
-    {
-      "id": "wcnc",
-      "name": "WCNC 2027",
-      "fullName": "IEEE Wireless Communications and Networking Conference",
-      "field": "net",
-      "rating": "우수",
-      "location": "Panama City, Panama",
-      "confText": "April 5-8, 2027",
-      "url": "https://wcnc2027.ieee-wcnc.org/",
-      "tz": "AoE",
       "deadlines": []
     },
     {
