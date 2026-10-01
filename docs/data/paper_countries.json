@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "source": "openalex",
   "topN": 8,
   "note": "OpenAlex 기준 제1저자(first author) 소속 국가 추정치입니다. 일부 논문은 소속 정보가 없어 집계에서 제외됩니다. 학회마다 OpenAlex 색인 완성도가 달라, 매핑이 확인된 학회/연도만 표시됩니다.",
@@ -19,7 +19,7 @@
             {
               "code": "US",
               "country": "United States",
-              "count": 485
+              "count": 484
             },
             {
               "code": "KR",
@@ -54,7 +54,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 287
+              "count": 288
             }
           ]
         }
@@ -121,12 +121,12 @@
       "years": {
         "2020": {
           "total": 1864,
-          "unknown": 62,
+          "unknown": 63,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 651
+              "count": 664
             },
             {
               "code": "US",
@@ -166,7 +166,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 329
+              "count": 315
             }
           ]
         },
@@ -228,7 +228,7 @@
             {
               "code": "CN",
               "country": "China",
-              "count": 526
+              "count": 528
             },
             {
               "code": "US",
@@ -243,7 +243,7 @@
             {
               "code": "GB",
               "country": "United Kingdom",
-              "count": 57
+              "count": 58
             },
             {
               "code": "CA",
@@ -258,7 +258,7 @@
             {
               "code": "AU",
               "country": "Australia",
-              "count": 45
+              "count": 44
             },
             {
               "code": "IN",
@@ -268,7 +268,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 297
+              "count": 295
             }
           ]
         },
@@ -279,7 +279,7 @@
             {
               "code": "CN",
               "country": "China",
-              "count": 850
+              "count": 861
             },
             {
               "code": "US",
@@ -319,7 +319,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 337
+              "count": 326
             }
           ]
         },
@@ -330,12 +330,12 @@
             {
               "code": "CN",
               "country": "China",
-              "count": 1433
+              "count": 1443
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 474
+              "count": 475
             },
             {
               "code": "KR",
@@ -350,7 +350,7 @@
             {
               "code": "GB",
               "country": "United Kingdom",
-              "count": 73
+              "count": 74
             },
             {
               "code": "DE",
@@ -365,12 +365,12 @@
             {
               "code": "AU",
               "country": "Australia",
-              "count": 64
+              "count": 63
             },
             {
               "code": "other",
               "country": null,
-              "count": 423
+              "count": 412
             }
           ]
         },
@@ -483,17 +483,17 @@
       "years": {
         "2022": {
           "total": 1875,
-          "unknown": 76,
+          "unknown": 77,
           "countries": [
             {
               "code": "CN",
               "country": "China",
-              "count": 621
+              "count": 622
             },
             {
               "code": "US",
               "country": "United States",
-              "count": 429
+              "count": 428
             },
             {
               "code": "JP",
@@ -528,7 +528,7 @@
             {
               "code": "other",
               "country": null,
-              "count": 366
+              "count": 365
             }
           ]
         }

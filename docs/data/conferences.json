@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -720,37 +720,6 @@
       ]
     },
     {
-      "id": "ubicomp",
-      "name": "UbiComp 2026",
-      "fullName": "ACM International Conference on Ubiquitous Computing (※ UbiComp의 Accept 여부는 \"Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies\" 저널 탑재 기준으로 판단)",
-      "field": "hci",
-      "rating": "최우수",
-      "location": "Shanghai, China",
-      "confText": "October 11-15, 2026",
-      "url": "https://www.ubicomp.org/ubicomp-iswc-2026",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (first round)",
-          "date": "2026-02-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (second round)",
-          "date": "2026-05-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (fourth round)",
-          "date": "2026-11-01",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
       "id": "icst",
       "name": "ICST 2027",
       "fullName": "IEEE International Conference on Software Testing, Verification and Validation",
@@ -1252,6 +1221,25 @@
           "type": "paper",
           "label": "논문 마감 (2nd round Deadline)",
           "date": "2026-12-11",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "acl",
+      "name": "ACL 2027",
+      "fullName": "Association for Computational Linguistics",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "Kyoto, Japan",
+      "confText": "August 17-22, 2027",
+      "url": "https://2027.aclweb.org/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (ARR Submission)",
+          "date": "2027-01-04",
           "status": "confirmed"
         }
       ]
@@ -1786,6 +1774,25 @@
       ]
     },
     {
+      "id": "mobihoc",
+      "name": "MobiHoc 2027",
+      "fullName": "ACM Symposium of Mobile and Ad Hoc Computing",
+      "field": "net",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2027년 (예정)",
+      "url": "https://www.sigmobile.org/mobihoc/2026/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-04-13",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
       "id": "iccad",
       "name": "ICCAD 2027",
       "fullName": "IEEE/ACM International Conference on Computer-Aided Design",
@@ -1862,25 +1869,6 @@
       ]
     },
     {
-      "id": "mobihoc",
-      "name": "MobiHoc 2027",
-      "fullName": "ACM Symposium of Mobile and Ad Hoc Computing",
-      "field": "net",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://www.sigmobile.org/mobihoc/2026/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-04-20",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "esorics",
       "name": "ESORICS 2027",
       "fullName": "European Symposium on Research in Computer Security",
@@ -1952,6 +1940,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-04-30",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "ubicomp",
+      "name": "UbiComp 2027",
+      "fullName": "ACM International Conference on Ubiquitous Computing (※ UbiComp의 Accept 여부는 \"Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies\" 저널 탑재 기준으로 판단)",
+      "field": "hci",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2027년 (예정)",
+      "url": "https://www.ubicomp.org/ubicomp-iswc-2026",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-05-01",
           "status": "estimated"
         }
       ]
@@ -2280,25 +2287,6 @@
       ]
     },
     {
-      "id": "slt",
-      "name": "SLT 2027",
-      "fullName": "IEEE Spoken Language Technology Workshop",
-      "field": "ai",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://attend.ieee.org/slt-2026/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-06-24",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "icse",
       "name": "ICSE 2028",
       "fullName": "International Conference on Software Engineering",
@@ -2313,6 +2301,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-06-30",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "slt",
+      "name": "SLT 2027",
+      "fullName": "IEEE Spoken Language Technology Workshop",
+      "field": "ai",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2027년 (예정)",
+      "url": "https://attend.ieee.org/slt-2026/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-07-01",
           "status": "estimated"
         }
       ]
@@ -2943,18 +2950,6 @@
           "status": "estimated"
         }
       ]
-    },
-    {
-      "id": "acl",
-      "name": "ACL 2027",
-      "fullName": "Association for Computational Linguistics",
-      "field": "ai",
-      "rating": "최우수",
-      "location": "Kyoto, Japan",
-      "confText": "August 17-22, 2027",
-      "url": "https://2027.aclweb.org/",
-      "tz": "UTC-12",
-      "deadlines": []
     },
     {
       "id": "aes",
