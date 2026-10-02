@@ -1,239 +1,7 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "ipdps",
-      "name": "IPDPS 2027",
-      "fullName": "IEEE International Parallel and Distributed Processing Symposium",
-      "field": "sys",
-      "rating": "우수",
-      "location": "Seattle, USA",
-      "confText": "June 1-5, 2027",
-      "url": "https://www.ipdps.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-08",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "vldb-pvldb",
-      "name": "VLDB/PVLDB 2027",
-      "fullName": "International Conference on Very Large DataBases",
-      "field": "data",
-      "rating": "최우수",
-      "location": "Athens, Greece",
-      "confText": "August 23 - August 27, 2027",
-      "url": "https://www.vldb.org/2027/",
-      "tz": "PT",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-03-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-04-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-04-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-05-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-05-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-06-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-06-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-07-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-08-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-11-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-12-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-12-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2027-01-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-01-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2027-02-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-02-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2027-03-01",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "aamas",
-      "name": "AAMAS 2027",
-      "fullName": "International Conference on Autonomous Agents and Multiagent Systems",
-      "field": "data",
-      "rating": "우수",
-      "location": "Hanoi, Vietnam",
-      "confText": "May 3-7, 2027",
-      "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-08",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "fpga",
-      "name": "FPGA 2027",
-      "fullName": "International Symposium on Field Programmable Gate Arrays",
-      "field": "hw",
-      "rating": "우수",
-      "location": "Monterey, California, USA",
-      "confText": "March 14 - March 16, 2027",
-      "url": "https://www.isfpga.org/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-08",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "sigmetrics",
       "name": "SIGMETRICS 2027",
@@ -342,6 +110,81 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-10-06",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "ipdps",
+      "name": "IPDPS 2027",
+      "fullName": "IEEE International Parallel and Distributed Processing Symposium",
+      "field": "sys",
+      "rating": "우수",
+      "location": "Seattle, USA",
+      "confText": "June 1-5, 2027",
+      "url": "https://www.ipdps.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-08",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "aamas",
+      "name": "AAMAS 2027",
+      "fullName": "International Conference on Autonomous Agents and Multiagent Systems",
+      "field": "data",
+      "rating": "우수",
+      "location": "Hanoi, Vietnam",
+      "confText": "May 3-7, 2027",
+      "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-08",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "fpga",
+      "name": "FPGA 2027",
+      "fullName": "International Symposium on Field Programmable Gate Arrays",
+      "field": "hw",
+      "rating": "우수",
+      "location": "Monterey, California, USA",
+      "confText": "March 14 - March 16, 2027",
+      "url": "https://www.isfpga.org/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-08",
           "status": "confirmed"
         }
       ]
@@ -659,6 +502,163 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-10-23",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "vldb-pvldb",
+      "name": "VLDB/PVLDB 2027",
+      "fullName": "International Conference on Very Large DataBases",
+      "field": "data",
+      "rating": "최우수",
+      "location": "Athens, Greece",
+      "confText": "August 23 - August 27, 2027",
+      "url": "https://www.vldb.org/2027/",
+      "tz": "PT",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-03-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-04-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-04-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-05-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-05-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-06-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-06-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-07-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-07-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-08-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-08-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-09-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-09-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-11-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-12-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-12-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-01-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-02-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-02-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-03-01",
           "status": "confirmed"
         }
       ]
@@ -1121,6 +1121,31 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-12-08",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "ics",
+      "name": "ICS 2027",
+      "fullName": "ACM International Conference on Supercomputing",
+      "field": "sys",
+      "rating": "우수",
+      "location": "Atlanta, Georgia, USA",
+      "confText": "TBD",
+      "url": "https://ics-conference.org/index.html",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-12-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-12-07",
           "status": "confirmed"
         }
       ]
@@ -1598,6 +1623,25 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2027-02-28",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "iros",
+      "name": "IROS 2027",
+      "fullName": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "field": "hw",
+      "rating": "최우수",
+      "location": "Florence, Italy",
+      "confText": "September 26 - October 1, 2027",
+      "url": "https://2027.ieee-iros.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (Paper submission deadline: March 1, 2027; exact cutoff time and timezone not specified on the official IEEE RAS event page)",
+          "date": "2027-03-01",
           "status": "confirmed"
         }
       ]
@@ -2116,25 +2160,6 @@
       ]
     },
     {
-      "id": "ijcnlp",
-      "name": "IJCNLP 2027",
-      "fullName": "International Joint Conference on Natural Language Processing",
-      "field": "ai",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://2026.aaclnet.org/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-05-25",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "acsac",
       "name": "ACSAC 2027",
       "fullName": "Annual Computer Security Applications Conference",
@@ -2586,6 +2611,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-08-24",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "ijcnlp",
+      "name": "IJCNLP 2027",
+      "fullName": "International Joint Conference on Natural Language Processing",
+      "field": "ai",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2027년 (예정)",
+      "url": "https://2026.aaclnet.org/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-08-25",
           "status": "estimated"
         }
       ]
@@ -3249,18 +3293,6 @@
       "deadlines": []
     },
     {
-      "id": "ics",
-      "name": "ICS 2027",
-      "fullName": "ACM International Conference on Supercomputing",
-      "field": "sys",
-      "rating": "우수",
-      "location": "Atlanta, Georgia, USA",
-      "confText": "TBD",
-      "url": "https://ics-conference.org/index.html",
-      "tz": "AoE",
-      "deadlines": []
-    },
-    {
       "id": "ieee-bhi-bsn",
       "name": "IEEE BHI&BSN",
       "fullName": "IEEE-EMBS International Conference on Biomedical and Health Informatics(BHI) and the Body Sensor Networks(BSN) Conferences",
@@ -3318,18 +3350,6 @@
       "confText": "일정 미확인",
       "url": "",
       "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
-      "deadlines": []
-    },
-    {
-      "id": "iros",
-      "name": "IROS 2027",
-      "fullName": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
-      "field": "hw",
-      "rating": "최우수",
-      "location": "Florence, Italy",
-      "confText": "September 26 - October 1, 2027",
-      "url": "https://2027.ieee-iros.org/",
-      "tz": "AoE",
       "deadlines": []
     },
     {
