@@ -1,94 +1,7 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "sigmetrics",
-      "name": "SIGMETRICS 2027",
-      "fullName": "ACM SIGMETRICS Measurement and Modeling of Computer Systems",
-      "field": "sys",
-      "rating": "우수",
-      "location": "Atlanta, Georgia, USA",
-      "confText": "June 7-11, 2027",
-      "url": "https://www.sigmetrics.org/sigmetrics2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-03",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (summer round)",
-          "date": "2026-07-10",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-02",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (fall round)",
-          "date": "2026-10-09",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-01-04",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (winter round)",
-          "date": "2027-01-11",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "icc",
-      "name": "ICC 2027",
-      "fullName": "IEEE International Conference on Communications",
-      "field": "net",
-      "rating": "최우수",
-      "location": "Washington, DC, USA",
-      "confText": "May 30 - June 3, 2027",
-      "url": "https://icc2027.ieee-icc.org",
-      "tz": "UTC-4",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-02",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "fse",
-      "name": "FSE 2027",
-      "fullName": "ACM SIGSOFT International Symposium on the Foundations of Software Engineering",
-      "field": "plse",
-      "rating": "최우수",
-      "location": "Shenzhen, China",
-      "confText": "July 12-16, 2027",
-      "url": "https://conf.researchr.org/home/fse-2027",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-02",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "aistats",
       "name": "AISTATS 2027",
@@ -185,6 +98,55 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-10-08",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "sigmetrics",
+      "name": "SIGMETRICS 2027",
+      "fullName": "ACM SIGMETRICS Measurement and Modeling of Computer Systems",
+      "field": "sys",
+      "rating": "우수",
+      "location": "Atlanta, Georgia, USA",
+      "confText": "June 7-11, 2027",
+      "url": "https://www.sigmetrics.org/sigmetrics2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-07-03",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (summer round)",
+          "date": "2026-07-10",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-02",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (fall round)",
+          "date": "2026-10-09",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-04",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (winter round)",
+          "date": "2027-01-11",
           "status": "confirmed"
         }
       ]
@@ -452,6 +414,25 @@
           "type": "paper",
           "label": "논문 마감 (ESOP round 2, FoSSaCS, TACAS, iFS)",
           "date": "2026-10-15",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "icc",
+      "name": "ICC 2027",
+      "fullName": "IEEE International Conference on Communications",
+      "field": "net",
+      "rating": "최우수",
+      "location": "Washington, DC, USA",
+      "confText": "May 30 - June 3, 2027",
+      "url": "https://icc2027.ieee-icc.org",
+      "tz": "UTC-7",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-16",
           "status": "confirmed"
         }
       ]
@@ -2953,6 +2934,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-09-25",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "fse",
+      "name": "FSE 2028",
+      "fullName": "ACM SIGSOFT International Symposium on the Foundations of Software Engineering",
+      "field": "plse",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://conf.researchr.org/home/fse-2027",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-10-02",
           "status": "estimated"
         }
       ]
