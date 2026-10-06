@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "source": "openalex",
   "topN": 8,
   "note": "OpenAlex 기준 제1저자(first author) 소속 국가 추정치입니다. 일부 논문은 소속 정보가 없어 집계에서 제외됩니다. 학회마다 OpenAlex 색인 완성도가 달라, 매핑이 확인된 학회/연도만 표시됩니다.",
@@ -8,55 +8,9 @@
       "id": "cvpr",
       "years": {
         "2022": {
-          "total": 2082,
-          "unknown": 111,
-          "countries": [
-            {
-              "code": "CN",
-              "country": "China",
-              "count": 716
-            },
-            {
-              "code": "US",
-              "country": "United States",
-              "count": 484
-            },
-            {
-              "code": "KR",
-              "country": "South Korea",
-              "count": 118
-            },
-            {
-              "code": "HK",
-              "country": "Hong Kong",
-              "count": 97
-            },
-            {
-              "code": "DE",
-              "country": "Germany",
-              "count": 81
-            },
-            {
-              "code": "GB",
-              "country": "United Kingdom",
-              "count": 71
-            },
-            {
-              "code": "AU",
-              "country": "Australia",
-              "count": 63
-            },
-            {
-              "code": "CH",
-              "country": "Switzerland",
-              "count": 53
-            },
-            {
-              "code": "other",
-              "country": null,
-              "count": 288
-            }
-          ]
+          "total": 0,
+          "unknown": 0,
+          "countries": []
         }
       }
     },
@@ -482,55 +436,9 @@
       "id": "icassp",
       "years": {
         "2022": {
-          "total": 1875,
-          "unknown": 77,
-          "countries": [
-            {
-              "code": "CN",
-              "country": "China",
-              "count": 622
-            },
-            {
-              "code": "US",
-              "country": "United States",
-              "count": 428
-            },
-            {
-              "code": "JP",
-              "country": "Japan",
-              "count": 98
-            },
-            {
-              "code": "GB",
-              "country": "United Kingdom",
-              "count": 80
-            },
-            {
-              "code": "DE",
-              "country": "Germany",
-              "count": 59
-            },
-            {
-              "code": "FR",
-              "country": "France",
-              "count": 56
-            },
-            {
-              "code": "KR",
-              "country": "South Korea",
-              "count": 49
-            },
-            {
-              "code": "SG",
-              "country": "Singapore",
-              "count": 41
-            },
-            {
-              "code": "other",
-              "country": null,
-              "count": 365
-            }
-          ]
+          "total": 0,
+          "unknown": 0,
+          "countries": []
         }
       }
     },
@@ -538,55 +446,9 @@
       "id": "interspeech",
       "years": {
         "2022": {
-          "total": 1102,
-          "unknown": 634,
-          "countries": [
-            {
-              "code": "US",
-              "country": "United States",
-              "count": 110
-            },
-            {
-              "code": "CN",
-              "country": "China",
-              "count": 93
-            },
-            {
-              "code": "JP",
-              "country": "Japan",
-              "count": 36
-            },
-            {
-              "code": "FR",
-              "country": "France",
-              "count": 36
-            },
-            {
-              "code": "GB",
-              "country": "United Kingdom",
-              "count": 31
-            },
-            {
-              "code": "DE",
-              "country": "Germany",
-              "count": 27
-            },
-            {
-              "code": "KR",
-              "country": "South Korea",
-              "count": 26
-            },
-            {
-              "code": "TW",
-              "country": "Taiwan",
-              "count": 14
-            },
-            {
-              "code": "other",
-              "country": null,
-              "count": 95
-            }
-          ]
+          "total": 0,
+          "unknown": 0,
+          "countries": []
         }
       }
     }
