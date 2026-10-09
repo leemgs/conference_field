@@ -1,82 +1,7 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "ipdps",
-      "name": "IPDPS 2027",
-      "fullName": "IEEE International Parallel and Distributed Processing Symposium",
-      "field": "sys",
-      "rating": "우수",
-      "location": "Seattle, USA",
-      "confText": "June 1-5, 2027",
-      "url": "https://www.ipdps.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-08",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "aamas",
-      "name": "AAMAS 2027",
-      "fullName": "International Conference on Autonomous Agents and Multiagent Systems",
-      "field": "data",
-      "rating": "우수",
-      "location": "Hanoi, Vietnam",
-      "confText": "May 3-7, 2027",
-      "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-08",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "fpga",
-      "name": "FPGA 2027",
-      "fullName": "International Symposium on Field Programmable Gate Arrays",
-      "field": "hw",
-      "rating": "우수",
-      "location": "Monterey, California, USA",
-      "confText": "March 14 - March 16, 2027",
-      "url": "https://www.isfpga.org/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-08",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "sigmetrics",
       "name": "SIGMETRICS 2027",
@@ -2947,6 +2872,63 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-10-06",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "ipdps",
+      "name": "IPDPS 2028",
+      "fullName": "IEEE International Parallel and Distributed Processing Symposium",
+      "field": "sys",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://www.ipdps.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-10-08",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "aamas",
+      "name": "AAMAS 2028",
+      "fullName": "International Conference on Autonomous Agents and Multiagent Systems",
+      "field": "data",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-10-08",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "fpga",
+      "name": "FPGA 2028",
+      "fullName": "International Symposium on Field Programmable Gate Arrays",
+      "field": "hw",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://www.isfpga.org/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-10-08",
           "status": "estimated"
         }
       ]
