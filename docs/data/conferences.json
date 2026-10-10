@@ -1,81 +1,7 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "sigmetrics",
-      "name": "SIGMETRICS 2027",
-      "fullName": "ACM SIGMETRICS Measurement and Modeling of Computer Systems",
-      "field": "sys",
-      "rating": "우수",
-      "location": "Atlanta, Georgia, USA",
-      "confText": "June 7-11, 2027",
-      "url": "https://www.sigmetrics.org/sigmetrics2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-03",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (summer round)",
-          "date": "2026-07-10",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-02",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (fall round)",
-          "date": "2026-10-09",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-01-04",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (winter round)",
-          "date": "2027-01-11",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "fg",
-      "name": "FG 2027",
-      "fullName": "IEEE International Conference on Automatic Face & Gesture Recognition",
-      "field": "ai",
-      "rating": "우수",
-      "location": "Marrakesh, Morocco",
-      "confText": "April 26-30, 2027",
-      "url": "https://fg2027.ieee-biometrics.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-09",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-16",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "sigmod",
       "name": "SIGMOD 2027",
@@ -314,6 +240,31 @@
           "type": "paper",
           "label": "논문 마감 (ESOP round 2, FoSSaCS, TACAS, iFS)",
           "date": "2026-10-15",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "fg",
+      "name": "FG 2027",
+      "fullName": "IEEE International Conference on Automatic Face & Gesture Recognition",
+      "field": "ai",
+      "rating": "우수",
+      "location": "Marrakesh, Morocco",
+      "confText": "April 26-30, 2027",
+      "url": "https://fg2027.ieee-biometrics.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-09",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-16",
           "status": "confirmed"
         }
       ]
@@ -1069,25 +1020,6 @@
       ]
     },
     {
-      "id": "eurovis",
-      "name": "EuroVis 2027",
-      "fullName": "Eurographics Conference on Visualization",
-      "field": "hci",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://www.eurovis.org.uk/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2026-12-03",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "rss",
       "name": "RSS 2027",
       "fullName": "Robotics: Science and Systems Conference",
@@ -1132,6 +1064,55 @@
       ]
     },
     {
+      "id": "sigmetrics",
+      "name": "SIGMETRICS 2027",
+      "fullName": "ACM SIGMETRICS Measurement and Modeling of Computer Systems",
+      "field": "sys",
+      "rating": "우수",
+      "location": "Atlanta, Georgia, USA",
+      "confText": "June 7-11, 2027",
+      "url": "https://www.sigmetrics.org/sigmetrics2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-07-03",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (summer round)",
+          "date": "2026-07-10",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-02",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (fall round)",
+          "date": "2026-10-09",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-04",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (winter round)",
+          "date": "2027-01-11",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "acl",
       "name": "ACL 2027",
       "fullName": "Association for Computational Linguistics",
@@ -1146,6 +1127,31 @@
           "type": "paper",
           "label": "논문 마감 (ARR Submission)",
           "date": "2027-01-04",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "ijcai",
+      "name": "IJCAI 2027",
+      "fullName": "International Joint Conference on Artificial Intelligence",
+      "field": "ai",
+      "rating": "우수",
+      "location": "Kyoto, Japan",
+      "confText": "August 7-13, 2027",
+      "url": "https://2027.ijcai.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-04",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Separate satellite event: August 15-17, 2027, Hengqin, China)",
+          "date": "2027-01-11",
           "status": "confirmed"
         }
       ]
@@ -1395,25 +1401,6 @@
       ]
     },
     {
-      "id": "icip-easy",
-      "name": "ICIP (easy) 2027",
-      "fullName": "IEEE International Conference on Image Processing",
-      "field": "ai",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://2026.ieeeicip.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-02-04",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "hpdc",
       "name": "HPDC 2027",
       "fullName": "IEEE International Symposium on High Performance Distributed Computing",
@@ -1562,6 +1549,25 @@
           "label": "논문 마감 (예상)",
           "date": "2027-03-26",
           "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "icip-easy",
+      "name": "ICIP (easy) 2027",
+      "fullName": "IEEE International Conference on Image Processing",
+      "field": "ai",
+      "rating": "우수",
+      "location": "Singapore",
+      "confText": "November 29-December 3, 2027",
+      "url": "https://2027.ieeeicip.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-03-31",
+          "status": "confirmed"
         }
       ]
     },
@@ -2160,16 +2166,16 @@
       "fullName": "IEEE International Conference on Data Mining",
       "field": "data",
       "rating": "최우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "http://icdm2026.neu.edu.cn/",
+      "location": "Brisbane, Australia",
+      "confText": "November 15-18, 2027",
+      "url": "https://icdm2027-website.onrender.com/",
       "tz": "AoE",
       "deadlines": [
         {
           "type": "paper",
-          "label": "논문 마감 (예상)",
+          "label": "논문 마감 (Full papers; dates are tentative and subject to change)",
           "date": "2027-06-06",
-          "status": "estimated"
+          "status": "confirmed"
         }
       ]
     },
@@ -3160,6 +3166,18 @@
       "deadlines": []
     },
     {
+      "id": "eurovis",
+      "name": "EuroVis 2027",
+      "fullName": "Eurographics Conference on Visualization",
+      "field": "hci",
+      "rating": "우수",
+      "location": "Stuttgart, Germany",
+      "confText": "May 31-June 4, 2027",
+      "url": "https://eurovis27.github.io/web/",
+      "tz": "AoE",
+      "deadlines": []
+    },
+    {
       "id": "hri",
       "name": "HRI",
       "fullName": "ACM/IEEE International Conference on Human Robot Interaction",
@@ -3278,18 +3296,6 @@
       "confText": "일정 미확인",
       "url": "",
       "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
-      "deadlines": []
-    },
-    {
-      "id": "ijcai",
-      "name": "IJCAI 2027",
-      "fullName": "International Joint Conference on Artificial Intelligence",
-      "field": "ai",
-      "rating": "우수",
-      "location": "Kyoto, Japan and Hengqin, China",
-      "confText": "August 7-13 and August 15-17, 2027",
-      "url": "https://www.ijcai.org/node/8",
-      "tz": "UTC-12",
       "deadlines": []
     },
     {
