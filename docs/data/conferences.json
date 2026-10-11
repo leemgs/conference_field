@@ -1,68 +1,7 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "sigmod",
-      "name": "SIGMOD 2027",
-      "fullName": "International Conference on Management of Data",
-      "field": "data",
-      "rating": "최우수",
-      "location": "Huntington Beach, CA, USA",
-      "confText": "June 13-19, 2027",
-      "url": "https://2027.sigmod.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-01-10",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (round 1)",
-          "date": "2026-01-17",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-04-10",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (round 2)",
-          "date": "2026-04-17",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-10",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (round 3)",
-          "date": "2026-07-17",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-10",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (round 4)",
-          "date": "2026-10-17",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "eacl",
       "name": "EACL 2027",
@@ -284,6 +223,67 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-10-16",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "sigmod",
+      "name": "SIGMOD 2027",
+      "fullName": "International Conference on Management of Data",
+      "field": "data",
+      "rating": "최우수",
+      "location": "Huntington Beach, CA, USA",
+      "confText": "June 13-19, 2027",
+      "url": "https://2027.sigmod.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-01-10",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (round 1)",
+          "date": "2026-01-17",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-04-10",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (round 2)",
+          "date": "2026-04-17",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-07-10",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (round 3)",
+          "date": "2026-07-17",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-10",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (round 4)",
+          "date": "2026-10-17",
           "status": "confirmed"
         }
       ]
