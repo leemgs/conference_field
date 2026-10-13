@@ -559,6 +559,31 @@
       ]
     },
     {
+      "id": "isca",
+      "name": "ISCA 2027",
+      "fullName": "International Symposium on Computer Architecture",
+      "field": "sys",
+      "rating": "최우수",
+      "location": "Atlanta, Georgia, USA",
+      "confText": "June 5-9, 2027",
+      "url": "https://iscaconf.org/isca2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-09",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Main Track; rebuttal/revision period: February 16-March 8, 2027)",
+          "date": "2026-11-16",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "noms",
       "name": "NOMS 2027",
       "fullName": "IEEE/IFIP Network Operations and Management Symposium",
@@ -3356,18 +3381,6 @@
       "confText": "일정 미확인",
       "url": "",
       "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
-      "deadlines": []
-    },
-    {
-      "id": "isca",
-      "name": "ISCA 2027",
-      "fullName": "International Symposium on Computer Architecture",
-      "field": "sys",
-      "rating": "최우수",
-      "location": "Atlanta, Georgia, USA",
-      "confText": "TBD",
-      "url": "https://www.iscaconf.org/",
-      "tz": "AoE",
       "deadlines": []
     },
     {
