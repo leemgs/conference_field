@@ -1,69 +1,7 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "ches",
-      "name": "CHES 2027",
-      "fullName": "Cryptographic Hardware and Embedded Systems",
-      "field": "sec",
-      "rating": "우수",
-      "location": "Cancún, Mexico",
-      "confText": "September 6 - 9, 2027",
-      "url": "https://ches.iacr.org/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (Schedule for TCHES Volume 2027/1)",
-          "date": "2026-07-15",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Schedule for TCHES Volume 2027/2)",
-          "date": "2026-10-15",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Schedule for TCHES Volume 2027/3)",
-          "date": "2027-01-15",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Schedule for TCHES Volume 2027/4)",
-          "date": "2027-04-15",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "tacas",
-      "name": "TACAS 2027",
-      "fullName": "International Conference on Tools and Algorithms for Construction and Analysis of Systems",
-      "field": "theory",
-      "rating": "우수",
-      "location": "Copenhagen, Denmark",
-      "confText": "April 10-15, 2027",
-      "url": "https://etaps.org/2027",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (ESOP round 1)",
-          "date": "2026-05-28",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (ESOP round 2, FoSSaCS, TACAS, iFS)",
-          "date": "2026-10-15",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "fg",
       "name": "FG 2027",
@@ -1289,6 +1227,43 @@
           "type": "paper",
           "label": "논문 마감 (3rd Full-paper Deadline)",
           "date": "2027-01-15",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "ches",
+      "name": "CHES 2027",
+      "fullName": "Cryptographic Hardware and Embedded Systems",
+      "field": "sec",
+      "rating": "우수",
+      "location": "Cancún, Mexico",
+      "confText": "September 6 - 9, 2027",
+      "url": "https://ches.iacr.org/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (Schedule for TCHES Volume 2027/1)",
+          "date": "2026-07-15",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Schedule for TCHES Volume 2027/2)",
+          "date": "2026-10-15",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Schedule for TCHES Volume 2027/3)",
+          "date": "2027-01-15",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Schedule for TCHES Volume 2027/4)",
+          "date": "2027-04-15",
           "status": "confirmed"
         }
       ]
@@ -2953,6 +2928,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-10-11",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "tacas",
+      "name": "TACAS 2028",
+      "fullName": "International Conference on Tools and Algorithms for Construction and Analysis of Systems",
+      "field": "theory",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://etaps.org/2027",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-10-15",
           "status": "estimated"
         }
       ]
