@@ -1,32 +1,7 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "www",
-      "name": "WWW 2027",
-      "fullName": "World Wide Web Conference Series",
-      "field": "data",
-      "rating": "최우수",
-      "location": "Dublin, Ireland",
-      "confText": "May 10 - 14, 2027",
-      "url": "https://www2027.thewebconf.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-18",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-25",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "msr",
       "name": "MSR 2027",
@@ -67,6 +42,31 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-10-22",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "www",
+      "name": "WWW 2027",
+      "fullName": "World Wide Web Conference Series",
+      "field": "data",
+      "rating": "최우수",
+      "location": "Dublin, Ireland",
+      "confText": "May 10 - 14, 2027",
+      "url": "https://www2027.thewebconf.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-18",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-25",
           "status": "confirmed"
         }
       ]
@@ -275,6 +275,25 @@
       "confText": "June 21-25, 2027",
       "url": "https://mlsys.org/",
       "tz": "UTC",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-30",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "icc",
+      "name": "ICC 2027",
+      "fullName": "IEEE International Conference on Communications",
+      "field": "net",
+      "rating": "최우수",
+      "location": "Washington, DC, USA",
+      "confText": "May 30 - June 3, 2027",
+      "url": "https://icc2027.ieee-icc.org",
+      "tz": "UTC-7",
       "deadlines": [
         {
           "type": "paper",
@@ -2856,25 +2875,6 @@
       "confText": "2028년 (예정)",
       "url": "https://fg2027.ieee-biometrics.org/",
       "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-10-16",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
-      "id": "icc",
-      "name": "ICC 2028",
-      "fullName": "IEEE International Conference on Communications",
-      "field": "net",
-      "rating": "최우수",
-      "location": "미정",
-      "confText": "2028년 (예정)",
-      "url": "https://icc2027.ieee-icc.org",
-      "tz": "UTC-7",
       "deadlines": [
         {
           "type": "paper",
