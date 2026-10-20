@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -450,6 +450,43 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-11-16",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "imc",
+      "name": "IMC 2027",
+      "fullName": "ACM Internet Measurement Conference",
+      "field": "net",
+      "rating": "우수",
+      "location": "Atlanta, GA, USA",
+      "confText": "Oct 25-29, 2027",
+      "url": "https://conferences.sigcomm.org/imc/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-10",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Cycle 1; rebuttal period January 26-February 2, 2027)",
+          "date": "2026-11-17",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-03-31",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Cycle 2)",
+          "date": "2027-04-07",
           "status": "confirmed"
         }
       ]
@@ -923,6 +960,25 @@
           "type": "paper",
           "label": "논문 마감 (COLING commitment after ARR meta-reviews; reviewed papers only)",
           "date": "2026-12-23",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "icme",
+      "name": "ICME 2027",
+      "fullName": "IEEE International Conference on Multimedia and Expo",
+      "field": "hci",
+      "rating": "우수",
+      "location": "Xiamen, China",
+      "confText": "July 13-17, 2027",
+      "url": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-12-30",
           "status": "confirmed"
         }
       ]
@@ -3239,18 +3295,6 @@
       ]
     },
     {
-      "id": "icme",
-      "name": "ICME 2027",
-      "fullName": "IEEE International Conference on Multimedia and Expo",
-      "field": "hci",
-      "rating": "우수",
-      "location": "Xiamen, China",
-      "confText": "July 13-17, 2027",
-      "url": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme",
-      "tz": "AoE",
-      "deadlines": []
-    },
-    {
       "id": "ieee-bhi-bsn",
       "name": "IEEE BHI&BSN",
       "fullName": "IEEE-EMBS International Conference on Biomedical and Health Informatics(BHI) and the Body Sensor Networks(BSN) Conferences",
@@ -3272,18 +3316,6 @@
       "confText": "일정 미확인",
       "url": "",
       "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
-      "deadlines": []
-    },
-    {
-      "id": "imc",
-      "name": "IMC 2027",
-      "fullName": "ACM Internet Measurement Conference",
-      "field": "net",
-      "rating": "우수",
-      "location": "Atlanta, GA, USA",
-      "confText": "TBD",
-      "url": "https://www.sigcomm.org/news/november-2025-sigcomm-newsletter",
-      "tz": "AoE",
       "deadlines": []
     },
     {
