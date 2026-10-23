@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -972,8 +972,8 @@
       "rating": "우수",
       "location": "Xiamen, China",
       "confText": "July 13-17, 2027",
-      "url": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme",
-      "tz": "UTC-12",
+      "url": "https://2027.ieeeicme.org/",
+      "tz": "AoE",
       "deadlines": [
         {
           "type": "paper",
