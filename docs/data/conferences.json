@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -308,6 +308,18 @@
       "url": "https://pacificvis2027.github.io/",
       "tz": "AoE",
       "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-09-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Journal track)",
+          "date": "2026-09-08",
+          "status": "confirmed"
+        },
         {
           "type": "abstract",
           "label": "초록 마감",
@@ -920,8 +932,8 @@
       "fullName": "International Conference on Computational Linguistics",
       "field": "ai",
       "rating": "우수",
-      "location": "Macau SAR, China",
-      "confText": "May 9-14, 2027",
+      "location": "Macau SAR, China / Online",
+      "confText": "May 9-14 (in-person) and 6-7 (virtual), 2027",
       "url": "https://2027.coling-iccl.org/",
       "tz": "UTC-12",
       "deadlines": [
