@@ -1,28 +1,97 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
-      "id": "www",
-      "name": "WWW 2027",
-      "fullName": "World Wide Web Conference Series",
-      "field": "data",
-      "rating": "최우수",
-      "location": "Dublin, Ireland",
-      "confText": "May 10 - 14, 2027",
-      "url": "https://www2027.thewebconf.org/",
+      "id": "iscas",
+      "name": "ISCAS 2027",
+      "fullName": "IEEE International Symposium on Circuits and Systems",
+      "field": "hw",
+      "rating": "우수",
+      "location": "Bordeaux, France",
+      "confText": "June 6-9, 2027",
+      "url": "https://2027.ieee-iscas.org/",
+      "tz": "UTC-5",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-26",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "sensys",
+      "name": "SenSys 2027",
+      "fullName": "ACM Conference On Embedded Networked Sensor Systems",
+      "field": "net",
+      "rating": "우수",
+      "location": "Boulder, CO, USA",
+      "confText": "May 17-20, 2027",
+      "url": "https://sensys.acm.org/2027/",
       "tz": "AoE",
       "deadlines": [
         {
           "type": "abstract",
           "label": "초록 마감",
-          "date": "2026-10-18",
+          "date": "2026-05-29",
           "status": "confirmed"
         },
         {
           "type": "paper",
+          "label": "논문 마감 (1st deadline)",
+          "date": "2026-06-05",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-29",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (2nd deadline)",
+          "date": "2026-11-05",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "mlsys",
+      "name": "MLSys 2027",
+      "fullName": "Conference on Machine Learning and Systems",
+      "field": "sys",
+      "rating": "우수",
+      "location": "Bellevue, Washington, USA",
+      "confText": "June 21-25, 2027",
+      "url": "https://mlsys.org/",
+      "tz": "UTC",
+      "deadlines": [
+        {
+          "type": "paper",
           "label": "논문 마감",
-          "date": "2026-10-25",
+          "date": "2026-10-30",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "icc",
+      "name": "ICC 2027",
+      "fullName": "IEEE International Conference on Communications",
+      "field": "net",
+      "rating": "최우수",
+      "location": "Washington, DC, USA",
+      "confText": "May 30 - June 3, 2027",
+      "url": "https://icc2027.ieee-icc.org",
+      "tz": "UTC-7",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-30",
           "status": "confirmed"
         }
       ]
@@ -180,100 +249,6 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2027-03-01",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "iscas",
-      "name": "ISCAS 2027",
-      "fullName": "IEEE International Symposium on Circuits and Systems",
-      "field": "hw",
-      "rating": "우수",
-      "location": "Bordeaux, France",
-      "confText": "June 6-9, 2027",
-      "url": "https://2027.ieee-iscas.org/",
-      "tz": "UTC-5",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-26",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "sensys",
-      "name": "SenSys 2027",
-      "fullName": "ACM Conference On Embedded Networked Sensor Systems",
-      "field": "net",
-      "rating": "우수",
-      "location": "Boulder, CO, USA",
-      "confText": "May 17-20, 2027",
-      "url": "https://sensys.acm.org/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-05-29",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (1st deadline)",
-          "date": "2026-06-05",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-29",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (2nd deadline)",
-          "date": "2026-11-05",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "mlsys",
-      "name": "MLSys 2027",
-      "fullName": "Conference on Machine Learning and Systems",
-      "field": "sys",
-      "rating": "우수",
-      "location": "Bellevue, Washington, USA",
-      "confText": "June 21-25, 2027",
-      "url": "https://mlsys.org/",
-      "tz": "UTC",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-30",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "icc",
-      "name": "ICC 2027",
-      "fullName": "IEEE International Conference on Communications",
-      "field": "net",
-      "rating": "최우수",
-      "location": "Washington, DC, USA",
-      "confText": "May 30 - June 3, 2027",
-      "url": "https://icc2027.ieee-icc.org",
-      "tz": "UTC-7",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-30",
           "status": "confirmed"
         }
       ]
@@ -1297,6 +1272,25 @@
           "label": "논문 마감 (예상)",
           "date": "2027-01-29",
           "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "colt",
+      "name": "COLT 2027",
+      "fullName": "Annual Conference on Computational Learning Theory",
+      "field": "theory",
+      "rating": "우수",
+      "location": "Tokyo, Japan",
+      "confText": "June 28 - July 2, 2027",
+      "url": "https://learningtheory.org/colt2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (Expected rebuttal March 29 - April 2; author notification on or before May 3.)",
+          "date": "2027-01-29",
+          "status": "confirmed"
         }
       ]
     },
@@ -2985,6 +2979,25 @@
       ]
     },
     {
+      "id": "www",
+      "name": "WWW 2028",
+      "fullName": "World Wide Web Conference Series",
+      "field": "data",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://www2027.thewebconf.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-10-25",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
       "id": "eccv",
       "name": "ECCV 2028",
       "fullName": "European Conference on Computer Vision",
@@ -3091,18 +3104,6 @@
       "location": "Atlanta, USA",
       "confText": "October 11-15, 2027",
       "url": "https://www.sigsac.org/ccs/CCS2027/",
-      "tz": "AoE",
-      "deadlines": []
-    },
-    {
-      "id": "colt",
-      "name": "COLT 2027",
-      "fullName": "Annual Conference on Computational Learning Theory",
-      "field": "theory",
-      "rating": "우수",
-      "location": "Tokyo, Japan",
-      "confText": "June 28 - July 2, 2027",
-      "url": "https://learningtheory.org/colt2027/",
       "tz": "AoE",
       "deadlines": []
     },
