@@ -1,26 +1,7 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "iscas",
-      "name": "ISCAS 2027",
-      "fullName": "IEEE International Symposium on Circuits and Systems",
-      "field": "hw",
-      "rating": "우수",
-      "location": "Bordeaux, France",
-      "confText": "June 6-9, 2027",
-      "url": "https://2027.ieee-iscas.org/",
-      "tz": "UTC-5",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-26",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "sensys",
       "name": "SenSys 2027",
@@ -503,13 +484,13 @@
       "deadlines": [
         {
           "type": "paper",
-          "label": "논문 마감 (first round)",
+          "label": "논문 마감 (first round; notification date is approximate)",
           "date": "2026-06-11",
           "status": "confirmed"
         },
         {
           "type": "paper",
-          "label": "논문 마감 (second round)",
+          "label": "논문 마감 (second round; notification date is approximate)",
           "date": "2026-11-11",
           "status": "confirmed"
         }
@@ -617,6 +598,37 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-11-23",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "wsdm",
+      "name": "WSDM 2027",
+      "fullName": "ACM International Conference on Web Search and Data Mining",
+      "field": "data",
+      "rating": "최우수",
+      "location": "Cordis, Hong Kong SAR, China",
+      "confText": "February 15 - 19, 2027",
+      "url": "https://wsdm-conference.org/2027/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-08-17",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Full Paper)",
+          "date": "2026-08-24",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Short Paper)",
+          "date": "2026-11-17",
           "status": "confirmed"
         }
       ]
@@ -2428,25 +2440,6 @@
       ]
     },
     {
-      "id": "wsdm",
-      "name": "WSDM 2028",
-      "fullName": "ACM International Conference on Web Search and Data Mining",
-      "field": "data",
-      "rating": "최우수",
-      "location": "미정",
-      "confText": "2028년 (예정)",
-      "url": "https://wsdm-conference.org/2027/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-08-24",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "ijcnlp",
       "name": "IJCNLP 2027",
       "fullName": "International Joint Conference on Natural Language Processing",
@@ -2670,25 +2663,6 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-09-16",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
-      "id": "usenix-nsdi",
-      "name": "USENIX NSDI 2028",
-      "fullName": "Symposium on Networked Systems Design and Implementation",
-      "field": "net",
-      "rating": "최우수",
-      "location": "미정",
-      "confText": "2028년 (예정)",
-      "url": "https://www.usenix.org/conference/nsdi27",
-      "tz": "UTC-4",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-09-17",
           "status": "estimated"
         }
       ]
@@ -2993,6 +2967,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-10-25",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "iscas",
+      "name": "ISCAS 2028",
+      "fullName": "IEEE International Symposium on Circuits and Systems",
+      "field": "hw",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://2027.ieee-iscas.org/",
+      "tz": "UTC-5",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-10-26",
           "status": "estimated"
         }
       ]
@@ -3582,6 +3575,18 @@
       "confText": "일정 미확인",
       "url": "",
       "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
+      "deadlines": []
+    },
+    {
+      "id": "usenix-nsdi",
+      "name": "USENIX NSDI 2028",
+      "fullName": "Symposium on Networked Systems Design and Implementation",
+      "field": "net",
+      "rating": "최우수",
+      "location": "Santa Clara, CA, USA",
+      "confText": "May 9-11, 2028",
+      "url": "https://www.usenix.org/conferences/byname/178",
+      "tz": "UTC-7",
       "deadlines": []
     },
     {
