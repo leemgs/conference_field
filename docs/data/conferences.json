@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -349,6 +349,18 @@
           "type": "paper",
           "label": "논문 마감 (Main Track; rebuttal/revision period: February 16-March 8, 2027)",
           "date": "2026-11-16",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-12-06",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Industry Track; rebuttal period: February 15-26, 2027)",
+          "date": "2026-12-13",
           "status": "confirmed"
         }
       ]
@@ -908,31 +920,6 @@
         {
           "type": "paper",
           "label": "논문 마감 (NAACL commitment after ARR meta-reviews; reviewed papers only)",
-          "date": "2026-12-23",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "coling-easy",
-      "name": "COLING (easy) 2027",
-      "fullName": "International Conference on Computational Linguistics",
-      "field": "ai",
-      "rating": "우수",
-      "location": "Macau SAR, China / Online",
-      "confText": "May 9-14 (in-person) and 6-7 (virtual), 2027",
-      "url": "https://2027.coling-iccl.org/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (ARR Submission)",
-          "date": "2026-10-12",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (COLING commitment after ARR meta-reviews; reviewed papers only)",
           "date": "2026-12-23",
           "status": "confirmed"
         }
@@ -2872,6 +2859,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-10-11",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "coling-easy",
+      "name": "COLING (easy) 2028",
+      "fullName": "International Conference on Computational Linguistics",
+      "field": "ai",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://2027.coling-iccl.org/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-10-12",
           "status": "estimated"
         }
       ]
