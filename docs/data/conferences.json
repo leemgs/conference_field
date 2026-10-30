@@ -1,44 +1,7 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "sensys",
-      "name": "SenSys 2027",
-      "fullName": "ACM Conference On Embedded Networked Sensor Systems",
-      "field": "net",
-      "rating": "우수",
-      "location": "Boulder, CO, USA",
-      "confText": "May 17-20, 2027",
-      "url": "https://sensys.acm.org/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-05-29",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (1st deadline)",
-          "date": "2026-06-05",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-29",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (2nd deadline)",
-          "date": "2026-11-05",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "mlsys",
       "name": "MLSys 2027",
@@ -310,6 +273,43 @@
       ]
     },
     {
+      "id": "sensys",
+      "name": "SenSys 2027",
+      "fullName": "ACM Conference On Embedded Networked Sensor Systems",
+      "field": "net",
+      "rating": "우수",
+      "location": "Boulder, CO, USA",
+      "confText": "May 17-20, 2027",
+      "url": "https://sensys.acm.org/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-05-29",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (1st deadline)",
+          "date": "2026-06-05",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-29",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (2nd deadline)",
+          "date": "2026-11-05",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "rtas",
       "name": "RTAS 2027",
       "fullName": "IEEE Real-Time and Embedded Technology and Applications Symposium",
@@ -322,7 +322,7 @@
       "deadlines": [
         {
           "type": "paper",
-          "label": "논문 마감 (Submission Deadline (Firm))",
+          "label": "논문 마감 (Submission Deadline (Firm); Author notification date is tentative.)",
           "date": "2026-11-05",
           "status": "confirmed"
         }
@@ -3108,22 +3108,15 @@
     },
     {
       "id": "cscw",
-      "name": "CSCW 2026",
+      "name": "CSCW 2027",
       "fullName": "Conference on Computer Supported Cooperative Work (※ CSCW의 Accept 여부는 \"Proceedings of the ACM on Human-Computer Interaction\" 저널 탑재 기준으로 판단)",
       "field": "hci",
       "rating": "최우수",
-      "location": "Salt Lake City, Utah, USA",
-      "confText": "October 10-14, 2026",
-      "url": "https://cscw.acm.org/2026/",
-      "tz": "UTC-4",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (MAY 2025 SUBMISSION CYCLE (12:00 EDT))",
-          "date": "2025-05-14",
-          "status": "confirmed"
-        }
-      ]
+      "location": "Philadelphia, USA",
+      "confText": "October 16-20, 2027",
+      "url": "https://cscw.acm.org/2027/",
+      "tz": "AoE",
+      "deadlines": []
     },
     {
       "id": "cvpr-w",
