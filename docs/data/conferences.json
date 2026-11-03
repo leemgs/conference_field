@@ -1,239 +1,7 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-03",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "vldb-pvldb",
-      "name": "VLDB/PVLDB 2027",
-      "fullName": "International Conference on Very Large DataBases",
-      "field": "data",
-      "rating": "최우수",
-      "location": "Athens, Greece",
-      "confText": "August 23 - August 27, 2027",
-      "url": "https://www.vldb.org/2027/",
-      "tz": "PT",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-03-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-04-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-04-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-05-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-05-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-06-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-06-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-07-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-07-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-08-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-08-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-09-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-10-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-10-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-11-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-12-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-12-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2027-01-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-01-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2027-02-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-02-25",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2027-03-01",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "icst",
-      "name": "ICST 2027",
-      "fullName": "IEEE International Conference on Software Testing, Verification and Validation",
-      "field": "plse",
-      "rating": "우수",
-      "location": "San Sebastian, Spain",
-      "confText": "May 17-21, 2027",
-      "url": "https://conf.researchr.org/home/icst-2027",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-11-02",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "pacificvis",
-      "name": "PacificVis 2027",
-      "fullName": "IEEE Pacific Visualization Symposium",
-      "field": "hci",
-      "rating": "우수",
-      "location": "Busan, South Korea",
-      "confText": "April 19-22, 2027",
-      "url": "https://pacificvis2027.github.io/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Journal track)",
-          "date": "2026-09-08",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-02",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Conference track)",
-          "date": "2026-11-09",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "stoc",
-      "name": "STOC 2027",
-      "fullName": "ACM Symposium on Theory of Computing",
-      "field": "theory",
-      "rating": "최우수",
-      "location": "Atlanta, Georgia, USA",
-      "confText": "June 6-11, 2027",
-      "url": "https://acm-stoc.org/stoc2027/",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-11-02",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "sensys",
       "name": "SenSys 2027",
@@ -341,6 +109,43 @@
         {
           "type": "paper",
           "label": "논문 마감",
+          "date": "2026-11-09",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "pacificvis",
+      "name": "PacificVis 2027",
+      "fullName": "IEEE Pacific Visualization Symposium",
+      "field": "hci",
+      "rating": "우수",
+      "location": "Busan, South Korea",
+      "confText": "April 19-22, 2027",
+      "url": "https://pacificvis2027.github.io/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-09-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Journal track)",
+          "date": "2026-09-08",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-02",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Conference track)",
           "date": "2026-11-09",
           "status": "confirmed"
         }
@@ -603,6 +408,188 @@
           "type": "paper",
           "label": "논문 마감 (Short Paper)",
           "date": "2026-11-17",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "eurovis",
+      "name": "EuroVis 2027",
+      "fullName": "Eurographics Conference on Visualization",
+      "field": "hci",
+      "rating": "우수",
+      "location": "Stuttgart, Germany",
+      "confText": "May 31-June 4, 2027",
+      "url": "https://eurovis27.github.io/web/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-23",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Full papers)",
+          "date": "2026-12-02",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "vldb-pvldb",
+      "name": "VLDB/PVLDB 2027",
+      "fullName": "International Conference on Very Large DataBases",
+      "field": "data",
+      "rating": "최우수",
+      "location": "Athens, Greece",
+      "confText": "August 23 - August 27, 2027",
+      "url": "https://www.vldb.org/2027/",
+      "tz": "PT",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-03-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-04-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-04-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-05-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-05-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-06-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-06-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-07-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-07-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-08-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-08-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-09-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-09-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-10-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-10-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-11-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-12-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-12-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-01-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-02-01",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-02-25",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-03-01",
           "status": "confirmed"
         }
       ]
@@ -1420,7 +1407,7 @@
       "field": "hw",
       "rating": "최우수",
       "location": "Florence, Italy",
-      "confText": "September 26 - October 1, 2027",
+      "confText": "September 27 - October 1, 2027",
       "url": "https://2027.ieee-iros.org/",
       "tz": "AoE",
       "deadlines": [
@@ -2997,6 +2984,44 @@
       ]
     },
     {
+      "id": "icst",
+      "name": "ICST 2028",
+      "fullName": "IEEE International Conference on Software Testing, Verification and Validation",
+      "field": "plse",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://conf.researchr.org/home/icst-2027",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-11-02",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "stoc",
+      "name": "STOC 2028",
+      "fullName": "ACM Symposium on Theory of Computing",
+      "field": "theory",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://acm-stoc.org/stoc2027/",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-11-02",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
       "id": "eccv",
       "name": "ECCV 2028",
       "fullName": "European Conference on Computer Vision",
@@ -3201,18 +3226,6 @@
       "confText": "일정 미확인",
       "url": "",
       "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
-      "deadlines": []
-    },
-    {
-      "id": "eurovis",
-      "name": "EuroVis 2027",
-      "fullName": "Eurographics Conference on Visualization",
-      "field": "hci",
-      "rating": "우수",
-      "location": "Stuttgart, Germany",
-      "confText": "May 31-June 4, 2027",
-      "url": "https://eurovis27.github.io/web/",
-      "tz": "AoE",
       "deadlines": []
     },
     {
