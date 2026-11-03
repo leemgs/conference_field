@@ -357,6 +357,37 @@
       ]
     },
     {
+      "id": "icdar",
+      "name": "ICDAR 2027",
+      "fullName": "International Conference on Document Analysis and Recognition",
+      "field": "ai",
+      "rating": "우수",
+      "location": "Kuala Lumpur, Malaysia",
+      "confText": "August 18 - 22, 2027",
+      "url": "https://icdar2027.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (Journal track; initial decision Jan 15, revised submission Apr 1)",
+          "date": "2026-11-15",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-02-23",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Conference track)",
+          "date": "2027-03-02",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "codaspy",
       "name": "CODASPY 2027",
       "fullName": "Data and Application Security and Privacy",
@@ -1205,21 +1236,27 @@
       ]
     },
     {
-      "id": "icml",
-      "name": "ICML 2027",
-      "fullName": "International Conference on Machine Learning",
-      "field": "ai",
+      "id": "siggraph",
+      "name": "SIGGRAPH 2027",
+      "fullName": "ACM SIGGRAPH Conference",
+      "field": "hci",
       "rating": "최우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://icml.cc/Conferences/2026",
+      "location": "Anaheim, California",
+      "confText": "August 8 - 12, 2027",
+      "url": "https://s2027.siggraph.org/",
       "tz": "UTC+0",
       "deadlines": [
         {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-21",
+          "status": "confirmed"
+        },
+        {
           "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-01-29",
-          "status": "estimated"
+          "label": "논문 마감 (Submissions form & conflicts / paper deadline (upload deadline Jan 29))",
+          "date": "2027-01-28",
+          "status": "confirmed"
         }
       ]
     },
@@ -1238,31 +1275,6 @@
           "type": "paper",
           "label": "논문 마감 (Expected rebuttal March 29 - April 2; author notification on or before May 3.)",
           "date": "2027-01-29",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "icdar",
-      "name": "ICDAR 2027",
-      "fullName": "International Conference on Document Analysis and Recognition",
-      "field": "ai",
-      "rating": "우수",
-      "location": "Kuala Lumpur, Malaysia",
-      "confText": "August 18 - 22, 2027",
-      "url": "https://icdar2027.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-01-31",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2027-02-20",
           "status": "confirmed"
         }
       ]
@@ -1337,8 +1349,8 @@
       "deadlines": [
         {
           "type": "paper",
-          "label": "논문 마감",
-          "date": "2027-02-09",
+          "label": "논문 마감 (Regular papers; rebuttal April 13-20. Date-only milestones use AoE end-of-day convention, converted to UTC.)",
+          "date": "2027-02-10",
           "status": "confirmed"
         }
       ]
@@ -3326,6 +3338,18 @@
       ]
     },
     {
+      "id": "icml",
+      "name": "ICML 2027",
+      "fullName": "International Conference on Machine Learning",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "Riocentro, Rio de Janeiro, Brazil",
+      "confText": "July 31 - August 6, 2027",
+      "url": "https://icml.cc/Conferences/2027",
+      "tz": "AoE",
+      "deadlines": []
+    },
+    {
       "id": "ieee-bhi-bsn",
       "name": "IEEE BHI&BSN",
       "fullName": "IEEE-EMBS International Conference on Biomedical and Health Informatics(BHI) and the Body Sensor Networks(BSN) Conferences",
@@ -3515,18 +3539,6 @@
       "confText": "일정 미확인",
       "url": "",
       "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
-      "deadlines": []
-    },
-    {
-      "id": "siggraph",
-      "name": "SIGGRAPH 2027",
-      "fullName": "ACM SIGGRAPH Conference",
-      "field": "hci",
-      "rating": "최우수",
-      "location": "Anaheim, California",
-      "confText": "August 8 - 12, 2027",
-      "url": "https://s2027.siggraph.org/",
-      "tz": "UTC+0",
       "deadlines": []
     },
     {
