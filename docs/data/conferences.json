@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -1223,7 +1223,7 @@
       "field": "sys",
       "rating": "우수",
       "location": "KIT, Amsterdam, The Netherlands",
-      "confText": "July 19-23, 2027",
+      "confText": "July 21-23, 2027",
       "url": "https://conferences.i-cav.org/2027/",
       "tz": "AoE",
       "deadlines": [
@@ -1875,25 +1875,6 @@
       ]
     },
     {
-      "id": "iswc",
-      "name": "ISWC 2027",
-      "fullName": "International Semantic Web Conference",
-      "field": "data",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://iswc2026.semanticweb.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-05-07",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "sec",
       "name": "SEC 2027",
       "fullName": "ACM/IEEE Symposium on Edge Computing",
@@ -2535,25 +2516,6 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-09-10",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
-      "id": "usenix-fast",
-      "name": "USENIX FAST 2028",
-      "fullName": "USENIX Conference on File and Storage Technologies",
-      "field": "sys",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2028년 (예정)",
-      "url": "https://www.usenix.org/conference/fast27",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-09-15",
           "status": "estimated"
         }
       ]
@@ -3434,6 +3396,18 @@
       "deadlines": []
     },
     {
+      "id": "iswc",
+      "name": "ISWC 2027",
+      "fullName": "International Semantic Web Conference",
+      "field": "data",
+      "rating": "우수",
+      "location": "Montevideo, Uruguay",
+      "confText": "October 24-28, 2027",
+      "url": "https://iswc2027.semanticweb.org/",
+      "tz": "AoE",
+      "deadlines": []
+    },
+    {
       "id": "itcs",
       "name": "ITCS",
       "fullName": "Innovations in Theoretical Computer Science",
@@ -3599,6 +3573,18 @@
       "confText": "일정 미확인",
       "url": "",
       "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
+      "deadlines": []
+    },
+    {
+      "id": "usenix-fast",
+      "name": "USENIX FAST 2028",
+      "fullName": "USENIX Conference on File and Storage Technologies",
+      "field": "sys",
+      "rating": "우수",
+      "location": "Seattle, WA, USA",
+      "confText": "February 28-March 1, 2028",
+      "url": "https://www.usenix.org/conference/fast28",
+      "tz": "AoE",
       "deadlines": []
     },
     {
