@@ -1,100 +1,7 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-10",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "isca",
-      "name": "ISCA 2027",
-      "fullName": "International Symposium on Computer Architecture",
-      "field": "sys",
-      "rating": "최우수",
-      "location": "Atlanta, Georgia, USA",
-      "confText": "June 5-9, 2027",
-      "url": "https://iscaconf.org/isca2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-09",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Main Track; rebuttal/revision period: February 16-March 8, 2027)",
-          "date": "2026-11-16",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-12-06",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Industry Track; rebuttal period: February 15-26, 2027)",
-          "date": "2026-12-13",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "noms",
-      "name": "NOMS 2027",
-      "fullName": "IEEE/IFIP Network Operations and Management Symposium",
-      "field": "net",
-      "rating": "우수",
-      "location": "Montreal, Canada",
-      "confText": "May 10-14, 2027",
-      "url": "https://noms2027.ieee-noms.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-11-09",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "pacificvis",
-      "name": "PacificVis 2027",
-      "fullName": "IEEE Pacific Visualization Symposium",
-      "field": "hci",
-      "rating": "우수",
-      "location": "Busan, South Korea",
-      "confText": "April 19-22, 2027",
-      "url": "https://pacificvis2027.github.io/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-01",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Journal track)",
-          "date": "2026-09-08",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-02",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Conference track)",
-          "date": "2026-11-09",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "cvpr",
       "name": "CVPR 2027",
@@ -327,6 +234,43 @@
           "type": "paper",
           "label": "논문 마감 (Conference track)",
           "date": "2027-03-05",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "isca",
+      "name": "ISCA 2027",
+      "fullName": "International Symposium on Computer Architecture",
+      "field": "sys",
+      "rating": "최우수",
+      "location": "Atlanta, Georgia, USA",
+      "confText": "June 5-9, 2027",
+      "url": "https://iscaconf.org/isca2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-09",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Main Track; rebuttal/revision period: February 16-March 8, 2027)",
+          "date": "2026-11-16",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-12-06",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Industry Track; rebuttal period: February 15-26, 2027)",
+          "date": "2026-12-13",
           "status": "confirmed"
         }
       ]
@@ -2992,6 +2936,44 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-11-05",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "noms",
+      "name": "NOMS 2028",
+      "fullName": "IEEE/IFIP Network Operations and Management Symposium",
+      "field": "net",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://noms2027.ieee-noms.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-11-09",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "pacificvis",
+      "name": "PacificVis 2028",
+      "fullName": "IEEE Pacific Visualization Symposium",
+      "field": "hci",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://pacificvis2027.github.io/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-11-09",
           "status": "estimated"
         }
       ]
