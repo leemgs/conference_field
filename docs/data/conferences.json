@@ -1,106 +1,7 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "cvpr",
-      "name": "CVPR 2027",
-      "fullName": "Computer Vision and Pattern Recognition",
-      "field": "ai",
-      "rating": "최우수",
-      "location": "Seattle, WA, United States",
-      "confText": "June 22-25, 2027",
-      "url": "https://cvpr.thecvf.com/Conferences/2027",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-10",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-11-16",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "imc",
-      "name": "IMC 2027",
-      "fullName": "ACM Internet Measurement Conference",
-      "field": "net",
-      "rating": "우수",
-      "location": "Atlanta, GA, USA",
-      "confText": "Oct 25-29, 2027",
-      "url": "https://conferences.sigcomm.org/imc/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-10",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Cycle 1; rebuttal period January 26-February 2, 2027)",
-          "date": "2026-11-17",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-03-31",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Cycle 2)",
-          "date": "2027-04-07",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "sp",
-      "name": "SP 2027",
-      "fullName": "IEEE Symposium on Security and Privacy",
-      "field": "sec",
-      "rating": "최우수",
-      "location": "MONTREAL, CANADA",
-      "confText": "May 17-19, 2027",
-      "url": "https://sp2027.ieee-security.org/index.html",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-06-04",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (First Paper submission deadline)",
-          "date": "2026-06-11",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-10",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Second Paper submission deadline)",
-          "date": "2026-11-17",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "icde",
       "name": "ICDE 2027",
@@ -276,6 +177,31 @@
       ]
     },
     {
+      "id": "cvpr",
+      "name": "CVPR 2027",
+      "fullName": "Computer Vision and Pattern Recognition",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "Seattle, WA, United States",
+      "confText": "June 22-25, 2027",
+      "url": "https://cvpr.thecvf.com/Conferences/2027",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-10",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-11-16",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "codaspy",
       "name": "CODASPY 2027",
       "fullName": "Data and Application Security and Privacy",
@@ -326,6 +252,80 @@
         {
           "type": "paper",
           "label": "논문 마감 (Short Paper)",
+          "date": "2026-11-17",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "imc",
+      "name": "IMC 2027",
+      "fullName": "ACM Internet Measurement Conference",
+      "field": "net",
+      "rating": "우수",
+      "location": "Atlanta, GA, USA",
+      "confText": "Oct 25-29, 2027",
+      "url": "https://conferences.sigcomm.org/imc/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-10",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Cycle 1; rebuttal period January 26-February 2, 2027)",
+          "date": "2026-11-17",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-03-31",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Cycle 2)",
+          "date": "2027-04-07",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "sp",
+      "name": "SP 2027",
+      "fullName": "IEEE Symposium on Security and Privacy",
+      "field": "sec",
+      "rating": "최우수",
+      "location": "MONTREAL, CANADA",
+      "confText": "May 17-19, 2027",
+      "url": "https://sp2027.ieee-security.org/index.html",
+      "tz": "UTC-12",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-06-04",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (First Paper submission deadline)",
+          "date": "2026-06-11",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-10",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Second Paper submission deadline)",
           "date": "2026-11-17",
           "status": "confirmed"
         }
@@ -2744,25 +2744,6 @@
       ]
     },
     {
-      "id": "fg",
-      "name": "FG 2028",
-      "fullName": "IEEE International Conference on Automatic Face & Gesture Recognition",
-      "field": "ai",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2028년 (예정)",
-      "url": "https://fg2027.ieee-biometrics.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-10-16",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "sigmod",
       "name": "SIGMOD 2028",
       "fullName": "International Conference on Management of Data",
@@ -2848,6 +2829,25 @@
       "confText": "2028년 (예정)",
       "url": "https://mlsys.org/",
       "tz": "UTC",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-10-30",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "fg",
+      "name": "FG 2028",
+      "fullName": "IEEE International Conference on Automatic Face & Gesture Recognition",
+      "field": "ai",
+      "rating": "우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://fg2027.ieee-biometrics.org/",
+      "tz": "AoE",
       "deadlines": [
         {
           "type": "paper",
