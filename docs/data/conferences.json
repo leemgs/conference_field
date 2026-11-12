@@ -1,57 +1,7 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "icde",
-      "name": "ICDE 2027",
-      "fullName": "International Conference on Data Engineering",
-      "field": "data",
-      "rating": "최우수",
-      "location": "Copenhagen, Denmark",
-      "confText": "May 17-21, 2027",
-      "url": "https://icde2027.github.io/",
-      "tz": "PT",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (first round; notification date is approximate)",
-          "date": "2026-06-11",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (second round; notification date is approximate)",
-          "date": "2026-11-11",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "dac",
-      "name": "DAC 2027",
-      "fullName": "Design Automation Conference",
-      "field": "hw",
-      "rating": "최우수",
-      "location": "San Jose, CA",
-      "confText": "July 11-14, 2027",
-      "url": "https://dac.com/2027/authors/call-for-contributions",
-      "tz": "UTC-8",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-11",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-11-18",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "pldi",
       "name": "PLDI 2027",
@@ -327,6 +277,31 @@
           "type": "paper",
           "label": "논문 마감 (Second Paper submission deadline)",
           "date": "2026-11-17",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "dac",
+      "name": "DAC 2027",
+      "fullName": "Design Automation Conference",
+      "field": "hw",
+      "rating": "최우수",
+      "location": "San Jose, CA",
+      "confText": "July 11-14, 2027",
+      "url": "https://dac.com/2027/authors/call-for-contributions",
+      "tz": "UTC-8",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-11",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-11-18",
           "status": "confirmed"
         }
       ]
@@ -669,8 +644,8 @@
       "field": "sys",
       "rating": "우수",
       "location": "Atlanta, Georgia, USA",
-      "confText": "TBD",
-      "url": "https://ics-conference.org/index.html",
+      "confText": "June 5-11, 2027",
+      "url": "https://klab-ai3.github.io/ics2027/",
       "tz": "AoE",
       "deadlines": [
         {
@@ -2986,6 +2961,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-11-09",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "icde",
+      "name": "ICDE 2028",
+      "fullName": "International Conference on Data Engineering",
+      "field": "data",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://icde2027.github.io/",
+      "tz": "PT",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-11-11",
           "status": "estimated"
         }
       ]
