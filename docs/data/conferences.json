@@ -1,63 +1,7 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "pldi",
-      "name": "PLDI 2027",
-      "fullName": "SIGPLAN Conference on Programming Language Design and Implementation",
-      "field": "plse",
-      "rating": "최우수",
-      "location": "Atlanta, Georgia, USA",
-      "confText": "June 5-11, 2027",
-      "url": "https://pldi27.sigplan.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-11-12",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "mmsys",
-      "name": "Mmsys 2027",
-      "fullName": "ACM Multimedia Systems Conference",
-      "field": "hci",
-      "rating": "최우수",
-      "location": "Ghent, Belgium",
-      "confText": "March 30 - April 2, 2027",
-      "url": "https://2027.acmmmsys.org",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-17",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Research Track - First Round (extended))",
-          "date": "2026-09-17",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-12",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Research Track - Second Round)",
-          "date": "2026-11-19",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "icdar",
       "name": "ICDAR 2027",
@@ -302,6 +246,43 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2026-11-18",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "mmsys",
+      "name": "Mmsys 2027",
+      "fullName": "ACM Multimedia Systems Conference",
+      "field": "hci",
+      "rating": "최우수",
+      "location": "Ghent, Belgium",
+      "confText": "March 30 - April 2, 2027",
+      "url": "https://2027.acmmmsys.org",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-09-17",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Research Track - First Round (extended))",
+          "date": "2026-09-17",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-12",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Research Track - Second Round)",
+          "date": "2026-11-19",
           "status": "confirmed"
         }
       ]
@@ -2980,6 +2961,25 @@
           "type": "paper",
           "label": "논문 마감 (예상)",
           "date": "2027-11-11",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "pldi",
+      "name": "PLDI 2028",
+      "fullName": "SIGPLAN Conference on Programming Language Design and Implementation",
+      "field": "plse",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://pldi27.sigplan.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-11-12",
           "status": "estimated"
         }
       ]
