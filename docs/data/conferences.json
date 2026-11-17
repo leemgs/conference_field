@@ -1,125 +1,7 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-17",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "icdar",
-      "name": "ICDAR 2027",
-      "fullName": "International Conference on Document Analysis and Recognition",
-      "field": "ai",
-      "rating": "우수",
-      "location": "Kuala Lumpur, Malaysia",
-      "confText": "August 18 - 22, 2027",
-      "url": "https://icdar2027.org/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (Journal track; initial decision Jan 15, revised submission Apr 1)",
-          "date": "2026-11-15",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-02-26",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Conference track)",
-          "date": "2027-03-05",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "isca",
-      "name": "ISCA 2027",
-      "fullName": "International Symposium on Computer Architecture",
-      "field": "sys",
-      "rating": "최우수",
-      "location": "Atlanta, Georgia, USA",
-      "confText": "June 5-9, 2027",
-      "url": "https://iscaconf.org/isca2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-09",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Main Track; rebuttal/revision period: February 16-March 8, 2027)",
-          "date": "2026-11-16",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-12-06",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Industry Track; rebuttal period: February 15-26, 2027)",
-          "date": "2026-12-13",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "cvpr",
-      "name": "CVPR 2027",
-      "fullName": "Computer Vision and Pattern Recognition",
-      "field": "ai",
-      "rating": "최우수",
-      "location": "Seattle, WA, United States",
-      "confText": "June 22-25, 2027",
-      "url": "https://cvpr.thecvf.com/Conferences/2027",
-      "tz": "UTC-12",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-10",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-11-16",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "codaspy",
-      "name": "CODASPY 2027",
-      "fullName": "Data and Application Security and Privacy",
-      "field": "sec",
-      "rating": "우수",
-      "location": "Fort Collins, Colorado, USA",
-      "confText": "June 14-17, 2027",
-      "url": "https://www.codaspy.org/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-16",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-11-23",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "wsdm",
       "name": "WSDM 2027",
@@ -251,6 +133,31 @@
       ]
     },
     {
+      "id": "cvpr",
+      "name": "CVPR 2027",
+      "fullName": "Computer Vision and Pattern Recognition",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "June 20-25, 2027",
+      "url": "https://cvpr.thecvf.com",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "논문 등록(초록) 마감",
+          "date": "2026-11-15",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2026-11-19",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
       "id": "mmsys",
       "name": "Mmsys 2027",
       "fullName": "ACM Multimedia Systems Conference",
@@ -283,6 +190,31 @@
           "type": "paper",
           "label": "논문 마감 (Research Track - Second Round)",
           "date": "2026-11-19",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "codaspy",
+      "name": "CODASPY 2027",
+      "fullName": "Data and Application Security and Privacy",
+      "field": "sec",
+      "rating": "우수",
+      "location": "Fort Collins, Colorado, USA",
+      "confText": "June 14-17, 2027",
+      "url": "https://www.codaspy.org/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-16",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-11-23",
           "status": "confirmed"
         }
       ]
@@ -719,6 +651,43 @@
       ]
     },
     {
+      "id": "isca",
+      "name": "ISCA 2027",
+      "fullName": "International Symposium on Computer Architecture",
+      "field": "sys",
+      "rating": "최우수",
+      "location": "Atlanta, Georgia, USA",
+      "confText": "June 5-9, 2027",
+      "url": "https://iscaconf.org/isca2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-09",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Main Track; rebuttal/revision period: February 16-March 8, 2027)",
+          "date": "2026-11-16",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-12-06",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Industry Track; rebuttal period: February 15-26, 2027)",
+          "date": "2026-12-13",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "aamas",
       "name": "AAMAS 2027",
       "fullName": "International Conference on Autonomous Agents and Multiagent Systems",
@@ -818,7 +787,7 @@
         },
         {
           "type": "paper",
-          "label": "논문 마감 (Commitment deadline for long and short research papers reviewed by ARR)",
+          "label": "논문 마감 (Commitment deadline for long research papers reviewed by ARR)",
           "date": "2026-12-23",
           "status": "confirmed"
         }
@@ -1001,6 +970,31 @@
           "type": "paper",
           "label": "논문 마감",
           "date": "2027-01-18",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "icml",
+      "name": "ICML 2027",
+      "fullName": "International Conference on Machine Learning",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "Riocentro, Rio de Janeiro, Brazil",
+      "confText": "August 2-4, 2027",
+      "url": "https://icml.cc/Conferences/2027",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-14",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-01-22",
           "status": "confirmed"
         }
       ]
@@ -1309,6 +1303,37 @@
           "label": "논문 마감 (예상)",
           "date": "2027-02-19",
           "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "icdar",
+      "name": "ICDAR 2027",
+      "fullName": "International Conference on Document Analysis and Recognition",
+      "field": "ai",
+      "rating": "우수",
+      "location": "Kuala Lumpur, Malaysia",
+      "confText": "August 18 - 22, 2027",
+      "url": "https://icdar2027.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (Journal track; initial decision Jan 15, revised submission Apr 1)",
+          "date": "2026-11-15",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-02-26",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Conference track)",
+          "date": "2027-03-05",
+          "status": "confirmed"
         }
       ]
     },
@@ -3293,18 +3318,6 @@
           "status": "confirmed"
         }
       ]
-    },
-    {
-      "id": "icml",
-      "name": "ICML 2027",
-      "fullName": "International Conference on Machine Learning",
-      "field": "ai",
-      "rating": "최우수",
-      "location": "Riocentro, Rio de Janeiro, Brazil",
-      "confText": "August 2-4, 2027",
-      "url": "https://icml.cc/Conferences/2027",
-      "tz": "AoE",
-      "deadlines": []
     },
     {
       "id": "ieee-bhi-bsn",
