@@ -78,38 +78,13 @@
         {
           "type": "abstract",
           "label": "초록 마감",
-          "date": "2026-11-12",
+          "date": "2026-11-19",
           "status": "confirmed"
         },
         {
           "type": "paper",
           "label": "논문 마감 (Research Track - Second Round)",
           "date": "2026-11-19",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "codaspy",
-      "name": "CODASPY 2027",
-      "fullName": "Data and Application Security and Privacy",
-      "field": "sec",
-      "rating": "우수",
-      "location": "Fort Collins, Colorado, USA",
-      "confText": "June 14-17, 2027",
-      "url": "https://www.codaspy.org/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-16",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-11-23",
           "status": "confirmed"
         }
       ]
@@ -322,6 +297,43 @@
       ]
     },
     {
+      "id": "middleware",
+      "name": "MIDDLEWARE 2027",
+      "fullName": "ACM/IFIP/USENIX International Middleware Conference",
+      "field": "sys",
+      "rating": "우수",
+      "location": "Kyoto, Japan",
+      "confText": "December 13-17, 2027",
+      "url": "https://middleware-conf.github.io/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-27",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Winter cycle)",
+          "date": "2026-12-04",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-05-28",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Summer cycle)",
+          "date": "2027-06-04",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "mobisys",
       "name": "MobiSys 2027",
       "fullName": "International Conference on Mobile Systems, Applications, and Services",
@@ -416,6 +428,31 @@
           "type": "paper",
           "label": "논문 마감 (Issue 4 Paper Submission Deadline)",
           "date": "2027-02-28",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "codaspy",
+      "name": "CODASPY 2027",
+      "fullName": "Data and Application Security and Privacy",
+      "field": "sec",
+      "rating": "우수",
+      "location": "Fort Collins, Colorado, USA",
+      "confText": "June 14-17, 2027",
+      "url": "https://www.codaspy.org/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-30",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2026-12-07",
           "status": "confirmed"
         }
       ]
@@ -983,6 +1020,25 @@
           "type": "paper",
           "label": "논문 마감 (Schedule for TCHES Volume 2027/4)",
           "date": "2027-04-15",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "usenix-atc",
+      "name": "USENIX ATC 2027",
+      "fullName": "USENIX Annual Technical Conference",
+      "field": "sys",
+      "rating": "최우수",
+      "location": "Rennes, France",
+      "confText": "June 28-July 1, 2027",
+      "url": "https://atc.sigops.org/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-01-19",
           "status": "confirmed"
         }
       ]
@@ -1884,25 +1940,6 @@
       ]
     },
     {
-      "id": "middleware",
-      "name": "MIDDLEWARE 2027",
-      "fullName": "ACM/IFIP/USENIX International Middleware Conference",
-      "field": "sys",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://middleware-conf.github.io/2026/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-06-05",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "icdm",
       "name": "ICDM 2027",
       "fullName": "IEEE International Conference on Data Mining",
@@ -1918,25 +1955,6 @@
           "label": "논문 마감 (Full papers; dates are tentative and subject to change)",
           "date": "2027-06-06",
           "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "usenix-atc",
-      "name": "USENIX ATC 2027",
-      "fullName": "USENIX Annual Technical Conference",
-      "field": "sys",
-      "rating": "최우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://sigops.org/s/conferences/atc/2026/index.html",
-      "tz": "UTC+0",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-06-11",
-          "status": "estimated"
         }
       ]
     },
