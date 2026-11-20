@@ -1,94 +1,7 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-20",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "dac",
-      "name": "DAC 2027",
-      "fullName": "Design Automation Conference",
-      "field": "hw",
-      "rating": "최우수",
-      "location": "San Jose, CA",
-      "confText": "July 11-14, 2027",
-      "url": "https://dac.com/2027/authors/call-for-contributions",
-      "tz": "UTC-8",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-11",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감",
-          "date": "2026-11-18",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "cvpr",
-      "name": "CVPR 2027",
-      "fullName": "Computer Vision and Pattern Recognition",
-      "field": "ai",
-      "rating": "최우수",
-      "location": "미정",
-      "confText": "June 20-25, 2027",
-      "url": "https://cvpr.thecvf.com",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "논문 등록(초록) 마감",
-          "date": "2026-11-15",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2026-11-19",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
-      "id": "mmsys",
-      "name": "Mmsys 2027",
-      "fullName": "ACM Multimedia Systems Conference",
-      "field": "hci",
-      "rating": "최우수",
-      "location": "Ghent, Belgium",
-      "confText": "March 30 - April 2, 2027",
-      "url": "https://2027.acmmmsys.org",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-09-17",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Research Track - First Round (extended))",
-          "date": "2026-09-17",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-19",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Research Track - Second Round)",
-          "date": "2026-11-19",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "eurovis",
       "name": "EuroVis 2027",
@@ -838,6 +751,31 @@
       ]
     },
     {
+      "id": "icdcs",
+      "name": "ICDCS 2027",
+      "fullName": "International Conference on Distributed Computing Systems",
+      "field": "sys",
+      "rating": "우수",
+      "location": "Melbourne, Australia",
+      "confText": "July 5-8, 2027",
+      "url": "https://icdcs2027.icdcs.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-06",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-01-13",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "issta",
       "name": "ISSTA 2027",
       "fullName": "ACM International Symposium on Software Testing and Analysis",
@@ -907,6 +845,31 @@
       ]
     },
     {
+      "id": "hpdc",
+      "name": "HPDC 2027",
+      "fullName": "IEEE International Symposium on High Performance Distributed Computing",
+      "field": "hw",
+      "rating": "우수",
+      "location": "Atlanta, GA, USA",
+      "confText": "June 7-9, 2027",
+      "url": "https://hpdc.sci.utah.edu/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-11",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-01-18",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "id": "icml",
       "name": "ICML 2027",
       "fullName": "International Conference on Machine Learning",
@@ -938,8 +901,33 @@
       "field": "ai",
       "rating": "우수",
       "location": "San Jose, California, USA",
-      "confText": "July 18-24, 2027",
+      "confText": "July 20-22, 2027",
       "url": "https://sigir2027.org/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-01-14",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-01-21",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "lics",
+      "name": "LICS 2027",
+      "fullName": "Logic in Computer Science",
+      "field": "theory",
+      "rating": "최우수",
+      "location": "Montréal, Canada",
+      "confText": "June 21-24, 2027",
+      "url": "https://lics.siglog.org/lics27/",
       "tz": "AoE",
       "deadlines": [
         {
@@ -1182,25 +1170,6 @@
       ]
     },
     {
-      "id": "hpdc",
-      "name": "HPDC 2027",
-      "fullName": "IEEE International Symposium on High Performance Distributed Computing",
-      "field": "hw",
-      "rating": "우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://hpdc.sci.utah.edu/2026/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
-          "date": "2027-02-05",
-          "status": "estimated"
-        }
-      ]
-    },
-    {
       "id": "interspeech",
       "name": "INTERSPEECH 2027",
       "fullName": "Annual Conference of the International Speech Communication Association",
@@ -1254,6 +1223,31 @@
           "label": "논문 마감 (예상)",
           "date": "2027-02-19",
           "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "icsme",
+      "name": "ICSME 2027",
+      "fullName": "IEEE International Conference on Software Maintenance and Evolution",
+      "field": "plse",
+      "rating": "우수",
+      "location": "Toronto, Canada",
+      "confText": "September 7-11, 2027",
+      "url": "https://conf.researchr.org/home/icsme-2027",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-02-19",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Research Papers Track)",
+          "date": "2027-02-26",
+          "status": "confirmed"
         }
       ]
     },
@@ -1322,25 +1316,6 @@
           "type": "paper",
           "label": "논문 마감 (Paper submission deadline: March 1, 2027; exact cutoff time and timezone not specified on the official IEEE RAS event page)",
           "date": "2027-03-01",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "icsme",
-      "name": "ICSME 2027",
-      "fullName": "IEEE International Conference on Software Maintenance and Evolution",
-      "field": "plse",
-      "rating": "우수",
-      "location": "Toronto, Canada",
-      "confText": "September 7-11, 2027",
-      "url": "https://conf.researchr.org/home/icsme-2027",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "paper",
-          "label": "논문 마감 (Research Papers Track)",
-          "date": "2027-03-05",
           "status": "confirmed"
         }
       ]
@@ -2985,6 +2960,44 @@
       ]
     },
     {
+      "id": "dac",
+      "name": "DAC 2028",
+      "fullName": "Design Automation Conference",
+      "field": "hw",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://dac.com/2027/authors/call-for-contributions",
+      "tz": "UTC-8",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-11-18",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "mmsys",
+      "name": "Mmsys 2028",
+      "fullName": "ACM Multimedia Systems Conference",
+      "field": "hci",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "2028년 (예정)",
+      "url": "https://2027.acmmmsys.org",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2027-11-19",
+          "status": "estimated"
+        }
+      ]
+    },
+    {
       "id": "eccv",
       "name": "ECCV 2028",
       "fullName": "European Conference on Computer Vision",
@@ -3117,6 +3130,31 @@
       "url": "https://cscw.acm.org/2027/",
       "tz": "AoE",
       "deadlines": []
+    },
+    {
+      "id": "cvpr",
+      "name": "CVPR 2027",
+      "fullName": "Computer Vision and Pattern Recognition",
+      "field": "ai",
+      "rating": "최우수",
+      "location": "미정",
+      "confText": "June 20-25, 2027",
+      "url": "https://cvpr.thecvf.com",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "논문 등록(초록) 마감",
+          "date": "2026-11-15",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (예상)",
+          "date": "2026-11-19",
+          "status": "estimated"
+        }
+      ]
     },
     {
       "id": "cvpr-w",
@@ -3264,18 +3302,6 @@
       "deadlines": []
     },
     {
-      "id": "icdcs",
-      "name": "ICDCS 2027",
-      "fullName": "International Conference on Distributed Computing Systems",
-      "field": "sys",
-      "rating": "우수",
-      "location": "Melbourne, Australia",
-      "confText": "July 5-8, 2027",
-      "url": "https://icdcs2027.icdcs.org/",
-      "tz": "AoE",
-      "deadlines": []
-    },
-    {
       "id": "iclr",
       "name": "ICLR 2027",
       "fullName": "International Conference on Learning Representation",
@@ -3406,18 +3432,6 @@
       "confText": "일정 미확인",
       "url": "",
       "note": "공식 마감일 데이터 미확보 — 공식 사이트를 확인하세요.",
-      "deadlines": []
-    },
-    {
-      "id": "lics",
-      "name": "LICS 2027",
-      "fullName": "Logic in Computer Science",
-      "field": "theory",
-      "rating": "최우수",
-      "location": "Montréal, Canada",
-      "confText": "June 21-24, 2027",
-      "url": "https://lics.siglog.org/lics27/",
-      "tz": "AoE",
       "deadlines": []
     },
     {
