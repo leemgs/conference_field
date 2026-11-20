@@ -664,7 +664,7 @@
       "field": "sys",
       "rating": "우수",
       "location": "Atlanta, Georgia, USA",
-      "confText": "June 7-11, 2027",
+      "confText": "June 7-10, 2027",
       "url": "https://www.sigmetrics.org/sigmetrics2027/",
       "tz": "AoE",
       "deadlines": [
@@ -1401,16 +1401,22 @@
       "fullName": "User Interface Software and Technology",
       "field": "hci",
       "rating": "최우수",
-      "location": "미정",
-      "confText": "2027년 (예정)",
-      "url": "https://uist.acm.org/2026/",
+      "location": "VIECON - Vienna Congress & Convention Center, Vienna, Austria",
+      "confText": "October 27-29, 2027",
+      "url": "https://uist.acm.org/2027/",
       "tz": "AoE",
       "deadlines": [
         {
-          "type": "paper",
-          "label": "논문 마감 (예상)",
+          "type": "abstract",
+          "label": "초록 마감",
           "date": "2027-03-31",
-          "status": "estimated"
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감",
+          "date": "2027-04-07",
+          "status": "confirmed"
         }
       ]
     },
@@ -3187,7 +3193,7 @@
       "field": "data",
       "rating": "우수",
       "location": "Eindhoven, The Netherlands",
-      "confText": "September 20-24, 2027",
+      "confText": "August 30 - September 3, 2027",
       "url": "https://ecmlpkdd.org/2027/",
       "tz": "AoE",
       "deadlines": []
