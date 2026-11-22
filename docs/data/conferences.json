@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
     {
@@ -265,7 +265,7 @@
         },
         {
           "type": "paper",
-          "label": "논문 마감",
+          "label": "논문 마감 (Acceptance is conditional on shepherding. March 6 is date-only; clock and time zone are repository defaults.)",
           "date": "2026-12-04",
           "status": "confirmed"
         }
@@ -402,7 +402,7 @@
       "field": "sys",
       "rating": "우수",
       "location": "Atlanta, Georgia, USA",
-      "confText": "June 5-11, 2027",
+      "confText": "June 5-8, 2027",
       "url": "https://klab-ai3.github.io/ics2027/",
       "tz": "AoE",
       "deadlines": [
