@@ -1,106 +1,7 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "note": "마감일은 각 학회 공지 기준(대부분 AoE/UTC-12)입니다. 'estimated' 항목은 직전 개최 패턴 기반 예상 일정이며, 등급(rating)은 data/list_conf.csv 기준입니다.",
   "conferences": [
-    {
-      "id": "middleware",
-      "name": "MIDDLEWARE 2027",
-      "fullName": "ACM/IFIP/USENIX International Middleware Conference",
-      "field": "sys",
-      "rating": "우수",
-      "location": "Kyoto, Japan",
-      "confText": "December 13-17, 2027",
-      "url": "https://middleware-conf.github.io/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-27",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Winter cycle)",
-          "date": "2026-12-04",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-05-28",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Summer cycle)",
-          "date": "2027-06-04",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "mobisys",
-      "name": "MobiSys 2027",
-      "fullName": "International Conference on Mobile Systems, Applications, and Services",
-      "field": "net",
-      "rating": "최우수",
-      "location": "Ho Chi Minh City, Vietnam",
-      "confText": "June 21-25, 2027",
-      "url": "https://www.sigmobile.org/mobisys/2027/",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-27",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (Acceptance is conditional on shepherding. March 6 is date-only; clock and time zone are repository defaults.)",
-          "date": "2026-12-04",
-          "status": "confirmed"
-        }
-      ]
-    },
-    {
-      "id": "conext",
-      "name": "CoNEXT 2027",
-      "fullName": "Conference on Emerging Network Experiment and Technology",
-      "field": "net",
-      "rating": "우수",
-      "location": "Rio de Janeiro, Brazil",
-      "confText": "December 6-9, 2027 (To be confirmed)",
-      "url": "https://conferences.sigcomm.org/co-next/2027/#!/home",
-      "tz": "AoE",
-      "deadlines": [
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2026-11-27",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (December Cycle)",
-          "date": "2026-12-04",
-          "status": "confirmed"
-        },
-        {
-          "type": "abstract",
-          "label": "초록 마감",
-          "date": "2027-05-28",
-          "status": "confirmed"
-        },
-        {
-          "type": "paper",
-          "label": "논문 마감 (June Cycle)",
-          "date": "2027-06-04",
-          "status": "confirmed"
-        }
-      ]
-    },
     {
       "id": "pets",
       "name": "PETS 2027",
@@ -472,6 +373,105 @@
           "type": "paper",
           "label": "논문 마감 (Second Submission Cycle)",
           "date": "2026-12-10",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "middleware",
+      "name": "MIDDLEWARE 2027",
+      "fullName": "ACM/IFIP/USENIX International Middleware Conference",
+      "field": "sys",
+      "rating": "우수",
+      "location": "Kyoto, Japan",
+      "confText": "December 13-17, 2027",
+      "url": "https://middleware-conf.github.io/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-27",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Winter cycle)",
+          "date": "2026-12-04",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-05-28",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Summer cycle)",
+          "date": "2027-06-04",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "mobisys",
+      "name": "MobiSys 2027",
+      "fullName": "International Conference on Mobile Systems, Applications, and Services",
+      "field": "net",
+      "rating": "최우수",
+      "location": "Ho Chi Minh City, Vietnam",
+      "confText": "June 21-25, 2027",
+      "url": "https://www.sigmobile.org/mobisys/2027/",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-27",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (Acceptance is conditional on shepherding. March 6 is date-only; clock and time zone are repository defaults.)",
+          "date": "2026-12-04",
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "conext",
+      "name": "CoNEXT 2027",
+      "fullName": "Conference on Emerging Network Experiment and Technology",
+      "field": "net",
+      "rating": "우수",
+      "location": "Rio de Janeiro, Brazil",
+      "confText": "December 6-9, 2027 (To be confirmed)",
+      "url": "https://conferences.sigcomm.org/co-next/2027/#!/home",
+      "tz": "AoE",
+      "deadlines": [
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2026-11-27",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (December Cycle)",
+          "date": "2026-12-04",
+          "status": "confirmed"
+        },
+        {
+          "type": "abstract",
+          "label": "초록 마감",
+          "date": "2027-05-28",
+          "status": "confirmed"
+        },
+        {
+          "type": "paper",
+          "label": "논문 마감 (June Cycle)",
+          "date": "2027-06-04",
           "status": "confirmed"
         }
       ]
